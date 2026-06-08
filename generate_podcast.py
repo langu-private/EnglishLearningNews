@@ -165,7 +165,15 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
             fe = fg.add_entry()
             fe.id(mp3_url)
             fe.title(f"{folder.replace('_', ' ')} News Podcast")
-            fe.description(f"News podcast for {folder}")
+            
+            # Read the bilingual blog text to display in Apple Podcasts
+            blog_files = [f for f in os.listdir(folder_path) if f.endswith('_Blog.md')]
+            blog_html = f"News podcast for {folder}"
+            if blog_files:
+                with open(os.path.join(folder_path, blog_files[0]), 'r', encoding='utf-8') as bf:
+                    blog_html = bf.read().replace('\n', '<br>')
+                    
+            fe.description(blog_html)
             fe.enclosure(mp3_url, file_size, 'audio/mpeg')
             
     fg.rss_file('podcast.xml')
