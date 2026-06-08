@@ -9,7 +9,7 @@ BASE_URL="https://api.openai.com/v1"
 MODEL="gpt-4o"
 
 # Replace with your GitHub Pages URL
-GITHUB_URL="https://YOUR_GITHUB_USERNAME.github.io/EnglishLearningNews"
+GITHUB_URL="https://langu-private.github.io/EnglishLearningNews"
 
 echo "Running Morning Edition Workflow..."
 python generate_podcast.py --edition Morning --api-key "$API_KEY" --base-url "$BASE_URL" --model "$MODEL" --github-url "$GITHUB_URL"

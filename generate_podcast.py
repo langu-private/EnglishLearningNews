@@ -84,7 +84,7 @@ def main():
     parser.add_argument("--base-url", default=None, help="Base URL for LLM API (e.g., https://api.deepseek.com/v1)")
     parser.add_argument("--model", default="gpt-4o", help="Model name")
     
-    parser.add_argument("--github-url", default="https://YOUR_USERNAME.github.io/EnglishLearningNews", help="The GitHub Pages Base URL")
+    parser.add_argument("--github-url", default="https://langu-private.github.io/EnglishLearningNews", help="The GitHub Pages Base URL")
     
     args = parser.parse_args()
 
