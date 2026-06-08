@@ -27,7 +27,7 @@ jobs:
           API_KEY: ${{ secrets.GEMINI }}
           BASE_URL: "https://generativelanguage.googleapis.com/v1beta/openai/"
         run: |
-          python generate_podcast.py --edition Evening --api-key "$API_KEY" --base-url "$BASE_URL" --model "gemini-1.5-pro" --github-url "https://langu-private.github.io/EnglishLearningNews"
+          python generate_podcast.py --edition Evening --api-key "$API_KEY" --base-url "$BASE_URL" --model "gemini-3.5-flash" --github-url "https://langu-private.github.io/EnglishLearningNews"
 
       - name: Commit and push changes
         run: |
