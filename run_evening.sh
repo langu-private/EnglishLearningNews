@@ -6,7 +6,7 @@ source venv/bin/activate
 # For example, using DeepSeek or OpenAI:
 API_KEY="your-api-key-here"
 BASE_URL="https://generativelanguage.googleapis.com/v1beta/openai/"
-MODEL="gemini-3.1-pro"
+MODEL="gemini-1.5-pro"
 
 # Replace with your GitHub Pages URL
 GITHUB_URL="https://langu-private.github.io/EnglishLearningNews"
