@@ -133,6 +133,10 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
     fg.link(href=base_url, rel='alternate')
     fg.language('en')
     
+    fg.author({'name': 'langu', 'email': 'langu@qq.com'})
+    fg.podcast.itunes_author('langu')
+    fg.podcast.itunes_category('Education', 'Language Learning')
+    
     cover_url = f"{base_url}/cover.png"
     fg.logo(cover_url)
     fg.podcast.itunes_image(cover_url)
