@@ -163,10 +163,5 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
     fg.rss_file('podcast.xml')
     print("podcast.xml updated.")
 
-    print(f"\nDone! All files saved in: {out_dir}")
-    print(f"- Blog: {blog_path}")
-    print(f"- Podcast: {audio_mp3_path}")
-    print("- RSS Feed: podcast.xml")
-
 if __name__ == "__main__":
     main()
