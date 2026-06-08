@@ -5,8 +5,8 @@ source venv/bin/activate
 # Replace with your actual LLM API key and configuration
 # For example, using DeepSeek or OpenAI:
 API_KEY="your-api-key-here"
-BASE_URL="https://api.openai.com/v1"
-MODEL="gpt-4o"
+BASE_URL="https://generativelanguage.googleapis.com/v1beta/openai/"
+MODEL="gemini-3.1-pro"
 
 # Replace with your GitHub Pages URL
 GITHUB_URL="https://langu-private.github.io/EnglishLearningNews"
