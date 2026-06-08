@@ -133,6 +133,10 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
     fg.link(href=base_url, rel='alternate')
     fg.language('en')
     
+    cover_url = f"{base_url}/cover.png"
+    fg.logo(cover_url)
+    fg.podcast.itunes_image(cover_url)
+    
     # Try to load existing feed if we have one (we'll simplify by regenerating with just the latest for now, or you can parse an old one. For robust github pages, regenerating with recent ones requires scanning the dir)
     # To keep it simple, we will scan the 'editions' directory and add all existing mp3s!
     
