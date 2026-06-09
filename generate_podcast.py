@@ -57,7 +57,12 @@ You must output exactly two sections separated by "===AUDIO SCRIPT===" and "===B
 ===AUDIO SCRIPT===
 (Write the English-only script here. This will be converted to audio for the podcast. Start with "Good {edition_type.lower()}..." and end with a nice sign-off.)
 ===BILINGUAL BLOG===
-(Write the bilingual version here for the reading blog. Give it a catchy title, then line-by-line or paragraph-by-paragraph English and Chinese translation.)
+(Write the comprehensive show notes here. You MUST include the following in order:
+1. A catchy title.
+2. 📖 Key Vocabulary (Extract 5-10 advanced or useful words used in the script, with phonetics and Chinese meaning).
+3. 🎯 Grammar Focus (Highlight 1-2 important grammar structures used in the news).
+4. 📝 Full Bilingual Script (Line-by-line or paragraph-by-paragraph English and Chinese translation of the entire audio script).
+5. 🔗 Useful Links (A placeholder "Read more at [English Learning News](https://langu-private.github.io/EnglishLearningNews)").)
 """
 
     import time
