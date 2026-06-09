@@ -94,20 +94,28 @@ You must output exactly two sections separated by "===AUDIO SCRIPT===" and "===B
                 print("Max retries reached. The server is consistently overloaded.")
                 raise e
 
-def create_audio(text, output_mp3):
-    print(f"Generating conversational audio to {output_mp3}...")
+def create_audio(text, output_mp3, api_key):
+    print(f"Generating conversational audio to {output_mp3} using Gemini TTS...")
     import tempfile
     import re
-    
-    # Split the script by [Aria] or [Guy] tags
-    # This regex captures the speaker name and splits the text.
-    blocks = re.split(r'\[(Aria|Guy)\]', text)
-    
-    temp_files = []
+    import os
+    import subprocess
+    import wave
     
     try:
-        # blocks looks like: ['intro text', 'Aria', 'Hello!', 'Guy', 'Hi there!']
-        # If the script doesn't start with a tag, blocks[0] is just preamble.
+        from google import genai
+        from google.genai import types
+    except ImportError:
+        print("Error: google-genai library is not installed. Please install it.")
+        raise
+        
+    client = genai.Client(api_key=api_key)
+    
+    # Split the script by [Aria] or [Guy] tags
+    blocks = re.split(r'\[(Aria|Guy)\]', text)
+    temp_wavs = []
+    
+    try:
         for i in range(1, len(blocks), 2):
             speaker = blocks[i].strip()
             speech = blocks[i+1].strip()
@@ -115,28 +123,57 @@ def create_audio(text, output_mp3):
             if not speech:
                 continue
                 
-            voice = "en-US-AriaNeural" if speaker == "Aria" else "en-US-GuyNeural"
+            # Map the prompt characters to Gemini's native voices
+            voice_name = "Aoede" if speaker == "Aria" else "Puck"
             
-            tmp_mp3 = tempfile.mktemp(suffix=".mp3")
-            temp_files.append(tmp_mp3)
+            # Request audio generation from Gemini 3.1 Flash TTS
+            response = client.models.generate_content(
+                model='gemini-3.1-flash-tts-preview',
+                contents=speech,
+                config=types.GenerateContentConfig(
+                    response_modalities=["AUDIO"],
+                    speech_config=types.SpeechConfig(
+                        voice_config=types.VoiceConfig(
+                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                                voice_name=voice_name
+                            )
+                        )
+                    )
+                )
+            )
             
-            cmd = ["edge-tts", "--voice", voice, "--text", speech, "--write-media", tmp_mp3]
-            subprocess.run(cmd, check=True)
+            pcm_data = response.candidates[0].content.parts[0].inline_data.data
             
-        if temp_files:
-            # Concatenate raw mp3 bytes (valid for simple sequential mp3 playback)
-            with open(output_mp3, 'wb') as outfile:
-                for f in temp_files:
-                    with open(f, 'rb') as infile:
-                        outfile.write(infile.read())
-            print("Conversational audio generation complete.")
+            tmp_wav = tempfile.mktemp(suffix=".wav")
+            temp_wavs.append(tmp_wav)
+            
+            # Gemini returns 24kHz 16-bit PCM data
+            with wave.open(tmp_wav, 'wb') as wf:
+                wf.setnchannels(1)
+                wf.setsampwidth(2)
+                wf.setframerate(24000)
+                wf.writeframes(pcm_data)
+            
+        if temp_wavs:
+            # Create a concat list for FFmpeg
+            concat_file = tempfile.mktemp(suffix=".txt")
+            with open(concat_file, 'w') as cf:
+                for w in temp_wavs:
+                    cf.write(f"file '{w}'\n")
+            
+            # Combine the WAV chunks and compress to a single high-quality MP3 for Apple Podcasts
+            cmd = [
+                "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_file,
+                "-c:a", "libmp3lame", "-q:a", "2", output_mp3
+            ]
+            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            os.remove(concat_file)
+            print("Gemini TTS audio generation complete.")
         else:
-            print("No valid speaker tags found! Falling back to single voice...")
-            cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", text, "--write-media", output_mp3]
-            subprocess.run(cmd, check=True)
+            print("No valid speaker tags found! Please check the LLM prompt output.")
             
     finally:
-        for f in temp_files:
+        for f in temp_wavs:
             if os.path.exists(f):
                 os.remove(f)
 
@@ -178,7 +215,7 @@ def main():
         f.write(audio_script)
         
     audio_mp3_path = os.path.join(out_dir, f"{edition}_Podcast.mp3")
-    create_audio(audio_script, audio_mp3_path)
+    create_audio(audio_script, audio_mp3_path, args.api_key)
     
     # Call the RSS generator here
     update_rss_feed(edition, date_str, audio_mp3_path, args.github_url)

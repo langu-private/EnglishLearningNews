@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install feedparser openai edge-tts feedgen pytz
+        run: pip install feedparser openai edge-tts feedgen pytz google-genai
 
       - name: Run Evening Podcast Generation
         env:
