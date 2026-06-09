@@ -180,6 +180,17 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
             fe.id(mp3_url)
             fe.title(f"{folder.replace('_', ' ')} News Podcast")
             
+            # Extract and set exact Beijing Time publication date for correct sorting in Apple Podcasts
+            try:
+                date_part, ed_part = folder.split('_')
+                year, month, day = map(int, date_part.split('-'))
+                hour = 8 if ed_part == "Morning" else 19
+                tz = pytz.timezone('Asia/Shanghai')
+                pub_date = tz.localize(datetime.datetime(year, month, day, hour, 0, 0))
+            except Exception:
+                pub_date = datetime.datetime.now(pytz.timezone('Asia/Shanghai'))
+            fe.pubDate(pub_date)
+            
             # Read the bilingual blog text to display in Apple Podcasts
             blog_files = [f for f in os.listdir(folder_path) if f.endswith('_Blog.md')]
             blog_html = f"News podcast for {folder}"
