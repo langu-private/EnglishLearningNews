@@ -118,7 +118,20 @@ def create_audio(text, output_mp3, api_key):
             temp_files.append(tmp_mp3)
             
             cmd = ["edge-tts", "--voice", voice, "--text", speech, "--write-media", tmp_mp3]
-            subprocess.run(cmd, check=True)
+            
+            # Robust retry loop for edge-tts
+            max_tts_retries = 3
+            for t_attempt in range(max_tts_retries):
+                try:
+                    subprocess.run(cmd, check=True, capture_output=True)
+                    time.sleep(1) # Small sleep to avoid hitting rate limits instantly
+                    break
+                except subprocess.CalledProcessError as e:
+                    print(f"edge-tts failed on attempt {t_attempt+1} with error: {e.stderr.decode('utf-8', errors='ignore')}")
+                    if t_attempt < max_tts_retries - 1:
+                        time.sleep(3)
+                    else:
+                        raise e
             
         if temp_files:
             with open(output_mp3, 'wb') as outfile:
