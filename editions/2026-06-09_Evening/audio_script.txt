@@ -1,133 +1,86 @@
-[Aria] Good evening! Welcome to our Evening News Podcast. My name is Aria.
-
-[Guy] And my name is Guy. We are very happy to be with you tonight. Today, we have many important news stories from all over the world.
-
-[Aria] Yes, Guy. We will talk about new designs from Apple, big business moves by OpenAI, changes in China, and events in the world.
-
-[Guy] As always, we will use very simple English words. This will help you learn English easily while you listen to the news. Let us start with our first story about Apple and their smart voice assistant, Siri.
-
-[Aria] Yes, Apple has a smart voice assistant named Siri. Siri is a voice that talks to you from your iPhone. Now, Apple is making Siri much smarter with new thinking systems, or AI. But some experts say this is two years too late. Other companies, like Google and OpenAI, made their smart systems a long time ago. Apple is now partnering with Google and Nvidia to make their systems better.
-
-[Guy] That is true, Aria. Apple was slow to start. But they are doing something very interesting. They say their new smart system is very private. When you use Siri, your personal facts and secrets are safe. Even when the system runs on Google's big machines, Apple says no one else can see your facts. This is a very big deal because many people are afraid of losing their private facts.
-
-[Aria] Yes, privacy is a big word. It means keeping your secrets safe from other people. Apple wants to make sure that your iPhone is a safe place. They do not want other companies to see your private letters or pictures. This is why they say their smart system is better, even if it is late.
-
-[Guy] I agree, Aria. It is better to be safe than quick. And Apple is very good at making things easy to use. Even if they are late, their design is often the best. People will love using Siri if it is easy and safe.
-
-[Aria] Now, let us talk about the new system for the iPhone. It is called iOS 27. It is now in a test form, which we call a beta. A beta is a test system that is not complete yet, but people can try it.
-
-[Guy] I love some of the new things in this beta, Aria. For example, you can now share one phone number on two iPhones. This is very good for people who have one number for work and one for family. They can use both iPhones with the same number.
-
-[Aria] Yes! And you can also change the sound of your morning bell, the alarm, separate from other sounds. Before, if you made your phone quiet, your morning bell was also quiet. Now, you can make the morning bell very loud so you wake up, but keep other sounds low. This is a small change, but it makes life much better.
-
-[Guy] Another good news is for people with old iPhones. Apple is not stopping support for old iPhones with iOS 27. If you have an older iPhone, you can still get this new system. This is great because you do not have to spend a lot of money to buy a new iPhone.
-
-[Aria] There are also new designs for the pictures on the screen, which we call icons. And there are new ways to listen to music in Apple Music. It seems Apple is trying to make the system very clean and simple.
-
-[Guy] Yes, and there is more news about Apple. People who look closely at the iOS 27 beta code found some secrets. These secrets show that Apple is working on a new iPhone that can fold!
-
-[Aria] A folding iPhone! That is very exciting. Other companies already make phones that you can fold like a book. Apple has not made one yet. But the new system has special rules and structures in its code for a screen that changes size when you fold it.
-
-[Guy] Yes, the code has references to a folding frame. This makes people believe that a folding iPhone, maybe called iPhone Ultra, is coming soon. Apple always takes its time to make things perfect. They do not want to make a folding phone that breaks easily. They want to make sure the glass and the screen are very strong before they sell it.
-
-[Aria] Speaking of design, Apple is changing its Liquid Glass design. Some people did not like the old Liquid Glass design because it looked strange or was hard to use.
-
-[Guy] Yes, the design on the Mac computer and the iPhone is getting a small adjustment. Apple is making it look cleaner and more simple. It is interesting how much people care about how the screen looks. A small change in the color or the shape of a button can make a big difference in how we feel when we use our machines.
-
-[Aria] That is because we look at these screens for many hours every day. If the design is bad, it makes us tired or angry. A good design makes us feel happy and calm. Apple knows this, so they are making these adjustments to keep their users happy.
-
-[Guy] Now, let us move to business news. OpenAI, the company that made the famous smart system ChatGPT, is planning to go to the stock market.
-
-[Aria] This is a very big event, Guy. OpenAI wants to sell parts of its company to the public. This is called an IPO. They are doing this because they need a lot of money to build bigger and better thinking machines.
-
-[Guy] Yes, and they are in a race with another smart machine company named Anthropic. Anthropic is also planning to sell its parts to the public. These companies need billions of dollars. Making smart machines requires very expensive computer chips and a lot of electric power. By selling parts of the company on the stock market, they can get this money from regular investors.
-
-[Aria] But there is also some sad news. Sam Altman, the leader of OpenAI, has another company that scans people's eyes for security. That company is laying off some workers now. It shows that even in the smart machine business, some parts are struggling.
-
-[Guy] Yes, it is a hard time for many businesses. Even when one part of a company is doing very well, other parts might have trouble. It is important to keep a balance.
-
-[Aria] Let us talk more about the stock market. Jim Cramer, a famous man on television who talks about money, has ten things to watch. One of the biggest things is SpaceX.
-
-[Guy] SpaceX is the rocket company owned by Elon Musk. SpaceX is also getting ready to sell parts of its company on the Nasdaq stock market. Many rich people and big banks are very excited about this. They are rushing to buy SpaceX parts before the public market starts.
-
-[Aria] But some experts say this could be dangerous for regular people's retirement money, like their 401k accounts. If the price of SpaceX goes up too high and then falls, many people could lose their savings. We must be very careful when we put our money into new and exciting companies.
-
-[Guy] That is very true, Aria. The stock market can be like a game. Sometimes you win, and sometimes you lose. It is not wise to put all your money in one place, especially a new one that is very loud in the news.
-
-[Aria] Our next business story is about Kevin Warsh. He is a man who might become the leader of the Federal Reserve, which is the big bank of the United States.
-
-[Guy] The money market is sending a strong sign to Kevin Warsh. The market is saying that interest rates need to be higher, not lower. This is a difficult situation. Donald Trump, who wants to be president again, wants interest rates to be low. Low rates make it cheaper to borrow money, which people like. But if rates are too low, prices of food and houses can go up too fast.
-
-[Aria] Yes, that is called inflation. If Kevin Warsh keeps rates high to stop prices from rising, he will make Donald Trump angry. His job is getting very complex and difficult. He must choose between what the market needs and what the political leaders want.
-
-[Guy] This is a classic fight in economics. The big bank must be independent. It must do what is best for the country's money, not what is best for a political group. We will see what Kevin Warsh does if he gets the job.
-
-[Aria] To end our business section, there is a story about a very small investment fund that is doing better than almost all the big funds.
-
-[Guy] How do they do that, Aria?
-
-[Aria] They do it by backing the best management teams in the world. Instead of just looking at the numbers or the products, they look at the people who run the companies.
-
-[Guy] That is a very wise way to invest. A great leader can save a bad company, but a bad leader can ruin a great company. It shows that in business, people are the most important part. If you have good managers, your business has a much better chance to succeed.
-
-[Aria] Now, let us look at news from China. China is preparing a massive plan. They want to spend 295 billion dollars to build big data centers.
-
-[Guy] Wow, that is a huge amount of money! Why are they doing this, Aria?
-
-[Aria] They want to support their domestic smart machine, or AI, industry. These data centers are like giant brains. They store facts and run the complex systems that make smart machines work. By building these centers inside China, they do not have to depend on other countries. This will help Chinese companies make their own smart systems faster and better. It is a very big step for China's future in science and business.
-
-[Guy] Yes, and it shows that China is very serious about this new science. They want to be the leaders in smart machines. With 295 billion dollars, they can build many great centers.
-
-[Aria] But there is some mixed news about trade in China. In May, overall car sales in China fell by 22.3 percent. This is because people in China are spending less money on big things.
-
-[Guy] That is a big drop. But at the same time, Tesla, the American company that makes electric cars in China, saw its sales jump by nearly 40 percent in May!
-
-[Aria] That is very interesting. Why did Tesla do so well when other car companies did poorly?
-
-[Guy] It seems that the market for electric cars is still very strong, and people really like the Tesla brand. Also, Tesla made some price adjustments that made their cars more attractive to buyers. It shows that even when the general market is down, some special companies can still grow.
-
-[Aria] Yes, and it also shows that Chinese buyers still love good electric cars. Tesla has a big factory in Shanghai, so they can make cars quickly and sell them for a good price.
-
-[Guy] China is also making progress in the air. An industry official says that China's new passenger airplane, the C919, is ready to replace older airplanes in China's domestic fleet.
-
-[Aria] The C919 is a big jet made by China. For a long time, China had to buy all its big airplanes from other countries, like Boeing in America or Airbus in Europe. But now, with the C919, China can build its own big planes. This is important because many of the planes flying in China now are getting old and need to be replaced. Using domestic planes will save money and build a strong aviation industry inside China.
-
-[Guy] This is a great achievement for China. Building a big passenger plane is very difficult. It takes many years of work and testing to make sure it is safe. The C919 is a sign of China's growing power in manufacturing.
-
-[Aria] Now, we must talk about some serious news from around the world. New data shows that conflicts and fights between nations are at their highest level since World War Two.
-
-[Guy] This is very sad and worrying news, Aria. There are many wars and violent fights happening in different parts of the earth right now.
-
-[Aria] Yes, the data shows that peace is harder to keep now. When nations fight, it causes great pain and destruction. Many innocent people lose their homes and their lives.
-
-[Guy] We must hope that world leaders can talk to each other and find peaceful ways to solve their arguments. War is never a good answer. It only brings suffering. The world needs more agreement and less fighting.
-
-[Aria] In Northern Ireland, there was a terrible event. Police arrested a man after a very bad knife attack in the city of Belfast.
-
-[Guy] The British leader, Keir Starmer, called this attack "horrific" and "sickening." A man was seriously hurt and had to go to the hospital.
-
-[Aria] But there was also some hope in this story. Regular people who were nearby stepped in to help and stop the attacker before the police arrived.
-
-[Guy] Yes, Keir Starmer thanked the public for their brave act. It shows that even in dark times, there are good and brave people who will risk their own safety to help a stranger. This is a beautiful example of human kindness.
-
-[Aria] Let us move to Sweden. Sweden is planning to make a new law that stops students from using mobile phones in schools.
-
-[Guy] I think this is a very good idea, Aria. Many young people spend too much time looking at their screens. In school, they should focus on learning and talking to their friends face-to-face.
-
-[Aria] Yes, teachers say that phones make a lot of noise and take the students' attention away from the lessons. Without phones, classrooms will be more quiet and students can learn better.
-
-[Guy] It also helps children play together during breaks instead of just playing games on their phones. It is a good step for their health and education. Sweden is leading the way, and maybe other countries will do the same.
-
-[Aria] Our last story is about the Middle East. Iran's recent attack on Israel has shown new and aggressive desires in the region.
-
-[Guy] Tensions are very high, and there are new strikes happening. This makes the whole area very dangerous.
-
-[Aria] Many countries are worried that this could lead to a much bigger war. They are asking both sides to stop the violence.
-
-[Guy] We must watch this situation closely. Peace in the Middle East is very important for the safety of the whole world. We hope that leaders can find a way to talk and bring peace to the people there.
-
-[Aria] That is all for our news tonight. Thank you for listening to our Evening News Podcast.
-
-[Guy] We hope you learned some new English words today. Keep practicing, and we will see you next time. Goodnight!
-
-[Aria] Goodnight!
+[Aria] Good evening. Welcome to our English learning news. I am Aria.
+[Andrew] And I am Andrew. We are here to help you learn English. We will talk about the day's big news. We will use simple words. This will help you understand well.
+[Aria] That is right, Andrew. Today, we have many important stories. We will talk about new phones, big money plans, and world events.
+[Andrew] We will make sure to give you a clear picture. We will give you the facts. We will give you the story behind the news.
+[Aria] Let us start with some news from the world of machines and smart tools. Apple, a very big company, had a special meeting. It was called WWDC 2026.
+[Andrew] Yes, Aria. This meeting is a big day for Apple. It is a time when they show new ideas. They show new things for their phones and computers. It is for people who make apps.
+[Aria] The big news was about iOS 27. This is the new brain for your iPhone. It makes your phone work. It makes it do many things.
+[Andrew] Think of iOS as the mind of your phone. The new iOS 27 has many new parts. It will make your phone faster. It will make it easier to use. It will give you new ways to do things.
+[Aria] One very big part of this news is about Siri. Siri is the voice helper in your Apple phone. You talk to Siri. Siri helps you.
+[Andrew] Apple says this new Siri is much smarter. It uses a kind of smart computer power. We call this AI. This AI helps Siri understand what you say. It helps Siri do more for you.
+[Aria] For example, Siri can now do more complex things. It can help you plan your day better. It can help you find things on your phone faster. It can even write small notes for you.
+[Andrew] This is a big step for Apple. They want Siri to be a true helper. A helper that is always there. A helper that learns from you.
+[Aaria] But there is a point to note. This new, smart Siri will not be in Europe at first. This is a big story by itself.
+[Andrew] That is right, Aria. Some countries in Europe have new rules. These rules are for very big companies. They want to make sure all companies play fair. They want to make sure no one company has too much power.
+[Aria] These rules are called "Digital Markets Act." They want to make sure that big companies open their systems. They want to make sure small companies can also grow.
+[Andrew] So, Apple needs more time. They need to make sure their new Siri works with these rules. It is a big work. They need to change some parts of Siri for Europe.
+[Aaria] This shows that new rules can make things slow. But the idea is to make things good for all people. It is about fair play in the market.
+[Andrew] Another new thing from Apple is about "Liquid Glass." This is a way that things look on your screen. It makes the pictures clear. It makes the colors good.
+[Aria] Apple is making Liquid Glass better. They want your screen to look even more real. They want the colors to be very true. This is good for watching videos or looking at pictures.
+[Andrew] They also talked about how your Mac computer will look. The Mac will have a better look. It will be more pleasing to the eye. This is a small change, but it makes a big difference for many people.
+[Aria] And there are hints about a new kind of iPhone. A phone that can fold. Yes, a phone that bends in the middle.
+[Andrew] This is a very big idea. Most phones are flat. But a foldable phone can be small when shut. Then it can be big when open. Like a small book.
+[Aria] The new iOS 27 has words in its code. These words show that Apple is working on this. They are making plans for a phone that can change its size.
+[Andrew] This means that in the future, we may see an iPhone that folds. It is a big step for phone making. It could change how we use our phones every day.
+[Aria] So, Apple is making many new things. They are making phones smarter. They are making screens better. And they are thinking about the future of phones.
+[Andrew] It is a time of much change in the world of machines. And Apple is at the front of this change.
+[Aria] Now, let us move to the world of money and business. OpenAI, a company that makes smart computer power, plans to sell parts of its company to the public.
+[Andrew] This is called a "stock market debut." It means that for the first time, many people can buy a small part of OpenAI. This is a big step for any company.
+[Aria] OpenAI is famous for making ChatGPT. This is a smart computer program. It can talk to you. It can write things for you. It can help you learn.
+[Andrew] This plan means OpenAI will get much money. They will use this money to make their smart computer power even better. They will make new ideas.
+[Aria] This also starts a new race. Another company, Anthropic, is also making smart computer power. They are like OpenAI.
+[Andrew] So, we will see two big companies working hard. They will try to make the best smart computer power. This is good for all of us. It means more new things will come.
+[Aria] Speaking of money, a man named Jim Cramer talks about the stock market. He gives ideas about what to watch.
+[Andrew] Jim Cramer is a well-known person. He talks about money on TV. He tells people what he thinks about companies.
+[Aria] He gave his top 10 things to watch for the stock market today. This helps people who put their money in companies.
+[Andrew] One big thing he talked about was SpaceX. This is a company that sends rockets to space. It is owned by Elon Musk.
+[Aaria] SpaceX also plans to sell parts of its company to the public. This is a very big event. Many people want to buy parts of SpaceX.
+[Andrew] SpaceX has big plans. They want to send people to Mars. They want to make space travel common. So, many people think this company will grow very big.
+[Aria] But some people say the price for parts of SpaceX is too high. They say it is not a safe place for money. It is a risk.
+[Andrew] This is always the way with new, big companies. There is much hope. There is also some risk. People must think hard before they put their money in.
+[Aria] Let us talk about cars now. Rivian, a company that makes electric cars, has a new car. It is called the R2.
+[Andrew] This R2 car is important. Rivian wants it to be a car for many people. Not just for a few. It will be a car that more people can buy.
+[Aria] Electric cars are good for the earth. They do not use gas. They do not make bad air. So, more electric cars are a good thing.
+[Andrew] Rivian wants to be like Tesla. Tesla is a very big electric car company. Rivian wants to make many cars. They want many people to know their name.
+[Aria] The R2 is a smaller car than their other cars. It will also be less money. This makes it possible for more people to buy it.
+[Andrew] This is a good sign for electric cars. It means they are becoming more common. They are becoming a choice for many families.
+[Aria] And in the world of banks, JPMorgan Chase, a very big bank, plans to use more smart computer power.
+[Andrew] Yes, they plan to use AI agents. These are like smart computer helpers. They will help the bank do its work.
+[Aria] This means the bank can work faster. It can help its customers better. It can make money moves more safe.
+[Andrew] AI is changing many parts of our world. Even big banks are using it. It is a tool to make work better and faster.
+[Aria] Now, let us look at some news from China. China has a very big plan for smart computer power.
+[Andrew] Yes, China plans to put much money into this. About $295 billion. This is a very big amount of money.
+[Aria] They want to build many "data centers." These are big buildings. They hold many computers. These computers store much information. They do much work.
+[Andrew] This plan is to help China grow its own smart computer power. They want to make their own "chips." Chips are the small brains inside computers.
+[Aria] This means China wants to be strong in this area. They do not want to depend on other countries for these chips. They want to make their own.
+[Andrew] It is a big step for China. They want to be at the front of smart computer power. They want to make their own future.
+[Aria] But there is also some other news from China. Car sales went down in May.
+[Andrew] Yes, car sales fell by 22.3 percent. This means many fewer cars were sold.
+[Aria] This shows that people in China are buying less. We call this "domestic demand." When demand weakens, it means people are not spending as much money.
+[Andrew] This can be a sign. It can show that the money system is slowing down. When people buy less, companies make less money. This can mean less work for people.
+[Aria] It is a point to watch. The health of a country's money system is important. Car sales can tell us much about it.
+[Andrew] Now, let us turn to some world events. There is sad news from the Middle East.
+[Aria] The Israeli military has told people to leave a city in Lebanon. The city is called Tyre.
+[Andrew] This order means people must leave their homes. It is a very hard thing for families. They must go to a safe place.
+[Aria] This includes a part of Tyre where Christian people live. It shows that the danger is wide.
+[Andrew] This is part of a bigger fight. There has been much fighting between Israel and groups in Lebanon.
+[Aria] It is a sad picture. People are leaving their homes because of war. We hope for peace for them.
+[Andrew] In other news, there was a very bad act in Belfast. Belfast is a city in Northern Ireland.
+[Aria] Police say a man was arrested. This was after a "brutal" stabbing. A stabbing is a violent act with a knife.
+[Andrew] This was a very sad event. It made many people feel bad. It made people feel fear.
+[Aria] Leaders in Northern Ireland have talked about this. They want peace. They want people to be safe.
+[Andrew] It is a reminder that even in places that seem quiet, bad things can happen. Police are working to keep people safe.
+[Aria] And on a wider note, a report says that fights and wars are growing all over the world.
+[Andrew] Yes, the report says that conflicts are at the highest level since World War Two. World War Two was a very big war many years ago.
+[Aria] This means there are more fights between groups and countries now. More places have war.
+[Andrew] This is a sad fact. It means more people are in danger. More people are losing their homes. More people are suffering.
+[Aria] We need to think about why this is happening. And what can be done to bring peace.
+[Andrew] Finally, some news about Israel and Iran. After many attacks, they seem to be stopping.
+[Aria] Yes, there were many attacks between these two countries. It was a very tense time.
+[Andrew] But now, they have sent signals. They say they will stop the attacks for now.
+[Aria] This is a small hope for peace. It means the fighting may not grow bigger.
+[Andrew] But the feeling is still tight. The problems between them are still there. We hope this stop will last. We hope it will lead to true peace.
+[Aria] That is all our news for today. We hope this helped you learn English. And understand the world a little better.
+[Andrew] Thank you for being with us. We will be here again tomorrow with more news.
+[Aria] Good night, everyone.
+[Andrew] Good night.

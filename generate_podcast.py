@@ -32,7 +32,8 @@ def fetch_top_news(limit_per_category=4):
 def generate_newsletter(news_text, edition_type, api_key, model="gpt-4o", base_url=None):
     print("Generating newsletter via LLM...")
     
-    client = OpenAI(api_key=api_key, base_url=base_url)
+    # Initialize OpenAI client with the provided base_url and API key, adding a timeout
+    client = OpenAI(api_key=api_key, base_url=base_url, timeout=180.0)
     
     prompt = f"""You are an expert English teacher for ESL learners.
 I will provide you with today's news items.
@@ -46,11 +47,11 @@ You MAY use proper nouns (names of people, specific countries, companies) not on
 Keep sentences very simple, short, and clear, but write a very long and detailed overall script to hit the 20-minute mark.
 
 CRITICAL RULE 2 (DIALOGUE FORMAT):
-The script MUST be an engaging and natural conversation between two hosts: Aria (female, the main anchor) and Guy (male, the co-host/analyst).
+The script MUST be an engaging and natural conversation between two hosts: Aria (female, the main anchor) and Andrew (male, the co-host/analyst).
 You must prefix every single spoken line with their bracketed name tag so the audio generator knows who is speaking.
 Example:
 [Aria] Good morning! Welcome to our English learning news.
-[Guy] Thanks Aria! Today we have a very big story about...
+[Andrew] Thanks Aria! Today we have a very big story about...
 
 News Items:
 {news_text}
@@ -101,8 +102,8 @@ def create_audio(text, output_mp3, api_key):
     import os
     import subprocess
     
-    # Split the script by [Aria] or [Guy] tags
-    blocks = re.split(r'\[(Aria|Guy)\]', text)
+    # Split the script by [Aria] or [Andrew] tags
+    blocks = re.split(r'\[(Aria|Andrew)\]', text)
     temp_files = []
     
     try:
@@ -113,7 +114,7 @@ def create_audio(text, output_mp3, api_key):
             if not speech:
                 continue
                 
-            voice = "en-US-AriaNeural" if speaker == "Aria" else "en-US-GuyNeural"
+            voice = "en-US-AriaNeural" if speaker == "Aria" else "en-US-AndrewNeural"
             
             tmp_mp3 = tempfile.mktemp(suffix=".mp3")
             temp_files.append(tmp_mp3)
