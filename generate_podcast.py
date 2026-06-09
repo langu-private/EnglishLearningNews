@@ -60,13 +60,27 @@ You must output exactly two sections separated by "===AUDIO SCRIPT===" and "===B
 (Write the bilingual version here for the reading blog. Give it a catchy title, then line-by-line or paragraph-by-paragraph English and Chinese translation.)
 """
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.3
-    )
+    import time
     
-    return response.choices[0].message.content
+    max_retries = 4
+    for attempt in range(max_retries):
+        try:
+            print(f"LLM API Call Attempt {attempt + 1} of {max_retries}...")
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            print(f"API Error encountered: {e}")
+            if attempt < max_retries - 1:
+                wait_seconds = (attempt + 1) * 30  # Wait 30s, 60s, 90s...
+                print(f"Model is busy. Retrying in {wait_seconds} seconds...")
+                time.sleep(wait_seconds)
+            else:
+                print("Max retries reached. The server is consistently overloaded.")
+                raise e
 
 def create_audio(text, output_mp3):
     print(f"Generating audio to {output_mp3}...")
