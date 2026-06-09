@@ -40,10 +40,17 @@ Your task is to write a comprehensive '{edition_type} News Podcast' script in bo
 The spoken audio must last approximately 20 minutes. At an ESL speaking rate of 130 words per minute, YOUR ENGLISH AUDIO SCRIPT MUST BE AT LEAST 2500 WORDS LONG.
 To reach this length, do NOT just summarize the headlines. You must provide deep-dive explanations, historical background context, related impact analysis, and engaging storytelling for EACH news item.
 
-CRITICAL RULE: 
+CRITICAL RULE 1: 
 The English portion MUST be written using ONLY the words from the provided "Basic English 850 Words" list.
 You MAY use proper nouns (names of people, specific countries, companies) not on the list, but ANY OTHER verb, adjective, adverb, or noun MUST be from the 850 words.
 Keep sentences very simple, short, and clear, but write a very long and detailed overall script to hit the 20-minute mark.
+
+CRITICAL RULE 2 (DIALOGUE FORMAT):
+The script MUST be an engaging and natural conversation between two hosts: Aria (female, the main anchor) and Guy (male, the co-host/analyst).
+You must prefix every single spoken line with their bracketed name tag so the audio generator knows who is speaking.
+Example:
+[Aria] Good morning! Welcome to our English learning news.
+[Guy] Thanks Aria! Today we have a very big story about...
 
 News Items:
 {news_text}
@@ -88,13 +95,50 @@ You must output exactly two sections separated by "===AUDIO SCRIPT===" and "===B
                 raise e
 
 def create_audio(text, output_mp3):
-    print(f"Generating audio to {output_mp3}...")
-    # Using edge-tts with a professional American voice
-    voice = "en-US-AriaNeural"
+    print(f"Generating conversational audio to {output_mp3}...")
+    import tempfile
+    import re
     
-    cmd = ["edge-tts", "--voice", voice, "--text", text, "--write-media", output_mp3]
-    subprocess.run(cmd, check=True)
-    print("Audio generation complete.")
+    # Split the script by [Aria] or [Guy] tags
+    # This regex captures the speaker name and splits the text.
+    blocks = re.split(r'\[(Aria|Guy)\]', text)
+    
+    temp_files = []
+    
+    try:
+        # blocks looks like: ['intro text', 'Aria', 'Hello!', 'Guy', 'Hi there!']
+        # If the script doesn't start with a tag, blocks[0] is just preamble.
+        for i in range(1, len(blocks), 2):
+            speaker = blocks[i].strip()
+            speech = blocks[i+1].strip()
+            
+            if not speech:
+                continue
+                
+            voice = "en-US-AriaNeural" if speaker == "Aria" else "en-US-GuyNeural"
+            
+            tmp_mp3 = tempfile.mktemp(suffix=".mp3")
+            temp_files.append(tmp_mp3)
+            
+            cmd = ["edge-tts", "--voice", voice, "--text", speech, "--write-media", tmp_mp3]
+            subprocess.run(cmd, check=True)
+            
+        if temp_files:
+            # Concatenate raw mp3 bytes (valid for simple sequential mp3 playback)
+            with open(output_mp3, 'wb') as outfile:
+                for f in temp_files:
+                    with open(f, 'rb') as infile:
+                        outfile.write(infile.read())
+            print("Conversational audio generation complete.")
+        else:
+            print("No valid speaker tags found! Falling back to single voice...")
+            cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", text, "--write-media", output_mp3]
+            subprocess.run(cmd, check=True)
+            
+    finally:
+        for f in temp_files:
+            if os.path.exists(f):
+                os.remove(f)
 
 def main():
     parser = argparse.ArgumentParser(description="Generate Basic English News Podcast")
