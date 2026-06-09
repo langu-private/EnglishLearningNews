@@ -48,10 +48,12 @@ Keep sentences very simple, short, and clear, but write a very long and detailed
 
 CRITICAL RULE 2 (DIALOGUE FORMAT):
 The script MUST be an engaging and natural conversation between two hosts: Aria (female, the main anchor) and Andrew (male, the co-host/analyst).
-You must prefix every single spoken line with their bracketed name tag so the audio generator knows who is speaking.
+You MUST write the dialogue in a STRICT bilingual format. For every spoken line, output the English sentence first (prefixed with the speaker's name), immediately followed by the Chinese translation on the NEXT line, wrapped in parentheses.
 Example:
 [Aria] Good morning! Welcome to our English learning news.
+(早上好！欢迎收听我们的英语学习新闻。)
 [Andrew] Thanks Aria! Today we have a very big story about...
+(谢谢 Aria！今天我们有一个关于...的重大新闻。)
 
 News Items:
 {news_text}
@@ -60,17 +62,12 @@ Basic English 850 Words list:
 {basic_words}
 
 Output Format:
-You must output exactly two sections separated by "===AUDIO SCRIPT===" and "===BILINGUAL BLOG===".
-
-===AUDIO SCRIPT===
-(Write the English-only script here. This will be converted to audio for the podcast. Start with "Good {edition_type.lower()}..." and end with a nice sign-off.)
-===BILINGUAL BLOG===
-(Write the comprehensive show notes here. You MUST include the following in order:
-1. A catchy title.
+You must output exactly ONE comprehensive section which will serve as the podcast show notes.
+Include the following in order:
+1. 📝 A Catchy Title.
 2. 📖 Key Vocabulary (Extract 5-10 advanced or useful words used in the script, with phonetics and Chinese meaning).
 3. 🎯 Grammar Focus (Highlight 1-2 important grammar structures used in the news).
-4. 📝 Full Bilingual Script (Line-by-line or paragraph-by-paragraph English and Chinese translation of the entire audio script).
-5. 🔗 Useful Links (A placeholder "Read more at [English Learning News](https://langu-private.github.io/EnglishLearningNews)").)
+4. 🎙️ Full Bilingual Podcast Script (This is the most important part! Use the exact [Host] English. \\n (Chinese) format described above. The English portion must total 2500 words).
 """
 
     import time
@@ -155,31 +152,34 @@ def main():
     news_text = fetch_top_news()
     result = generate_newsletter(news_text, edition, args.api_key, args.model, args.base_url)
     
-    try:
-        parts = result.split("===BILINGUAL BLOG===")
-        audio_script = parts[0].replace("===AUDIO SCRIPT===", "").strip()
-        blog_content = parts[1].strip()
-    except Exception as e:
-        print("Failed to parse LLM output. Full output:")
-        print(result)
-        sys.exit(1)
-        
-    out_dir = f"editions/{date_str}_{edition}"
-    os.makedirs(out_dir, exist_ok=True)
+    edition_dir = f"editions/{date_str}_{edition}"
+    os.makedirs(edition_dir, exist_ok=True)
     
-    blog_path = os.path.join(out_dir, f"{edition}_Blog.md")
-    with open(blog_path, "w") as f:
-        f.write(blog_content)
+    print("Saving blog post (Bilingual Show Notes)...")
+    blog_path = os.path.join(edition_dir, f"{edition}_Blog.md")
+    with open(blog_path, 'w', encoding='utf-8') as f:
+        f.write(result)
         
-    audio_txt_path = os.path.join(out_dir, "audio_script.txt")
-    with open(audio_txt_path, "w") as f:
-        f.write(audio_script)
+    print("Extracting English script for audio generation...")
+    audio_script_en = []
+    lines = result.split('\n')
+    for line in lines:
+        line_stripped = line.strip()
+        # Only extract lines explicitly spoken by the hosts for the TTS engine
+        if line_stripped.startswith("[Aria]") or line_stripped.startswith("[Andrew]"):
+            audio_script_en.append(line_stripped)
+            
+    audio_script_text = "\n\n".join(audio_script_en)
+    script_path = os.path.join(edition_dir, "audio_script.txt")
+    with open(script_path, 'w', encoding='utf-8') as f:
+        f.write(audio_script_text)
         
-    audio_mp3_path = os.path.join(out_dir, f"{edition}_Podcast.mp3")
-    create_audio(audio_script, audio_mp3_path, args.api_key)
+    print("Creating podcast audio...")
+    mp3_path = os.path.join(edition_dir, f"{edition}_Podcast.mp3")
+    create_audio(audio_script_text, mp3_path, args.api_key)
     
     # Call the RSS generator here
-    update_rss_feed(edition, date_str, audio_mp3_path, args.github_url)
+    update_rss_feed(edition, date_str, mp3_path, args.github_url)
     
 from feedgen.feed import FeedGenerator
 import pytz
@@ -238,12 +238,12 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
                 pub_date = datetime.datetime.now(pytz.timezone('Asia/Shanghai'))
             fe.pubDate(pub_date)
             
-            # Read the audio script text to display in Apple Podcasts
-            script_path = os.path.join(folder_path, 'audio_script.txt')
+            # Read the bilingual blog text to display in Apple Podcasts
+            blog_files = [f for f in os.listdir(folder_path) if f.endswith('_Blog.md')]
             blog_html = f"News podcast for {folder}"
-            if os.path.exists(script_path):
-                with open(script_path, 'r', encoding='utf-8') as sf:
-                    blog_html = sf.read().replace('\n', '<br>')
+            if blog_files:
+                with open(os.path.join(folder_path, blog_files[0]), 'r', encoding='utf-8') as bf:
+                    blog_html = bf.read().replace('\n', '<br>')
                     
             fe.description(blog_html)
             fe.enclosure(mp3_url, file_size, 'audio/mpeg')
