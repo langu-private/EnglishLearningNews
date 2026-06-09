@@ -63,6 +63,7 @@ Basic English 850 Words list:
 
 Output Format:
 You must output exactly ONE comprehensive section which will serve as the podcast show notes.
+CRITICAL: DO NOT use any Markdown formatting (no asterisks **, no hashtags #, no backticks). Apple Podcasts does not support Markdown. Use plain text formatting only.
 Include the following in order:
 1. 📝 A Catchy Title.
 2. 📖 Key Vocabulary (Extract 5-10 advanced or useful words used in the script, with phonetics and Chinese meaning).
