@@ -189,13 +189,13 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
     fg = FeedGenerator()
     fg.load_extension('podcast')
     
-    fg.title('850 Words Basic English News Podcast')
+    fg.title('虎子老师教英语')
     fg.description('Daily Morning and Evening News, spoken strictly in Basic English 850 Words.')
     fg.link(href=base_url, rel='alternate')
     fg.language('en')
     
-    fg.author({'name': 'langu', 'email': 'langu@qq.com'})
-    fg.podcast.itunes_author('langu')
+    fg.author({'name': '虎子老师', 'email': 'langu@qq.com'})
+    fg.podcast.itunes_author('虎子老师')
     fg.podcast.itunes_category('Education', 'Language Learning')
     
     cover_url = f"{base_url}/cover.png"
