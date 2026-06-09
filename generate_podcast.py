@@ -238,12 +238,12 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
                 pub_date = datetime.datetime.now(pytz.timezone('Asia/Shanghai'))
             fe.pubDate(pub_date)
             
-            # Read the bilingual blog text to display in Apple Podcasts
-            blog_files = [f for f in os.listdir(folder_path) if f.endswith('_Blog.md')]
+            # Read the audio script text to display in Apple Podcasts
+            script_path = os.path.join(folder_path, 'audio_script.txt')
             blog_html = f"News podcast for {folder}"
-            if blog_files:
-                with open(os.path.join(folder_path, blog_files[0]), 'r', encoding='utf-8') as bf:
-                    blog_html = bf.read().replace('\n', '<br>')
+            if os.path.exists(script_path):
+                with open(script_path, 'r', encoding='utf-8') as sf:
+                    blog_html = sf.read().replace('\n', '<br>')
                     
             fe.description(blog_html)
             fe.enclosure(mp3_url, file_size, 'audio/mpeg')
