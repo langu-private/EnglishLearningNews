@@ -1,199 +1,175 @@
-Good morning. Welcome to our Morning News Podcast. Today is a new day, and we have many things to talk about. My name is your guide, and I am happy to be with you. In this podcast, we talk about the news of the world. We use simple words so that everyone can understand. We will talk about new machines that think. We will talk about the money market and the fear of a big fall. We will talk about planes in China and cars that run on electric power. We will also talk about serious things, like the violent shaking of the earth in the Philippines, and the peace talks in the Middle East. Let us start with our first story about new machines.
+Good morning, friends. Welcome to our morning news podcast. This is a special talk for people who are learning the English language. I am your teacher and your guide this day. We will talk about the news of the earth. We will use simple words. We will use short sentences. But we will talk about many important things. We will talk about new machines, about money, about countries, and about the fights in the earth. This will help you get the sense of English and learn about the earth at the same time. Let us start with our first story.
 
-Our first story is about Apple. Apple is a very big company that makes pocket machines and other instruments. Every year, they have a big meeting. This meeting is called WWDC. This year, in 2026, the meeting is very important. The chief man of Apple, Tim Cook, stood on the stage today. He showed the world the new system for the iPhone. This system is called iOS 27.
+Our first story is about the company Apple. Apple is a very big company. They make the iPhone, the iPad, and the Mac. Every year, they have a great meeting. The name of this meeting is WWDC. It is a meeting for the builders of systems. In the year 2026, Apple made a great statement at this meeting.
 
-What is new in iOS 27? The biggest thing is Siri. You may know Siri. Siri is the voice inside your pocket machine. For a long time, Siri was not very wise. You could ask Siri to do simple things. You could say, "Siri, make a sound at six in the morning." Or you could say, "Siri, is it raining today?" Siri was able to do these things. But if you asked Siri a complex question, Siri did not know the answer. Siri would say, "I do not understand."
+They talked about Siri. Siri is the voice inside your iPhone. You talk to Siri, and Siri helps you. But for a long time, Siri was not very wise. Siri did not get the sense of complex questions. Now, Apple says they are making Siri much better. They are using a "made mind" or AI.
 
-Now, Apple is giving Siri a new brain. This brain is called Apple Intelligence. It is a system of machine thinking. It is not like the old Siri. This new Siri can understand your life. It can read your letters. It can look at your pictures. It can know who your friends are. For example, if you say, "Siri, when is my sister coming?" Siri will look at your letters from your sister. Siri will find the time of her flight. Then Siri will tell you. You do not have to search through your letters yourself.
+Let us make a deep look into the history of Siri. Siri was first made by a small group of people. Apple got this small company in the year 2010. At that time, Siri was a great wonder. No other pocket machine had a voice that was able to talk back to you. But as the years went by, Siri did not get much better. Why? Because Siri was built on old rules. If you said "A", Siri said "B". If you said something strange, Siri was not able to get the sense of it. It would only say, "I am not able to help with that."
 
-This is a very big change. But some people are worried. They ask, "Is my secret safe with this machine brain?" If the machine reads all my letters, does Apple know my secrets? Tim Cook says your secrets are safe. He says the machine brain does most of its thinking inside your pocket machine. It does not send your secrets to other places. If it needs to use a bigger machine far away, it will send the question in a safe way. The big machine far away will not keep your secrets. It will do the work and then forget.
+But now, we have a new kind of "made mind". This new mind is able to make new words and get the sense of human feelings. It does not just follow old rules. It is able to learn from millions of books and pages on the net. This is why Apple has to change Siri. If they do not, people will not have a desire to get iPhones anymore. They will get other machines that have better minds inside.
 
-This is Apple's second attempt to show their machine brain to the world. Last year, they tried, but people were not fully happy. Now, they hope this new Siri will make everyone want to buy a new iPhone.
+To make Siri wise, Apple is joining with other big companies. They are working with Google and Nvidia. Google is a great company of the net. Nvidia makes very strong brain chips for machines. Why is Apple joining with them? Because making a wise "made mind" needs a very great amount of power. It needs many machines working together. Apple is not able to do all of this by itself.
 
-Let us look at the history of Apple. Apple was started by Steve Jobs. He wanted to make machines that normal people could use. Before Apple, machines were big and hard to use. You had to write code. Steve Jobs made machines with pictures and a mouse. Then, in 2007, he made the iPhone. It changed the world. Everyone wanted a pocket machine with a glass face.
+But some people who put money in Apple were not happy. They had a desire for Apple to do everything by itself. They had a desire for a bigger surprise. Because of this, the price of Apple shares went down on the market. When people are not surprised, they give their parts of the company to others for money. This makes the price go down. But this is normal for the market. In the future, when people use the new Siri, the price may go up again.
 
-In 2011, Apple bought Siri. Siri was the first voice helper. At first, people loved Siri. But then, other companies made better voice helpers. Google made Google Assistant. Amazon made Alexa. These helpers were wiser than Siri. Siri became a joke. People said Siri was stupid.
+Apple also talked about the new system for the iPhone. The name of this system is iOS 27. It has some very interesting new parts.
 
-Now, Apple wants to win again. They are using Apple Intelligence. This is not just one program. It is a system that runs through the whole machine. It can write letters for you. If you are angry, it can make your letter sound polite. If you are busy, it can summarize a long letter into three lines. It can also make pictures. If you want a picture of a cat on a horse, the machine will make it for you.
+First, you are now able to use one phone number on two iPhones. This is very good for people who have one iPhone for work and one iPhone for play. Before this, you had to have two different numbers. Now, you are able to let both machines use the same number.
 
-But how does it work? It uses a large language model. This is a machine system that has read millions of books and letters. It knows how words go together. It can guess the next word. This makes it sound like a real person. But it does not really think like a human. It just uses math to find the best words. This is why it can make errors. Sometimes it gives the wrong facts. Apple is trying to make sure this does not happen. They want their machine brain to be safe and correct.
+Second, you are able to change the loudness of your morning bell separate from other sounds. This is a simple thing, but it is very important. At some times, you have a desire for your morning bell to be very loud so you wake up. But you have a desire for the sound of your talking instrument to be quiet. In the old system, they were the same. Now, they are separate.
 
-Now, let us talk about another big show. This is the Xbox Games Showcase. Xbox is a machine for play made by Microsoft. Many people love to play on these machines. Every summer, Microsoft shows the new plays they are making. This year, they showed many beautiful plays.
+Third, the system for sending sound and pictures from one machine to another, which is named AirPlay, is now much more quick.
 
-The biggest play they showed is called Gears of War: E-Day. This is a very famous story. It is about a great fight on another earth. The fight is between men and monsters that live under the ground. The first play of this story came out twenty years ago. It was very dark and violent, but people loved it. The new play, E-Day, goes back to the very start. It shows the first day the monsters came out of the earth. It shows how the friends in the story first met.
+And there is good news for people who have old iPhones. Apple says that iOS 27 will work on many older machines. You do not have to get a new iPhone to get the new system. This is good for your pocket, and it is good for the earth because we make less waste.
 
-People who saw the show were very happy. They felt a warm feeling for the past. This is what we call nostalgia. It is when you remember old times with love. Microsoft hopes this play will make people buy the Xbox.
+Now let us talk about the big brain machines, the Macs. Apple has a new system for the Mac. The name of this system is macOS 27 Golden Gate.
 
-Let us explain the history of video games. Long ago, games were very simple. There was a game called Pong. It was just two lines and a ball on a black screen. People thought it was amazing. Then came Mario and Sonic. These were colorful games for children.
+But there is a very big change here. This new system will only work on Macs that have Apple's own brain chips. These chips are named Apple Silicon.
 
-But in the 2000s, games became like movies. They had big stories, beautiful music, and real actors. Gears of War was one of these games. It was made for the Xbox 360. It was a very dark game. The sky was always gray. The characters were big men with thick armor and guns that had saws on them. The story was about Marcus Fenix, a soldier who had to save his world from the Locust. The Locust were monsters that lived under the ground.
+Let us talk about the history of Apple and Intel. In the year 2005, the leader of Apple, Steve Jobs, made a great statement. He said Apple would start using Intel chips in all Mac machines. Before that, Macs used different chips that were slow and hot. The move to Intel was a great success. It made Macs very popular. For fifteen years, Apple and Intel worked together as close friends.
 
-The new game, Gears of War: E-Day, is a prequel. This means it tells the story of what happened before the first game. It shows the day the monsters first came out. This day is called Emergence Day or E-Day.
+But then, Apple saw that Intel was not making its chips better fast enough. The chips were still hot and used too much power. So, Apple made the decision to make its own chips. In the year 2020, they put out the first Mac with Apple's own chip. It was a great surprise. The new machines were very quick and the battery lasted for a very long time.
 
-Why is this important for Microsoft? Microsoft bought many game companies in the last few years. They spent billions of dollars. They bought Activision Blizzard, the company that makes Call of Duty. They want to make sure the Xbox is the best place to play. Sony's PlayStation has been winning the war of play machines. Many people buy PlayStation because they like games like Spider-Man or God of War. Microsoft hopes that by showing Gears of War and other exclusive games, they can make people change their minds. They want people to buy the Xbox or pay for their monthly play service, Xbox Game Pass.
+Now, six years later, Apple is saying goodbye to Intel completely. This is the end of an era. If you have an older Mac with an Intel chip, you are not able to put macOS 27 Golden Gate on it. This is a sad event for some people who have old machines. But Apple says it is necessary. The new "made mind" systems need the special power of Apple Silicon. The old Intel chips are not strong enough. This is how science moves forward. Old things have to give way to new things.
 
-Our next story is about Google. Google has a tool called NotebookLM. This tool helps you read and learn. It uses a machine brain called Gemini 3.5.
+Apple also has a new system for its watch. The name is watchOS 27.
 
-Imagine you are a student. You have to read a very long book for school. The book has five hundred pages. You do not have time to read all of it before tomorrow. You can put the book into NotebookLM. The machine will read the book in one second. Then, you can talk to the machine. You can ask, "What are the three most important ideas in this book?" The machine will write the answer for you.
+Like the iPhone and the Mac, the watch will now have Siri with "made mind". You are able to talk to your watch, and it will give you wise answers.
 
-Now, Google has made this tool much better. They added a cloud computer. This is a very strong machine in the sky. It can do more complex work. It can also help you find where the facts came from.
+The watch will also have a new way to show your small systems. It is a changing square system, or a dynamic grid. It makes it more simple to see and touch your tools on the small glass face.
 
-This is very important because machine brains sometimes make errors. They say things that are not true. If the machine tells you a fact, you want to be sure it is true. Now, NotebookLM will show you the exact page and line in your book where it found the fact. This makes it easy for you to check. You can build a store of facts from your talks with the machine. It is a great help for learning.
+But there is a catch. To get this new Siri on your watch, you may need to get a new Apple Watch. The old watches do not have the strong brain chips inside. Apple is stopping support for a long list of older watches. This is the same story as the Mac. New science needs new solid parts.
 
-Let us explain how people study. For thousands of years, studying meant reading books, writing notes with a pen, and remembering facts in your head. It was hard work. It took a lot of time.
+Now we move to our second segment. This is about business and money.
 
-Now, we have machines. But machines can make us lazy. If a machine does all the reading for you, do you really learn? Some teachers are worried. They say, "If students use NotebookLM, they will not read the books. They will not learn how to think."
+Our first story here is about OpenAI. OpenAI is the company that made ChatGPT. ChatGPT is a very famous machine that is able to talk like a person. It has changed how we make thoughts about the future.
 
-But Google says NotebookLM is not for cheating. It is a helper. It is like having a very wise friend who has read the book and can talk to you about it.
+Now, OpenAI has sent a secret request to the government. They have a desire to do an IPO. What is an IPO? It is an Initial Public Offering. In simple words, it means the company will give its parts to all people on the market for money.
 
-The new update adds a cloud computer. What is the cloud? It is not a real cloud in the sky. It is a group of thousands of very big, fast machines in a large building far away. When you use NotebookLM, your pocket machine does not do the hard work. It sends the book to the cloud. The big machines in the cloud do the thinking and send the answers back to your screen.
+Let us look at the history of OpenAI. This company started in the year 2015. At the start, it was a non-profit organization. This means they did not have a desire to make money. Their only purpose was to make "made mind" that would help all people on the earth. Elon Musk was one of the people who gave money to start it.
 
-The most important new part is the source finder. When you write a paper for school or work, you cannot just say things. You must prove them. You must say, "I know this because it was written on page 50 of this book." Before, machine brains would give you answers, but they could not tell you where they got the information. Sometimes, they would make up facts. This is called hallucination. Now, NotebookLM shows you the exact source. This helps you trust the machine. It also helps you learn better because you can go to the book and read the whole page to understand the context.
+But after some years, the builders saw that making "made mind" was too expensive. They needed billions of dollars to get the machines and pay the experts. A non-profit organization is not able to get that much money. So, they changed the company. They made a new part of the company that was able to make profit.
 
-Now, let us look at some secret pictures. A picture of a new iPhone was let out on the net. This is not a normal iPhone. It is an iPhone that can fold!
+This made some of the first founders, like Elon Musk, very angry. They said OpenAI was not true to its first promise. Now, by doing an IPO, OpenAI is becoming a fully public company. It is a long way from its start as a quiet group of science lovers.
 
-It is like a book. When it is closed, it is small and fits in your pocket. When you open it, it has a big glass face like a small table. Other companies, like Samsung, have made these bending machines for some years. But Apple did not. Now, it seems Apple is ready.
+Before this, only a few rich people and big companies were able to put money into OpenAI. Now, anyone is able to get a part of the company.
 
-The picture shows a white and silver machine. It looks very beautiful and thin. The line in the middle where it bends is almost invisible. People say it will be called the iPhone Ultra. It will cost a lot of money. It may also have Touch ID again. This means you can open the machine with your finger on the glass. For some years, the iPhone only used your face to open. But many people like using their finger.
+Why is OpenAI doing this in secret? In the United States, companies are able to send their papers to the government quietly first. This lets them make adjustments before all people see the papers.
 
-Let us talk about the science of bending glass. Glass is usually hard and breaks easily. If you try to bend a window, it will smash. How can a machine have a glass screen that folds like paper?
+OpenAI needs a very great amount of money. Why? Because training "made mind" systems is very expensive. They have to get thousands of strong chips from Nvidia. They have to make payment for much electric power. By giving parts of the company to the public for money, they are able to get the money they need to fight against other big companies like Google.
 
-Scientists made a new kind of glass. It is very, very thin. It is thinner than a human hair. Because it is so thin, it can bend without breaking. But it is still glass, so it feels smooth and hard when you touch it.
+Another very big company is also getting ready for an IPO. This is SpaceX.
 
-For a long time, Apple did not want to make a folding iPhone. They were waiting because the early folding machines had many problems. The screen would break after a few months. There was a big, ugly line in the middle. The machine was very thick and heavy.
+SpaceX is the rocket company of Elon Musk. They make vessels that fly to the stars. They send sky instruments into orbit. They also have Starlink, which gives net connection to the whole earth from the sky.
 
-Now, the leaks show that Apple has solved these problems. The new iPhone Ultra looks very thin. The line in the middle is almost gone. This is because of a new hinge system. The hinge is the metal part that lets the machine open and close. Apple has made a very complex hinge that keeps the screen flat when it is open.
+Let us look at the history of SpaceX. Elon Musk started SpaceX in the year 2002. At that time, almost everyone said he was foolish. They said, "Only great countries like the United States or Russia are able to build rockets. A private company will only waste its money."
 
-At the same time, Nvidia has a new thing. It is called the RTX Spark. Nvidia is a company that makes parts for screen machines. These parts make pictures look very real. They make light look like real light. If there is a fire in a play, the light from the fire shines on the walls and the water in a natural way. The RTX Spark is a new card that does this very quickly. It is for people who love to play games and for people who make moving pictures.
+But Elon Musk did not stop. His first three rockets all burst and failed. He had almost no money left. But the fourth rocket was a success.
 
-Nvidia started as a small company making parts for games. But now, they are one of the most valuable companies in the world. Why? Because the same parts that make game pictures look real are also very good at machine thinking.
+Then, SpaceX did something that no government had ever done. They made a rocket that is able to come back to the earth and land on its feet. Before this, all rockets were used only once and then fell into the sea as waste. This made space travel very expensive. By using the same rocket many times, SpaceX made the price of going to space very low. This is why the company has such a great value today. It is a story of not giving up, even when everyone says you will fail.
 
-The new RTX Spark is a card for your computer. It uses a science called ray tracing. Ray tracing means the machine calculates how every single ray of light moves in a virtual room. If there is a light bulb, the machine follows the light as it hits a table, bounces off a mirror, and shines into a dark corner. This makes the picture look exactly like a photo. It takes a lot of power to do this in real time, while you are playing a game. The RTX Spark has special cores that do this math very quickly. It makes games look beautiful and run smoothly.
+People say SpaceX has a value of 1.75 Trillion dollars. That is a very, very great amount of money. It is almost as much money as some countries make in a year.
 
-Now, let us talk about money and trade.
+Now, banks are using SpaceX to make friends with very rich people. The banks say, "If you put your money with us, we are able to help you get parts of SpaceX before other people." This is because everyone has a desire to have a part of SpaceX. They believe that the future is in the stars, and SpaceX is the leader of this journey.
 
-The share market had a good day today. The Nasdaq went up. The Nasdaq is a list of companies that make new machines and systems. Last week, these companies lost a lot of value. People were afraid that the machine brains were not making enough money. They thought, "We are spending too much money on these machines, but we are not getting any profit." But today, the buyers came back. They bought shares again, and the prices went up.
+But some experts are worried. They say that when everyone is too happy and has a desire to put money in these big companies, the market might be at its highest point. After the highest point, it might fall. But other experts say SpaceX is a real business with real power, so it is safe.
 
-At the same time, the price of oil went up. Oil is the black liquid we get from the earth. We use it to make power and to move our cars and planes. Why did the price go up? Because there was a fight between Iran and Israel. They sent flying fire at each other. When there is a war in the Middle East, people worry that the oil will not be able to travel. This makes the price go up. But then, the fight stopped. The price of oil came down a little bit from its highest point.
+Now we have a story about trade and arguments between the United States and China.
 
-But some wise men on Wall Street are afraid. They say that the year 2026 looks like the year 1999.
+The government of the United States has put some very big Chinese companies on a bad list. These companies are BYD, Baidu, and Alibaba.
 
-What happened in 1999? It was the time of the dot-com bubble. People were very excited about the world net. They bought shares in any company that had "dot-com" in its name. The prices went up and up, like a soap ball in the air. But the companies did not make real money. In the year 2000, the soap ball burst. Many people lost all their money.
+BYD makes electric road carriages. They are now the biggest maker of electric carriages on the earth. Baidu is a great company of the net, like Google. Alibaba is a great company for trading goods on the net, like Amazon.
 
-Now, some analysts fear the same thing is happening with machine brains. They say companies are spending too much money on machines, but they are not getting enough profit. They say Wall Street is "out over their skis". This is a way of saying they are going too fast and leaning too far forward. If they are not careful, they will fall down very hard.
+Why did the United States put them on this bad list? The United States says these companies are helping the Chinese military, or the army. They say that the science these companies make is being used to make weapons and war systems.
 
-Let us explain how the stock market works. A stock market is a place where people buy and sell parts of companies. These parts are called shares. If you buy a share of Apple, you own a very small part of Apple. If Apple makes a lot of money, the value of your share goes up. You can sell it and make a profit. If Apple loses money, the value goes down, and you lose money.
+When a company is on this bad list, it is very hard for them to do trade with the United States. American companies are not able to sell parts to them easily. American people are not able to put money into them.
 
-People buy shares because they want their money to grow. But sometimes, people get too excited. They see prices going up, and they want to buy quickly before the price goes higher. This is called FOMO, or the fear of missing out.
+This is part of a bigger fight between the two nations. The United States is worried that China is getting too strong in science and military power. China says this is not true and that the United States is only trying to stop Chinese business because of competition. This makes the connection between the two countries very cold.
 
-When everyone wants to buy, the prices go up very fast. This is not because the companies are making more money, but just because everyone is buying. This creates a bubble.
+Let us look at the money market this day.
 
-A bubble is like a balloon. You blow air into it, and it gets bigger and bigger. It looks beautiful. But if you put too much air in, it will burst.
+The Nasdaq, which is the market for science companies, opened higher this day. This is because the parts of chip companies went up again. Some days past, they went down, but now they are getting strong.
 
-In 1999, there was the dot-com bubble. The internet was new. Everyone thought it would change the world. They bought shares in any internet company. Some of these companies had no products and no profits. They just had a website. But their shares were worth millions of dollars. In 2000, people realized these companies were not making money. They started to sell their shares. Everyone got scared and sold at the same time. The market crashed. Many people lost their homes and their savings.
+Also, the price of oil went up. Why? Because there was a violent fight between Iran and Israel. They were attacking each other with flying weapons. This made people fear that oil from the Middle East would not be able to travel to other countries.
 
-Now, in 2026, some analysts say we are in an AI bubble. Companies are spending billions of dollars buying Nvidia chips to build machine brains. But are they making money from these machine brains? Not yet. If they do not start making profits soon, investors might get scared and sell their shares. This could cause a big crash. This is why the top analysts are worried. They say Wall Street is "out over their skis".
+But now, both Iran and Israel say they have stopped their attacks. This is good news for peace. Even though they stopped, the price of oil is still high because people are still a little worried. The market does not like danger. It likes quiet and certain conditions.
 
-Now, let us talk about a big fight between two medical companies. One is Novo Nordisk from Denmark. The other is Eli Lilly from America.
+Now let us talk about stories from inside China.
 
-They make a medicine called GLP-1. This medicine is very famous. It helps people who are very fat to lose weight. It makes them feel full, so they do not want to eat.
+First, the sales of road carriages in China fell by 22.3 percent in the month of May. This is a very big fall.
 
-For some time, people had to take this medicine with a needle. They had to push the needle into their skin every week. Many people do not like needles. It hurts, and it is hard to do. Now, the companies are making a pill. A pill is a small dry thing you can put in your mouth with water. This is much easier.
+Why is this happening? Experts say that domestic demand is getting weak. "Domestic demand" means the desire of people inside the country to get things for money.
 
-Novo Nordisk has a pill called Wegovy. They say that more than 3,000,000 people have used it. Many of these people never took weight loss medicine before. This is a big market. Now, both companies are getting ready for Medicare. Medicare is the government system in America that pays for medicine for old people. If Medicare pays for the GLP-1 pill, the companies will make a mountain of money. The competition is very hot.
+Right now, many people in China are worried about the future. They want to keep their money in the bank. They do not have a desire to make big payments for new carriages. Also, the housing market in China has been in trouble, which makes people feel less rich. When people feel less rich, they do not get new things. They keep using their old carriages.
 
-Let us explain how the human body feels hunger. When your stomach is empty, it sends a signal to your brain. The brain says, "I am hungry. Find food."
+But there is good news for China's air industry. China has a new big plane named the C919. It is a plane made inside China to carry many people.
 
-When you eat, your body releases a hormone called GLP-1. This hormone tells your brain, "I am full. Stop eating." It also slows down your stomach, so food stays there longer.
+An industry official said that the C919 is ready to take the place of old planes in China. Right now, China has many planes that are getting old. Most of these planes were made by Boeing in the United States or Airbus in Europe.
 
-Some people do not make enough GLP-1, or their bodies do not listen to the signal. They always feel hungry, even when they have eaten enough. This can lead to them becoming very fat. Being very fat is not just about how you look. It is bad for your health. It can cause heart disease and other serious problems.
+Making its own planes is very important for China. It means China does not have to give its money to other countries for planes. It also means that if there is a trade war, China will still have planes for its people to travel. The C919 is a symbol of China's growth in great science.
 
-The new medicines, Wegovy and Zepbound, are made to look like GLP-1. They trick the brain into thinking you have eaten a big meal. People who take these medicines lose a lot of weight because they simply do not want to eat.
+We also have a look at the future of US-China connections. Donald Trump may become the president of the United States again. People call this the "Trump 2.0" era.
 
-But there was a problem. These medicines had to be injected with a needle. Many people are afraid of needles. It is also hard to keep the medicine cold, because it has to be stored in a refrigerator.
+A new timeline shows how connections might change. In his first time as president, Trump put big taxes on Chinese goods. If he comes back, he has said he will put even bigger taxes—maybe 60 percent—on everything China sends to the United States.
 
-Now, Novo Nordisk and Eli Lilly are making pills. You can keep these pills in a cupboard. You can take them with a glass of water. This is a game-changer.
+This would be a very hard blow to trade. It would make Chinese goods very expensive for American people. It would also make Chinese factories have less work. Both countries are getting ready for this possible future. They are trying to find other friends to trade with.
 
-But these pills are very expensive. They can cost more than $1,000 a month. Most normal people cannot afford this. This is why Medicare is so important. Medicare is the US government health insurance for people over 65. If Medicare agrees to pay for these pills, millions of old people will be able to get them. The government will pay the companies. This will make Novo Nordisk and Eli Lilly even richer.
+China has also made a new step in flying machines. They have rolled out the first domestic electric engine for eVTOL.
 
-Our next story is about SpaceX. SpaceX is a company owned by Elon Musk. They make space vessels. They send machines into the sky. They want to go to the moon and to Mars.
+What is eVTOL? It is an Electric Vertical Take-Off and Landing machine. In simple words, it is a flying carriage that uses electric power and is able to go straight up into the air, like a helicopter, but then fly forward like a plane.
 
-For a long time, normal people could not buy shares in SpaceX. Only very rich people and big banks could do it. But now, a company called Fidelity is making a change. They say normal people can buy in if they have $2,000. This is a small amount of money compared to before.
+These machines are the future of travel in big cities. They are able to fly over streets that are full of carriages.
 
-But there is a warning. The rules are very strict. If you buy these shares and then try to sell them quickly, or if you do not follow the rules, you can be banned from buying new shares for life. Wise men are asking, "Is SpaceX really worth all this money?" Some say yes, because they have no real competition in space. Others say it is too risky. Space is hard, and machines can blow up.
+Before this, the engines for these machines had to be got from other countries. Now, China is able to make its own electric engines for them. This engine is very light but very strong. It shows that China is leading in the science of electric transport.
 
-Let us talk about SpaceX. SpaceX was started by Elon Musk in 2002. He wanted to make space travel cheaper. Before SpaceX, only governments could send rockets into space. It was very expensive.
+Now we move to our last segment, about the earth and its fights.
 
-SpaceX made a big change. They made rockets that can land back on earth. Before, rockets were used once and then fell into the sea. It was like flying a plane from New York to London and then throwing the plane away. By landing the rockets and using them again, SpaceX made space travel much cheaper.
+First, we have more details about Israel and Iran. As we said, they have signaled the end of their attacks.
 
-Now, SpaceX is a very big company. They have a system of satellites called Starlink. These satellites send internet to people all over the world, even in the middle of the ocean or on high mountains.
+Let us look at the history of the fight between Israel and Iran. For many years, these two countries did not fight each other directly. They had a "shadow war". This means they used other groups to do the fighting. Iran supported groups in other countries near Israel, and Israel attacked those groups.
 
-Because SpaceX is doing so well, many people want to buy shares. But SpaceX is a private company. This means its shares are not sold on the public stock market. You cannot just open an app and buy them.
+But in the last year, this shadow war has come into the light. They have started to attack each other directly from their own lands. This is a very dangerous change. When two strong nations with big armies attack each other directly, it is very easy for the fight to get out of control. This is why the whole earth was watching with great fear. The agreement to stop the attacks for now is a very big relief, but the anger between them is still there.
 
-Now, Fidelity, a big money company, is letting normal people buy SpaceX shares. They lowered the minimum amount to $2,000. This is a big deal because before, you needed millions of dollars to buy in.
+This was a very dangerous time. For fifteen hours, there was a big fight. Iran sent many flying weapons and drones to attack Israel. Israel used its defense systems to stop them.
 
-But there is a catch. The rules are very strict. If you buy these shares, you cannot sell them easily. You have to hold them for a long time. If you break the rules, Fidelity can ban you from buying any more IPOs for life. This shows that while it is exciting to own a part of a space company, it is also very risky. Space is dangerous. Rockets can explode. If a big rocket explodes, the value of the company can fall quickly.
+Donald Trump told the leader of Israel, Netanyahu, not to make a bigger attack back. He said it is better to stop the fight now.
 
-Now, let us look at news from China.
+This shows how complex the position is. Israel is in a tight spot. If they fight too much, they might start a great war in the whole region. If they do not fight, they fear they look weak. For now, both sides have stopped. The earth is taking a deep breath of relief.
 
-China has a new passenger plane. It is the C919. For many years, China bought all its big planes from Boeing in America or Airbus in Europe. But China wanted to make its own plane. The C919 is that plane.
+In Asia, the leaders of North Korea and China had a great meeting in Pyongyang. Xi Jinping, the leader of China, went to visit Kim Jong Un, the leader of North Korea.
 
-An industry official says the C919 is ready to take the place of old planes in China. Many planes in China's domestic fleet are getting old. They need to be changed. The C919 is a good choice because it is made in China. It is cheaper, and it shows the power of China's industry. It is a big step for China's flight science.
+Why did Xi Jinping go there? Experts say China has a desire to make its connection with North Korea stronger.
 
-For a long time, China has been the biggest market for planes. Millions of Chinese people travel by air every year. But China had to buy all its planes from Boeing or Airbus. This cost China a lot of money. It also meant China was dependent on other countries. If there was a political fight, those countries could stop selling planes or parts to China.
+Recently, North Korea has been getting very close to Russia. North Korea has been sending weapons to Russia for its war. China is worried about this. China has a desire to be the chief friend of North Korea. China has a desire to have control and leverage.
 
-So, China decided to build its own plane. The C919 is a narrow-body plane, similar to the Boeing 737 or Airbus A320. It can carry about 160 passengers.
+Xi Jinping stayed at a very special guest house in Pyongyang. He promised that China will always support North Korea. This is a sign to the United States and Russia that China is still the big power in this region.
 
-An industry official says the C919 is now ready to replace old planes in China's domestic fleet. This is a proud moment for China. It shows that China is not just a place that makes cheap toys and clothes. China can make complex, high-tech machines like passenger planes.
+In Europe, there is a big blow to working together. France and Germany have abandoned their joint war plane plan.
 
-China is also leading in the development of eVTOL planes. These are electric vertical take-off and landing aircraft. They are like flying cars. They use electric engines to lift straight up into the air, and then fly forward like a plane.
+Let us look at the history of European defense. After the Second World War, France and Germany made a promise to work together to keep peace in Europe. They wanted to make their industries join together so they would never fight each other again.
 
-China has just rolled out its first domestic electric engine for these planes. This is important because electric engines are clean. They do not make the air dirty like gas engines. They are also very quiet. In the future, these flying cars could carry people across busy cities like Shanghai or Beijing, avoiding the terrible traffic on the ground.
+For many years, this worked very well. But when it comes to making weapons, each country still wants to protect its own business and its own workers. France has a very strong aviation industry, with companies like Dassault. Germany also has big companies.
 
-Now, let us look at a very simple but important product: corn starch. Corn starch is a white powder made from yellow grain.
+When they tried to make this new war plane, they were not able to agree on who should have the chief say. This failure shows that even after eighty years of peace, the nations of Europe still have separate desires and do not fully trust each other with their defense. It is a big step back for the idea of a united Europe.
 
-In China, the price of corn starch went down a little bit. Why does this matter? Corn starch is used in many industries. It is used to make food thicker, like soup. It is used to make paper stronger. It is even used to make clothes. When the price of corn starch goes down, it helps factories lower their costs. This can make everyday products cheaper for consumers. It shows how the farm market affects the factory market.
+For some years, they had a plan to build a new, very advanced war plane together. They had a desire to make a European plane so they did not have to get planes from the United States.
 
-Finally, let us talk about Tesla. Tesla is an American company, but they have a giant factory in Shanghai. This factory makes cars for China and also sends them to Europe and other countries.
+But they were not able to agree on how to do the work. France had a desire for its companies to do the chief parts. Germany had a desire for more control. They also had different thoughts about how the plane should fight.
 
-In May, Tesla's sales of China-made cars jumped by nearly 40 out of 100. This is a big surprise because the competition in China is very fierce. Chinese companies like BYD are making very good, cheap electric cars. Some people thought Tesla would lose the fight. But this jump in sales shows that Tesla is still a very strong brand in China. It also shows that the Chinese car market is recovering after a slow start to the year.
+Now, Germany has pulled the plug. They have stopped the project. This is a sad day for European defense. It means Europe will remain dependent on American weapons for a longer time.
 
-Now, we must talk about serious things in the world.
+Our last story is about the International Criminal Court, or the ICC.
 
-The fight between Iran and Israel has stopped for now. This is the 101st day of the war. It was a very dangerous time. They were shooting flying fires at each other. People were afraid of a great war in the Middle East.
+The chief law man of the ICC, Karim Khan, has been stopped from his work. He is suspended.
 
-Then, Donald Trump, the chief man of America, spoke. He told both sides to "stop shooting". He said the war must end. After his words, both Iran and Israel said they have halted their attacks. Iran has removed all flight restrictions. This means planes can fly safely in the sky again. People are breathing a sigh of relief. But is it real peace?
+Why? Because there are statements of bad behavior against him. Some people say he did wrong acts of a sexual kind to a worker in his office.
 
-Benjamin Netanyahu, the chief of Israel, says the struggle is not over. He says Israel must still fight against Iran and Hezbollah. Hezbollah is a group of fighters in Lebanon. Netanyahu says Israel will not stop until they are safe. So, the shooting has stopped for now, but the anger is still there.
+Karim Khan is a very famous law man. He is the one who asked for the arrest of the leader of Russia, Vladimir Putin, and the leaders of Israel and Hamas.
 
-Let us talk about the Middle East. The fight between Israel and Iran is one of the oldest and most dangerous fights in the world.
+Now, an oversight body is looking into these statements to see if they are true. Karim Khan says he did nothing wrong. But he has to step aside while they do the test. This is a big shock to the court. It makes the court look troubled at a time when its work is very important for peace on the earth.
 
-For many years, they fought in secret. They did not attack each other directly. Instead, they used other groups to fight. Iran supported groups like Hezbollah in Lebanon and Hamas in Gaza. Israel attacked these groups.
+That is all for today's news, friends. We have talked about many things. We talked about Apple's new systems, OpenAI's secret plans, China's new engines, and the fights in the Middle East and Europe.
 
-But recently, the fight became direct. Iran sent hundreds of flying fires and drones directly at Israel. Israel attacked back. This was a very scary time. The war had reached its 101st day.
+I hope this podcast was helpful to you. You heard many English words today. All of these words are from the basic list of 850 words. This shows that you can talk about very complex and important things using only simple language.
 
-Then, Donald Trump, the chief of America, made a statement. He told both sides to "stop shooting". Trump has a very strong personality, and both sides listen to him because America is very powerful.
-
-After Trump's warning, both Iran and Israel said they have halted their attacks. Iran removed all flight restrictions, which means normal planes can fly safely again. This is a big relief for the world. A major war in the Middle East would have caused oil prices to go up, which would make everything more expensive. It would also have caused many deaths.
-
-But Benjamin Netanyahu, the chief of Israel, warned that the struggle is not over. He said Israel will still fight against Iran and Hezbollah. Hezbollah has thousands of rockets pointed at Israel. So, while the shooting has stopped for now, the danger is still very real.
-
-In the Philippines, there was a very violent shaking of the earth. It was a powerful earthquake. At least 32 people are dead. Moving pictures show people running out of buildings as the walls fell down. It was a very scary time. The earth shook so hard that roads cracked and houses were destroyed. The government is trying to help the survivors. They are looking for people under the broken brick and stone. This shows us how powerful nature is, and how delicate our lives are.
-
-An earthquake happens because the earth's outer shell is made of big plates of rock. These plates are always moving, very slowly. Sometimes, they get stuck. When they finally move, they release a huge amount of energy. This makes the ground shake violently.
-
-The earthquake in the Philippines was so strong that it made buildings shake and fall. Video showed people screaming and running out of shops as things fell from the shelves. Many houses made of brick and wood were completely destroyed. The rescue workers are now working hard to find survivors under the broken walls. It is a sad reminder of how powerful nature is.
-
-In Pyongyang, the chief of China, Xi Jinping, met with the chief of North Korea, Kim Jong Un. This was a rare meeting. Xi Jinping said China wants to have stronger strategic cooperation with North Korea. Why is this happening now? North Korea has been getting very close to Russia. They have been sending arms to Russia for the war in Ukraine. China wants to make sure they still have control and influence over North Korea. They want to keep the peace in East Asia, but they also want to show their power.
-
-China and North Korea have a long history. They fought together in the Korean War in the 1950s. China is North Korea's biggest friend and trade partner. Without China, North Korea's economy would collapse.
-
-But recently, North Korea has been getting very close to Russia. Kim Jong Un met with Vladimir Putin, the chief of Russia. North Korea has been sending millions of artillery shells to Russia to help them fight the war in Ukraine. In return, Russia is giving North Korea technology for their rockets and nuclear program.
-
-China is not happy about this. China does not want North Korea to cause trouble in East Asia. They also do not want Russia to have too much influence over North Korea.
-
-So, Xi Jinping went to Pyongyang to reassert China's power. He told Kim Jong Un that China wants to strengthen their strategic cooperation. He wants to make sure North Korea remains loyal to China. It is a complex game of power between China, Russia, and North Korea.
-
-That is all the news for today. We talked about new machine brains, the share market, the fight in the Middle East, the earth shake in the Philippines, and the meeting of chiefs in Asia.
-
-I hope this news was clear and helpful. Thank you for listening to our Morning News Podcast. Have a beautiful day, and see you tomorrow.
+Keep listening, keep learning, and you will get better every day. Have a beautiful day, and I will talk to you again tomorrow. Goodbye!
