@@ -1,67 +1,125 @@
-[Aria] Good morning everyone. Welcome to our daily news program. I am Aria.
+[Aria] Good morning everyone! Welcome to our morning news podcast. I am Aria.
 
-[Andrew] And I am Andrew. It is a pleasure to be here with you today. We have a very full day of news from the world of technology, business, and international events.
+[Andrew] And I am Andrew. We have a very busy day of news for you.
 
-[Aria] That is right, Andrew. Let us start with the big news in technology. Apple is making changes to its new system. The iPhone 17 will have a limit on its memory. This means some new smart tools will not work on this phone.
+[Aria] We will start with the world of technology. Apple has a new problem. The iPhone 17 has a limit of 8GB of memory. Because of this, it cannot use two new AI features in the new system.
 
-[Andrew] This is a very important point for Apple users. The new system is called iOS 27. Apple wants to use more smart computer power, which they call Apple Intelligence. But to do this, the phone needs a lot of memory. The iPhone 17 only has 8GB of memory. This is not enough for the most complex tasks.
+[Andrew] That is a big deal, Aria. Apple is trying to be a leader in the AI race. But if the hardware is not strong enough, the software cannot work well. This shows that even a great company has limits.
 
-[Aria] It is interesting to see how hardware limits software. For a long time, we thought our phones could do anything. Now, we see that the physical parts inside the phone are very important. If the memory is small, the smart tools cannot run.
+[Aria] It is true. History shows that Apple likes to keep things simple. But AI needs a lot of power. The new AI models from Apple are very complex. They need a lot of memory to work.
 
-[Andrew] Exactly. And this is not just about the iPhone. We also see new cameras coming to the market. The Insta360 Luna Ultra is a new camera that is now for sale. It is a small camera that can take very clear pictures. It is designed to compete with other small cameras.
+[Andrew] And we also see news about the Honor Magic V6. It is a folding phone. People call it a mechanical wonder. It is very different from the normal phones we see every day.
 
-[Aria] I like small cameras. They are easy to carry. But this one is special because it has a name from a famous camera company, Leica. This makes it very attractive to people who love taking pictures.
+[Aria] I like the idea of a folding phone. It gives you a big screen in a small body. But is it strong enough? That is the question many people ask.
 
-[Andrew] Yes, it is a big move for Insta360. They want to show that they can make high-quality tools. The camera is now shipping to people in the United States. It is a good time for people who want to upgrade their gear.
+[Andrew] The company says it will have seven years of support. That is a long time for a phone. It shows they believe in the quality of their work.
 
-[Aria] Let us move to business news. The economy is on everyone's mind. In the United States, the cost of living has gone up again. This is called inflation. In May, we saw the biggest increase in three years.
+[Aria] Let us move to business. The news is not very good. US inflation is now at 4.2 percent. This is because of the energy shock in the Middle East.
 
-[Andrew] This is a serious problem. When prices go up, people have less money to spend on other things. The government and the central bank are watching this very closely. They want to keep the economy stable, but it is not easy.
+[Andrew] Inflation is a hard word for many families. It means the price of food and gas goes up. When prices go up, people have less money to spend on other things.
 
-[Aria] And it is not just the cost of food or gas. It is everything. The stock market is also reacting to this news. When inflation is high, investors get worried. They do not know if the government will make interest rates higher.
+[Aria] And the stock market is feeling the pain. The Dow dropped 650 points. This happened because of the news about inflation and the tension with Iran.
 
-[Andrew] That is a good point. Higher interest rates make it harder for companies to borrow money. This can slow down the growth of the economy. We are seeing some companies sell their stocks to get more cash. They are preparing for a time when the market might be shaky.
+[Andrew] Trump said that Iran will pay the price. This kind of talk makes the market nervous. Investors do not like uncertainty. They want to know that the world is safe.
 
-[Aria] Speaking of big companies, SpaceX is also in the news. People are very interested in the possibility of a SpaceX public offering. Investors are trying to get ready for that. They are moving money around to be prepared.
+[Aria] Speaking of money, many people want to buy stock in SpaceX. But it is not easy. The price is very high. It is a big risk for a normal person.
 
-[Andrew] It is a very exciting time for space business. But it is also a time of high risk. If you are an investor, you must be careful. The market is very sensitive to news about companies like SpaceX and leaders like Elon Musk.
+[Andrew] SpaceX is doing great work with Starlink. It is a real business that makes money. But buying into a private company is very different from buying a normal stock.
 
-[Aria] Let us talk about the car industry. General Motors is doing something new. They are working on a new type of battery. This battery is not for cars, but for storing energy. It will help keep the power grid strong.
+[Aria] Let us talk about AI again. Anthropic has a new model called Claude Fable 5. It is very powerful. But some people are worried about the security.
 
-[Andrew] This is very smart. As we use more AI and data centers, we need more electricity. If GM can provide a way to store that energy, they will have a very good business. They are also adding support for cars to give power back to the grid.
+[Andrew] Security is the most important thing for AI. If the model is too smart, it might do things we do not want. We need to have guardrails.
 
-[Aria] That is a great idea. It turns a car into a battery on wheels. In China, the car market is also changing. There is a lot of pressure on the domestic market. People are not buying as many cars as they used to.
+[Aria] That is a good point. We want the benefits of AI, but we must be safe. It is a balance between progress and danger.
 
-[Andrew] But the export market is strong. Chinese companies are selling many new energy vehicles to other countries. This helps them keep their sales numbers high even when the home market is slow.
+[Andrew] Now, let us look at China. The car market is under pressure. People are not buying as many cars as before.
 
-[Aria] China is also planning to spend a lot of money on data centers. They want to support their own AI industry. This is a big investment in the future of technology.
+[Aria] But the export of new energy vehicles is strong. This helps the companies stay in business. It is a change in the way they sell cars.
 
-[Andrew] It shows how important AI has become. Every country wants to be a leader in this area. It is a race for the future.
+[Aria] Also, China has a big plan for AI data centers. They want to use their own chips. This is a very big investment.
 
-[Aria] Now, let us look at the world stage. There is tension in the Middle East. Donald Trump has said that Iran will pay the price for its actions. This has caused a lot of worry in the world.
+[Andrew] Using local chips is a smart move. It makes them less dependent on other countries. But it is hard to make high-quality chips.
 
-[Andrew] Yes, the situation is very delicate. When leaders use strong words, it can change the way other countries act. We are seeing a lot of talk about negotiations and the possibility of conflict. It is a time for everyone to be very careful.
+[Aria] We have to talk about the world news. There are protests in Belfast. It started after a stabbing attack. It is a very sad situation.
 
-[Aria] In Europe, there is also trouble. In Belfast, there have been violent protests. It started after a bad attack. People are very angry and they are taking to the streets.
+[Andrew] Violence is never the answer. We hope the people there can find peace soon. It is a hard time for the city.
 
-[Andrew] It is sad to see such violence. When people feel unsafe, they often react with anger. The government is trying to keep the peace, but it is a very hard task. We hope that things will get better soon.
+[Aria] And we see China and North Korea working on their relationship. This changes the balance of power in the region.
 
-[Aria] And here is a story that sounds like a movie. In Canada, a pilot flew planes for many years with a fake license. He was not a real pilot. Can you imagine that?
+[Andrew] Yes, it is a complex situation. Every country wants to be in a strong position. Diplomacy is the best way to handle these things.
 
-[Andrew] That is unbelievable. How did he do it for so long? It shows that sometimes, even the systems we trust the most can have errors. It is a reminder that we must always check the facts.
+[Aria] Finally, let us look at the fighter jet problem in Europe. Germany and France are having a hard time working together.
 
-[Aria] He flew over 900 flights. It is lucky that nothing bad happened. The police are now looking into the case. It is a very strange story.
+[Andrew] It is hard to build a plane together. Each country has its own ideas. They want to protect their own industry.
 
-[Andrew] Finally, let us talk about the relationship between China and North Korea. They are working to make their ties stronger. This is happening while the world is watching the nuclear situation.
+[Aria] But they need to work together to be strong. A united Europe is better for everyone.
 
-[Aria] It is a complex balance. China is a big neighbor, and they want to keep things stable. North Korea is looking for support. Both sides see a reason to be closer.
+[Andrew] That is all the time we have for today. It was a lot of news.
 
-[Andrew] It is a good example of how history and geography shape our world. Countries must always think about their neighbors and their own safety.
-
-[Aria] We have covered a lot today. From the memory limits of the iPhone 17 to the global economy and international politics. It is a busy world.
-
-[Andrew] It certainly is. And for our listeners, we hope this helps you understand the news better. Remember to keep practicing your English every day.
-
-[Aria] Thank you for joining us. We will be back tomorrow with more news. Have a great day!
+[Aria] Thank you for listening. We will be back tomorrow with more news. Have a great day!
 
 [Andrew] Goodbye everyone!
+
+[Aria] We should talk more about the iPhone 17. Why is 8GB not enough? Because the new AI features need to keep a lot of data in the memory. If the memory is full, the phone becomes slow.
+
+[Andrew] That makes sense. It is like a person trying to remember too many things at once. If you have a small brain, you get tired.
+
+[Aria] Exactly. And Apple is trying to make the phone do more things on the device itself. This is called private cloud compute. It is safer, but it needs more power.
+
+[Andrew] I think the Honor Magic V6 is interesting because of the screen. Folding screens are the future. But they are hard to make.
+
+[Aria] Yes, the mechanical parts must be perfect. If they break, the phone is useless. That is why the seven-year update is so important. It gives the user peace of mind.
+
+[Andrew] Let us go back to the inflation news. 4.2 percent is a high number. The central bank will probably keep interest rates high. This makes it hard for people to buy houses.
+
+[Aria] That is a very important point. High interest rates are a tool to stop inflation. But they hurt the common person. It is a difficult choice for the government.
+
+[Andrew] And the Middle East energy shock. Oil is the life of the world economy. If the price of oil goes up, everything else goes up.
+
+[Aria] It is a chain reaction. The cost of transport goes up. The cost of food goes up. The cost of electricity goes up.
+
+[Andrew] We see this in the stock market too. Companies that use a lot of energy are losing money. Their profit margins are getting smaller.
+
+[Aria] What about SpaceX? Why is the IPO so shocking? Because people think it will be a great company in the future. Everyone wants a piece of it.
+
+[Andrew] But the price is based on hope, not just current profit. That is why it is risky. You are buying the future, not the past.
+
+[Aria] Let us talk about Claude Fable 5 again. Anthropic is a company that cares about safety. They are different from other AI companies.
+
+[Andrew] They want to make sure the AI does not harm people. This is a good goal. But it makes the model slower to release.
+
+[Aria] It is a trade-off. Do you want it fast, or do you want it safe? Most people want both.
+
+[Andrew] In China, the car market is changing. People want electric cars. But the competition is very high. Many companies are making cars.
+
+[Aria] That is why the domestic demand is under pressure. There are too many choices. And the economy is not growing as fast as before.
+
+[Andrew] But the exports are doing well. They are selling cars to other countries. This is a smart way to grow.
+
+[Aria] And the AI data center plan. $295 billion is a lot of money. It shows how important AI is to the future of the country.
+
+[Andrew] They want to be independent. They do not want to rely on chips from other countries. This is a long-term plan.
+
+[Aria] Let us look at the protests in Belfast again. It is a reminder that society is fragile. We need to listen to each other.
+
+[Andrew] Yes, communication is key. When people feel they are not heard, they get angry. And anger leads to bad things.
+
+[Aria] And the North Korea and China relationship. It is a game of chess. Everyone is moving their pieces.
+
+[Andrew] It is about influence. China wants to keep the region stable. North Korea wants to be a strong player.
+
+[Aria] Finally, the fighter jet. It is a symbol of European unity. If they cannot build a jet together, what does it mean for other things?
+
+[Andrew] It means that unity is hard. But it is necessary. Europe needs to be strong to protect itself.
+
+[Aria] We have covered a lot today. Technology, money, and world events. It is all connected.
+
+[Andrew] Everything we do affects everything else. That is the world we live in.
+
+[Aria] Thank you for staying with us. We hope you learned something new today.
+
+[Andrew] See you tomorrow for more news.
+
+[Aria] Goodbye!
+
+[Andrew] Goodbye!
