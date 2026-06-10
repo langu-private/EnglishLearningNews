@@ -21,12 +21,29 @@ def fetch_top_news(limit_per_category=4):
         "World & Conflicts": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en"
     }
     
+    import time as time_mod
     news_items = []
+    twelve_hours_ago = datetime.datetime.utcnow() - datetime.timedelta(hours=12)
+    
     for category, url in rss_sources.items():
         feed = feedparser.parse(url)
-        news_items.append(f"\n--- {category.upper()} ---")
-        for entry in feed.entries[:limit_per_category]:
-            news_items.append(f"- Title: {entry.title}\n  Summary: {entry.get('description', '')}")
+        
+        category_items = []
+        for entry in feed.entries:
+            # Check if published in the last 12 hours
+            try:
+                dt = datetime.datetime.fromtimestamp(time_mod.mktime(entry.published_parsed))
+                if dt >= twelve_hours_ago:
+                    category_items.append(f"- Title: {entry.title}\n  Summary: {entry.get('description', '')}")
+            except Exception:
+                # If parsing fails, just include it to be safe
+                category_items.append(f"- Title: {entry.title}\n  Summary: {entry.get('description', '')}")
+            if len(category_items) >= limit_per_category:
+                break
+                
+        if category_items:
+            news_items.append(f"\n--- {category.upper()} ---")
+            news_items.extend(category_items)
             
     return "\n".join(news_items)
 
@@ -49,7 +66,7 @@ Keep sentences very simple, short, and clear, but write a very long and detailed
 
 CRITICAL RULE 2 (DIALOGUE FORMAT):
 The script MUST be an engaging and natural conversation between two hosts: Aria (female, the main anchor) and Andrew (male, the co-host/analyst).
-You MUST write the dialogue in a STRICT bilingual format. For every spoken line, output the English sentence first (prefixed with the speaker's name), immediately followed by the Chinese translation on the NEXT line, wrapped in parentheses.
+You MUST write the dialogue in a STRICT bilingual format. For every spoken line, output the English sentence first (prefixed with the speaker's name), immediately followed by the Chinese translation on the NEXT line, wrapped in parentheses. ABSOLUTELY NO extra English text is allowed in the dialogue section; every single English word must be spoken by Aria or Andrew.
 Example:
 [Aria] Good morning! Welcome to our English learning news.
 (早上好！欢迎收听我们的英语学习新闻。)
