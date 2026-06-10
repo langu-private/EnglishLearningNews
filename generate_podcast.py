@@ -275,7 +275,14 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
             blog_html = f"News podcast for {folder}"
             if blog_files:
                 with open(os.path.join(folder_path, blog_files[0]), 'r', encoding='utf-8') as bf:
-                    blog_html = bf.read().replace('\n', '<br>')
+                    content = bf.read()
+                    # Strip everything before the dialogue starts to match audio exactly
+                    if "4. 🎙️ Full Bilingual Podcast Script:" in content:
+                        content = content.split("4. 🎙️ Full Bilingual Podcast Script:")[1].strip()
+                    elif "[Aria]" in content:
+                        content = "[Aria]" + content.split("[Aria]", 1)[1]
+                        
+                    blog_html = content.replace('\n', '<br>')
                     
             fe.description(blog_html)
             fe.enclosure(mp3_url, file_size, 'audio/mpeg')
