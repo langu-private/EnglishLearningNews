@@ -1,227 +1,275 @@
-[Aria] Good morning everyone. Welcome to our morning news program. I am Aria.
+[Aria] Good morning everyone. Welcome to our daily news show. I am Aria.
 
-[Andrew] And I am Andrew. It is a pleasure to be here with you today. We have a lot of important news to talk about.
+[Andrew] And I am Andrew. We have a very full day of news for you.
 
-[Aria] That is true, Andrew. We will start with the world of technology. Apple has a new way for its machine to talk.
+[Aria] We will talk about Apple and their new machine learning work.
 
-[Andrew] Yes, the new Siri is very interesting. It knows when to be quiet. This is a big change for AI.
+[Andrew] Yes, and we have news about Valve and their gift cards.
 
-[Aria] In the past, machines would talk too much. Now, Apple makes it simple. The machine waits for the right time.
+[Aria] We also have a story about space and clothes.
 
-[Andrew] This is part of the new Apple plan. They want to be the best in the AI race. It is a hard competition.
+[Andrew] And we will look at the money market and some trouble in the world.
 
-[Aria] Many people think Apple was slow. But now, they show their power. The third generation of their models is here.
+[Aria] Let us start with Apple. They have a new system for their machine learning.
 
-[Andrew] And they are working with NVIDIA. This is a smart move. NVIDIA is very strong in this field.
+[Andrew] It is very interesting. The new system knows when to be quiet.
 
-[Aria] Let us talk about games. Valve has a big change for its gift cards. They are stopping the physical cards.
+[Aria] Many people use Siri every day. Sometimes Siri talks too much.
 
-[Andrew] This is because of bad people. Scammers use these cards to take money from others. It is a sad thing.
+[Aria] Now, Apple says the new system is better at listening.
 
-[Aria] It is good that Valve is taking action. They want to keep their users safe. Security is very important today.
+[Andrew] This is part of a big change at Apple. They are in a race with other companies.
 
-[Andrew] Yes, the digital world has many dangers. We must be careful with our money and our information.
+[Aria] The race is about who has the best artificial intelligence.
 
-[Aria] Also, Apple has many changes for its systems. iOS 27 and macOS Golden Gate are coming.
+[Andrew] Apple is a dark horse. That means they might win even if people do not expect it.
 
-[Andrew] There are more than two hundred changes. Some people say it is not enough for old phones.
+[Aria] They are also working with NVIDIA. This will help their private cloud.
 
-[Aria] But new features are always good. A better volume control is something many people wanted.
+[Andrew] It is a smart move. Private cloud means the data stays safe.
 
-[Andrew] Google is also busy. Android 17 has a new test version for Pixel phones.
+[Aria] People care about their data. They do not want companies to see it.
 
-[Aria] Gemini is becoming a big part of Android. It wants to do everything for the user.
+[Andrew] Apple knows this. They are building a system that is very private.
 
-[Andrew] It is like having a helper in your pocket. But we must think about privacy.
+[Aria] Let us move to the next story. Valve is stopping their gift card program.
 
-[Aria] Now, let us move to business and finance. The news is not very good. Inflation is going up.
+[Andrew] This is because of bad people. They use the cards to take money from others.
 
-[Andrew] Yes, it is the highest in three years. The war with Iran is a big reason for this.
+[Aria] It is a shame. Many people liked to give these cards as gifts.
 
-[Aria] When there is war, the price of oil goes up. When oil is expensive, everything becomes expensive.
+[Andrew] But the scammers are too smart. Valve had to make a hard decision.
 
-[Andrew] Donald Trump had some strange words about this. He said he likes the inflation. That is a surprise.
+[Aria] They will stop the physical cards by the end of the year.
 
-[Aria] It is a strange thing to say. Most people do not like it when prices go up.
+[Andrew] It is a good lesson for all of us. We must be careful with our money.
 
-[Andrew] Maybe he thinks it shows the economy is moving. But for the normal person, it is hard.
+[Aria] Now, let us talk about the moon. NASA is working with Prada.
 
-[Aria] Let us talk about SpaceX. People are very excited about the company. They want to buy shares.
+[Andrew] Prada is a fashion company. Why are they making space clothes?
 
-[Andrew] Elon Musk has many fans. They think the company will be very big. They say the more, the better.
+[Aria] They are making the suits for the Artemis mission.
 
-[Aria] But buying shares is a big decision. You must know the risks. It is not just about the rocket.
+[Andrew] That is very cool. The astronauts will look very good on the moon.
 
-[Aria] The stock market is having a bad time. The news about Iran is making people afraid.
+[Aria] It is not just about looks. The suit must keep them cool and safe.
 
-[Andrew] Yes, the Dow went down a lot. When there is fear, people sell their stocks.
+[Andrew] Space is a very hard place to be. The temperature changes a lot.
 
-[Aria] Oracle is also in the news. They spent a lot of money on AI.
+[Aria] Prada has the knowledge to make good material.
 
-[Andrew] They have more profit, but they have more debt too. This makes some people worry.
+[Andrew] It shows that space is for everyone, even fashion designers.
 
-[Aria] It is a big risk to spend so much. Will it pay off in the future? We do not know yet.
+[Aria] Let us look at the business news. Trump is talking about inflation.
 
-[Andrew] The world of business is always changing. We have to watch these companies closely.
+[Andrew] He said he loves the inflation numbers. That is a strange thing to say.
 
-[Aria] Now, let us look at world events. There is a beautiful story from Spain.
+[Aria] Many people are angry because prices are very high.
 
-[Andrew] The Sagrada Familia is a famous church. The Pope gave it his blessing.
+[Andrew] Yes, the cost of food and other things is going up.
 
-[Aria] It was designed by Gaudi. It is a very tall and special building. It took many years to build.
+[Aria] Trump is also angry at Iran. He said they will pay a price.
 
-[Andrew] It is a work of art. People from all over the world go to see it.
+[Andrew] This makes the market very nervous. When there is war, stocks go down.
 
-[Aria] In Canada, there is a new plan for children. They want to stop them from using social media.
+[Aria] We saw the stock market drop today. The Dow fell a lot.
 
-[Aria] They think it is bad for the young mind. They want to keep them safe from bad things online.
+[Andrew] People are worried about the future. They are selling their stocks.
 
-[Andrew] That is a big step. Many countries are thinking about this too.
+[Aria] And then there is SpaceX. People want to buy their stock.
 
-[Aria] It is hard to control the internet. But the government wants to try.
+[Andrew] It is a big company. Elon Musk is the owner.
 
-[Andrew] We have to see if it works. It is a very important discussion for our future.
+[Aria] Some people think it is a great investment. Others are not so sure.
 
-[Aria] Finally, let us talk about the conflict in the Middle East. It is a very serious situation.
+[Andrew] A man named Jim Chanos said it is just hopes and dreams.
 
-[Andrew] Donald Trump said Iran will pay the price. He is talking about new attacks.
+[Aria] That is a strong opinion. Investing is always a risk.
 
-[Aria] The situation is very tense. There was a missile attack on an airbase.
+[Andrew] We must always do our own research before we buy anything.
 
-[Andrew] Israel confirmed the damage. This is the first time in a long time.
+[Aria] Let us talk about the world. There is a big church in Barcelona.
 
-[Aria] People are worried about a bigger war. We hope for peace.
+[Andrew] The Sagrada Familia. It is a very famous building.
 
-[Andrew] Peace is what everyone wants. But it is not easy to find.
+[Aria] The Pope went there to give it a blessing.
 
-[Aria] That is all the time we have for today. Thank you for listening.
+[Andrew] It took a very long time to build. It is a work of art.
 
-[Andrew] Yes, thank you for being with us. We will be back tomorrow with more news.
+[Aria] Some people love it, but some people think it is strange.
 
-[Aria] Have a great day, and keep learning.
+[Andrew] That is the beauty of art. Everyone sees it in a different way.
+
+[Aria] Now, let us look at Canada. They have a new plan for children.
+
+[Andrew] They want to stop children from using social media.
+
+[Aria] They are making a law for people under 16.
+
+[Andrew] This is a big step. Many countries are thinking about this.
+
+[Aria] Social media can be bad for young minds.
+
+[Andrew] But it is hard to control. How will they stop it?
+
+[Aria] The law will force companies to change their systems.
+
+[Andrew] It will be interesting to see if it works.
+
+[Aria] Finally, there is trouble in Northern Ireland.
+
+[Andrew] There was a fight in the street. The police had to use water.
+
+[Aria] It is a sad situation. People are very angry about many things.
+
+[Andrew] We hope that things will get better soon. Peace is important.
+
+[Aria] That is all the news for today. Thank you for listening.
+
+[Andrew] We will be back tomorrow with more news. Have a great day.
+
+[Aria] Remember to keep learning and keep listening.
 
 [Andrew] Goodbye for now.
 
-[Aria] We want to make sure you understand the news. Technology is moving very fast.
+[Aria] Goodbye.
 
-[Andrew] Yes, Apple is changing how we use our phones. The new Siri is a big part of this.
+[Andrew] Let us talk more about the Apple news. It is very important for the future.
 
-[Aria] It is not just about talking. It is about understanding. The machine knows what you need.
+[Aria] Yes, artificial intelligence is changing everything.
 
-[Andrew] And it knows when to stop. That is a very human quality.
+[Andrew] Even the way we talk to our phones.
 
-[Aria] It is interesting to see how AI will change our lives. Will it make things better?
+[Aria] Siri is becoming more like a person.
 
-[Andrew] I think it will. But we must be careful. We must use it for good things.
+[Andrew] But a person who knows when to be quiet.
 
-[Aria] Let us talk more about the gift cards. Why do people use them for scams?
+[Aria] That is a good quality in a person too.
 
-[Andrew] Because they are like money. Once you send the code, it is gone.
+[Andrew] I agree. Sometimes we talk too much.
 
-[Aria] That is why Valve is stopping them. It is a way to stop the bad people.
+[Aria] Let us go back to the SpaceX story. Why are people so excited?
 
-[Aria] What about the changes in iOS? Are they really that important?
+[Andrew] Because space is the next big thing.
 
-[Andrew] For some, yes. For others, maybe not. It depends on how you use your phone.
+[Aria] People want to be part of the future.
 
-[Aria] I like the new volume control. It makes it easier to hear my music.
+[Andrew] And they want to make money from it.
 
-[Andrew] That is a small thing, but it makes life better. That is what technology should do.
+[Aria] But it is a long way to the moon.
 
-[Aria] Google is also trying to make things better. Android 17 will have many new things.
+[Andrew] And it is a long way to make a profit.
 
-[Andrew] Gemini is the big story there. It is like a brain for your phone.
+[Aria] That is why some people are worried.
 
-[Aria] It can help you write letters or plan your day. It is very useful.
+[Andrew] But that is business. It is always a risk.
 
-[Andrew] But we must remember to keep our own mind active. Do not let the machine do everything.
+[Aria] What about the Prada space suit? Do you think it is expensive?
 
-[Aria] That is good advice, Andrew. Now, back to the economy.
+[Andrew] Oh, very expensive. Prada is a luxury brand.
 
-[Aria] Inflation is a word we hear a lot. What does it really mean for us?
+[Aria] But NASA needs the best.
 
-[Andrew] It means your money buys less. If bread costs more, you have less money for other things.
+[Andrew] If it keeps the astronauts safe, it is worth the price.
 
-[Aria] And the war makes it worse. Oil is used for everything.
+[Aria] Safety is the most important thing in space.
 
-[Andrew] Yes, to move food, to make things, to heat our homes.
+[Andrew] I agree. We cannot have accidents in space.
 
-[Aria] So when oil is expensive, everything is expensive. It is a chain reaction.
+[Aria] Let us talk about the inflation again. It is a big problem.
 
-[Andrew] And the political situation makes it hard to fix.
+[Andrew] Yes, it makes life hard for many families.
 
-[Aria] Trump's comments were very surprising. Why would he say he loves inflation?
+[Aria] When food is expensive, people have less money for other things.
 
-[Andrew] Maybe he thinks it is a sign of a strong economy. But it is a dangerous thing to say.
+[Andrew] And when money is tight, people get angry.
 
-[Aria] Many people are struggling. They need help, not talk about liking inflation.
+[Aria] That is why the government must act.
 
-[Andrew] I agree. The economy is about people, not just numbers.
+[Andrew] But it is not easy to fix.
 
-[Aria] Let us talk about SpaceX again. It is a very exciting company.
+[Aria] No, it takes time and good decisions.
 
-[Andrew] They are changing how we see space. Rockets that land back on earth? That is amazing.
+[Andrew] Let us talk about the Sagrada Familia. Have you ever been there?
 
-[Aria] It is like science fiction coming to life.
+[Aria] No, but I have seen pictures. It is beautiful.
 
-[Andrew] And now they want to be a public company. That means anyone can own a part of it.
+[Andrew] It looks like a building from a dream.
 
-[Aria] That is why the fans are so happy. They want to be part of the future.
+[Aria] The shapes are very different from normal buildings.
 
-[Andrew] But remember, space is hard. Many things can go wrong.
+[Andrew] That is why it is so famous.
 
-[Aria] Yes, it is a high risk, high reward business.
+[Aria] It is good that the Pope went to see it.
 
-[Andrew] Let us look at the stock market again. It is a reflection of our fears.
+[Andrew] It brings attention to the art and the history.
 
-[Aria] When the news is bad, the market goes down. It is a simple rule.
+[Aria] And it brings people together.
 
-[Andrew] But it also goes up when there is hope.
+[Andrew] That is what we need in the world today.
 
-[Aria] We hope for better news tomorrow.
+[Aria] We need more peace and more art.
 
-[Andrew] Oracle's debt is a concern. They are spending to grow.
+[Andrew] And less fighting in the streets.
 
-[Aria] Is it the right time to grow? With the economy as it is?
+[Aria] The news in Northern Ireland is very sad.
 
-[Andrew] That is the question. Some say yes, some say no.
+[Andrew] We hope the people there can find a way to talk.
 
-[Aria] We will see what happens. The market will tell us the answer.
+[Aria] Talking is better than fighting.
 
-[Andrew] Now, let us return to the Sagrada Familia. It is a beautiful place.
+[Andrew] Always.
 
-[Aria] I want to go there one day. To see the light through the glass.
+[Aria] We have talked about many things today.
 
-[Andrew] It is a masterpiece. Gaudi was a genius.
+[Andrew] Technology, space, business, and world events.
 
-[Aria] And the Pope's blessing makes it even more special.
+[Aria] It is important to know what is happening.
 
-[Andrew] It is a symbol of peace and art.
+[Andrew] It helps us understand the world better.
 
-[Aria] Canada's plan for youth is very interesting.
+[Aria] And it helps us learn English too.
 
-[Andrew] They want to protect them. But is a ban the right way?
+[Andrew] Yes, the more we listen, the better we get.
 
-[Aria] Some say it is too much. Others say it is necessary.
+[Aria] Our listeners are doing a great job.
 
-[Andrew] It is a hard balance to find. How do you protect without taking away freedom?
+[Andrew] They are learning new words every day.
 
-[Aria] That is the question of our time.
+[Aria] And they are learning about the world.
 
-[Andrew] And the conflict in the Middle East. It is the most serious news.
+[Andrew] That is the goal of this show.
 
-[Aria] We must keep our eyes on it. It affects everyone.
+[Aria] To learn and to grow together.
 
-[Andrew] Yes, the world is connected. What happens there, happens here too.
+[Andrew] I am happy to be here with you, Aria.
 
-[Aria] We hope for a quick end to the fighting.
+[Aria] I am happy too, Andrew.
 
-[Andrew] Peace is the only way forward.
+[Andrew] We have a good team.
 
-[Aria] Thank you for listening to our deep dive today.
+[Aria] We do. And we have great listeners.
 
-[Andrew] We hope you learned something new.
+[Andrew] Let us finish for today.
 
-[Aria] See you tomorrow for more news.
+[Aria] Yes, let us rest and get ready for tomorrow.
+
+[Andrew] See you all tomorrow.
+
+[Aria] Goodbye everyone.
+
+[Andrew] Keep learning.
+
+[Aria] Keep growing.
+
+[Andrew] And keep listening to the news.
+
+[Aria] It is the best way to start the day.
+
+[Andrew] Have a wonderful day.
+
+[Aria] See you soon.
 
 [Andrew] Goodbye.
+
+[Aria] Goodbye.
