@@ -2,7 +2,7 @@ name: Evening Podcast Generation
 
 on:
   schedule:
-    - cron: "0 11 * * *"  # 11:00 UTC corresponds to 19:00 Beijing Time
+    - cron: "0 12 * * *"  # 12:00 UTC corresponds to 20:00 Beijing Time
   workflow_dispatch:      # Allows manual trigger from the GitHub Actions tab
 
 jobs:
