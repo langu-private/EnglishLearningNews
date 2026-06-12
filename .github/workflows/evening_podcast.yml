@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser openai edge-tts feedgen pytz google-genai
 
+      - name: Install System Dependencies (ffmpeg)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Run Evening Podcast Generation
         env:
           API_KEY: ${{ secrets.LLM_API_KEY }}
