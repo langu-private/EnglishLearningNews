@@ -1,8 +1,9 @@
 name: Morning Podcast Generation
+# Last schedule update: 2026-06-12
 
 on:
   schedule:
-    - cron: "45 23 * * *"  # 23:45 UTC corresponds to 07:45 Beijing Time
+    - cron: "45 23 * * *"  # 23:45 UTC = 07:45 Beijing Time (next day)
   workflow_dispatch:      # Allows manual trigger from the GitHub Actions tab
 
 jobs:

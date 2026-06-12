@@ -152,10 +152,13 @@ def create_audio(text, output_mp3, api_key):
                         raise e
             
         if temp_files:
-            with open(output_mp3, 'wb') as outfile:
+            list_file = tempfile.mktemp(suffix=".txt")
+            with open(list_file, 'w') as lf:
                 for f in temp_files:
-                    with open(f, 'rb') as infile:
-                        outfile.write(infile.read())
+                    lf.write(f"file '{f}'\n")
+            
+            # Use ffmpeg to properly concatenate MP3s so headers aren't broken on iOS
+            subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-c", "copy", output_mp3], check=True, capture_output=True)
             print("Conversational audio generation complete.")
         else:
             print("No valid speaker tags found! Falling back to single voice...")

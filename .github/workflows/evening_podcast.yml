@@ -1,8 +1,9 @@
 name: Evening Podcast Generation
+# Last schedule update: 2026-06-12
 
 on:
   schedule:
-    - cron: "45 10 * * *"  # 10:45 UTC corresponds to 18:45 (6:45 PM) Beijing Time
+    - cron: "45 10 * * *"  # 10:45 UTC = 18:45 Beijing Time
   workflow_dispatch:      # Allows manual trigger from the GitHub Actions tab
 
 jobs:
