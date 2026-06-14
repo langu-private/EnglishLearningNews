@@ -1,5 +1,5 @@
 name: Morning Podcast Generation
-# Last schedule update: 2026-06-12
+# Last schedule update: 2026-06-14
 
 on:
   schedule:
