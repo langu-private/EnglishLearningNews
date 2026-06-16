@@ -1,0 +1,109 @@
+[Aria] Good morning. It is good to have you here with us for our morning news talk. I am Aria.
+
+[Andrew] And I am Andrew. It is very good to be here with you this day. We have many important stories to talk about.
+
+[Aria] Yes, we do. We will talk about new machines, big business agreements, and events across the earth. Let us start with the story about Apple and their voice system, Siri.
+
+[Andrew] This is a very interesting story, Aria. Many persons have been waiting for a new Siri. They wanted Siri to be more wise and helpful. Now, Apple has made a big change in iOS 27. But why did it take so long?
+
+[Aria] Apple says it is because making a new brain for Siri is very hard. The old Siri only did simple things. If you said, What is the weather this day? it could answer. But if you wanted it to do complex things, it could not. To make Siri wise, they had to build a new system. This system uses a new form of learning for machines.
+
+[Andrew] Yes, and they had to make sure this new brain could run on a small machine, like a pocket machine. They did not want all the thoughts to go to a far-off building with big machines. They wanted the pocket machine to do the work. This keeps the private details of the owner safe. This is a very important point for Apple.
+
+[Aria] That is true. Apple always says that keeping our private details safe is their chief care. But making a wise system run on a small machine takes a long time. They had to test it many times. They had to make sure the battery of the pocket machine does not go flat quickly. If a wise system uses too much power, the machine will get warm and stop working.
+
+[Andrew] I agree. And we also have news about the history of Apple machines. It has been twenty years since Apple made a big decision to use Intel engines in their Mac machines. Before that, they used different engines. But those old engines were too warm and did not have enough power. So, Apple went to Intel.
+
+[Aria] That was a very big change twenty years ago. It helped Apple make much better Mac machines. But then, a few years ago, Apple made another big change. They stopped using Intel engines. They started to make their own engines, which they call Apple Silicon. Why did they do this?
+
+[Andrew] Because they wanted more control. They wanted their machines to use less power and stay cold. With Intel, they had to wait for another company to make new engines. With their own engines, they can make changes whenever they want. Now we see that the new macOS system will slowly stop supporting programs made for Intel engines.
+
+[Aria] This is the end of an old time. If you have a very old Mac with an Intel engine, it will not get the new changes. This shows how fast science and machines move forward. It is necessary to change our machines after some years to keep up with new ideas.
+
+[Andrew] Yes, it is. Now, speaking of machines having trouble, let us talk about Google. Google has a wise system called Gemini. But recently, Gemini had a big problem. Many persons who use Android machines found that Gemini could not make calls for them.
+
+[Aria] Yes, this was a sudden problem. Persons would say, Call my friend, and the machine would say, Something went wrong. This happened on pocket machines and also in carriages that use Android Auto. It was a big trouble for persons who were driving.
+
+[Andrew] Driving and trying to use your hands to make a call is not safe. That is why we have these voice systems. When they stop working, it can be dangerous. Google said they knew about the error and were working to make it well. It is interesting that while Gemini was down, the main Google Search system was still working fine.
+
+[Aria] That is a good point. It shows us how dependent we are on these new systems. When they stop working, our daily behavior has to change. We realize how much we use them for simple acts like calling our family or finding a road.
+
+[Andrew] Yes, we take them for granted until they break. Now, let us move to the business of play and amusement. Xbox, which is owned by Microsoft, is shutting down a company called Ninja Theory. This company made a very famous play called Hellblade. This news has made many persons sad and angry.
+
+[Aria] I can understand why they are angry. Ninja Theory is a group of very creative persons. They made plays that had deep stories and beautiful art. They were not just making simple plays for money. They were making art. But Xbox is making big changes to its business.
+
+[Andrew] The chief of Microsoft said they need to make their play business sustainable. This means they want to make more profit and spend less money. It seems that big companies are buying smaller companies, and then shutting them down when they do not make enough money quickly.
+
+[Aria] This is a hard condition for the persons who make these plays. They lose their work, and the public loses great art. Many persons are asking if this is the right way to run a business. If we only care about money, we might lose all the beautiful things that persons make.
+
+[Andrew] That is a very serious thought, Aria. The balance between art and money is always hard to keep. When big corporations control everything, art often suffers. We hope the creative minds from Ninja Theory can find new places to do their great work.
+
+[Aria] Yes, let us hope so. Now, let us change to a story about trade and the price of oil. There is a very important water way called the Strait of Hormuz. A lot of the earth's oil goes through this narrow water. Recently, there was a big danger that this water way would be shut because of fights between nations.
+
+[Andrew] Yes, if that water way is shut, the price of oil all over the earth goes up very fast. This is because companies cannot get the oil to the places that need it. But now there is a new agreement between the United States and Iran. This agreement has made the condition much better.
+
+[Aria] Because of this agreement, the Strait of Hormuz will stay open, and oil can move freely again. This is great news for the market. And because of this, the price of oil has fallen. In the United States, the average price of oil for engines has fallen below four dollars for a gallon.
+
+[Andrew] This is the first time it has been this low since the middle of April. It gives comfort to many families who have to spend a lot of money on driving. When the price of oil goes down, the cost of moving food and other things also goes down. So, it can help to make other prices lower too.
+
+[Aria] But some experts say we must be careful. The agreement is new, and things could change again if there is more trouble in the Middle East. We must watch the news closely to see if the peace will last. It is a delicate balance.
+
+[Andrew] It is indeed. Now, let us talk about another big business story. The United States government made a rule against using models from a company called Anthropic. Some persons thought this was because of a jailbreak, which means someone made the system do something bad that it was not designed to do.
+
+[Aria] But the news now says it was not about that. It was about trust. The White House lost its belief in Anthropic. There were discussions about how safe their systems really are. The government wants to be very sure that these powerful systems do not cause destruction or give secrets to other nations.
+
+[Andrew] Yes, these systems are very powerful. They can write code, make plans, and answer complex questions. If a bad person gets control of them, they can do a lot of damage. That is why the government is so careful. Now officials from the government of Trump are meeting with Anthropic to talk about an agreement.
+
+[Aria] They want to find a way to work together again. This shows how important these new systems are for the power of a nation. The government wants to control them, but they also need them to be strong so that their nation does not fall behind other nations.
+
+[Andrew] It is a very difficult position for the company. They want to make great things, but they must also follow the rules of the government. If they do not, they cannot sell their products to the biggest buyer, which is the government itself.
+
+[Aria] Let us look at another big business deal. Fox is buying a company called Roku for twenty-two billion dollars. Roku is a company that makes machines and systems for viewing pictures and sound on television. This is a very big bet by Fox.
+
+[Andrew] Yes, they want to make streaming free for everyone, but with advertisements. Many persons now do not want to pay a lot of money every month for different systems. They would rather watch advertisements if the show is free. Fox thinks this is the future of television.
+
+[Aria] But the value of Fox shares fell after this news. Why? Because twenty-two billion dollars is a very large amount of money. Some persons in the market think Fox is spending too much. They worry that Fox will not make enough profit from advertisements to pay for this big purchase.
+
+[Andrew] It is a big risk, but it shows how the business of television is changing. The old ways of sending television through cables are dying. Every big company is trying to find its place in the new system. If you do not change, you will die.
+
+[Aria] That is true in business and in life. Now, we must talk about some sad news from the war between Russia and Ukraine. Recently, Russia made a violent attack on the city of Kyiv with flying machines and other weapons. During this attack, a very old and beautiful church caught fire.
+
+[Andrew] Yes, this church is a great symbol of culture and religion for the people of Ukraine. It has stood for hundreds of years. Seeing it burn has caused great pain to many persons. It was a holy place, and its destruction is a great loss for the history of the earth.
+
+[Aria] It is very sad when historical buildings are destroyed in war. They represent the heart of a nation. At the same time, the European Union, or EU, has made new rules to punish Russia. They have put a Russian bishop on their list of persons who are punished. This bishop is known as the private priest of Putin.
+
+[Andrew] The EU says this bishop supports the war and uses his position in the church to make persons believe the war is good. The new rules mean he cannot travel to EU countries, and any property he has there will be taken. The EU wants to show that even religious leaders who support violence will face punishment.
+
+[Aria] This is a very strong step. Usually, governments do not punish religious leaders. But this shows how serious the EU is about stopping the support for the war. They want to cut off all forms of support, not just military or economic support.
+
+[Andrew] This leads us to the relations between global leaders. The G7 is a group of seven chief nations. Their leaders are meeting, and they are talking about how to work with Trump. Trump has said many sharp words about some of these leaders recently. This has made their relations very delicate.
+
+[Aria] The G7 leaders are trying to plan for a future where they might not be able to depend on the United States as much as before. They want to make their own nations stronger in trade and military power. But at the same time, Trump has said he is happy about the new agreement with Iran.
+
+[Andrew] So, there is some hope that they can still work together on big problems. It is a very complex game of politics. Each leader must protect their own nation, but they also need to work together to keep the earth safe and prosperous.
+
+[Aria] Our last story is from Norway. The son of the Norwegian Crown Princess, Marius Borg Hoiby, has been found guilty of a very serious crime. The judges said he did two violent acts against women. This is a very shocking story for the people of Norway.
+
+[Andrew] The royal family is usually very respected. Marius Borg Hoiby has been given a punishment of four years in prison. The judges made it clear that the law is the same for everyone, even if you are from a very important family.
+
+[Aria] This decision has caused a lot of discussion about the behavior of young persons in high positions. It shows that no one is above the law. It is important for the public to see that justice is done, no matter who the person is.
+
+[Andrew] Yes, it is. It helps to keep the trust of the public in the system of law. When persons see that even the son of a princess goes to prison for a crime, they feel that the system is fair.
+
+[Aria] That is a very important point, Andrew. A fair system of law is the base of a good society. Now, let us look back at all the stories we have talked about this day. We have seen how fast our machines are changing, from Siri to Gemini.
+
+[Andrew] Yes, and we have also seen how these changes affect our daily life. When Gemini stops working, we cannot make calls easily. When Apple changes its engines, old programs stop working. We must be ready to learn new things all the time.
+
+[Aria] We also talked about the price of oil and how it fell because of a new agreement. This is a good example of how politics between nations can have a direct effect on our pocket. When leaders make agreements, the price of driving our carriages goes down.
+
+[Andrew] And we saw the sad side of war, with the burning of the old church in Kyiv. It reminds us that war does not just kill persons; it also destroys the history and culture of a nation. We must hope for peace on earth.
+
+[Aria] Yes, peace is the most important thing. And finally, we saw that the law is the same for everyone, as shown by the story in Norway. No matter how high your position is, you must follow the rules of society.
+
+[Andrew] These are all very deep stories, Aria. They give us a lot to think about. For our English learners, these stories are also a great way to learn new words and see how they are used in real life.
+
+[Aria] That is true. Learning English is not just about memorizing words. It is about understanding the earth and talking about important things. We hope this talk has been helpful to you.
+
+[Andrew] Yes, thank you for listening to us this day. Keep learning, keep asking questions, and we will see you next time.
+
+[Aria] Goodbye from all of us here. Have a very good day.
