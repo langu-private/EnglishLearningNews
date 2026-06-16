@@ -91,25 +91,18 @@ Include the following in order:
 
     import time
     
-    max_retries = 8
-    for attempt in range(max_retries):
-        try:
-            print(f"LLM API Call Attempt {attempt + 1} of {max_retries}...")
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            print(f"API Error encountered: {e}")
-            if attempt < max_retries - 1:
-                wait_seconds = (attempt + 1) * 30  # Wait 30s, 60s, 90s, 120s...
-                print(f"Model is busy. Retrying in {wait_seconds} seconds...")
-                time.sleep(wait_seconds)
-            else:
-                print("Max retries reached. The server is consistently overloaded.")
-                raise e
+    try:
+        print(f"LLM API Call for {model}...")
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"API Error encountered: {e}")
+        print("Server is blocked or overloaded. Returning failure immediately without retries.")
+        raise e
 
 def create_audio(text, output_mp3, api_key):
     print(f"Generating conversational audio to {output_mp3} using edge-tts...")
