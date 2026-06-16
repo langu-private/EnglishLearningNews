@@ -23,17 +23,17 @@ def fetch_top_news(limit_per_category=4):
     
     import time as time_mod
     news_items = []
-    twelve_hours_ago = datetime.datetime.utcnow() - datetime.timedelta(hours=12)
+    twenty_four_hours_ago = datetime.datetime.utcnow() - datetime.timedelta(hours=24)
     
     for category, url in rss_sources.items():
         feed = feedparser.parse(url)
         
         category_items = []
         for entry in feed.entries:
-            # Check if published in the last 12 hours
+            # Check if published in the last 24 hours
             try:
                 dt = datetime.datetime.fromtimestamp(time_mod.mktime(entry.published_parsed))
-                if dt >= twelve_hours_ago:
+                if dt >= twenty_four_hours_ago:
                     category_items.append(f"- Title: {entry.title}\n  Summary: {entry.get('description', '')}")
             except Exception:
                 # If parsing fails, just include it to be safe
@@ -225,7 +225,7 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
     fg.load_extension('podcast')
     
     fg.title('虎子老师教英语')
-    fg.description('Daily Morning and Evening News, spoken strictly in Basic English 850 Words.')
+    fg.description('Daily News Podcast, spoken strictly in Basic English 850 Words.')
     fg.link(href=base_url, rel='alternate')
     fg.language('en')
     
@@ -266,7 +266,7 @@ def update_rss_feed(edition, date_str, mp3_path, base_url):
             try:
                 date_part, ed_part = folder.split('_')
                 year, month, day = map(int, date_part.split('-'))
-                hour = 8 if ed_part == "Morning" else 19
+                hour = 19 if ed_part == "Evening" else 8
                 tz = pytz.timezone('Asia/Shanghai')
                 pub_date = tz.localize(datetime.datetime(year, month, day, hour, 0, 0))
             except Exception:
