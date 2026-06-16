@@ -106,6 +106,11 @@ Include the following in order:
             if attempt < max_retries - 1:
                 wait_seconds = (attempt + 1) * 30  # Wait 30s, 60s, 90s...
                 print(f"Model is busy. Retrying in {wait_seconds} seconds...")
+                # Fallback to a lighter model if the primary one is consistently 503 Overloaded
+                if attempt == 1 and "503" in str(e):
+                    fallback_model = "gemini-3.1-flash-lite"
+                    print(f"High demand detected. Falling back from {model} to {fallback_model} for the next attempts...")
+                    model = fallback_model
                 time.sleep(wait_seconds)
             else:
                 print("Max retries reached. The server is consistently overloaded.")
