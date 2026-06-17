@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install feedparser openai edge-tts feedgen pytz google-genai
+        run: pip install feedparser openai edge-tts feedgen pytz google-genai markdown
 
       - name: Install System Dependencies (ffmpeg)
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
