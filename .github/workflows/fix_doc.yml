@@ -1,0 +1,37 @@
+name: Fix Learning Document
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install feedparser openai edge-tts feedgen pytz google-genai markdown
+
+      - name: Run Fix Doc Script
+        env:
+          API_KEY: ${{ secrets.LLM_API_KEY }}
+          BASE_URL: "https://generativelanguage.googleapis.com/v1beta/openai/"
+        run: |
+          python fix_doc.py --api-key "$API_KEY" --base-url "$BASE_URL" --model "gemini-3.5-flash"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add editions/ index.html
+          git commit -m "Auto-fix Learning Document and HTML [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push
