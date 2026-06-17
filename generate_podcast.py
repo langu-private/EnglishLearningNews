@@ -165,7 +165,7 @@ def create_audio(text, output_mp3, api_key):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate Basic English News Podcast")
-    parser.add_argument("--edition", choices=["Morning", "Evening"], default="Morning", help="Morning or Evening edition")
+    parser.add_argument("--edition", choices=["Morning", "Evening", "Daily"], default="Daily", help="Morning, Evening, or Daily edition")
     parser.add_argument("--api-key", required=True, help="LLM API Key")
     parser.add_argument("--base-url", default=None, help="Base URL for LLM API (e.g., https://api.deepseek.com/v1)")
     parser.add_argument("--model", default="gpt-4o", help="Model name")
