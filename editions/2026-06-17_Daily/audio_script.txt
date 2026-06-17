@@ -1,187 +1,219 @@
-[Aria] It is a great day. It is so good to have you here with us for our news talk of the day.
+[Aria] Good morning. Welcome to our daily news talk.
 
-[Andrew] Yes, Aria. It is a great day. We have much news about machines, business, and the world.
+[Andrew] Good morning, Aria. It is very good to be here with you today to talk about the news of the earth.
 
-[Aria] We will talk about these things using very simple words. This is great for persons who are getting learning in English.
+[Aria] Today we have many interesting stories. We will talk about new machines, money, trade, and agreements between nations.
 
-[Andrew] That is right. We will use only the basic words, but we will give you a very deep look into every story.
+[Andrew] Yes. We will use simple words so that every person who is getting knowledge of English can have a good time hearing us.
 
-[Aria] Let us start with our first story about Snap. The chief of Snap, Evan Spiegel, has a new idea. He has shown new eye glasses. These are not simple glasses. They are AR glasses. They are named Specs.
+[Aria] Let us start with our first story about WhatsApp. This is a very big system for sending written words and pictures to friends.
 
-[Andrew] These Specs are very dear. The price is 2,195 dollars. That is a very great amount of money. Why is the price so high, Aria?
+[Andrew] Yes, WhatsApp is making a new change for the iOS system on the Apple phone.
 
-[Aria] The glasses have a system that puts pictures in front of your eyes. You are able to see the real world, but you also see pictures made by the machine. Evan Spiegel has a strong belief that in the future, we will not use pocket machines. We will use these glasses.
+[Aria] This change is about written notes that go away. You send a note, your friend sees it once, and then the note is dead. It is gone forever.
 
-[Andrew] Yes, he has a thought that the time of the pocket machine is going to end. But the market is not happy. The shares of Snap went down after this news. Persons have doubt about the high price. Who is able to pay 2,195 dollars for glasses?
+[Andrew] That is right. They call this a view-once text. It is very good for keeping things safe. If you do not want your words to stay on the other machine, this is very helpful.
 
-[Aria] Only a small number of persons will get them now. They are for persons who make systems for machines. It is a long-term bet. Evan Spiegel says he will keep doing this work even if persons make a protest. He has a strong desire to lead the future.
+[Aria] Yes, this is because some written notes are very private. If you send a picture of your house key, or a secret note about your money, you do not want it to stay on the other person's machine.
 
-[Andrew] It is a big risk. In the past, other companies tried to make glasses like this, but they did not do well. We will see if Snap can change how we use machines.
+[Andrew] If their machine is taken by a bad person, your secret is out. But with this new change, the note disappears after one look.
 
-[Aria] Now, let us talk about Google. Google has sent out a new system for its Pixel pocket machines. It is named Android 17.
+[Aria] WhatsApp has a long history. At first, it was only for sending simple words. Then, they added pictures, then voice, and now video. It has grown very big. Millions of persons use it every day.
 
-[Andrew] This is a surprise. Android 17 is coming very early this year. Usually, Google sends out the new system in the autumn. But this time, it is here in June. Why did they make it so quick?
+[Andrew] They are also testing planned notes. This has the meaning that you can write a note now, but the machine will send it at a later time.
 
-[Aria] They want to put new AI systems into the machines. This new system has 38 fixes for the Pixel machines. It makes the machines run better and safer.
+[Aria] Why do we need planned notes? At some times, you have a thought in the middle of the night. You want to tell your manager at work, but you do not want to wake him up at two in the morning.
 
-[Andrew] Yes, and more AI parts will come later in the summer. Google wants to be the first in the competition of AI. They want their machines to be very smart.
+[Andrew] With this new change, you can write the words now, and the system will wait until nine in the morning to send it. This is very polite and keeps work relations good.
 
-[Aria] But some persons say that sending it out so early may cause errors. Google has to make sure the system is stable. If the system has bugs, the owners of Pixel machines will be very angry.
+[Aria] It is a very simple but useful design. It makes the system better for business and daily life.
 
-[Andrew] That is true. A fast release is good, but a working system is better. We will watch how the Pixel machines behave with this new system.
+[Andrew] Now, let us talk about Apple. Apple has made a new system update for AirPods Pro 2, AirPods Pro 3, and Beats Studio Buds.
 
-[Aria] Apple also has big plans for the future. In the year 2027, Apple will make new AirPods. These are small instruments for the ears. But these new AirPods will have cameras!
+[Aria] This is not a change you can see with your eyes. It is an update for the small electric brains inside the listening instruments.
 
-[Andrew] Cameras in the ears? That is very strange. Why does a person need a camera in their ear, Aria?
+[Andrew] AirPods are small instruments that you put in your ears. They do not have wires. They use blue-tooth to get sound from your iPhone. Inside them, there is a very small battery and a very small electric brain.
 
-[Aria] The cameras will look at the world around you. They will send pictures to an AI system. The AI will talk to you and tell you about the things you see. It is a new way to get help from machines.
+[Aria] Why did they make this update? It is because of a danger with the microphone. The microphone is the part that takes your voice.
 
-[Andrew] That is very interesting. Apple is also making a new iPhone that is able to fold. It will be the second folding iPhone. They will also make a special iPhone for the 20th year of the iPhone.
+[Andrew] Yes, some wise persons saw that a bad person could turn on your microphone from a distance. This bad person could then hear your private talks without your approval.
 
-[Aria] Yes, the 20th year of the iPhone will be a very big event. Apple wants to make something very beautiful and different to mark this time. They want to show that they are still the leaders of design.
+[Aria] This was a very big shock for many persons who use them. It is like having a spy in your ear!
 
-[Andrew] It seems Apple is going head-to-head with Meta. Meta has made smart glasses that do similar things. The competition in this area is getting very hot.
+[Andrew] Apple found this trouble and made a quick adjustment. They sent a new system of rules to the electric brain inside the instruments. This new system stops the AirPods from accepting signals from machines that are not yours.
 
-[Aria] Before 2027, we will see the iPhone 18 Pro. There is news that it will come in September of the year 2026. We have knowledge of this because of clues from the Apple meeting named WWDC 2026.
+[Aria] If you have these instruments, you should make a connection between your instruments and your iPhone to make them safe automatically.
 
-[Andrew] The iPhone 18 Pro will have three new camera upgrades. One is confirmed, and two are still rumors. But there is a warning. A person who gives secret news says that the new colors of the iPhone 18 Pro may have the same trouble as before.
+[Andrew] Apple is also planning for the future. They are designing a new very small electric brain called the A22 Pro chip.
 
-[Aria] What trouble is that, Andrew?
+[Aria] This chip will be 1.4nm. That is extremely small! A nanometer is a measure of size. If you take one hair from your head, it is about eighty thousand nanometers wide!
 
-[Andrew] The color may rub off or get damaged easily. In the past, some dark colors did not last long. They looked bad after some months of use.
+[Andrew] So, 1.4 nanometers is so small that you cannot see it even with a strong glass. It is almost as small as an atom.
 
-[Aria] That is bad news. If a person pays a great amount of money for a beautiful machine, they want the color to stay beautiful. Apple must make the cover very strong.
+[Aria] When the parts are smaller, they can be closer together. This has the meaning that the electric signals can travel a shorter distance.
 
-[Andrew] Yes, the look of the machine is very important for Apple buyers. They want quality. Let us hope Apple can fix this color problem before the release.
+[Andrew] When the distance is short, the signal travels faster and uses less power. This is why your phone today is much faster than a big computer from twenty years ago.
 
-[Aria] Let us move to the business of space. SpaceX, the company of Elon Musk, has a new value. The value is now 2,600,000,000,000 dollars!
+[Aria] This will make the future iPhones very fast and keep the battery alive longer. But who will make these chips for Apple?
 
-[Andrew] That is a number with many zeros! It is so great that SpaceX was briefly more valuable than Amazon. Amazon is a very big company that sells everything on the world net. But SpaceX is making rockets that go to the moon and stars.
+[Andrew] TSMC is the main company that makes chips for Apple now. They are in Taiwan. But Apple is also looking at Intel to make some of these chips.
 
-[Aria] The shares of SpaceX went up by 50 percent. Some persons who sold their shares early are now very sad. They regret their decision. They lost a chance to get much money.
+[Aria] This is a big change because Intel has had hard times in business. If Intel can make chips for Apple, it will be a very great win for them.
 
-[Andrew] SpaceX is doing very well because of Starlink. Starlink is a system of many small stars in the sky that give world net to the earth. It is a very big business. It helps persons in far places get connected.
+[Andrew] Yes, Apple wants to have more than one company making their chips. This keeps their business safe if one company has trouble.
 
-[Aria] Yes, and they also have the giant rocket named Starship. They are testing it frequently. Every test makes the rocket better. The value of the company keeps growing because of these successes.
+[Aria] If there is a storm, or a fight, or a big earth-shake in Taiwan, Apple will still have chips from Intel in the United States.
 
-[Andrew] It is amazing to see a private space company become so big. It is now one of the most valuable companies in the world, even without being on the public stock market.
+[Andrew] Let us talk about iOS 27. This is the future system for Apple phones.
 
-[Aria] Now, let us talk about food. Yum Brands is going to sell Pizza Hut. Pizza Hut is a very famous eating house for pizza.
+[Aria] Some news says that iOS 27 will make older iPhones run faster and stay alive longer.
 
-[Andrew] They are selling it for 2,700,000,000 dollars. Why are they selling it, Aria?
+[Andrew] This is very good news because many persons do not want to buy a new phone every year. New phones have a very high price.
 
-[Aria] Because Pizza Hut is having a hard time. Not many persons are going to Pizza Hut now. The culture of sending food to the house has changed.
+[Aria] Many persons feel that when a new system comes out, their old phone becomes slow. They think Apple does this on purpose to make them buy a new phone.
 
-[Andrew] Yes, in the past, families went to Pizza Hut to sit and eat. It was a fun event. But now, persons use pocket machines to get food sent to their doors. Other companies do this much better.
+[Andrew] But Apple says it is because the new system has more complex designs that need more power. With iOS 27, Apple is trying to change this. They are making the system lighter so that old machines can run it without getting tired.
 
-[Aria] Yum Brands is selling Pizza Hut to a private company named LongRange Capital and also to Yum China. They hope these companies can make Pizza Hut good again.
+[Aria] Yes, if Apple can make the old phones work well with the new system, more persons will love Apple. It is a very wise plan.
 
-[Andrew] It is strange, but one of the companies that bought Pizza Hut also owns a gym company named 24 Hour Fitness and a company for dead persons. That is a very mixed group of businesses!
+[Andrew] iOS 27 will also have new features for Apple Music and Visual Intelligence. Visual Intelligence is how the phone sees and understands things through the camera.
 
-[Aria] Yes, it is a strange connection. But in business, companies often buy different things to make money. We will see if they can make Pizza Hut popular again.
+[Aria] Imagine you are walking in a strange town. You see a beautiful flower, but you do not know its name. You take out your iPhone, open the camera, and point it at the flower.
 
-[Andrew] Let us go back to AI. There is a big discussion about Anthropic. Anthropic is a company that makes very smart AI.
+[Andrew] The phone will look at the shape and color of the leaves and tell you the name of the flower. Or, if you see a sign in a language you do not know, the phone can change the words into your language on the screen immediately.
 
-[Aria] The government of the US has stopped Anthropic from letting some foreign workers use their most powerful AI model. This has caused a great shock in the AI world.
+[Aria] That is like magic! It makes our daily life much simpler.
 
-[Andrew] Yes, companies like OpenAI are now very worried. They have a fear that the government will make rules against foreign workers. Many of the wisest persons in AI come from other countries.
+[Andrew] Now, let us move to business and money news. The price of oil has gone down.
 
-[Aria] If they are not able to work in the US, the development of AI will become very slow. The Trump government wants to keep the AI secrets safe. They do not want other nations to get this power.
+[Aria] This is because of hopes for a new agreement between the United States and Iran.
 
-[Andrew] But it is a hard balance to keep. If you stop foreign talent, you may lose the race. Science needs open minds from all over the world.
+[Andrew] Iran has a lot of oil under its land. For many years, other countries, especially the United States, have made rules to stop Iran from selling its oil.
 
-[Aria] That is a very good point. The debate in Congress is starting again because of this move. We will see how the government controls AI in the future.
+[Aria] This was a punishment because they did not agree with Iran's government and their work on atom power. Because of these rules, Iran's economy has been very weak, and the price of oil in the world has been high.
 
-[Andrew] Speaking of the Trump government, they are helping xAI. xAI is another AI company of Elon Musk.
+[Andrew] Now, there is talk of a new agreement. President Trump wants to make a deal. Under this deal, Iran will stop some of its military work, and in return, the United States will let them sell oil again immediately.
 
-[Aria] Yes, xAI has a big machine house in Memphis. This house uses a great amount of power and makes the air dirty. A group named NAACP made a legal fight against xAI because of this dirty air.
+[Aria] This is a very big change. If Iran's oil comes back to the market, it will increase the amount of oil ready for use.
 
-[Andrew] But the government of the US has stepped in to help xAI. They asked the judge to stop the legal fight. Why did the government do that?
+[Andrew] When there is more of a thing, the price usually goes down. If the price of oil goes down, then the price of transport will be cheaper, which is good for persons who drive carriages and use power in their houses.
 
-[Aria] They say that the military needs Grok, the AI of xAI, for war. They say that national safety is more important than the clean air of the town.
+[Aria] Yes, but some traders are still worried about the Strait of Hormuz. This is a very narrow sea where many oil ships must pass.
 
-[Andrew] This has made many persons in the town very angry. They say their health is being damaged for the sake of a machine. They feel the government does not care about them.
+[Andrew] If there is a fight, this narrow sea could be shut. That would stop the oil and make the price go very high again. So, we must watch the news about Iran and the United States very closely.
 
-[Aria] It is a very difficult situation. On one side, we have the safety of the nation. On the other side, we have the health of the citizens. It shows how powerful AI has become.
+[Aria] Speaking of money, the big bank of the United States, the Federal Reserve, is having a meeting today.
 
-[Andrew] Yes, AI is now a weapon of war. That is why the government is willing to protect it at all costs.
+[Andrew] This is the first meeting with Kevin Warsh as the new chief of the bank.
 
-[Aria] Let us look at China now. China has a very great instrument for looking at the sky. It is named the 'Sky Eye'. It is the biggest radio telescope in the world.
+[Aria] The Federal Reserve is not a bank for normal persons. It is a bank for other banks and for the government. Its chief job is to keep the money system stable.
 
-[Andrew] The 'Sky Eye' has completed a big fix. They used new, strong wires made in China to make it better. These wires are very giant and strong. They hold the big dish of the telescope.
+[Andrew] They do this by changing the interest rate. The interest rate is the price you pay to borrow money. If the rate is high, persons and companies do not want to borrow money, so they spend less. This slows down the economy and stops prices from rising too fast.
 
-[Aria] With these new wires, the 'Sky Eye' will be able to see deeper into the dark space. This is a great step for China's science. It shows that China is able to make very complex materials without help from other nations.
+[Aria] Every person is waiting to see Kevin Warsh's decision on the interest rate today. President Trump wants him to cut the rate. This would make it cheaper for persons to get loans and spend money.
 
-[Andrew] Yes, the telescope is very important for discovering new stars and learning about the start of the world. The fix will keep it working for many years.
+[Andrew] But there is still inflation. Inflation means things in the stores cost too much money. If you cut the rate too fast, inflation can get worse.
 
-[Aria] China also has a very beautiful place named the Rainbow Mountains in Zhangye. The mountains have many colors like red, yellow, and green. It looks like a painting.
+[Aria] So, Kevin Warsh has a very hard job. He must balance the desire of the President with the health of the money system.
 
-[Andrew] But there is a big push of people there. Too many persons are traveling to see these mountains during holidays. The government has made special paths and buildings so persons do not damage the natural earth.
+[Andrew] He must show that he is independent and can say no to the President if it is necessary for the health of the nation. The stock market is very quiet because they are waiting for this decision.
 
-[Aria] But when a mass of persons comes at the same time, it is very hard to control. This is a new behavior in China's travel. Persons want to see beautiful nature, but the mass of travel makes it hard to enjoy.
+[Aria] In other business news, a company called Carvana is making a big move.
 
-[Andrew] Yes, we need to find a way to protect these beautiful places while letting persons see them. It is a problem for many famous places in the world.
+[Andrew] Carvana is famous for selling used road carriages online. They even have big machines that look like toy boxes where you can get your carriage.
 
-[Aria] Let us talk about trade. Chinese companies that make electric carriages, or EVs, are sending a great number of them to other countries.
+[Aria] In the past, if you wanted to get a used carriage, you had to go to a store, talk to a salesman who would try to make you pay a high price, and sign many papers. It was a very long and sad process.
 
-[Andrew] Yes, the trade of Chinese EVs is growing very fast. Carmakers in China are looking across the sea because the market at home has too much competition.
+[Andrew] Carvana changed this. They put all their carriages on a website. You can look at pictures, see the price, and pay for it online. Then, they bring the carriage to your house.
 
-[Aria] These EVs are very cheap and have good systems. But some other nations are not happy. They are putting taxes on Chinese EVs to protect their own companies.
+[Aria] But now, they are buying physical stores that sell new carriages from the company Stellantis. Stellantis makes carriages like Jeep and Chrysler.
 
-[Andrew] Even with these taxes, Chinese companies are finding ways to trade in other lands, like in Europe and Asia. They are building factories in other countries too.
+[Andrew] This is a very different strategy. They want to turn these stores into playgrounds where you can test-drive the carriages, but you still buy them online.
 
-[Aria] This is a big change for the car industry. For a long time, Western companies made most of the cars. Now, China is becoming a leader.
+[Aria] There will be no salesmen who will push you to pay more. If you want to buy, you use your pocket machine to do it online.
 
-[Andrew] Because of all this industry, China needs a lot of power. A spokeswoman for the government said that China will watch the price of power in the world very closely.
+[Andrew] This is a mix of real-world experience and online trade. It could change how we get new carriages in the future. Other carriage companies are watching this closely.
 
-[Aria] Yes, if the price of oil or coal goes up in other countries, it has a big effect on China's factories. They want to make sure that domestic businesses do not suffer from high prices of power.
+[Aria] Now, let us talk about food! Yum! Brands is selling Pizza Hut for 2.7 billion dollars.
 
-[Andrew] They will make adjustments to keep the market safe. Power is the blood of industry. If the price is too high, everything becomes dear.
+[Andrew] Pizza Hut is a very famous food chain, but they have had hard times recently.
 
-[Aria] That is true. Watching the world market is necessary for a big trading nation like China.
+[Aria] Pizza Hut started in 1958 in the United States. Two brothers borrowed five hundred dollars from their mother to start a small pizza store. It became very popular because the pizza was good and the building had a special red roof.
 
-[Andrew] Now, let us look at the Middle East. Donald Trump has made a suggestion. He says that Syria should fight Hezbollah.
+[Andrew] For many years, going to Pizza Hut was a great treat for families. Children loved the red cups and the salad bar. But in the last ten years, things have changed.
 
-[Aria] This suggestion has made persons in Lebanon very afraid. Hezbollah is a strong group in Lebanon, and Syria has been their friend for a long time. If Syria turns against Hezbollah, it could cause a very violent war in the region.
+[Aria] This is because of the delivery culture. With the internet and pocket machines, new companies came into existence. Now, you do not have to go to a restaurant to get food. You can get any kind of food sent to your door in thirty minutes.
 
-[Andrew] At the same time, there is a peace agreement between the US and Iran about Lebanon. But Iran says that the agreement will only work if Israeli forces go away from Lebanon.
+[Andrew] Pizza Hut was slow to change. Their big restaurants with red roofs became empty because persons preferred to eat at home.
 
-[Aria] The quiet in Lebanon is very delicate. Any small change could start the fighting again. Donald Trump has also said that Israel's leader, Netanyahu, must be more responsible. He said the recent attacks were too much.
+[Aria] So, Yum! Brands is selling it to LongRange Capital and Yum China.
 
-[Andrew] It is interesting to see Trump criticize Netanyahu. Usually, Trump supports Israel very strongly. This shows that the situation is very complex.
+[Andrew] The new owners hope to save the company by making changes to how they send food to homes and how they design their stores. They want to focus on quick delivery and smaller stores.
 
-[Aria] Yes, peace in the Middle East is very hard to get. We hope the leaders can find a way to stop the pain of the persons living there.
+[Aria] We hope they can do it because many of us have happy memories of eating pizza there when we were young.
 
-[Andrew] In Canada, there is a strange story about citizenship. Some persons who are called 'Lost Canadians' have been told to give back their papers of proof.
+[Andrew] Let us look at news from China. China's exports have gone up very much.
 
-[Aria] These are persons who got their Canadian citizenship under a new law. But now, the government is reviewing their cases. They say there was an error in how the papers were given out.
+[Aria] Exports mean things that China makes and sends to other countries. China is known as the factory of the world. They make everything from clothes to electric carriages.
 
-[Andrew] This has made these persons very sad and angry. They feel they are being kicked out of their home country. They had a belief that they were safe, but now they have doubt.
+[Andrew] Other countries still need cheap and good things from China, so the factories are very busy. But at the same time, the domestic economy is weak.
 
-[Aria] It is a very difficult situation. Having no country is a terrible feeling. The government says they must make sure the law is followed correctly, but it seems very cruel to these families.
+[Aria] This means persons inside China are not spending much money in stores. They are worried about the future, so they are saving their money instead of spending it.
 
-[Andrew] Yes, the government should find a way to fix the error without hurting the persons who did nothing wrong.
+[Andrew] Yes, there is a difference between the strong factories and the quiet stores. The government wants to help the domestic market grow.
 
-[Aria] Our last story is from Albania. There are big protests against the government there.
+[Aria] To help the future of their industry, China is planning a very big national AI data center grid. AI means artificial intelligence, or machines that can think like humans.
 
-[Andrew] The protests are about a beautiful island named Sazan. The government wants to let Jared Kushner, the son-in-law of Donald Trump, build a luxury holiday place there.
+[Andrew] To run these machines, you need a lot of computer power and big buildings with many electric brains. This grid will cost 295 billion dollars!
 
-[Aria] Sazan is a very beautiful, natural island with many wild birds and animals. Persons in Albania say that the holiday place will destroy the nature. They call it the 'flamingo revolution' because of the beautiful pink birds that live near there.
+[Aria] It will use technology made inside China. This is a very big step for their science and computer power. It will help them be independent of other countries.
 
-[Andrew] They say the government is giving away public land to rich friends of Trump. It has become a global symbol of how rich persons can get whatever they want, even if it damages the earth.
+[Andrew] There is also interesting news about travel in China. The Rainbow Mountains in Zhangye have become a very busy place.
 
-[Aria] The protesters are very determined. They want to protect their land for the future. It shows that persons everywhere care about nature.
+[Aria] These mountains are in the northwest of China. They are made of different colors of stone and sand that have been pressed together for millions of years. The wind and rain have shaped them into beautiful curves.
 
-[Andrew] Yes, nature is a treasure that we cannot get back once it is gone. We must be very careful with how we develop these beautiful places.
+[Andrew] When the sun shines on them, they look like a painting. It is a natural wonder. But because of social media, millions of persons want to visit them.
 
-[Aria] That is all of our news stories for this day. We have talked about many important things.
+[Aria] During big holidays, thousands of travelers arrive at the same time. This has created a lot of pressure on nature.
 
-[Andrew] Yes, we talked about Snap's new glasses, Google's new system, Apple's future plans, SpaceX's great value, Pizza Hut's sale, Anthropic's trouble, xAI's fight, China's telescope and mountains, Chinese EVs, Middle East peace, Canada's citizenship, and Albania's protests.
+[Andrew] Yes, they have built wooden paths for persons to walk on to keep the land safe. If you step on the delicate stone, it can take sixty years for the color to come back.
 
-[Aria] We hope you got some good learning from our talk. Remember to keep practicing your English every day.
+[Aria] This shows how domestic travel is changing in China. Persons love to see beautiful nature, but we must also keep it safe for the future.
 
-[Andrew] Yes, simple words can tell big stories. Thank you for being with us.
+[Andrew] Now, let us talk about world news and conflicts. The G7 leaders are having a big meeting in France.
 
-[Aria] Have a great day, and we will talk to you again tomorrow.
+[Aria] The G7 is a group of seven rich countries: the United States, the United Kingdom, France, Germany, Italy, Japan, and Canada. They meet every year to discuss the biggest troubles of the earth.
+
+[Andrew] This year, they are talking a lot about the war in Ukraine. The war between Russia and Ukraine has been going on for more than two years. It has caused a lot of destruction and death.
+
+[Aria] The G7 leaders have agreed to boost Ukraine's air defenses. This means they will send more machines to shoot down Russian missiles and drones in the sky before they hit houses and hospitals.
+
+[Andrew] They also want to make the rules against trade with Russia tighter. This is to stop Russia from getting money for the war.
+
+[Aria] President Trump was also at the G7. He has a different view. He said that the war in Ukraine has no impact on the United States because it is far away.
+
+[Andrew] This statement surprised some other leaders. There was even a moment when President Macron of France and President Zelensky of Ukraine were heard talking about Trump when they did not know their microphones were on.
+
+[Aria] Yes, they were heard saying that they are worried about Trump's plans and what he will do. This shows the tension between the leaders.
+
+[Andrew] Finally, we have news from Australia. A right-wing leader named Pauline Hanson said that multiculturalism has failed.
+
+[Aria] Multiculturalism means having many different kinds of persons from different countries living together in one nation. Australia is a country built by persons from many different places.
+
+[Andrew] After the original people, many came from the United Kingdom, then from Europe, and now from Asia and other parts of the earth. This has made Australia a very multicultural society, with many languages, religions, and foods.
+
+[Aria] Pauline Hanson believes that this has caused trouble for Australia's society and that different groups do not mix together. She says it makes the country divided and weak.
+
+[Andrew] But most Australians do not agree with her. They believe that having different cultures makes their life richer and helps Australia trade with the rest of the earth.
+
+[Aria] They believe that harmony is possible when we respect our differences. This is a big discussion that is happening in many countries today.
+
+[Andrew] Yes, it is a very important question for the future of our earth.
+
+[Aria] Well, that is all the news we have for today. We hope you enjoyed our talk and got some new English words.
+
+[Andrew] Thank you for being with us. Keep listening and keep getting knowledge!
+
+[Aria] Goodbye!
 
 [Andrew] Goodbye!

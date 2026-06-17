@@ -1,308 +1,352 @@
-Daily News Podcast: Simple English for Great Minds
+Daily News Podcast: Simple Words for Big News
 
 Key Vocabulary
 
-1. Apparatus (noun) - /ˌæpəˈreɪtəs/ - 仪器，设备
-2. Behavior (noun) - /bɪˈheɪvjər/ - 行为，举止
-3. Condition (noun) - /kənˈdɪʃən/ - 条件，状态
-4. Discovery (noun) - /dɪˈskʌvəri/ - 发现
-5. Discussion (noun) - /dɪˈskʌʃən/ - 讨论
-6. Distribution (noun) - /ˌdɪstrɪˈbjuːʃən/ - 分配，分发
-7. Education (noun) - /ˌedʒʊˈkeɪʃən/ - 教育
-8. Experience (noun) - /ɪkˈspɪəriəns/ - 经验，经历
-9. Government (noun) - /ˈɡʌvərnmənt/ - 政府
-10. Observation (noun) - /ˌɒbzəˈveɪʃən/ - 观察
+Agreement (noun) - /əˈɡriːmənt/ - 协定，协议
+Decision (noun) - /dɪˈsɪʒn/ - 决定，决议
+Government (noun) - /ˈɡʌvənmənt/ - 政府
+Industry (noun) - /ˈɪndəstri/ - 工业，行业
+Transport (noun) - /ˈtrænspɔːrt/ - 运输，交通
+System (noun) - /ˈsɪstəm/ - 系统，体系
+Property (noun) - /ˈpɑːpərti/ - 财产，所有物
+Business (noun) - /ˈbɪznəs/ - 商业，生意
 
 Grammar Focus
 
-1. Passive Voice (被动语态)
-Example: The company was sold for 2,700,000,000 dollars.
-(这家公司以27亿美元的价格被出售。)
+Structure 1: "This is because..." (This structure is used to explain the reason for a situation in a simple and direct way.)
+Example: This is because some written notes are very private. (这是因为一些书面记录是非常私密的。)
 
-2. Conditional Sentences (条件句)
-Example: If they have the money, they will get the new glasses.
-(如果他们有钱，他们就会买这副新眼镜。)
+Structure 2: "If... then..." (This conditional structure is used to show the relationship between an action and its result.)
+Example: If the price of oil goes down, then the price of transport will be cheaper. (如果石油价格下降，那么运输价格就会更便宜。)
 
 Full Bilingual Podcast Script
 
-[Aria] It is a great day. It is so good to have you here with us for our news talk of the day.
-(这是一个美好的日子。非常高兴您能和我们一起收听今天的每日新闻。)
+[Aria] Good morning. Welcome to our daily news talk.
+(早上好。欢迎收听我们的每日新闻对话。)
 
-[Andrew] Yes, Aria. It is a great day. We have much news about machines, business, and the world.
-(是的，Aria。这是一个美好的日子。我们今天有许多关于机器、商业和世界的新闻。)
+[Andrew] Good morning, Aria. It is very good to be here with you today to talk about the news of the earth.
+(早上好，Aria。今天很高兴能在这里和你一起讨论地球上的新闻。)
 
-[Aria] We will talk about these things using very simple words. This is great for persons who are getting learning in English.
-(我们将用非常简单的词汇来讨论这些事情。这对于正在学习英语的人来说是非常棒的。)
+[Aria] Today we have many interesting stories. We will talk about new machines, money, trade, and agreements between nations.
+(今天我们有许多有趣的故事。我们将讨论新机器、资金、贸易以及国家之间的协议。)
 
-[Andrew] That is right. We will use only the basic words, but we will give you a very deep look into every story.
-(没错。我们只使用基础词汇，但我们会带您深入了解每一个故事。)
+[Andrew] Yes. We will use simple words so that every person who is getting knowledge of English can have a good time hearing us.
+(是的。我们将使用简单的单词，以便每个正在学习英语的人都能愉快地听我们说话。)
 
-[Aria] Let us start with our first story about Snap. The chief of Snap, Evan Spiegel, has a new idea. He has shown new eye glasses. These are not simple glasses. They are AR glasses. They are named Specs.
-(让我们从关于 Snap 的第一个故事开始。Snap 的首席执行官 Evan Spiegel 有了一个新想法。他展示了一款新眼镜。这不是普通的眼镜。它们是 AR 眼镜，被命名为 Specs。)
+[Aria] Let us start with our first story about WhatsApp. This is a very big system for sending written words and pictures to friends.
+(让我们从关于 WhatsApp 的第一个故事开始。这是一个非常庞大的向朋友发送文字和图片的系统。)
 
-[Andrew] These Specs are very dear. The price is 2,195 dollars. That is a very great amount of money. Why is the price so high, Aria?
-(这些 Specs 非常昂贵。价格是 2195 美元。那是一笔非常巨大的资金。Aria，为什么价格这么高？)
+[Andrew] Yes, WhatsApp is making a new change for the iOS system on the Apple phone.
+(是的，WhatsApp 正在为 Apple 手机上的 iOS 系统做出新的改变。)
 
-[Aria] The glasses have a system that puts pictures in front of your eyes. You are able to see the real world, but you also see pictures made by the machine. Evan Spiegel has a strong belief that in the future, we will not use pocket machines. We will use these glasses.
-(这款眼镜有一个系统，可以在你的眼睛前呈现画面。你能够看到真实的世界，但你也能看到机器制作的画面。Evan Spiegel 坚信，未来我们不会再使用口袋机器。我们将使用这种眼镜。)
+[Aria] This change is about written notes that go away. You send a note, your friend sees it once, and then the note is dead. It is gone forever.
+(这个改变是关于会消失的书面记录。你发送一条记录，你的朋友看一次，然后这条记录就消失了。它永远不见了。)
 
-[Andrew] Yes, he has a thought that the time of the pocket machine is going to end. But the market is not happy. The shares of Snap went down after this news. Persons have doubt about the high price. Who is able to pay 2,195 dollars for glasses?
-(是的，他认为口袋机器的时代即将结束。但市场并不高兴。这个新闻发布后，Snap 的股价下跌了。人们对如此高的价格表示怀疑。谁能花 2195 美元买一副眼镜呢？)
+[Andrew] That is right. They call this a view-once text. It is very good for keeping things safe. If you do not want your words to stay on the other machine, this is very helpful.
+(没错。他们称之为阅后即焚的文本。这对于保护安全非常有用。如果你不想让你的文字留在另一台机器上，这会非常有帮助。)
 
-[Aria] Only a small number of persons will get them now. They are for persons who make systems for machines. It is a long-term bet. Evan Spiegel says he will keep doing this work even if persons make a protest. He has a strong desire to lead the future.
-(现在只有极少数人会购买它们。它们是给那些为机器开发系统的人准备的。这是一个长期的赌注。Evan Spiegel 表示，即使人们抗议，他也会继续做这项工作。他有强烈的愿望去引领未来。)
+[Aria] Yes, this is because some written notes are very private. If you send a picture of your house key, or a secret note about your money, you do not want it to stay on the other person's machine.
+(是的，这是因为一些书面记录是非常私密的。如果你发送一张你家钥匙的照片，或者关于你资金的秘密记录，你不会希望它留在对方的机器上。)
 
-[Andrew] It is a big risk. In the past, other companies tried to make glasses like this, but they did not do well. We will see if Snap can change how we use machines.
-(这是一个很大的风险。过去，其他公司也尝试过制作这样的眼镜，但他们做得并不好。我们将看看 Snap 是否能改变我们使用机器的方式。)
+[Andrew] If their machine is taken by a bad person, your secret is out. But with this new change, the note disappears after one look.
+(如果他们的机器被坏人拿走了，你的秘密就会泄露。但有了这个新改变，记录在看了一次后就会消失。)
 
-[Aria] Now, let us talk about Google. Google has sent out a new system for its Pixel pocket machines. It is named Android 17.
-(现在，让我们来谈谈 Google。Google 为其 Pixel 口袋机器发布了一个新系统。它被命名为 Android 17。)
+[Aria] WhatsApp has a long history. At first, it was only for sending simple words. Then, they added pictures, then voice, and now video. It has grown very big. Millions of persons use it every day.
+(WhatsApp 有着悠久的历史。起初，它只用于发送简单的文字。然后，他们增加了图片，接着是语音，现在是视频。它已经发展得非常庞大。每天有数百万人使用它。)
 
-[Andrew] This is a surprise. Android 17 is coming very early this year. Usually, Google sends out the new system in the autumn. But this time, it is here in June. Why did they make it so quick?
-(这是一个惊喜。Android 17 今年发布得非常早。通常，Google 会在秋季发布新系统。但这一次，它在六月份就来了。他们为什么做得这么快？)
+[Andrew] They are also testing planned notes. This has the meaning that you can write a note now, but the machine will send it at a later time.
+(他们还在测试定时发送的记录。这意味着你现在可以写一条记录，但机器会在稍后的时间发送它。)
 
-[Aria] They want to put new AI systems into the machines. This new system has 38 fixes for the Pixel machines. It makes the machines run better and safer.
-(他们想把新的 AI 系统放入机器中。这个新系统为 Pixel 机器提供了 38 项修复。它让机器运行得更好、更安全。)
+[Aria] Why do we need planned notes? At some times, you have a thought in the middle of the night. You want to tell your manager at work, but you do not want to wake him up at two in the morning.
+(为什么我们需要定时记录？有时，你在半夜产生了一个想法。你想告诉你的工作经理，但你不想在凌晨两点吵醒他。)
 
-[Andrew] Yes, and more AI parts will come later in the summer. Google wants to be the first in the competition of AI. They want their machines to be very smart.
-(是的，更多 AI 功能将在今年夏天晚些时候推出。Google 希望在 AI 竞争中占据第一。他们希望他们的机器非常智能。)
+[Andrew] With this new change, you can write the words now, and the system will wait until nine in the morning to send it. This is very polite and keeps work relations good.
+(有了这个新改变，你现在就可以写下这些字，系统会等到早上九点再发送。这非常礼貌，能保持良好的工作关系。)
 
-[Aria] But some persons say that sending it out so early may cause errors. Google has to make sure the system is stable. If the system has bugs, the owners of Pixel machines will be very angry.
-(但有人说，这么早就发布可能会导致错误。Google 必须确保系统稳定。如果系统有漏洞，Pixel 机器的主人会非常生气。)
+[Aria] It is a very simple but useful design. It makes the system better for business and daily life.
+(这是一个非常简单但有用的设计。它使系统更适合商业和日常生活。)
 
-[Andrew] That is true. A fast release is good, but a working system is better. We will watch how the Pixel machines behave with this new system.
-(确实如此。快速发布是好事，但一个正常工作的系统更好。我们将观察 Pixel 机器在这个新系统下的表现。)
+[Andrew] Now, let us talk about Apple. Apple has made a new system update for AirPods Pro 2, AirPods Pro 3, and Beats Studio Buds.
+(现在，让我们来谈谈 Apple。Apple 为 AirPods Pro 2、AirPods Pro 3 和 Beats Studio Buds 制作了新的系统更新。)
 
-[Aria] Apple also has big plans for the future. In the year 2027, Apple will make new AirPods. These are small instruments for the ears. But these new AirPods will have cameras!
-(Apple 对未来也有宏伟的计划。在 2027 年，Apple 将制造新的 AirPods。这些是用于耳朵的小仪器。但这些新的 AirPods 将带有摄像头！)
+[Aria] This is not a change you can see with your eyes. It is an update for the small electric brains inside the listening instruments.
+(这不是一个你用眼睛能看到的改变。这是对听音设备内部微型电子大脑的更新。)
 
-[Andrew] Cameras in the ears? That is very strange. Why does a person need a camera in their ear, Aria?
-(耳朵里装摄像头？这太奇怪了。Aria，为什么一个人需要在耳朵里装摄像头？)
+[Andrew] AirPods are small instruments that you put in your ears. They do not have wires. They use blue-tooth to get sound from your iPhone. Inside them, there is a very small battery and a very small electric brain.
+(AirPods 是你戴在耳朵里的小设备。它们没有线。它们使用蓝牙从你的 iPhone 获取声音。在它们内部，有一个非常小的电池和一个非常小的电子大脑。)
 
-[Aria] The cameras will look at the world around you. They will send pictures to an AI system. The AI will talk to you and tell you about the things you see. It is a new way to get help from machines.
-(摄像头会观察你周围的世界。它们会将图片发送给 AI 系统。AI 会与你对话，告诉你你所看到的事物。这是一种从机器获得帮助的新方式。)
+[Aria] Why did they make this update? It is because of a danger with the microphone. The microphone is the part that takes your voice.
+(他们为什么要进行这次更新？因为麦克风存在危险。麦克风是接收你声音的部分。)
 
-[Andrew] That is very interesting. Apple is also making a new iPhone that is able to fold. It will be the second folding iPhone. They will also make a special iPhone for the 20th year of the iPhone.
-(那非常有趣。Apple 还在制作一款可以折叠的新 iPhone。它将是第二款折叠 iPhone。他们还将为 iPhone 诞生 20 周年制作一款特别的 iPhone。)
+[Andrew] Yes, some wise persons saw that a bad person could turn on your microphone from a distance. This bad person could then hear your private talks without your approval.
+(是的，一些聪明的人发现，坏人可以从远处打开你的麦克风。然后，这个坏人就可以在未经你同意的情况下听到你的私密谈话。)
 
-[Aria] Yes, the 20th year of the iPhone will be a very big event. Apple wants to make something very beautiful and different to mark this time. They want to show that they are still the leaders of design.
-(是的，iPhone 的 20 周年将是一个非常重大的事件。Apple 希望制作一些非常美丽且与众不同的东西来纪念这个时刻。他们想展示他们仍然是设计的领导者。)
+[Aria] This was a very big shock for many persons who use them. It is like having a spy in your ear!
+(这让许多使用它们的人感到非常震惊。这就像在你的耳朵里装了一个间谍！)
 
-[Andrew] It seems Apple is going head-to-head with Meta. Meta has made smart glasses that do similar things. The competition in this area is getting very hot.
-(看来 Apple 正在与 Meta 正面交锋。Meta 已经制造了具有类似功能的智能眼镜。这个领域的竞争正在变得非常激烈。)
+[Andrew] Apple found this trouble and made a quick adjustment. They sent a new system of rules to the electric brain inside the instruments. This new system stops the AirPods from accepting signals from machines that are not yours.
+(Apple 发现了这个麻烦并做出了快速调整。他们向设备内部的电子大脑发送了一套新的规则系统。这个新系统阻止了 AirPods 接收不属于你的机器的信号。)
 
-[Aria] Before 2027, we will see the iPhone 18 Pro. There is news that it will come in September of the year 2026. We have knowledge of this because of clues from the Apple meeting named WWDC 2026.
-(在 2027 年之前，我们将看到 iPhone 18 Pro。有消息称它将于 2026 年 9 月上市。我们知道这一点是因为来自名为 WWDC 2026 的 Apple 会议的线索。)
+[Aria] If you have these instruments, you should make a connection between your instruments and your iPhone to make them safe automatically.
+(如果你有这些设备，你应该让你的设备与你的 iPhone 建立连接，以自动使它们安全。)
 
-[Andrew] The iPhone 18 Pro will have three new camera upgrades. One is confirmed, and two are still rumors. But there is a warning. A person who gives secret news says that the new colors of the iPhone 18 Pro may have the same trouble as before.
-(iPhone 18 Pro 将有三项新的摄像头升级。一项已确定，两项仍是传闻。但有一个警告。一个提供秘密消息的人说，iPhone 18 Pro 的新颜色可能会遇到与以前相同的麻烦。)
+[Andrew] Apple is also planning for the future. They are designing a new very small electric brain called the A22 Pro chip.
+(Apple 也在为未来做计划。他们正在设计一种名为 A22 Pro 芯片的全新微型电子大脑。)
 
-[Aria] What trouble is that, Andrew?
-(Andrew，那是什么麻烦？)
+[Aria] This chip will be 1.4nm. That is extremely small! A nanometer is a measure of size. If you take one hair from your head, it is about eighty thousand nanometers wide!
+(这个芯片将是 1.4 纳米。那是非常小的！纳米是一种尺寸单位。如果你从头上拿一根头发，它大约有八万纳米宽！)
 
-[Andrew] The color may rub off or get damaged easily. In the past, some dark colors did not last long. They looked bad after some months of use.
-(颜色可能会脱落或容易受损。过去，一些深色并不持久。使用几个月后，它们看起来很糟糕。)
+[Andrew] So, 1.4 nanometers is so small that you cannot see it even with a strong glass. It is almost as small as an atom.
+(所以，1.4 纳米是如此之小，以至于你用强放大镜也看不见它。它几乎和原子一样小。)
 
-[Aria] That is bad news. If a person pays a great amount of money for a beautiful machine, they want the color to stay beautiful. Apple must make the cover very strong.
-(那是个坏消息。如果一个人花了一大笔钱买了一台漂亮的机器，他们希望颜色能保持美丽。Apple 必须把外壳做得非常坚固。)
+[Aria] When the parts are smaller, they can be closer together. This has the meaning that the electric signals can travel a shorter distance.
+(当零件变小时，它们可以靠得更近。这意味着电信号可以传输更短的距离。)
 
-[Andrew] Yes, the look of the machine is very important for Apple buyers. They want quality. Let us hope Apple can fix this color problem before the release.
-(是的，机器的外观对 Apple 买家来说非常重要。他们想要品质。让我们希望 Apple 能在发布前解决这个颜色问题。)
+[Andrew] When the distance is short, the signal travels faster and uses less power. This is why your phone today is much faster than a big computer from twenty years ago.
+(当距离变短时，信号传输更快，消耗的电量更少。这就是为什么你今天的手机比二十年前的大型计算机快得多的原因。)
 
-[Aria] Let us move to the business of space. SpaceX, the company of Elon Musk, has a new value. The value is now 2,600,000,000,000 dollars!
-(让我们转向太空业务。Elon Musk 的公司 SpaceX 有了新的估值。现在的价值是 2,600,000,000,000 美元！)
+[Aria] This will make the future iPhones very fast and keep the battery alive longer. But who will make these chips for Apple?
+(这将使未来的 iPhone 运行非常快，并让电池寿命更长。但是谁来为 Apple 制造这些芯片呢？)
 
-[Andrew] That is a number with many zeros! It is so great that SpaceX was briefly more valuable than Amazon. Amazon is a very big company that sells everything on the world net. But SpaceX is making rockets that go to the moon and stars.
-(那是一个有很多零的数字！太伟大了，SpaceX 的市值曾短暂超过 Amazon。Amazon 是一家在世界网络上销售所有商品的大公司。但 SpaceX 正在制造前往月球和恒星的火箭。)
+[Andrew] TSMC is the main company that makes chips for Apple now. They are in Taiwan. But Apple is also looking at Intel to make some of these chips.
+(TSMC 是目前为 Apple 制造芯片的主要公司。他们在台湾。但 Apple 也在考虑让 Intel 制造其中一些芯片。)
 
-[Aria] The shares of SpaceX went up by 50 percent. Some persons who sold their shares early are now very sad. They regret their decision. They lost a chance to get much money.
-(SpaceX 的股份上涨了 50%。一些很早就卖掉股份的人现在非常难过。他们后悔自己的决定。他们失去了赚大钱的机会。)
+[Aria] This is a big change because Intel has had hard times in business. If Intel can make chips for Apple, it will be a very great win for them.
+(这是一个巨大的变化，因为 Intel 在商业上面临过艰难时期。如果 Intel 能为 Apple 制造芯片，那对他们来说将是一个非常巨大的胜利。)
 
-[Andrew] SpaceX is doing very well because of Starlink. Starlink is a system of many small stars in the sky that give world net to the earth. It is a very big business. It helps persons in far places get connected.
-(由于 Starlink，SpaceX 运行得非常顺利。Starlink 是天空中许多小星星组成的系统，为地球提供世界网络。这是一笔非常大的业务。它帮助遥远地方的人们建立联系。)
+[Andrew] Yes, Apple wants to have more than one company making their chips. This keeps their business safe if one company has trouble.
+(是的，Apple 希望有不止一家公司制造他们的芯片。如果一家公司遇到麻烦，这可以保证他们的业务安全。)
 
-[Aria] Yes, and they also have the giant rocket named Starship. They are testing it frequently. Every test makes the rocket better. The value of the company keeps growing because of these successes.
-(是的，他们还有名为 Starship 的巨型火箭。他们经常进行测试。每一次测试都让火箭变得更好。由于这些成功，公司的价值不断增长。)
+[Aria] If there is a storm, or a fight, or a big earth-shake in Taiwan, Apple will still have chips from Intel in the United States.
+(如果台湾发生风暴、冲突或大地震，Apple 仍能从美国的 Intel 获得芯片。)
 
-[Andrew] It is amazing to see a private space company become so big. It is now one of the most valuable companies in the world, even without being on the public stock market.
-(看到一家私营太空公司变得如此庞大，真是令人惊叹。它现在是世界上最有价值的公司之一，甚至还没有在公共股票市场上市。)
+[Andrew] Let us talk about iOS 27. This is the future system for Apple phones.
+(让我们来谈谈 iOS 27。这是 Apple 手机未来的系统。)
 
-[Aria] Now, let us talk about food. Yum Brands is going to sell Pizza Hut. Pizza Hut is a very famous eating house for pizza.
-(现在，让我们来谈谈食物。Yum Brands 将出售 Pizza Hut。Pizza Hut 是一家非常著名的比萨餐厅。)
+[Aria] Some news says that iOS 27 will make older iPhones run faster and stay alive longer.
+(有消息称，iOS 27 将使旧款 iPhone 运行得更快，续航时间更长。)
 
-[Andrew] They are selling it for 2,700,000,000 dollars. Why are they selling it, Aria?
-(他们正以 2,700,000,000 美元的价格出售它。Aria，他们为什么要卖掉它？)
+[Andrew] This is very good news because many persons do not want to buy a new phone every year. New phones have a very high price.
+(这是非常好的消息，因为许多人不想每年都买新手机。新手机的价格非常高。)
 
-[Aria] Because Pizza Hut is having a hard time. Not many persons are going to Pizza Hut now. The culture of sending food to the house has changed.
-(因为 Pizza Hut 正在经历艰难时期。现在去 Pizza Hut 的人不多了。送餐到家的文化已经改变了。)
+[Aria] Many persons feel that when a new system comes out, their old phone becomes slow. They think Apple does this on purpose to make them buy a new phone.
+(许多人觉得，当一个新系统发布时，他们的旧手机就会变慢。他们认为 Apple 是故意这样做，以迫使他们购买新手机。)
 
-[Andrew] Yes, in the past, families went to Pizza Hut to sit and eat. It was a fun event. But now, persons use pocket machines to get food sent to their doors. Other companies do this much better.
-(是的，过去，家庭会去 Pizza Hut 坐下来吃饭。那是一件很有趣的事。但现在，人们使用口袋机器把食物送到家门口。其他公司在这方面做得更好。)
+[Andrew] But Apple says it is because the new system has more complex designs that need more power. With iOS 27, Apple is trying to change this. They are making the system lighter so that old machines can run it without getting tired.
+(但 Apple 表示，这是因为新系统具有更复杂的设计，需要更多的电量。在 iOS 27 中，Apple 正试图改变这一点。他们正在让系统变得更轻量，以便旧机器运行它时不会感到吃力。)
 
-[Aria] Yum Brands is selling Pizza Hut to a private company named LongRange Capital and also to Yum China. They hope these companies can make Pizza Hut good again.
-(Yum Brands 正在将 Pizza Hut 出售给一家名为 LongRange Capital 的私营公司以及 Yum China。他们希望这些公司能让 Pizza Hut 重新好起来。)
+[Aria] Yes, if Apple can make the old phones work well with the new system, more persons will love Apple. It is a very wise plan.
+(是的，如果 Apple 能让旧手机在新系统下运行良好，更多的人会喜欢 Apple。这是一个非常明智的计划。)
 
-[Andrew] It is strange, but one of the companies that bought Pizza Hut also owns a gym company named 24 Hour Fitness and a company for dead persons. That is a very mixed group of businesses!
-(这很奇怪，但购买 Pizza Hut 的其中一家公司还拥有一家名为 24 Hour Fitness 的健身房公司和一家殡葬公司。那真是一个非常混合的业务组合！)
+[Andrew] iOS 27 will also have new features for Apple Music and Visual Intelligence. Visual Intelligence is how the phone sees and understands things through the camera.
+(iOS 27 还将为 Apple Music 和视觉智能提供新功能。视觉智能是手机如何通过摄像头看到并理解事物。)
 
-[Aria] Yes, it is a strange connection. But in business, companies often buy different things to make money. We will see if they can make Pizza Hut popular again.
-(是的，这是一个奇怪的联系。但在商业中，公司经常购买不同的东西来赚钱。我们将看看他们是否能让 Pizza Hut 再次流行起来。)
+[Aria] Imagine you are walking in a strange town. You see a beautiful flower, but you do not know its name. You take out your iPhone, open the camera, and point it at the flower.
+(想象一下你正走在一个陌生的城镇。你看到一朵美丽的花，但你不知道它的名字。你拿出你的 iPhone，打开摄像头，对准那朵花。)
 
-[Andrew] Let us go back to AI. There is a big discussion about Anthropic. Anthropic is a company that makes very smart AI.
-(让我们回到 AI。关于 Anthropic 有一个很大的讨论。Anthropic 是一家制造非常智能的 AI 的公司。)
+[Andrew] The phone will look at the shape and color of the leaves and tell you the name of the flower. Or, if you see a sign in a language you do not know, the phone can change the words into your language on the screen immediately.
+(手机会观察叶子的形状和颜色，并告诉你这朵花的名字。或者，如果你看到一个你看不懂的语言的标志，手机可以立即在屏幕上将这些字转换成你的语言。)
 
-[Aria] The government of the US has stopped Anthropic from letting some foreign workers use their most powerful AI model. This has caused a great shock in the AI world.
-(美国政府已阻止 Anthropic 让一些外国员工使用他们最强大的 AI 模型。这在 AI 界引起了巨大的震动。)
+[Aria] That is like magic! It makes our daily life much simpler.
+(那就像魔术一样！它让我们的日常生活变得简单得多。)
 
-[Andrew] Yes, companies like OpenAI are now very worried. They have a fear that the government will make rules against foreign workers. Many of the wisest persons in AI come from other countries.
-(是的，像 OpenAI 这样的公司现在非常担心。他们担心政府会制定针对外国员工的规则。AI 领域许多最聪明的人都来自其他国家。)
+[Andrew] Now, let us move to business and money news. The price of oil has gone down.
+(现在，让我们转向商业和资金新闻。石油价格已经下降了。)
 
-[Aria] If they are not able to work in the US, the development of AI will become very slow. The Trump government wants to keep the AI secrets safe. They do not want other nations to get this power.
-(如果他们不能在美国工作，AI 的发展将会变得非常缓慢。特朗普政府希望确保 AI 机密的安全。他们不希望其他国家获得这种力量。)
+[Aria] This is because of hopes for a new agreement between the United States and Iran.
+(这是因为人们对美国和伊朗之间达成新协议抱有希望。)
 
-[Andrew] But it is a hard balance to keep. If you stop foreign talent, you may lose the race. Science needs open minds from all over the world.
-(但这是一个很难保持的平衡。如果你阻止外国人才，你可能会输掉竞争。科学需要来自世界各地的开放思想。)
+[Andrew] Iran has a lot of oil under its land. For many years, other countries, especially the United States, have made rules to stop Iran from selling its oil.
+(伊朗土地下有大量的石油。多年来，其他国家，特别是美国，制定了规则来阻止伊朗出售其石油。)
 
-[Aria] That is a very good point. The debate in Congress is starting again because of this move. We will see how the government controls AI in the future.
-(这是一个非常好的观点。由于这一举动，国会的辩论再次开始。我们将看看政府未来如何控制 AI。)
+[Aria] This was a punishment because they did not agree with Iran's government and their work on atom power. Because of these rules, Iran's economy has been very weak, and the price of oil in the world has been high.
+(这是一种惩罚，因为他们不同意伊朗政府及其在原子能方面的工作。由于这些规则，伊朗的经济一直非常疲软，世界石油价格一直很高。)
 
-[Andrew] Speaking of the Trump government, they are helping xAI. xAI is another AI company of Elon Musk.
-(说到特朗普政府，他们正在帮助 xAI。xAI 是 Elon Musk 的另一家 AI 公司。)
+[Andrew] Now, there is talk of a new agreement. President Trump wants to make a deal. Under this deal, Iran will stop some of its military work, and in return, the United States will let them sell oil again immediately.
+(现在，有关于新协议的讨论。特朗普总统想做一笔交易。根据这笔交易，伊朗将停止其部分军事工作，作为回报，美国将允许他们立即再次出售石油。)
 
-[Aria] Yes, xAI has a big machine house in Memphis. This house uses a great amount of power and makes the air dirty. A group named NAACP made a legal fight against xAI because of this dirty air.
-(是的，xAI 在孟菲斯有一个庞大的机器房。这个房子消耗了大量的电力，并使空气变得肮脏。一个名为 NAACP 的组织因为这股脏空气对 xAI 进行了法律诉讼。)
+[Aria] This is a very big change. If Iran's oil comes back to the market, it will increase the amount of oil ready for use.
+(这是一个非常大的变化。如果伊朗的石油重返市场，它将增加可供使用的石油量。)
 
-[Andrew] But the government of the US has stepped in to help xAI. They asked the judge to stop the legal fight. Why did the government do that?
-(但美国政府已经介入帮助 xAI。他们要求法官停止这场法律诉讼。政府为什么要那样做？)
+[Andrew] When there is more of a thing, the price usually goes down. If the price of oil goes down, then the price of transport will be cheaper, which is good for persons who drive carriages and use power in their houses.
+(当一样东西变多时，价格通常会下降。如果石油价格下降，那么运输价格就会更便宜，这对于驾驶车辆和在家里使用电力的人来说是有好处的。)
 
-[Aria] They say that the military needs Grok, the AI of xAI, for war. They say that national safety is more important than the clean air of the town.
-(他们说军方需要 xAI 的 AI——Grok 来进行战争。他们说国家安全比城镇的清洁空气更重要。)
+[Aria] Yes, but some traders are still worried about the Strait of Hormuz. This is a very narrow sea where many oil ships must pass.
+(是的，但一些贸易商仍然对霍尔木兹海峡感到担忧。这是一个非常狭窄的海域，许多油轮必须从这里通过。)
 
-[Andrew] This has made many persons in the town very angry. They say their health is being damaged for the sake of a machine. They feel the government does not care about them.
-(这让镇上的许多人非常生气。他们说他们的健康为了机器的利益而受损。他们觉得政府不关心他们。)
+[Andrew] If there is a fight, this narrow sea could be shut. That would stop the oil and make the price go very high again. So, we must watch the news about Iran and the United States very closely.
+(如果发生冲突，这个狭窄的海域可能会被关闭。那将阻止石油运输，并使价格再次变得非常高。所以，我们必须非常密切地关注关于伊朗和美国的新闻。)
 
-[Aria] It is a very difficult situation. On one side, we have the safety of the nation. On the other side, we have the health of the citizens. It shows how powerful AI has become.
-(这是一个非常困难的境地。一方面，我们有国家的安全。另一方面，我们有公民的健康。这展示了 AI 已经变得多么强大。)
+[Aria] Speaking of money, the big bank of the United States, the Federal Reserve, is having a meeting today.
+(说到钱，美国的大银行——联邦储备系统，今天正在开会。)
 
-[Andrew] Yes, AI is now a weapon of war. That is why the government is willing to protect it at all costs.
-(是的，AI 现在是战争的武器。这就是为什么政府愿意不惜一切代价保护它。)
+[Andrew] This is the first meeting with Kevin Warsh as the new chief of the bank.
+(这是 Kevin Warsh 作为该银行新任掌门人的第一次会议。)
 
-[Aria] Let us look at China now. China has a very great instrument for looking at the sky. It is named the 'Sky Eye'. It is the biggest radio telescope in the world.
-(现在让我们看看中国。中国有一个非常伟大的观测天空的仪器。它被称为“天眼”。它是世界上最大的射电望远镜。)
+[Aria] The Federal Reserve is not a bank for normal persons. It is a bank for other banks and for the government. Its chief job is to keep the money system stable.
+(联邦储备系统不是一家面向普通人的银行。它是面向其他银行和政府的银行。它的主要工作是保持货币系统的稳定。)
 
-[Andrew] The 'Sky Eye' has completed a big fix. They used new, strong wires made in China to make it better. These wires are very giant and strong. They hold the big dish of the telescope.
-(“天眼”已经完成了一次大修。他们使用了中国制造的新型坚固导线来使其更好。这些导线非常巨大且坚固。它们支撑着望远镜的大盘子。)
+[Andrew] They do this by changing the interest rate. The interest rate is the price you pay to borrow money. If the rate is high, persons and companies do not want to borrow money, so they spend less. This slows down the economy and stops prices from rising too fast.
+(他们通过改变利率来做到这一点。利率是你借钱所支付的价格。如果利率高，个人和公司就不想借钱，所以他们花得更少。这减缓了经济增长，并阻止价格上涨过快。)
 
-[Aria] With these new wires, the 'Sky Eye' will be able to see deeper into the dark space. This is a great step for China's science. It shows that China is able to make very complex materials without help from other nations.
-(有了这些新导线，“天眼”将能够看到更深邃的黑暗太空。这是中国科学迈出的一大步。它表明中国有能力在没有其他国家帮助的情况下制造非常复杂的材料。)
+[Aria] Every person is waiting to see Kevin Warsh's decision on the interest rate today. President Trump wants him to cut the rate. This would make it cheaper for persons to get loans and spend money.
+(每个人都在等待 Kevin Warsh 今天对利率做出的决定。特朗普总统希望他降低利率。这将使人们贷款和花钱变得更便宜。)
 
-[Andrew] Yes, the telescope is very important for discovering new stars and learning about the start of the world. The fix will keep it working for many years.
-(是的，该望远镜对于发现新恒星和了解世界的起源非常重要。这次修复将使其保持工作多年。)
+[Andrew] But there is still inflation. Inflation means things in the stores cost too much money. If you cut the rate too fast, inflation can get worse.
+(但仍然存在通货膨胀。通货膨胀意味着商店里的东西太贵了。如果你降息太快，通货膨胀可能会变得更糟。)
 
-[Aria] China also has a very beautiful place named the Rainbow Mountains in Zhangye. The mountains have many colors like red, yellow, and green. It looks like a painting.
-(中国还有一个非常美丽的地方，名叫张掖七彩丹霞山。这些山有红、黄、绿等多种颜色。它看起来像一幅画。)
+[Aria] So, Kevin Warsh has a very hard job. He must balance the desire of the President with the health of the money system.
+(所以，Kevin Warsh 的工作非常艰难。他必须在总统的愿望与货币系统的健康之间取得平衡。)
 
-[Andrew] But there is a big push of people there. Too many persons are traveling to see these mountains during holidays. The government has made special paths and buildings so persons do not damage the natural earth.
-(但那里有很大的人流压力。假期里有太多的人去旅游看这些山。政府已经修建了特殊的通道和建筑，这样人们就不会破坏自然土地。)
+[Andrew] He must show that he is independent and can say no to the President if it is necessary for the health of the nation. The stock market is very quiet because they are waiting for this decision.
+(他必须表明他是独立的，如果为了国家的健康有必要，他可以对总统说不。股票市场非常安静，因为他们正在等待这个决定。)
 
-[Aria] But when a mass of persons comes at the same time, it is very hard to control. This is a new behavior in China's travel. Persons want to see beautiful nature, but the mass of travel makes it hard to enjoy.
-(但是当大量的人同时到来时，是非常难控制的。这是中国旅游中的一种新行为。人们想要看美丽的自然，但大规模的旅游让人们很难享受其中。)
+[Aria] In other business news, a company called Carvana is making a big move.
+(在其他商业新闻中，一家名为 Carvana 的公司正在采取重大行动。)
 
-[Andrew] Yes, we need to find a way to protect these beautiful places while letting persons see them. It is a problem for many famous places in the world.
-(是的，我们需要找到一种方法，在允许人们参观的同时保护这些美丽的地方。这是世界上许多著名地方都面临的问题。)
+[Andrew] Carvana is famous for selling used road carriages online. They even have big machines that look like toy boxes where you can get your carriage.
+(Carvana 以在线销售二手公路车辆而闻名。他们甚至有看起来像玩具盒的大型机器，你可以在那里取车。)
 
-[Aria] Let us talk about trade. Chinese companies that make electric carriages, or EVs, are sending a great number of them to other countries.
-(让我们谈谈贸易。制造电动车（即 EV）的中国公司正向其他国家运送大量的电动车。)
+[Aria] In the past, if you wanted to get a used carriage, you had to go to a store, talk to a salesman who would try to make you pay a high price, and sign many papers. It was a very long and sad process.
+(在过去，如果你想买一辆二手车，你必须去商店，和一个试图让你支付高价的推销员交谈，并签署许多文件。这是一个非常漫长而令人难过的过程。)
 
-[Andrew] Yes, the trade of Chinese EVs is growing very fast. Carmakers in China are looking across the sea because the market at home has too much competition.
-(是的，中国电动车的贸易增长非常快。中国的汽车制造商正在向海外看，因为国内市场的竞争太激烈了。)
+[Andrew] Carvana changed this. They put all their carriages on a website. You can look at pictures, see the price, and pay for it online. Then, they bring the carriage to your house.
+(Carvana 改变了这一点。他们把所有的车辆都放在一个网站上。你可以看照片，看价格，并在网上付款。然后，他们把车送到你家。)
 
-[Aria] These EVs are very cheap and have good systems. But some other nations are not happy. They are putting taxes on Chinese EVs to protect their own companies.
-(这些电动车非常便宜，而且系统很好。但其他一些国家并不高兴。他们正在对中国电动车征税，以保护自己的公司。)
+[Aria] But now, they are buying physical stores that sell new carriages from the company Stellantis. Stellantis makes carriages like Jeep and Chrysler.
+(但现在，他们正在购买销售 Stellantis 公司新车辆的实体店。Stellantis 制造吉普和克莱斯勒等车辆。)
 
-[Andrew] Even with these taxes, Chinese companies are finding ways to trade in other lands, like in Europe and Asia. They are building factories in other countries too.
-(即使有这些税收，中国公司也在寻找在其他土地上进行贸易的方法，比如在欧洲和亚洲。他们也在其他国家建立工厂。)
+[Andrew] This is a very different strategy. They want to turn these stores into playgrounds where you can test-drive the carriages, but you still buy them online.
+(这是一个非常不同的策略。他们想把这些商店变成游乐场，你可以在那里试驾车辆，但你仍然在线购买它们。)
 
-[Aria] This is a big change for the car industry. For a long time, Western companies made most of the cars. Now, China is becoming a leader.
-(这是汽车行业的一个巨大变化。长期以来，西方公司制造了大部分汽车。现在，中国正在成为领导者。)
+[Aria] There will be no salesmen who will push you to pay more. If you want to buy, you use your pocket machine to do it online.
+(不会有推销员逼你付更多的钱。如果你想买，你用你的口袋机器在网上买就行了。)
 
-[Andrew] Because of all this industry, China needs a lot of power. A spokeswoman for the government said that China will watch the price of power in the world very closely.
-(由于所有这些工业，中国需要大量的能源。政府的一位女发言人表示，中国将非常密切地关注世界能源价格。)
+[Andrew] This is a mix of real-world experience and online trade. It could change how we get new carriages in the future. Other carriage companies are watching this closely.
+(这是现实世界体验和在线贸易的结合。它可能会改变我们未来获取新车辆的方式。其他车辆公司正在密切关注这一点。)
 
-[Aria] Yes, if the price of oil or coal goes up in other countries, it has a big effect on China's factories. They want to make sure that domestic businesses do not suffer from high prices of power.
-(是的，如果其他国家的石油或煤炭价格上涨，对中国的工厂会有很大的影响。他们希望确保国内企业不会遭受高能源价格的痛苦。)
+[Aria] Now, let us talk about food! Yum! Brands is selling Pizza Hut for 2.7 billion dollars.
+(现在，让我们来谈谈食物！Yum! Brands 正在以 27 亿美元的价格出售必胜客。)
 
-[Andrew] They will make adjustments to keep the market safe. Power is the blood of industry. If the price is too high, everything becomes dear.
-(他们将进行调整以保持市场安全。能源是工业的血液。如果价格太高，一切都会变得昂贵。)
+[Andrew] Pizza Hut is a very famous food chain, but they have had hard times recently.
+(必胜客是一个非常著名的食品连锁店，但他们最近遇到了艰难时期。)
 
-[Aria] That is true. Watching the world market is necessary for a big trading nation like China.
-(确实如此。对于像中国这样的贸易大国来说，观察世界市场是必要的。)
+[Aria] Pizza Hut started in 1958 in the United States. Two brothers borrowed five hundred dollars from their mother to start a small pizza store. It became very popular because the pizza was good and the building had a special red roof.
+(必胜客于 1958 年在美国创立。两兄弟向母亲借了五百美元开了一家小比萨店。它变得非常受欢迎，因为比萨很好吃，而且建筑有一个特殊的红屋顶。)
 
-[Andrew] Now, let us look at the Middle East. Donald Trump has made a suggestion. He says that Syria should fight Hezbollah.
-(现在，让我们看看中东。唐纳德·特朗普提出了一个建议。他说叙利亚应该对抗希兹伯拉（黎巴嫩真主党）。)
+[Andrew] For many years, going to Pizza Hut was a great treat for families. Children loved the red cups and the salad bar. But in the last ten years, things have changed.
+(多年来，去必胜客对家庭来说是一大乐事。孩子们喜欢红杯子和自助沙拉吧。但在过去的十年里，情况发生了变化。)
 
-[Aria] This suggestion has made persons in Lebanon very afraid. Hezbollah is a strong group in Lebanon, and Syria has been their friend for a long time. If Syria turns against Hezbollah, it could cause a very violent war in the region.
-(这个建议让黎巴嫩的人们非常害怕。希兹伯拉是黎巴嫩的一个强大组织，而叙利亚长期以来一直是他们的朋友。如果叙利亚转而对抗希兹伯拉，可能会在该地区引发一场非常暴力的战争。)
+[Aria] This is because of the delivery culture. With the internet and pocket machines, new companies came into existence. Now, you do not have to go to a restaurant to get food. You can get any kind of food sent to your door in thirty minutes.
+(这是因为外卖文化。随着互联网和口袋机器的出现，新公司应运而生。现在，你不需要去餐厅吃东西。你可以在三十分钟内把任何种类的食物送到家门口。)
 
-[Andrew] At the same time, there is a peace agreement between the US and Iran about Lebanon. But Iran says that the agreement will only work if Israeli forces go away from Lebanon.
-(与此同时，美国和伊朗之间就黎巴嫩问题达成了一项和平协议。但伊朗表示，该协议只有在以色列军队撤出黎巴嫩的情况下才能发挥作用。)
+[Andrew] Pizza Hut was slow to change. Their big restaurants with red roofs became empty because persons preferred to eat at home.
+(必胜客改变得很慢。他们带有红屋顶的大型餐厅变得空无一人，因为人们更喜欢在家里吃饭。)
 
-[Aria] The quiet in Lebanon is very delicate. Any small change could start the fighting again. Donald Trump has also said that Israel's leader, Netanyahu, must be more responsible. He said the recent attacks were too much.
-(黎巴嫩的平静非常微妙。任何微小的变化都可能再次引发战斗。唐纳德·特朗普还表示，以色列领导人内塔尼亚胡必须更加负责。他说最近的袭击有些过头了。)
+[Aria] So, Yum! Brands is selling it to LongRange Capital and Yum China.
+(所以，Yum! Brands 正在将其出售给 LongRange Capital 和百胜中国。)
 
-[Andrew] It is interesting to see Trump criticize Netanyahu. Usually, Trump supports Israel very strongly. This shows that the situation is very complex.
-(看到特朗普批评内塔尼亚胡很有趣。通常，特朗普非常强烈地支持以色列。这表明情况非常复杂。)
+[Andrew] The new owners hope to save the company by making changes to how they send food to homes and how they design their stores. They want to focus on quick delivery and smaller stores.
+(新东家希望通过改变他们送餐到家的方式以及设计店面的方式来挽救这家公司。他们希望专注于快速送达和更小的店面。)
 
-[Aria] Yes, peace in the Middle East is very hard to get. We hope the leaders can find a way to stop the pain of the persons living there.
-(是的，中东的和平很难获得。我们希望领导人能够找到一种方法来停止居住在那里的人们的痛苦。)
+[Aria] We hope they can do it because many of us have happy memories of eating pizza there when we were young.
+(我们希望他们能做到，因为我们中的许多人都有年轻时在那里吃比萨的快乐回忆。)
 
-[Andrew] In Canada, there is a strange story about citizenship. Some persons who are called 'Lost Canadians' have been told to give back their papers of proof.
-(在加拿大，有一个关于公民身份的奇怪故事。一些被称为“失去的加拿大人”的人被告知要交回他们的证明文件。)
+[Andrew] Let us look at news from China. China's exports have gone up very much.
+(让我们来看看来自中国的新闻。中国的出口增长了非常多。)
 
-[Aria] These are persons who got their Canadian citizenship under a new law. But now, the government is reviewing their cases. They say there was an error in how the papers were given out.
-(这些人是根据一项新法律获得加拿大公民身份的。但现在，政府正在审查他们的案例。他们说文件的发放方式存在错误。)
+[Aria] Exports mean things that China makes and sends to other countries. China is known as the factory of the world. They make everything from clothes to electric carriages.
+(出口是指中国制造并发送到其他国家的东西。中国被称为世界工厂。他们制造从衣服到电动车的一切东西。)
 
-[Andrew] This has made these persons very sad and angry. They feel they are being kicked out of their home country. They had a belief that they were safe, but now they have doubt.
-(这让这些人非常难过和生气。他们觉得自已被赶出了祖国。他们曾相信自己是安全的，但现在他们产生了怀疑。)
+[Andrew] Other countries still need cheap and good things from China, so the factories are very busy. But at the same time, the domestic economy is weak.
+(其他国家仍然需要来自中国的便宜且优质的东西，所以工厂非常 leaf 忙。但与此同时，国内经济疲软。)
 
-[Aria] It is a very difficult situation. Having no country is a terrible feeling. The government says they must make sure the law is followed correctly, but it seems very cruel to these families.
-(这是一个非常困难的境地。没有国家是一种可怕的感觉。政府表示他们必须确保法律得到正确遵守，但这对这些家庭来说似乎非常残酷。)
+[Aria] This means persons inside China are not spending much money in stores. They are worried about the future, so they are saving their money instead of spending it.
+(这意味着中国国内的人们在商店里花钱不多。他们担心未来，所以他们把钱存起来而不是花掉。)
 
-[Andrew] Yes, the government should find a way to fix the error without hurting the persons who did nothing wrong.
-(是的，政府应该找到一种方法来纠正错误，而不伤害那些没有做错任何事的人。)
+[Andrew] Yes, there is a difference between the strong factories and the quiet stores. The government wants to help the domestic market grow.
+(是的，强大的工厂和安静的商店之间存在差异。政府希望帮助国内市场增长。)
 
-[Aria] Our last story is from Albania. There are big protests against the government there.
-(我们的最后一个故事来自阿尔巴尼亚。那里有针对政府的大规模抗议活动。)
+[Aria] To help the future of their industry, China is planning a very big national AI data center grid. AI means artificial intelligence, or machines that can think like humans.
+(为了帮助他们行业的未来，中国正在计划一个非常庞大的国家 AI 数据中心网格。AI 意为人工智能，即可以像人类一样思考的机器。)
 
-[Andrew] The protests are about a beautiful island named Sazan. The government wants to let Jared Kushner, the son-in-law of Donald Trump, build a luxury holiday place there.
-(抗议活动是关于一个名叫萨赞的美丽岛屿。政府想让唐纳德·特朗普的女婿贾里德·库什纳在那里建造一个奢华的度假场所。)
+[Andrew] To run these machines, you need a lot of computer power and big buildings with many electric brains. This grid will cost 295 billion dollars!
+(要运行这些机器，你需要大量的计算机算力和拥有许多电子大脑的大型建筑。这个网格将耗资 2950 亿美元！)
 
-[Aria] Sazan is a very beautiful, natural island with many wild birds and animals. Persons in Albania say that the holiday place will destroy the nature. They call it the 'flamingo revolution' because of the beautiful pink birds that live near there.
-(萨赞是一个非常美丽、自然的岛屿，有许多野生鸟类和动物。阿尔巴尼亚的人们说，度假场所将破坏自然。他们称之为“火烈鸟革命”，因为那里附近生活着美丽的粉红色鸟类。)
+[Aria] It will use technology made inside China. This is a very big step for their science and computer power. It will help them be independent of other countries.
+(它将使用中国国内制造的技术。这是他们的科学和计算机力量迈出的非常大的一步。它将帮助他们独立于其他国家。)
 
-[Andrew] They say the government is giving away public land to rich friends of Trump. It has become a global symbol of how rich persons can get whatever they want, even if it damages the earth.
-(他们说政府正在把公共土地送给特朗普的富人朋友。它已成为一个全球性的象征，表明富人如何能够得到他们想要的任何东西，即使这会破坏地球。)
+[Andrew] There is also interesting news about travel in China. The Rainbow Mountains in Zhangye have become a very busy place.
+(关于中国的旅游也有有趣的新闻。张掖的彩虹山已经变成了一个非常繁忙的地方。)
 
-[Aria] The protesters are very determined. They want to protect their land for the future. It shows that persons everywhere care about nature.
-(抗议者非常坚定。他们想为未来保护他们的土地。这表明各地的人们都关心自然。)
+[Aria] These mountains are in the northwest of China. They are made of different colors of stone and sand that have been pressed together for millions of years. The wind and rain have shaped them into beautiful curves.
+(这些山在中国西北部。它们是由不同颜色的石头和沙子经过数百万年的挤压而成的。风和雨把它们塑造成美丽的曲线。)
 
-[Andrew] Yes, nature is a treasure that we cannot get back once it is gone. We must be very careful with how we develop these beautiful places.
-(是的，自然是一笔一旦失去就无法收回的财富。我们必须非常小心地开发这些美丽的地方。)
+[Andrew] When the sun shines on them, they look like a painting. It is a natural wonder. But because of social media, millions of persons want to visit them.
+(当太阳照在它们上面时，它们看起来像一幅画。这是一个自然奇观。但由于社交媒体，数百万人想要参观它们。)
 
-[Aria] That is all of our news stories for this day. We have talked about many important things.
-(这就是我们今天的全部新闻报道。我们谈到了许多重要的事情。)
+[Aria] During big holidays, thousands of travelers arrive at the same time. This has created a lot of pressure on nature.
+(在重大节日期间，成千上万的游客同时到达。这给大自然带来了很大的压力。)
 
-[Andrew] Yes, we talked about Snap's new glasses, Google's new system, Apple's future plans, SpaceX's great value, Pizza Hut's sale, Anthropic's trouble, xAI's fight, China's telescope and mountains, Chinese EVs, Middle East peace, Canada's citizenship, and Albania's protests.
-(是的，我们谈到了 Snap 的新眼镜、Google 的新系统、Apple 的未来计划、SpaceX 的巨大价值、Pizza Hut 的出售、Anthropic 的麻烦、xAI 的斗争、中国的望远镜和山脉、中国电动车、中东和平、加拿大的公民身份以及阿尔巴尼亚的抗议。)
+[Andrew] Yes, they have built wooden paths for persons to walk on to keep the land safe. If you step on the delicate stone, it can take sixty years for the color to come back.
+(是的，他们建造了供人行走的木质通道以保护土地安全。如果你踩在脆弱的石头上，颜色可能需要六十年才能恢复。)
 
-[Aria] We hope you got some good learning from our talk. Remember to keep practicing your English every day.
-(我们希望您从我们的谈话中获得了一些有益的学习。记住每天都要继续练习英语。)
+[Aria] This shows how domestic travel is changing in China. Persons love to see beautiful nature, but we must also keep it safe for the future.
+(这展示了中国国内旅游的变化。人们喜欢看美丽的大自然，但我们也必须为未来保护它的安全。)
 
-[Andrew] Yes, simple words can tell big stories. Thank you for being with us.
-(是的，简单的词汇可以讲述宏大的故事。感谢您与我们同在。)
+[Andrew] Now, let us talk about world news and conflicts. The G7 leaders are having a big meeting in France.
+(现在，让我们谈谈世界新闻和冲突。G7 领导人正在法国举行一次大型会议。)
 
-[Aria] Have a great day, and we will talk to you again tomorrow.
-(祝您度过美好的一天，我们明天再聊。)
+[Aria] The G7 is a group of seven rich countries: the United States, the United Kingdom, France, Germany, Italy, Japan, and Canada. They meet every year to discuss the biggest troubles of the earth.
+(G7 是由七个富裕国家组成的集团：美国、英国、法国、德国、意大利、日本和加拿大。他们每年开会讨论地球上面临的最大麻烦。)
+
+[Andrew] This year, they are talking a lot about the war in Ukraine. The war between Russia and Ukraine has been going on for more than two years. It has caused a lot of destruction and death.
+(今年，他们花了很多时间讨论乌克兰战争。俄罗斯和乌克兰之间的战争已经持续了两年多。它造成了巨大的破坏和死亡。)
+
+[Aria] The G7 leaders have agreed to boost Ukraine's air defenses. This means they will send more machines to shoot down Russian missiles and drones in the sky before they hit houses and hospitals.
+(G7 领导人已同意增强乌克兰的防空能力。这意味着他们将发送更多机器，在俄罗斯的导弹和无人机击中房屋和医院之前，在空中将它们击落。)
+
+[Andrew] They also want to make the rules against trade with Russia tighter. This is to stop Russia from getting money for the war.
+(他们还希望收紧针对与俄罗斯贸易的规则。这是为了阻止俄罗斯获得战争资金。)
+
+[Aria] President Trump was also at the G7. He has a different view. He said that the war in Ukraine has no impact on the United States because it is far away.
+(特朗普总统也在 G7 会议上。他有不同的观点。他说乌克兰战争对美国没有影响，因为它很遥远。)
+
+[Andrew] This statement surprised some other leaders. There was even a moment when President Macron of France and President Zelensky of Ukraine were heard talking about Trump when they did not know their microphones were on.
+(这一表态让其他一些领导人感到惊讶。甚至有那么一刻，法国总统马克龙和乌克兰总统泽连斯基在不知道麦克风开着的情况下，被听到在谈论特朗普。)
+
+[Aria] Yes, they were heard saying that they are worried about Trump's plans and what he will do. This shows the tension between the leaders.
+(是的，他们被听到说他们担心特朗普的计划以及他会做什么。这显示了领导人之间的紧张关系。)
+
+[Andrew] Finally, we have news from Australia. A right-wing leader named Pauline Hanson said that multiculturalism has failed.
+(最后，我们有来自澳大利亚的新闻。一位名叫 Pauline Hanson 的右翼领导人表示，多元文化主义已经失败。)
+
+[Aria] Multiculturalism means having many different kinds of persons from different countries living together in one nation. Australia is a country built by persons from many different places.
+(多元文化主义意味着让来自不同国家的许多不同类型的人生活在一个国家。澳大利亚是一个由来自许多不同地方的人建立的国家。)
+
+[Andrew] After the original people, many came from the United Kingdom, then from Europe, and now from Asia and other parts of the earth. This has made Australia a very multicultural society, with many languages, religions, and foods.
+(在原住民之后，许多人来自英国，然后来自欧洲，现在来自亚洲和地球的其他地方。这使澳大利亚成为一个非常多元文化的社会，拥有许多语言、宗教和食物。)
+
+[Aria] Pauline Hanson believes that this has caused trouble for Australia's society and that different groups do not mix together. She says it makes the country divided and weak.
+(Pauline Hanson 认为这给澳大利亚社会带来了麻烦，不同的群体没有融合在一起。她说这使国家分裂和软弱。)
+
+[Andrew] But most Australians do not agree with her. They believe that having different cultures makes their life richer and helps Australia trade with the rest of the earth.
+(但大多数澳大利亚人不同意她的观点。他们认为，拥有不同的文化会让他们的生活更丰富，并有助于澳大利亚与地球其他地方进行贸易。)
+
+[Aria] They believe that harmony is possible when we respect our differences. This is a big discussion that is happening in many countries today.
+(他们相信，当我们尊重彼此的差异时，和谐是可能的。这是当今许多国家正在进行的一场大讨论。)
+
+[Andrew] Yes, it is a very important question for the future of our earth.
+(是的，这对于我们地球的未来是一个非常重要的问题。)
+
+[Aria] Well, that is all the news we have for today. We hope you enjoyed our talk and got some new English words.
+(好了，这就是我们今天的全部新闻。我们希望你喜欢我们的谈话，并学到了一些新的英语单词。)
+
+[Andrew] Thank you for being with us. Keep listening and keep getting knowledge!
+(谢谢你和我们在一起。继续收听，继续获取知识！)
+
+[Aria] Goodbye!
+(再见！)
 
 [Andrew] Goodbye!
 (再见！)
