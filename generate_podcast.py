@@ -104,32 +104,6 @@ Include the following in order:
         print("Server is blocked or overloaded. Returning failure immediately without retries.")
         raise e
 
-def generate_learning_document(script_text, api_key, model="gemini-3.5-flash", base_url=None):
-    print("Generating learning document...")
-    client = OpenAI(api_key=api_key, base_url=base_url, timeout=180.0)
-    prompt = f"""You are an expert English teacher. I am providing you with the transcript of a daily news podcast meant for ESL learners.
-Please create a comprehensive and engaging 'Learning Document' in Markdown format for this podcast.
-Include the following:
-1. **Podcast Summary**: A brief Chinese summary of the topics discussed.
-2. **Key Vocabulary**: Extract 5-10 advanced or important words/phrases, provide their phonetic transcriptions, Chinese meanings, and example sentences.
-3. **Useful Expressions**: 3-5 idiomatic expressions or sentence structures used in the podcast, with explanations.
-4. **Comprehension Check**: 3 simple questions (with answers provided at the end) to test understanding.
-5. **How to Use this Document**: A brief study guide on how to listen to the podcast while reviewing this vocabulary.
-
-Podcast Script:
-{script_text}
-"""
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        print(f"Error generating learning doc: {e}")
-        return "Learning document could not be generated due to an error."
-
 def create_audio(text, output_mp3, api_key):
     print(f"Generating conversational audio to {output_mp3} using edge-tts...")
     import tempfile
@@ -228,12 +202,6 @@ def main():
     with open(script_path, 'w', encoding='utf-8') as f:
         f.write(audio_script_text)
         
-    print("Generating and saving Learning Document...")
-    learning_doc_md = generate_learning_document(audio_script_text, args.api_key, args.model, args.base_url)
-    doc_path = os.path.join(edition_dir, "Learning_Document.md")
-    with open(doc_path, 'w', encoding='utf-8') as f:
-        f.write(learning_doc_md)
-        
     print("Creating podcast audio...")
     mp3_path = os.path.join(edition_dir, f"{edition}_Podcast.mp3")
     create_audio(audio_script_text, mp3_path, args.api_key)
@@ -241,90 +209,6 @@ def main():
     # Call the RSS generator here
     update_rss_feed(edition, date_str, mp3_path, args.github_url)
     
-    # Update the GitHub Pages index.html
-    update_index_html()
-
-def update_index_html():
-    print("Updating index.html...")
-    try:
-        import markdown
-    except ImportError:
-        print("markdown package not installed. Skipping index.html update.")
-        return
-        
-    html_content = """<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>虎子老师教英语 - 每日播客与学习文档</title>
-    <style>
-        :root { --primary: #4F46E5; --bg: #F3F4F6; --card: #FFFFFF; --text: #1F2937; }
-        body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; padding: 3rem 2rem; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        header p { opacity: 0.9; margin-top: 1rem; font-size: 1.1rem; }
-        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-        .episode { background: var(--card); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: transform 0.2s; }
-        .episode:hover { transform: translateY(-5px); }
-        .episode h2 { margin-top: 0; color: var(--primary); border-bottom: 2px solid #E5E7EB; padding-bottom: 0.5rem; }
-        audio { width: 100%; margin: 1rem 0; }
-        .learning-doc { background: #F9FAFB; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin-top: 1rem; }
-        .learning-doc h3 { margin-top: 0; }
-        .rss-link { display: inline-block; background: #FEF2F2; color: #DC2626; padding: 0.5rem 1rem; border-radius: 99px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>虎子老师教英语</h1>
-        <p>Daily English Learning Podcast & Study Guides</p>
-        <a href="podcast.xml" class="rss-link">🎙️ Subscribe via RSS / Apple Podcasts</a>
-    </header>
-    <div class="container">
-"""
-    import os
-    editions_dir = "editions"
-    if os.path.exists(editions_dir):
-        folders = sorted(os.listdir(editions_dir), reverse=True)
-        for folder in folders:
-            folder_path = os.path.join(editions_dir, folder)
-            if not os.path.isdir(folder_path): continue
-            
-            mp3_files = [f for f in os.listdir(folder_path) if f.endswith('.mp3')]
-            doc_file = os.path.join(folder_path, "Learning_Document.md")
-            
-            if not mp3_files: continue
-            
-            mp3_file = mp3_files[0]
-            mp3_url = f"editions/{folder}/{mp3_file}"
-            title = folder.replace('_', ' ')
-            
-            html_content += f'''
-        <div class="episode">
-            <h2>{title} Podcast</h2>
-            <audio controls preload="none">
-                <source src="{mp3_url}" type="audio/mpeg">
-            </audio>'''
-            
-            if os.path.exists(doc_file):
-                with open(doc_file, 'r', encoding='utf-8') as df:
-                    md_text = df.read()
-                    html_doc = markdown.markdown(md_text)
-                    html_content += f'''
-            <div class="learning-doc">
-                {html_doc}
-            </div>'''
-            html_content += "\n        </div>"
-            
-    html_content += """
-    </div>
-</body>
-</html>"""
-    
-    with open('index.html', 'w', encoding='utf-8') as f:
-        f.write(html_content)
-    print("index.html updated successfully.")
-
 from feedgen.feed import FeedGenerator
 import pytz
 
