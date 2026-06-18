@@ -1,0 +1,147 @@
+[Aria] Good morning, Andrew. It is a beautiful day to talk about the news. We are here to help persons who are learning English. We will use simple words from a special list. This list has only eight hundred and fifty words. This makes it very easy for everyone to get the idea.
+
+[Andrew] Good morning, Aria. Yes, we have a great number of news stories on this day. Using only these basic words is a great way to learn. It forces us to make our thoughts very clear and simple. I am ready to start our discussion.
+
+[Aria] Excellent. Our first story is about Apple and the iPhone. Apple is a very great company that makes pocket machines for talking and writing. Tim Cook is the chief manager of Apple. He said to the WSJ that Apple will make the prices of its machines go up.
+
+[Andrew] This is very important news, Aria. Why are the prices going up? Tim Cook says it is because of a small amount of memory parts. There is a shortage of these parts on the earth. Memory is the part of the machine that keeps facts and numbers so the machine can work fast.
+
+[Aria] Yes, and the new machine brain, named Siri, needs a very great amount of memory to work. This machine brain uses artificial intelligence to talk to you and help you. To make Siri very smart, the new iPhone 18 must have twelve gigabytes of memory.
+
+[Andrew] That is a very large amount of memory. Samsung and SK Hynix are the companies in Korea that make these memory parts. They want more money for these parts because many companies want them now. So, Apple has to pay more money to make the iPhone.
+
+[Aria] That makes sense. If the cost of making the machine goes up, the price for the person who buys it will also go up. But there is some different news about the iPhone 17. The new system, iOS 27, will not work well on the old iPhone 17 because it does not have enough memory.
+
+[Andrew] Yes, the base model of the iPhone 17 will only have a small amount of memory. So, the best features of the machine brain will not work on it. But the iPhone 18 base model will have enough memory for all the Siri features. This is a big change for persons who want to buy a new pocket machine.
+
+[Aria] It is a very big decision. Some persons will wait for the iPhone 18, even if the price is higher. They want the smartest machine brain. Now, let us talk about another pocket machine system. Google has made a new system named Android 17.
+
+[Andrew] Yes, Android 17 is here for Pixel pocket machines and the Pixel Watch. This is the greatest update of the year. Google has made this system very fast. It has new tools that let you do many things at the same time.
+
+[Aria] Doing many things at the same time is very helpful. For example, you can watch a video while you write a letter to your friend. Or you can talk to Gemini, the machine brain of Google, while you look at a map.
+
+[Andrew] Yes, Gemini is getting more powerful in Android 17. It can help you with your daily work. It can read your emails and make a short list of the important things. It can also help you write answers quickly.
+
+[Aria] This is a great step forward for Google. They want to make their machines as smart as Apple's machines. The competition between these two companies is very strong. This competition is good for us because we get better machines.
+
+[Andrew] I agree. Now, let us look at another company that makes machine brains. This company is named Anthropic. They make a machine brain named Claude. They have made a great change to Claude Design.
+
+[Aria] Yes, Claude Design is a tool that brings design and writing machine language together. Before this, if you wanted to make a website, you had to design the pictures first. You used tools like Figma or Canva. Then, you had to write the machine language to make it work.
+
+[Andrew] That process took a very long time. But now, Claude can do both. You can import your design system into Claude. Then, Claude can write the machine language for you. If you change the design, Claude changes the machine language automatically.
+
+[Aria] This is very beautiful. It is a great help for persons who are not experts in writing machine language. They can just use their eyes and hands to make a design, and the machine brain does the hard work of writing the code.
+
+[Andrew] Yes, it makes the work of making programs very fast. Anthropic also made a tool named Claude Code. This tool connects directly with Claude Design. It is a complete system for making new things on the computer.
+
+[Aria] This is a very important development. It shows that machine brains are becoming more useful every day. Speaking of being useful, OpenAI has also made a new tool for ChatGPT.
+
+[Andrew] Yes, OpenAI has launched scheduled tasks in ChatGPT. This means you can tell ChatGPT to do work at a certain time in the future. You can make it do recurring work automatically.
+
+[Aria] That is like having a personal helper who never sleeps. Can you give us an example of how this works, Andrew?
+
+[Andrew] Yes. For example, if you have a business, you can tell ChatGPT to look at your sales numbers every Friday night. It can make a report and send it to your email. You do not have to open the machine and ask it to do this every week. It just does it.
+
+[Aria] That is very helpful. It can also monitor things on the internet. You can tell it to watch the price of a certain product. If the price goes down, it can send you a note. This will save a great amount of time for many persons.
+
+[Andrew] Yes, and ChatGPT also has better memory now. It can remember your projects and your preferences. This makes the conversation with the machine feel more natural and helpful.
+
+[Aria] It is amazing how fast these systems are growing. Now, let us turn our attention to the news about money and government. The Federal Reserve has issued a new statement.
+
+[Andrew] The Federal Reserve is the chief bank of the United States. It has a very great influence on the money system of the whole earth. Kevin Warsh is the new chairman of this bank. He was chosen by Trump, the leader of the country.
+
+[Aria] This was Kevin Warsh's first meeting as the chief of the bank. Wall Street, the place where big money business is done, was watching very closely. There are some fears about what Kevin Warsh will do.
+
+[Andrew] Yes, Wall Street is worried because Kevin Warsh likes to use complex words and look at small details. He may change the interest rates. Interest is the money you must pay when you borrow money from the bank.
+
+[Aria] If the interest rates are high, it is hard for persons to borrow money to buy houses or start businesses. This can make the business of the country go slow. But if the rates are low, prices of goods can go up too fast, which is also bad.
+
+[Andrew] That is the delicate balance that the Federal Reserve must keep. Kevin Warsh said he wants to make the money system strong. He wants to protect the value of the dollar. We will have to watch his actions in the coming months.
+
+[Aria] Yes, the decisions of this bank affect everyone, even persons in other countries. Now, let us talk about another legal fight involving a big company and the government. The DOJ is defending Elon Musk's company, xAI.
+
+[Andrew] This is a very strange story, Aria. xAI has a large building with many machines to make machine brains. This building is in Memphis. The machines need a very great amount of electric power to work.
+
+[Aria] To get this power quickly, Elon Musk put gas engines in the building. These engines burn gas to make electricity. But burning gas makes the air dirty. It produces bad waste that goes into the air.
+
+[Andrew] Yes, and the persons who live near the building were very angry. They said the dirty air was damaging their health. They went to the judge to stop xAI from using these gas engines. They wanted clean air for their children.
+
+[Aria] But now, the DOJ, which is the law department of the government, has stepped in to support Elon Musk. They asked the judge to throw out the lawsuit. They said that these gas engines are needed for national security.
+
+[Andrew] That is a very strong argument. The government says that making the best machine brains is a matter of national safety. If the US does not have the most powerful machine brains, other countries might get ahead. So, they say the power must stay on, even if the air gets dirty.
+
+[Aria] This is a very difficult choice. It is a conflict between clean air for the local persons and safety for the whole nation. Many persons are not happy with the government's decision. They feel their health is being traded for technology.
+
+[Andrew] It shows how important machine brains have become to the leaders of the country. They see it as a weapon for the future. Now, let us talk about a real war that has changed the earth. The war in Iran.
+
+[Aria] This war has had a very great cost. NPR has made a report about how much the Iran war cost and how its effects will linger. It has rewired the global money system.
+
+[Andrew] Yes, the Middle Eastern oil trade has changed completely. When the war started, the price of oil went up very high. Oil is the fuel that moves our cars and ships. It also makes power for our factories.
+
+[Aria] When oil is dear, the cost of everything goes up. Food costs more because trucks must pay more for fuel to bring food to the stores. This is called an oil shock. It has squeezed the money system of every country.
+
+[Andrew] Yes, and the report says that Trump's war in Iran has wiped out one and a half years of wage growth for workers in the US. This means that even if workers got more money, the high prices of food and fuel took it all away. They are poorer now than before the war.
+
+[Aria] In Southeast Asia, the high cost of oil has caused an energy crisis. But this bad condition has forced some countries to make a change. They are switching to solar power. They are putting up panels to get power from the sun.
+
+[Andrew] That is a good reaction to a bad event. The sun gives free power, and it does not make the air dirty. So, the war has made the transition to clean energy faster in some places. But the overall cost of the war is still very sad.
+
+[Aria] Yes, many lives were lost, and much property was destroyed. But there is some hope now. At the G7 meeting in France, Trump signed a peace agreement with Iran.
+
+[Andrew] This is a very big development. The G7 is a group of seven great countries. The leaders of these countries were very happy with the agreement. They praised Trump for making peace.
+
+[Aria] Trump's attitude toward his friends changed because of their praise. Before, he was very cold to them. But when they said good things about his Iran deal, he became warm. However, he still said, "I am the boss," at the meeting.
+
+[Andrew] That is very typical of Trump. He likes to be the chief person. But the agreement is signed, and that is what is important. We hope this will make the price of oil go down and bring stability to the earth.
+
+[Aria] Yes, peace is always better than war. Now, let us look at the business condition in China. There is a strange situation there. The factories in China are producing a very great amount of goods. The industry output is soaring.
+
+[Andrew] Yes, but the domestic demand is dwindling. This means that the persons who live in China do not want to buy these goods. Their desire to buy is very small. They are keeping their money in the bank.
+
+[Aria] Why is this happening, Andrew? If the factories are making beautiful things, why do persons not want to buy them?
+
+[Andrew] It is because persons are worried about the future. They are not sure if they will keep their work. They are worried about their houses and their families. When persons have fear, they do not spend money on new clothes or cars. They only buy what is necessary to live.
+
+[Aria] This is a very bad condition for the business system. If the factories keep making goods, but no one buys them, the stores will be full of unsold things. Then, the factories will have to stop working, and many persons will lose their work.
+
+[Andrew] Yes, it is a circle of trouble. The government of China is trying to help. They want to make it easier for persons to buy things. They are offering lower prices and better credit. But it takes time to change how persons feel about the future.
+
+[Aria] Trust is very hard to build, but very easy to destroy. We hope the Chinese money system will find a balance soon. Now, let us talk about a very happy and sweet story. It is about Jonathan.
+
+[Andrew] Ah, Jonathan. He is a very famous animal. He is a slow land animal with a hard shell on his back. He lives on a small island named Saint Helena in the South Atlantic.
+
+[Aria] Yes, and Jonathan is now one hundred and ninety-four years old. He is the oldest living land animal on the earth. The Guinness Book of Records has named him an icon.
+
+[Andrew] One hundred and ninety-four years. That is amazing. He was born in the year eighteen thirty. That was before the telephone, before the light bulb, and before cars were invented. He has seen the whole modern history of the earth pass by.
+
+[Aria] He has lived through many kings and queens, and many wars. But he is still living a very quiet and happy life. He eats green grass, fresh apples, and bananas. He likes to sleep in the sun and feel the warm air.
+
+[Andrew] The report says he is now more famous than John Cena or Cristiano Ronaldo in the Guinness Book of Records. He is a true star. Everyone on the island loves him and takes great care of him.
+
+[Aria] It is a beautiful example of how simple life can be. Jonathan does not worry about machine brains, or money, or wars. He only cares about grass and the sun. We can learn a lot from his behavior.
+
+[Andrew] Yes, a simple life is a long life. But we must go back to the complex world of humans. Our last story is about Trump's limits on Anthropic.
+
+[Aria] At the G7 meeting, while the leaders were praising the Iran deal, there was also a great argument about artificial intelligence. Trump has put strong limits on Anthropic, the company that makes Claude.
+
+[Andrew] Yes, Anthropic has a new, very powerful machine brain named Mythos. Trump said that other countries, even the friends of the US, cannot have access to Mythos. He said this is because of safety and national security.
+
+[Aria] This decision has rattled the allies of the US. Macron, the leader of France, was very angry. He said that democracies must work together. He said that if we splinter and do not share our science, we will all become weak.
+
+[Andrew] Yes, the chief manager of Anthropic was also at the meeting. He told the G7 leaders to resist the temptation to splinter over AI. He wants to see global rules that everyone agrees on.
+
+[Aria] But Trump wants to keep the best technology in the US. He believes that having the strongest machine brain will make the US the leader of the future. This is a very big conflict of ideas between the US and Europe.
+
+[Andrew] It is a conflict that will shape the future of our society. Who will control the machine brains? Will they be shared among friends, or will they be kept as secrets? This is the question of our time.
+
+[Aria] Yes, it is. Well, Andrew, we have talked about many important things today. From memory parts in the iPhone to the long life of Jonathan, and the big decisions of world leaders.
+
+[Andrew] Yes, we did. And we did it all using very simple English words. I hope our listeners enjoyed the discussion and learned some new ways to express complex ideas simply.
+
+[Aria] I am sure they did. Learning English is a step-by-step process. By listening to the news in simple words, you can build your knowledge and your confidence.
+
+[Andrew] That is very true. Thank you, Aria, for this great conversation. And thank you to everyone who listened to us.
+
+[Aria] Thank you, Andrew. Keep learning, keep listening, and we will see you next time on our news show. Good bye, friends!
+
+[Andrew] Good bye!
