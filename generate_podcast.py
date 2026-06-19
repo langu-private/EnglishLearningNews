@@ -119,22 +119,16 @@ Include the following:
 Podcast Script:
 {script_text}
 """
-    import time
-    for attempt in range(2):
-        try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            if attempt == 0:
-                print(f"Error on attempt 1: {e}. Waiting 60 seconds and retrying...")
-                time.sleep(60)
-            else:
-                print(f"Error generating learning doc on attempt 2: {e}")
-                return "Learning document could not be generated due to an error."
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error generating learning doc: {e}")
+        return "Learning document could not be generated due to an error."
 
 def create_audio(text, output_mp3, api_key):
     print(f"Generating conversational audio to {output_mp3} using edge-tts...")
