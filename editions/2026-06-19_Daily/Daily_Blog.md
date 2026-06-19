@@ -1,527 +1,176 @@
-📝 A Catchy Title
-The Simple News Podcast: Thinking Machines, Big Money, and Talks of Peace
+DAILY NEWS PODCAST FOR ENGLISH LEARNERS
 
-📖 Key Vocabulary
-System /'sɪstəm/ (noun) - 系统 (A group of related things working together)
-Condition /kən'dɪʃn/ (noun) - 条件 / 状况 (The state of something or someone)
-Connection /kə'nekʃn/ (noun) - 连接 (The state of being joined together)
-Government /'gʌvənmənt/ (noun) - 政府 (The group of people who rule a country)
-Agreement /ə'griːmənt/ (noun) - 协议 / 同意 (A decision made by two or more groups)
-Business /'bɪznəs/ (noun) - 商业 / 生意 (The work of making, buying, or selling things)
-Experience /ɪk'spɪəriəns/ (noun) - 经验 / 体验 (Knowledge or skill gained from doing things)
-Authority /ɔː'θɒrəti/ (noun) - 权威 / 权力 (The power or right to give orders)
+Key Vocabulary
 
-🎯 Grammar Focus
-1. Conditional Sentences (If + Present Simple, Will + Verb)
-Example: If you give simple words to the machine, it will make the change for you.
-(如果你给机器简单的指令，它就会为你做出改变。)
+System (noun) / sɪstəm / 系统
+Agreement (noun) / əɡriːmənt / 协定，同意
+Condition (noun) / kəndɪʃən / 条件，状态
+Decision (noun) / dɪsɪʒən / 决定
+Exchange (noun/verb) / ɪkstʃeɪndʒ / 交换，交流
+Observation (noun) / ɒbzəveɪʃən / 观察
+Representative (noun) / rɛprɪzɛntətɪv / 代表
+Responsible (adjective) / rɪspɒnsəbəl / 负责的
 
-2. Passive Voice (Subject + Be + Past Participle)
-Example: The front picture of the play was shown to the public.
-(该游戏的封面图片已向公众展示。)
+Grammar Focus
 
-🎙️ Full Bilingual Podcast Script
+1. Passive Voice
+Passive voice is used when the focus is on the action or the receiver of the action, rather than the person or thing performing the action.
+Example: The decision was made by the chief bank. (这个决定是由总行做出的。)
 
-[Aria] Good morning, dear friends! Welcome to our daily news talk.
-(早上好，亲爱的朋友们！欢迎收听我们的每日新闻对话。)
+2. Conditional Sentences (First Conditional)
+First conditional sentences are used to talk about possible future events and their realistic results.
+Structure: If + simple present, will + base verb.
+Example: If the price goes up, people will have less money. (如果价格上涨，人们的钱就会变少。)
 
-[Andrew] Yes, welcome! It is great to be here with you on this beautiful day.
-(是的，欢迎！很高兴在这个美好的日子里和大家在一起。)
 
-[Aria] Today we have many interesting stories from all over the earth.
-(今天我们有许多来自世界各地的有趣故事。)
+Full Bilingual Podcast Script
 
-[Andrew] We will talk about new machines, big money, and the fight for peace.
-(我们将谈论新的机器、巨额资金以及争取和平的斗争。)
+[Aria] Good morning. We give you a warm greeting to our news talk. Today is a beautiful day to have a discussion about the news of the earth. We will look at new changes in the systems we use every day. We will also talk about the money business and some serious fights between nations. My name is Aria, and I am happy to be here with you.
+(早上好。我们热烈欢迎您收听我们的新闻谈话。今天是个美好的日子，我们可以讨论关于地球的新闻。我们将看看我们每天使用的系统的最新变化。我们还将讨论货币业务以及国家之间的一些严重冲突。我叫 Aria，很高兴能和你们在一起。)
 
-[Aria] We will make all the news simple and clear for your English learning.
-(我们将使所有新闻变得简单明了，以便于您的英语学习。)
+[Andrew] And my name is Andrew. It is great to join you again. We have a very long list of news today. We will make every story clear and simple. We will use only simple words so that everyone who is learning English can have a good understanding of what is going on. Let us start with our first story about the science of machines.
+(我的名字是 Andrew。很高兴再次加入你们。今天我们有一份很长的新闻清单。我们会让每个故事都变得清晰和简单。我们将只使用简单的单词，以便每个学习英语的人都能很好地理解正在发生的事情。让我们从关于机器科学的第一个故事开始。)
 
-[Andrew] That is right. We will use only simple words so you can get the meaning easily.
-(没错。我们将只使用简单的词汇，这样您就可以轻松理解其中的含义。)
+[Aria] Yes, Andrew. Our first story is about Google and Fitbit. Google has made a new change to its health system, Google Health 5.02. This system is for people who use Fitbit. Fitbit is a small machine that you put on your arm. It keeps a record of your sleep and your steps. For a long time, people who use this machine were angry because some good things were taken away. Now, Google is bringing them back.
+(是的，Andrew。我们的第一个故事是关于 Google 和 Fitbit 的。Google 对其健康系统 Google Health 5.02 进行了新的更改。这个系统是给使用 Fitbit 的人准备的。Fitbit 是一种戴在手臂上的小机器。它会记录你的睡眠和步数。很长一段时间以来，使用这种机器的人都很生气，因为一些好功能被拿走了。现在，Google 正在把它们带回来。)
 
-[Aria] Let us start with our first story from the world of science and machines.
-(让我们从科学和机器领域的第一个故事开始吧。)
+[Andrew] That is right, Aria. One important thing is the short sleep. Sometimes, in the middle of the day, you feel tired. You want to have a short sleep for thirty minutes. The old system did not keep a good record of this short sleep. But now, the new system will record your short sleep automatically. This is very good for people who want to keep their body healthy.
+(没错，Aria。一个重要的事情是短暂的睡眠。有时，在一天之中，你会感到累。你想睡个三十分钟的午觉。旧系统没有很好地记录这种短睡眠。但现在，新系统会自动记录你的短睡眠。这对于想要保持身体健康的人来说非常好。)
 
-[Andrew] This is about Photoshop and Premiere. These are two very big systems for making pictures and moving pictures.
-(这是关于 Photoshop 和 Premiere 的。这是两个用于制作图片和动态图片的非常庞大的系统。)
+[Aria] Yes, Andrew. Another thing is the hourly activity. The machine will make a soft noise or shake on your arm to tell you to get up and walk. If you sit for a long time, it is bad for your blood and your heart. The system wants you to make at least two hundred and fifty steps every hour. This new change makes it easy to see if you are doing this.
+(是的，Andrew。另一件事是每小时的活动。机器会在你的手臂上发出轻微的声音或震动，告诉你起来走走。如果你坐了很长时间，这对你的血液和心脏都不好。系统希望你每小时至少走两百五十步。这个新变化让你很容易看到自己是否做到了这一点。)
 
-[Aria] Yes, the company Adobe has put a new thinking machine helper into these systems.
-(是的，Adobe 公司在这些系统中加入了一个新的智能机器助手。)
+[Andrew] I think this is a very wise change by Google. Many people love Fitbit because it is simple. When Google took these things away, many people made a loud protest. They said they would stop using the machine. So, Google had to make this adjustment to keep its customers happy. It shows that when many people speak with one voice, big companies will give attention to them.
+(我认为 Google 的这一改变非常聪明。许多人喜欢 Fitbit，因为它很简单。当 Google 拿走这些功能时，许多人提出了强烈的抗议。他们说他们会停止使用这种机器。所以，Google 必须做出调整来让客户满意。这表明，当许多人用同一个声音说话时，大公司就会关注他们。)
 
-[Andrew] This helper is a form of AI. It is designed to make hard work very simple.
-(这个助手是人工智能的一种形式。它的设计目的是让艰苦的工作变得非常简单。)
+[Aria] That is a very good point, Andrew. Now, let us talk about another big change from Google. This is about Android, which is the main system for many pocket machines. Google is making a new rule for the people who make systems for Android. They call it developer verification. It means the makers must prove who they are.
+(这是一个很好的观点，Andrew。现在，让我们谈谈 Google 的另一个重大变化。这是关于 Android 的，它是许多口袋机器的主要系统。Google 正在为开发 Android 系统的人制定一项新规则。他们称之为开发者验证。这意味着制作者必须证明他们是谁。)
 
-[Aria] In the past, if you wanted to change a picture in Photoshop, you had to do much work with your hands.
-(在过去，如果你想在 Photoshop 中修改一张图片，你必须用手做很多工作。)
+[Andrew] This is a very serious change, Aria. It will start in September. Google wants to make sure that every system you put on your pocket machine is safe. Sometimes, people put systems on their machines from outside the main Google store. This is called sideloading. It can be dangerous because bad people can make systems that steal your money or look at your private writings.
+(这是一个非常严肃的变化，Aria。它将于九月开始。Google 希望确保你放入口袋机器的每个系统都是安全的。有时，人们会从 Google 官方商店之外的地方将系统安装到他们的机器上。这被称为侧载。这可能是危险的，因为坏人可以制作系统来偷你的钱或查看你的私人信件。)
 
-[Andrew] You had to make study of the system for many months or even years.
-(你必须对这个系统进行几个月甚至几年的研究。)
+[Aria] Yes, and Google is making a new service called Verifier. This service will put itself on your machine automatically. If you try to put a system on your machine from outside, the Verifier will check it. If it is not safe, it will stop you. Or it will only let you use it for twenty-four hours. This is a big crackdown on sideloading.
+(是的，Google 正在开发一项名为 Verifier 的新服务。这项服务会自动安装到你的机器上。如果你尝试从外部将系统安装到你的机器上，Verifier 将对其进行检查。如果它不安全，它会阻止你。或者它只会让你使用二十四小时。这是对侧载的一次重大打击。)
 
-[Aria] But now, with this new helper, you can just use your voice or write simple words.
-(但是现在，有了这个新助手，你只需使用声音或写下简单的词汇即可。)
+[Andrew] Some people are not happy about this. They say that their pocket machine belongs to them, so they should be free to put any system they want on it. They feel Google is taking away their control. But Google says safety is the most important thing. If a bad system damages many machines, people will say Android is bad. So, Google is making these tight rules to protect its name and its users.
+(有些人对此并不高兴。他们说他们的口袋机器属于他们自己，所以他们应该可以自由地在上面安装任何他们想要的系统。他们觉得 Google 正在夺走他们的控制权。但 Google 表示安全是最重要的。如果一个坏系统损坏了许多机器，人们就会说 Android 不好。因此，Google 正在制定这些严格的规则来保护其名称和用户。)
 
-[Andrew] For example, you can say, make this sky blue, or take this tree out of the picture.
-(例如，你可以说，“把天空变蓝”，或者“把这棵树从图片中去掉”。)
+[Aria] I see. It is a balance between freedom and safety. Let us move to a new personal machine for play. Asus has released a very strong fold machine across the earth. It is a gaming laptop, but we can call it a strong play machine. It has a very special front glass called a Mini LED display. This glass is extremely bright. It has one thousand and six hundred units of light, which we call nits.
+(我明白了。这是自由与安全之间的平衡。让我们转向一台用于娱乐的新型个人机器。Asus 在全球发布了一款非常强大的折叠机器。它是一台游戏笔记本电脑，但我们可以称它为强大的游戏机。它有一个非常特殊的面玻璃，称为 Mini LED 显示屏。这块玻璃非常亮。它有一千六百个光单位，我们称之为尼特。)
 
-[Aria] And the machine will do it in a second! This is a very big change.
-(机器就会在片刻之间完成！这是一个非常巨大的变化。)
+[Andrew] That is incredibly bright, Aria! Most normal machines only have three hundred or four hundred units of light. With one thousand and six hundred units, you can see the picture clearly even if you are sitting under the bright sun in a garden. It also has a very strong picture engine, a GPU, with one hundred and seventy-five units of power. This means the pictures in your plays will move very smoothly.
+(那真是太亮了，Aria！大多数普通机器只有三百或四百个光单位。拥有一千六百个单位，即使你坐在花园里明亮的阳光下，也能清晰地看到画面。它还有一个非常强大的图像引擎，即 GPU，具有一百七十五个功率单位。这意味着你游戏中的画面会移动得非常流畅。)
 
-[Andrew] It is the same for Premiere, which is used for making moving pictures.
-(用于制作动态图片的 Premiere 也是如此。)
+[Aria] But this machine is not cheap, Andrew. In fact, it costs as much as three new personal machines from Apple! That is a very large amount of money. Who would buy such a dear machine?
+(但是这台机器并不便宜，Andrew。事实上，它的价格相当于 Apple 的三台新个人机器！那是一笔非常大的一笔钱。谁会买这么贵的机器？)
 
-[Aria] The helper can cut the film, make the sound clean, and put different parts together.
-(助手可以剪辑影片、使声音变清晰，并将不同的部分组合在一起。)
+[Andrew] Well, some people are very serious about their plays. They want the best experience possible. They also use these strong machines for work, like making moving pictures or designing buildings. For them, the high price is a good exchange for the great power of the machine. Asus is also opening orders in India for other new machines, like the Zephyrus and TUF. They want to be the chief company for play machines.
+(嗯，有些人对他们的游戏非常认真。他们想要最好的体验。他们还使用这些强大的机器进行工作，例如制作动画或设计建筑物。对他们来说，高昂的价格是换取机器强大功能的一个很好的交换。Asus 还在印度开放了其他新机器的预订，例如 Zephyrus 和 TUF。他们想成为游戏机领域的领头公司。)
 
-[Andrew] This will help persons who make moving pictures for their work. They will save much time.
-(这将帮助那些以制作动态图片为工作的人。他们将节省大量时间。)
+[Aria] That is very interesting. Now, our next story is about a very old play machine. Do you remember the Game Boy, Andrew? It was a small play machine made by Nintendo many years ago. In 1998, they made a camera for it. It was a very simple camera that made small, black and gray pictures.
+(那非常有趣。现在，我们的下一个故事是关于一个非常古老的玩具机器。你还记得 Game Boy 吗，Andrew？它是 Nintendo 许多年前制造的一款小型游戏机。1998年，他们为它制作了一个相机。那是一个非常简单的相机，可以拍出黑白的小照片。)
 
-[Aria] But some persons have fear about this. They think that if machines can do this work, companies will not need to pay men and women to do it.
-(但有些人对此感到担忧。他们认为，如果机器能做这项工作，公司就不需要付钱给男女员工来做了。)
+[Andrew] Oh, I remember that very well! The pictures were very rough, but it was a great amusement at that time. Now, a company called Epilog has made a new system for pocket machines called Flashback. This system lets you turn your pocket machine into a Game Boy Camera! You do not need the old machine or the old camera.
+(哦，我记得很清楚！照片非常粗糙，但在当时是一个极大的娱乐。现在，一家名为 Epilog 的公司为口袋机器开发了一个名为 Flashback 的新系统。这个系统可以让你把你的口袋机器变成一个 Game Boy 相机！你不需要旧机器或旧相机。)
 
-[Andrew] That is a serious thought. It is a question of how we will live with these new machines in the future.
-(这是一个严肃的想法。这是一个关于未来我们如何与这些新机器共存的问题。)
+[Aria] That is so interesting! Why would anyone want to make their beautiful, clear photos look rough and black and gray?
+(那太有趣了！为什么会有人想让他们美丽、清晰的照片看起来又粗糙又黑白呢？)
 
-[Aria] Still, Adobe says this is to help persons, not to take their place. It is a tool to make new things more easily.
-(尽管如此，Adobe 表示这是为了帮助人们，而不是取代他们。这是一个让创造新事物变得更容易的工具。)
+[Andrew] It is because of memory and art, Aria. Sometimes, people get tired of everything being perfect. They like the simple look of the past. It has a special beauty. This new system is free, and it lets you share these old-style pictures with your friends on the net. It is a fun way to look at the past through our new pocket machines.
+(这是因为记忆和艺术，Aria。有时，人们会厌倦一切都完美无缺。他们喜欢过去那种简单的样子。它有一种特殊的美。这个新系统是免费的，它可以让你在网上与你的朋友分享这些老式照片。这是一种通过我们新的口袋机器回顾过去的有趣方式。)
 
-[Andrew] Let us hope that is true. Now, let us move to our second story about another big machine company, Google.
-(让我们希望这是真的。现在，让我们转向关于另一家大型机器公司谷歌的第二个故事。)
+[Aria] I like that idea. It is good to have a connection with the past. Now, let us turn to the money business. There is a man named Warsh who might become the chief of the Federal Reserve. The Federal Reserve is the chief bank of the US. It has a lot of power over the money of the earth. Warsh has some very different ideas about how this bank should work.
+(我喜欢这个想法。与过去保持联系是件好事。现在，让我们转向货币业务。有一个名叫 Warsh 的人可能会成为 Federal Reserve 的负责人。Federal Reserve 是美国的主要银行。它对地球上的货币拥有很大的权力。Warsh 对于这家银行应该如何运作有一些非常不同的想法。)
 
-[Aria] Google has a new system for its phones, named Android 17.
-(谷歌为其手机推出了一个新系统，名为 Android 17。)
+[Andrew] Yes, Aria. Warsh says that the chief bank should let the markets guide its decisions, not the other way around. Right now, the bank makes decisions about the interest rate, and then the markets react. Warsh thinks the bank should look at what the markets are saying first. He wants a simpler, smaller bank that does not try to control everything.
+(是的，Aria。Warsh 说，总行应该让市场引导其决定，而不是相反。目前，银行对利率做出决定，然后市场做出反应。Warsh 认为银行应该先看看市场在说什么。他想要一个更简单、更小的银行，不试图控制一切。)
 
-[Andrew] But some owners of Pixel phones had a bad experience with this new system.
-(但一些 Pixel 手机用户对这个新系统的体验很糟糕。)
+[Aria] This is a very important discussion because the interest rate affects everyone. If the interest rate is high, it is hard for people to buy houses or start businesses because they have to pay more money back. If the interest rate is low, it is easy to get money, but prices might go up too fast. The Federal Reserve recently decided to keep the interest rate steady, but they said they might raise it in the future if necessary.
+(这是一个非常重要的讨论，因为利率影响着每个人。如果利率很高，人们就很难买房或创业，因为他们必须偿还更多的钱。如果利率低，很容易拿到钱，但价格可能会上涨太快。Federal Reserve 最近决定保持利率稳定，但他们表示，如果有必要，他们可能会在未来提高利率。)
 
-[Aria] Yes, there was a small error, which we call a bug, in the system.
-(是的，系统中有一个小错误，我们称之为 bug。)
+[Andrew] The stock markets in the US had a good reaction to this news. The S&P 500 and the Nasdaq went up, led by companies that make computer chips. But across the earth, the markets were mixed. Investors are waiting to see what will happen next with the money business and other big events.
+(美国股市对这一消息反应良好。在制造电脑芯片的公司的带领下，S&P 500 和 Nasdaq 出现上涨。但在全球范围内，市场表现不一。投资者正在等待看货币业务和其他重大事件接下来的发展。)
 
-[Andrew] This error made their widgets go away. A widget is a small picture or tool on the front page of the phone.
-(这个错误导致他们的微件消失了。微件是手机首页上的一个小图片或工具。)
+[Aria] One of those big events is the peace talks between the US and Iran. There was hope for a peace agreement, but the talks in Switzerland have been postponed. This means they will happen at a later time.
+(其中一个重大事件是美国和伊朗之间的和平谈判。人们曾对达成和平协议抱有希望，但瑞士的谈判已被推迟。这意味着它们将在晚些时候进行。)
 
-[Aria] For example, it can be a clock, or a box that shows the weather.
-(例如，它可以是一个时钟，或者一个显示天气的盒子。)
+[Andrew] This delay has made investors across the earth very worried. When there is hope for peace, people feel safe and stock markets go up. But when talks are stopped, people fear that war will get worse. This is why the stock markets were mixed today. The price of oil was also very quiet because people are waiting to see if the peace deal is still possible.
+(这次推迟让全球的投资者非常担心。当和平有希望时，人们会感到安全，股市就会上涨。但当谈判停止时，人们担心战争会变得更糟。这就是今天股市表现不一的原因。石油价格也非常平静，因为人们正在等待看和平协议是否还有可能。)
 
-[Aria] Many persons woke up and saw that their front page was empty!
-(许多人醒来发现他们的首页空空如也！)
+[Aria] It is a very complex condition. We will talk more about why these talks were stopped in our conflict section. But first, let us look at another story about the US and its rules on new machines.
+(这是一个非常复杂的状况。我们将在冲突部分详细讨论为什么这些谈判会停止。但首先，让我们看看另一个关于美国及其对新机器规则的故事。)
 
-[Andrew] That must be very strange and make persons angry.
-(那一定非常奇怪，而且让人感到生气。)
+[Andrew] Yes, this is about the US export ban on Anthropic's AI models. Anthropic is a company that makes very clever machine systems, like Claude. The government says these systems are too powerful and could be dangerous if other nations get them.
+(是的，这是关于美国对 Anthropic 的 AI 模型的出口禁令。Anthropic 是一家制造非常聪明机器系统的公司，比如 Claude。政府表示，这些系统太强大了，如果其他国家得到它们，可能会很危险。)
 
-[Aria] Yes, and some persons on Reddit also said they had trouble with their Wi-Fi connection.
-(是的，Reddit 上的一些人也表示他们的 Wi-Fi 连接遇到了问题。)
+[Aria] This decision by the Trump administration and a man named Lutnick is causing a lot of trouble with friendly nations. For example, a big telecom company in Korea had put a lot of money into Anthropic. They wanted to use these thinking machines to make their own systems better. Now, because of this rule, they cannot get the designs they paid for.
+(Trump 政府和一位名叫 Lutnick 的人做出的这一决定给友好国家带来了很多麻烦。例如，韩国的一家大型电信公司向 Anthropic 投入了大量资金。他们想利用这些思考机器来让自己的系统变得更好。现在，由于这条规则，他们无法得到他们付费购买的设计。)
 
-[Andrew] They could not get on the net to do their work or talk to friends.
-(他们无法上网工作或与朋友聊天。)
+[Andrew] This makes our friends very angry. They feel the US is using its power to keep all the best new science for itself. They say this will damage the agreements and friendships between our countries. But the US government says it must protect its national safety first. They fear that if these clever systems fall into the wrong hands, they could be used to make weapons or attack our computer systems.
+(这让我们的朋友非常生气。他们觉得美国正在利用其力量将所有最好的新科学留给自己。他们说这会损害我们国家之间的协议和友谊。但美国政府表示，它必须首先保护其国家安全。他们担心，如果这些聪明的系统落入坏人手中，它们可能会被用来制造武器或攻击我们的计算机系统。)
 
-[Aria] Google says they have knowledge of this error now. They are working hard to make a fix.
-(谷歌表示他们现在已经知道了这个错误。他们正在努力进行修复。)
+[Aria] It is a very difficult balance. If the US stops its friends from using these systems, those friends might start to make their own systems or work with other countries. In the end, it might make the US less powerful, not more.
+(这是一个非常困难的平衡。如果美国阻止其朋友使用这些系统，那些朋友可能会开始制造自己的系统或与其他国家合作。最终，这可能会让美国的力量变小，而不是变大。)
 
-[Andrew] This shows us that even the biggest companies with the best experts can make simple errors.
-(这向我们表明，即使是拥有最优秀专家的最大公司也会犯简单的错误。)
+[Andrew] That is a very wise thought, Aria. Now, let us talk about some good news for young people in the US who have debt from school. The government has made a change to help them pay their student loans. If they agree to let the system take money from their bank automatically every month, they will get a bigger discount on their interest rate.
+(这是一个非常明智的想法，Aria。现在，让我们谈谈对美国有学校债务的年轻人的好消息。政府做出了一项改变，以帮助他们偿还学生贷款。如果他们同意让系统每月自动从他们的银行里扣钱，他们将获得更大的利率折扣。)
 
-[Aria] Yes, making a new system for millions of phones is very complex. There will always be some trouble at the start.
-(是的，为数百万部手机制作一个新系统是非常复杂的。开始时总会遇到一些麻烦。)
+[Aria] This is a very helpful change, Aria. Going to school in the US is very dear, and many young people start their working lives with a mountain of debt. Even a small cut in the interest rate can save them thousands of dollars over many years. It also helps the government because they are sure to get the payment every month without having to ask for it.
+(这是一个非常有帮助的改变，Aria。在美国上学非常贵，许多年轻人在开始工作时就背负着堆积如山的债务。即使是利率的微小下调，也能在许多年里为他们节省数千美元。这也对政府有帮助，因为他们可以确保每个月都能收到付款，而无需去催收。)
 
-[Andrew] If you have a Pixel phone, you may want to wait before you get the new Android 17 system.
-(如果你有 Pixel 手机，你可能想等一等再获取新的 Android 17 系统。)
+[Andrew] Yes, and the Department of Education has also lowered interest rates for two years for these borrowers. But people need to act quickly because some rules will change after July 1. For example, parents who took out debt for their children, called Parent PLUS loans, need to check their choices before that day to make sure they do not lose their chance for debt forgiveness.
+(是的，教育部还为这些借款人降低了两年的利率。但人们需要迅速行动，因为一些规则将在七月一日之后发生变化。例如，为孩子借债的父母，即所谓的 Parent PLUS 贷款，需要在该日期之前检查他们的选择，以确保他们不会失去免除债务的机会。)
 
-[Aria] That is a wise suggestion, Andrew. Now, let us talk about a very big play for machines that many young persons love.
-(这是一个明智的建议，安德鲁。现在，让我们来谈谈一个许多年轻人喜爱的、非常大型的机器游戏。)
+[Aria] It is always wise to read the details of these agreements. Money rules can be very dry and hard to understand, but taking a little time to look at them can make a big difference in your life.
+(阅读这些协议的细节总是明智的。资金规则可能非常枯燥且难以理解，但花一点时间研究它们可能会给你的生活带来很大的不同。)
 
-[Andrew] You are talking about Grand Theft Auto VI, or GTA VI!
-(你是在说《侠盗猎车手 6》，即 GTA VI！)
+[Andrew] I agree. Now, let us look at a story from China. A domestic two-wheel engine carriage, which we call a motorcycle, has made a new record. It went at a speed of more than three hundred and fifteen kilometers in one hour!
+(我同意。现在，让我们看一个来自中国的故事。一辆国产两轮发动机马车，我们称之为摩托车，创造了新的纪录。它在一小时内的行驶速度超过了三百一十五公里！)
 
-[Aria] Yes! The company Rockstar Games has made clear that persons can give payment early for this play starting on June 25.
-(是的！Rockstar Games 公司已经明确表示，人们可以从 6 月 25 日开始为这款游戏提前付款。)
+[Aria] That is incredibly fast, Andrew! To go that fast on two wheels requires a very strong engine and a very safe design. If anything goes wrong at that speed, the result would be deadly. This record shows that Chinese industry is now able to make very high-quality engines and machines that can compete with the best in the world.
+(那真是太快了，Andrew！在两个轮子上跑得那么快需要非常强大的发动机和非常安全的设计。如果在这个速度下出现任何问题，结果都将是致命的。这一纪录表明，中国工业现在能够制造出非常高质量的发动机和机器，可以与世界上最好的产品竞争。)
 
-[Andrew] This is what we call a pre-order. It means you pay now, and you get the play as soon as it is ready.
-(这就是我们所说的预订。这意味着你现在付款，游戏一准备好你就能拿到。)
+[Andrew] Yes, it is a big step for Chinese makers. In the past, people thought of Chinese products as cheap but not very advanced. But now, they are producing machines that are at the top of science and power. This motorcycle is a great example of that growth.
+(是的，这对中国制造商来说是一个巨大的进步。过去，人们认为中国产品便宜但不是很先进。但现在，他们正在生产处于科学和动力顶峰的机器。这辆摩托车就是这种增长的一个很好的例子。)
 
-[Aria] They also let the public see the front picture of the play.
-(他们还向公众展示了该游戏的封面图片。)
+[Aria] It is amazing to see how fast things are changing. Now, let us move to our world and conflict section. The fighting between the Israeli military and Hezbollah in southern Lebanon has become very violent. This is the main reason why the peace talks between the US and Iran were postponed.
+(看到事物变化如此之快，真是令人惊叹。现在，让我们转向我们的世界与冲突部分。以色列军队与 Hezbollah 在黎巴嫩南部的战斗已变得非常暴力。这是美国和伊朗之间和平谈判推迟的主要原因。)
 
-[Andrew] This front picture has many details. It shows a man and a woman in a warm place with cars and water.
-(这张封面图片有很多细节。它展示了在一个温暖的地方，有一对男女，还有汽车和水。)
+[Andrew] Yes, the condition in Lebanon is very bad. There have been many deadly attacks. Because of this, Vance, who is the co-chief of the US under Trump, canceled his trip to Switzerland where the talks were supposed to take place. He felt it was not the right time to negotiate when the fighting was so intense.
+(是的，黎巴嫩的状况非常糟糕。发生了许多致命的袭击。正因为如此，Trump 手下的美国副首脑 Vance 取消了前往瑞士的行程，而谈判本应在瑞士举行。他觉得在战斗如此激烈的时候，现在不是谈判的合适时机。)
 
-[Aria] Persons on the net are looking at this picture very closely to make discoveries about the story.
-(网络上的人们正在非常仔细地观察这张图片，以发现关于故事的线索。)
+[Aria] A man named Aoun, who is a leader in Lebanon, said that the Israeli attacks are harming the efforts to make a peace agreement. It seems that every time the two sides get close to an agreement, new violence breaks out and ruins the hope for peace. It is a very sad cycle that has been going on for a long time.
+(黎巴嫩领导人 Aoun 表示，以色列的袭击正在损害达成和平协议的努力。似乎每当双方接近达成协议时，就会爆发新的暴力，破坏和平的希望。这是一个持续了很长时间的非常悲哀的循环。)
 
-[Andrew] This play has been in development for many years. It has a very big price to make.
-(这款游戏已经开发了许多年。它的制作成本非常高。)
+[Andrew] It is indeed sad, Aria. The people who suffer the most are the simple men, women, and children who live in those areas. They have to flee their homes and live in fear of the next attack. We can only hope that the leaders will find a way to stop the fighting and come back to the table for discussion.
+(这确实令人悲伤，Aria。遭受痛苦最多的是生活在这些地区的普通男人、女人和儿童。他们不得不逃离家园，生活在对下一次袭击的恐惧中。我们只能希望领导人能找到停止战斗的方法，并回到谈判桌前进行讨论。)
 
-[Aria] But it will also make a huge amount of money. Millions of persons will get it.
-(但它也会赚取巨额资金。数以百万计的人会购买它。)
+[Aria] Yes, peace is what everyone needs. Our next story is about the war between Ukraine and Russia. Ukraine has made its largest attack ever on Moscow, the chief city of Russia. They used many flying attack machines to strike a large oil building in the city.
+(是的，和平是每个人都需要的。我们的下一个故事是关于乌克兰和俄罗斯之间的战争。乌克兰对俄罗斯主要城市莫斯科发动了有史以来最大规模的袭击。他们使用许多飞行攻击机袭击了该市的一座大型石油建筑。)
 
-[Andrew] It is one of the most important events in the business of plays this year.
-(这是今年游戏界最重要的事件之一。)
+[Andrew] This was a very big event, Aria. The attack caused massive explosions that shook the city. It even shattered the feeling of safety that people in Moscow had. For a long time, the war was far away from them, but now they can see and feel the effects of it in their own streets.
+(这是一个非常重大的事件，Aria。袭击引起了巨大的爆炸，震动了整个城市。它甚至粉碎了莫斯科人民的安全感。很长一段时间以来，战争离他们很远，但现在他们可以在自己的街道上看到并感受到它的影响。)
 
-[Aria] Yes, and it shows how big the play business has become. It is now bigger than the business of moving pictures!
-(是的，它展示了游戏业务已经变得多么庞大。它现在比电影业务还要大！)
+[Aria] Yes, and there were reports of black rain falling on the city after the attack. This black rain was caused by the oil and dust from the burning building mixing with the clouds. It made the residents very worried about their health and the safety of their water.
+(是的，有报道称袭击发生后该市降下了黑雨。这场黑雨是由燃烧建筑物产生的石油和粉尘与云层混合引起的。这让居民们非常担心他们的健康和水的安全。)
 
-[Andrew] That is true. Now, let us stay with plays but talk about another company, Sony, and their relation with Bungie.
-(确实如此。现在，让我们继续留在游戏领域，但谈谈另一家公司索尼，以及他们与 Bungie 的关系。)
+[Andrew] There is also a great fear of a fuel shortage in Moscow now. If the oil buildings are damaged, there will not be enough oil for heating houses in the winter or for driving carriages. This shows that Ukraine is able to strike deep inside Russia and cause real trouble for the Russian government. It is a major change in the war.
+(现在莫斯科也非常担心燃料短缺。如果石油建筑受损，冬天就没有足够的石油来供暖或驾驶马车。这表明乌克兰有能力打击俄罗斯腹地，给俄罗斯政府带来真正的麻烦。这是战争的一个重大变化。)
 
-[Aria] There were some stories on the net saying that Sony ended the play Destiny 2 to get revenge on Bungie.
-(网络上有一些传言称，索尼终止了游戏《命运 2》是为了向 Bungie 报复。)
+[Aria] It is a very serious development. Our last story today is a very strange one. A town chief in the US has been accused of faking her own kidnapping. She said that bad men took her away by force and demanded money.
+(这是一个非常严重的事态发展。我们今天的最后一个故事非常奇怪。美国的一位小镇首脑被指控伪造自己被绑架。她说坏人强行把她带走并要钱。)
 
-[Andrew] But experts say this is not true at all. It is a false story.
-(但专家表示这根本不是真的。这是一个虚假的故事。)
+[Andrew] But the police did some observation and discovered that she made up the whole story! Why would a town chief do such a foolish thing?
+(但警方进行了一些观察，发现整个故事都是她编造的！一个镇长为什么会做出如此愚蠢的事情？)
 
-[Aria] Yes, Bungie had a very hard time before Sony got them. They were very close to shutting down their business.
-(是的，在索尼收购 Bungie 之前，Bungie 度过了一段非常艰难的时期。他们非常接近关闭业务。)
+[Aria] Well, the police say she did it to cover up a scheme to steal money from the town. She had taken a large amount of public money for her own use, and she knew the government was going to check the books. So, she thought that if she was taken away by force, people would not ask questions about the missing money.
+(嗯，警方说她这样做是为了掩盖从镇上偷钱的阴谋。她拿了大量的公款供自己使用，而且她知道政府要查账。所以，她认为如果自己被强行带走，人们就不会对丢失的钱提出疑问。)
 
-[Andrew] Sony gave them much money to keep them living.
-(索尼给了他们很多钱来维持他们的生存。)
+[Andrew] That is a very bad and foolish plan! Now, she is in prison and faces serious punishment for her crimes. It is a great shame for her family and the town that trusted her. It shows that crime does not pay, and the truth will always come out in the end.
+(那是一个非常糟糕且愚蠢的计划！现在，她被关进监狱，并因其罪行面临严重的惩罚。对于她的家人和信任她的镇子来说，这是一件极大的耻辱。这表明犯罪是没有好下场的，真相最终总会大白于天下。)
 
-[Aria] But Bungie still has trouble. They have to send many workers away now because their new plays are not doing well.
-(但 Bungie 仍然有麻烦。由于他们的新游戏表现不佳，他们现在不得不解雇许多员工。)
+[Aria] That is very true, Andrew. The truth always finds a way. Well, that is all for our news today. We hope you enjoyed our discussion and learned some new English words. Remember, learning a language takes time and regular work, but you can do it!
+(非常正确，Andrew。真相总会找到出路。好了，这就是我们今天的全部新闻。我们希望您喜欢我们的讨论并学到了一些新的英语单词。记住，学习一门语言需要时间和规律的努力，但你一定能做到！)
 
-[Andrew] This is a sad thing for the workers who lose their jobs.
-(对于失去工作的工人来说，这是一件悲哀的事情。)
-
-[Aria] But Destiny 2 is actually doing very well right now. It has more persons playing it than in the past two years.
-(但《命运 2》实际上现在表现非常好。玩它的人比过去两年还要多。)
-
-[Andrew] So Sony is not trying to destroy Bungie. They are trying to save their investment.
-(所以索尼并不是想摧毁 Bungie。他们是在试图挽救他们的投资。)
-
-[Aria] Yes, in business, decisions are made for money, not for revenge.
-(是的，在商业中，做出决定是为了钱，而不是为了报复。)
-
-[Andrew] That is a very important lesson for us to keep in mind.
-(这是我们需要记住的非常重要的一课。)
-
-[Aria] Now, let us turn our eyes to the big money business and the government.
-(现在，让我们把目光投向大型金融业务和政府。)
-
-[Andrew] We have news about Kevin Warsh, who is the new chief of the Fed.
-(我们有关于美联储新任主席凯文·沃什的消息。)
-
-[Aria] The Fed is the big government place that controls the money in the United States.
-(美联储是控制美国货币的政府重要机构。)
-
-[Andrew] Kevin Warsh has a very different idea about how to do this work.
-(凯文·沃什对于如何开展这项工作有着非常不同的想法。)
-
-[Aria] Yes, he says he wants the markets to guide the Fed, not the other way around.
-(是的，他说他希望市场来引导美联储，而不是相反。)
-
-[Andrew] In the past, the Fed would make a decision about interest rates, and then the markets would change.
-(过去，美联储会对利率做出决定，然后市场会随之发生变化。)
-
-[Aria] But Kevin Warsh thinks that the markets have more knowledge than a small group of persons in the government.
-(但凯文·沃什认为，市场拥有的知识比政府中的一小群人要多。)
-
-[Andrew] The markets have millions of persons making choices every second.
-(市场每秒钟都有数以百万计的人在做出选择。)
-
-[Aria] So, he wants to look at the prices in the market to decide what the Fed should do.
-(因此，他希望通过观察市场价格来决定美联储应该做什么。)
-
-[Andrew] This is a very big change. It means the government will have less control, and the market will have more power.
-(这是一个非常巨大的变化。这意味着政府的控制会减少，而市场的权力会增加。)
-
-[Aria] Some persons are very happy about this. They think it will make the money system more natural and free.
-(有些人对此感到非常高兴。他们认为这会使货币系统更加自然和自由。)
-
-[Andrew] But other persons have fear. They think that if the market makes an error, the whole system could fall down.
-(但也有人感到担忧。他们认为如果市场犯了错误，整个系统可能会崩溃。)
-
-[Aria] Yes, the market can sometimes be wild and angry, like a storm.
-(是的，市场有时会像暴风雨一样狂野和愤怒。)
-
-[Andrew] We will have to watch Kevin Warsh very closely to see how his design works in the real world.
-(我们将不得不非常密切地注视凯文·沃什，看看他的设计在现实世界中如何运作。)
-
-[Aria] Now, let us talk about another government story from the United States.
-(现在，让我们谈谈另一个来自美国的政府故事。)
-
-[Andrew] The White House is having talks with Anthropic, a company that makes thinking machines.
-(白宫正在与制造智能机器的公司 Anthropic 进行谈判。)
-
-[Aria] They are trying to set safety rules for these machines.
-(他们正试图为这些机器制定安全规则。)
-
-[Andrew] The government has fear that if these machines become too strong, they could do damage to the nation.
-(政府担心，如果这些机器变得太强大，它们可能会对国家造成损害。)
-
-[Aria] For example, bad persons could use them to make weapons or break into government systems.
-(例如，坏人可以利用它们制造武器或侵入政府系统。)
-
-[Andrew] So, the White House wants to have some control over how these machines are made.
-(因此，白宫希望对这些机器的制造方式进行一些控制。)
-
-[Aria] But some workers at Anthropic say that the government is being too hard on them.
-(但 Anthropic 的一些员工表示，政府对他们太苛刻了。)
-
-[Andrew] They say that if there are too many rules, they will not be able to make new discoveries.
-(他们说，如果规则太多，他们将无法做出新的发现。)
-
-[Aria] And then other nations, like China, will get ahead of them.
-(然后其他国家，比如中国，就会赶超他们。)
-
-[Andrew] This is a very hard balance to keep. How do you keep the public safe while letting science move forward?
-(这是一个非常难以保持的平衡。如何在让科学向前发展的同时确保公众安全？)
-
-[Aria] It is a question that every nation is trying to answer right now.
-(这是每个国家现在都在试图回答的问题。)
-
-[Andrew] Yes, and it leads us to our next story about SpaceX, the company of Elon Musk.
-(是的，这引出了我们关于埃隆·马斯克旗下公司 SpaceX 的下一个故事。)
-
-[Aria] SpaceX makes ships to go to the stars. They let the public buy parts of the company for the first time.
-(SpaceX 制造前往星空的飞船。他们首次允许公众购买公司的股份。)
-
-[Andrew] This is what we call an IPO. At first, there was a great rush of excitement.
-(这就是我们所说的首次公开募股。起初，人们兴奋异常，掀起了一股热潮。)
-
-[Aria] Everyone wanted to get a part of SpaceX. The price went up very high.
-(每个人都想分得一份 SpaceX 的股份。价格涨得非常高。)
-
-[Andrew] But now, that excitement is losing steam. The price of the stock is falling.
-(但现在，那种兴奋正在减退。股票价格正在下跌。)
-
-[Aria] Persons who bought the stock in the first two days are now losing money.
-(在前两天购买该股票的人现在正在亏钱。)
-
-[Andrew] This is a common thing that happens after a big company goes public.
-(这是大公司上市后经常发生的事情。)
-
-[Aria] Yes, the hype, or the wild feeling, makes the price too high at the start.
-(是的，炒作或狂热的情绪会让价格在开始时过高。)
-
-[Andrew] Then, after some days, the price comes down to its true value.
-(然后，几天后，价格会降到其真实价值。)
-
-[Aria] If you want to buy stock in SpaceX, it might be wise to wait till the water is quiet.
-(如果你想购买 SpaceX 的股票，等到水面平静下来可能是明智之举。)
-
-[Andrew] I agree. Do not run into a burning fire just because everyone else is doing it.
-(我同意。不要仅仅因为别人都在做，就冲进燃烧的烈火中。)
-
-[Aria] Now, let us look at another company whose stock is falling, Accenture.
-(现在，让我们看看另一家股价正在下跌的公司，埃森哲。)
-
-[Andrew] Accenture is a very big company that gives advice and help to other businesses.
-(埃森哲是一家非常庞大的公司，为其他企业提供建议和帮助。)
-
-[Aria] Their stock price has fallen to the lowest level since the year 2017.
-(他们的股价已跌至 2017 年以来的最低水平。)
-
-[Andrew] There are two main reasons for this big fall.
-(这次大跌有两个主要原因。)
-
-[Aria] First, there is a war in Iran, which makes trade and business very hard in that part of the earth.
-(首先，伊朗发生了战争，这使得在地球的那个地区进行贸易和商业变得非常困难。)
-
-[Andrew] Second, there is a growing threat from thinking machines.
-(其次，智能机器带来的威胁日益增加。)
-
-[Aria] Yes, if companies can use AI to do their work, they will not need to pay Accenture to give them advice.
-(是的，如果公司可以使用人工智能来做他们的工作，他们就不需要付钱给埃森哲来给他们提供建议了。)
-
-[Andrew] This is a big shock for the whole business of giving advice.
-(这对于整个咨询行业来说是一个巨大的冲击。)
-
-[Aria] It shows us that no company is safe from the changes made by new science.
-(它向我们表明，没有哪家公司能在新科学带来的变化中安然无恙。)
-
-[Andrew] You must change with the times, or you will be left behind.
-(你必须顺应时代而改变，否则就会被抛在后面。)
-
-[Aria] That is very true. Now, let us turn our eyes to China and see what is happening there.
-(非常正确。现在，让我们把目光投向中国，看看那里正在发生什么。)
-
-[Andrew] We have two very big stories from China today.
-(今天我们有两个来自中国的重大新闻。)
-
-[Aria] The first is about why Wall Street banks and other foreign companies are rushing to get money from China.
-(第一个是关于为什么华尔街银行和其他外国公司正争先恐后地从中国获取资金。)
-
-[Andrew] This is because money in China is very cheap right now.
-(这是因为现在中国的资金非常便宜。)
-
-[Aria] Yes, the price of borrowing money, which we call the interest rate, is very low in China.
-(是的，在中国，借钱的价格，也就是我们所说的利率，非常低。)
-
-[Andrew] In other countries, like the United States and Europe, the government has made the price of borrowing money very high to stop prices from rising.
-(在其他国家，比如美国和欧洲，政府为了阻止物价上涨，把借钱的价格定得非常高。)
-
-[Aria] So, these foreign companies borrow money in China by making what we call Panda bonds.
-(因此，这些外国公司通过发行我们所说的熊猫债券在中国借钱。)
-
-[Andrew] They get the cheap money in China, and then they can use it for their business.
-(他们在中国获得便宜的资金，然后就可以将其用于他们的业务。)
-
-[Aria] This shows that China's money system is becoming more open and important for the whole earth.
-(这表明中国的货币系统正变得更加开放，对整个地球也更加重要。)
-
-[Andrew] It is a smart move for these companies to save money on their debts.
-(对于这些公司来说，在债务上省钱是一个聪明的举动。)
-
-[Aria] Yes, and China is also putting a huge amount of money into its own thinking machines.
-(是的，中国也在其自身的智能机器上投入了巨额资金。)
-
-[Andrew] Our second story says that China is investing 295 billion dollars in domestic AI.
-(我们的第二个故事说，中国正在国内人工智能领域投资 2950 亿美元。)
-
-[Aria] They are doing this together with their big phone and wire companies, which we call telecom operators.
-(他们正与他们的大型电话和电报公司，即我们所说的电信运营商，共同开展这项工作。)
-
-[Andrew] This is a massive amount of money. It shows how serious China is about this new science.
-(这是一笔巨大的资金。它表明了中国对这项新科学的态度有多么认真。)
-
-[Aria] They want to build big houses of machines that can think, so their factories, schools, and hospitals can work better.
-(他们想要建造可以思考的大型机器房，这样他们的工厂、学校和医院就能更好地工作。)
-
-[Andrew] This will make their whole nation stronger and more ready for the future.
-(这将使他们的整个国家变得更强大，为未来做好更充分的准备。)
-
-[Aria] It is a big competition between China and the United States to see who will lead in AI.
-(这是中国和美国之间在谁将引领人工智能领域展开的一场大竞争。)
-
-[Andrew] Yes, and this competition will shape the history of the next fifty years.
-(是的，这场竞争将塑造未来五十年的历史。)
-
-[Aria] Now, let us move to our last section, which is about the war and talks of peace in Europe.
-(现在，让我们转向最后一个部分，即关于欧洲的战争与和平谈判。)
-
-[Andrew] We have some very serious news from Russia and Ukraine.
-(我们有一些来自俄罗斯和乌克兰的非常严肃的消息。)
-
-[Aria] Ukraine has made a very big attack on Moscow, the capital of Russia, using many flying machines with no men.
-(乌克兰使用许多无人驾驶的飞行器对俄罗斯首都莫斯科发动了非常庞大的攻击。)
-
-[Andrew] These are what we call drones. This may be the largest drone strike on Moscow yet.
-(这些就是我们所说的无人机。这可能是迄今为止对莫斯科最大规模的无人机袭击。)
-
-[Aria] They hit a big oil place, which we call a refinery, in Moscow.
-(他们击中了莫斯科的一个大型石油场所，也就是我们所说的炼油厂。)
-
-[Andrew] This hit made a very big fire, and black rain fell from the sky over the town.
-(这次袭击引发了巨大的火灾，黑色的雨水从城镇上空飘落。)
-
-[Aria] This is a very important event because it brings the war directly to the eyes of the persons living in the capital of Russia.
-(这是一个非常重要的事件，因为它把战争直接带到了居住在俄罗斯首都的人们的眼前。)
-
-[Andrew] In the past, many persons in Moscow felt safe and far from the fight.
-(过去，莫斯科的许多人感到安全，远离战斗。)
-
-[Aria] But now, they can see the smoke and feel the shock of the blasts.
-(但现在，他们可以看到烟雾，感受到爆炸的冲击。)
-
-[Andrew] It shows that Ukraine has the power to hit deep inside Russia.
-(这表明乌克兰有能力打击俄罗斯腹地。)
-
-[Aria] Yes, and we have another story about how Ukraine does this.
-(是的，我们还有另一个关于乌克兰如何做到这一点的故事。)
-
-[Andrew] It is about the elite Ukrainian drone units. These are groups of very skilled persons who fly these small machines.
-(这是关于乌克兰精锐无人机部队的。这些是由非常熟练的操作这些小机器的人员组成的团体。)
-
-[Aria] They are like the aces, or the best pilots, of the past.
-(他们就像过去的王牌，或者说最优秀的飞行员。)
-
-[Andrew] They target Russian fuel trucks and transport lines.
-(他们的目标是俄罗斯的燃料卡车和运输线。)
-
-[Aria] By doing this, they stop the Russian army from getting the food, fuel, and weapons they need to fight.
-(通过这样做，他们阻止了俄罗斯军队获得战斗所需的食物、燃料和武器。)
-
-[Andrew] This is a new way of fighting a war. It uses cheap machines and smart ideas to defeat a much bigger army.
-(这是一种新的打仗方式。它利用廉价的机器和聪明的想法来击败一支庞大得多的军队。)
-
-[Aria] Yes, and it is changing how military experts all over the earth think about war.
-(是的，它正在改变全球军事专家对战争的看法。)
-
-[Andrew] But while the fight goes on, there are also talks about peace.
-(但就在战斗继续的同时，也有关于和平的谈判。)
-
-[Aria] Our next story is about Macron, the leader of France, and his meeting with Trump.
-(我们的下一个故事是关于法国领导人马克龙以及他与特朗普的会面。)
-
-[Andrew] Macron had a meeting with Trump at a beautiful old palace named Versailles.
-(马克龙在名为凡尔赛的美丽古老宫殿里与特朗普举行了会面。)
-
-[Aria] Macron is trying to bring Trump closer to the views of Europe.
-(马克龙正试图让特朗普更接近欧洲的观点。)
-
-[Andrew] Trump has often said he wants to end the war in Ukraine quickly, and some persons fear he will stop helping Ukraine.
-(特朗普经常说他想快速结束乌克兰战争，有些人担心他会停止帮助乌克兰。)
-
-[Aria] So, Macron used this beautiful dinner and history to make a good connection with Trump.
-(因此，马克龙利用这次美丽的晚宴和历史，与特朗普建立了良好的关系。)
-
-[Andrew] It seems to have had some effect. Trump signed a deal about Iran while he was there.
-(这似乎起到了一些效果。特朗普在凡尔赛期间签署了一项关于伊朗的协议。)
-
-[Aria] This is what we call Versailles diplomacy. It is using beautiful places and respect to get agreement.
-(这就是我们所说的凡尔赛外交。它是利用美丽的地方和尊重来达成协议。)
-
-[Andrew] And this leads to our last story about the G7.
-(这也引出了我们关于 G7 的最后一个故事。)
-
-[Aria] The G7 is a group of seven rich nations. They made a statement saying that there is now a small window for diplomacy in Ukraine.
-(G7 是由七个富裕国家组成的集团。他们发表声明称，现在乌克兰外交出现了一个小窗口。)
-
-[Andrew] This means they see a chance to start peace talks to end the war.
-(这意味着他们看到了开始和平谈判以结束战争的机会。)
-
-[Aria] With Trump coming back to power, there is a change in the air.
-(随着特朗普重新掌权，空气中发生了一些变化。)
-
-[Andrew] The G7 leaders want to work together to make sure that any peace deal is fair to Ukraine.
-(G7 领导人希望共同努力，确保任何和平协议对乌克兰都是公平的。)
-
-[Aria] They want to make sure that Russia does not just take the land by force and get away with it.
-(他们想确保俄罗斯不会仅仅通过武力夺取土地而免受惩罚。)
-
-[Andrew] It is a very delicate time. A small step in the wrong direction could make the war much worse.
-(这是一个非常微妙的时期。向错误方向迈出的一小步都可能使战争变得糟糕得多。)
-
-[Aria] But a good step could bring peace to millions of persons who are suffering.
-(但正确的一步可以给数百万正在遭受苦难的人带来和平。)
-
-[Andrew] Let us all hope and pray for peace on earth.
-(让我们共同祈祷并希望世界和平。)
-
-[Aria] Yes, that is the most important thing.
-(是的，那是最重要的事。)
-
-[Andrew] Well, we have covered many big stories today, Aria.
-(好了，亚里亚，我们今天报道了许多重大新闻。)
-
-[Aria] Yes, we talked about Photoshop and its new helper, Google's phone error, and the big play GTA VI.
-(是的，我们谈到了 Photoshop 及其新助手、谷歌的手机错误，以及大型游戏 GTA VI。)
-
-[Andrew] We also talked about Sony and Bungie, Kevin Warsh at the Fed, and the White House rules for AI.
-(我们还谈到了索尼和 Bungie、美联储的凯文·沃什，以及白宫对人工智能的规则。)
-
-[Aria] And we looked at SpaceX and Accenture stock, China's cheap money and AI investment, and the war and peace talks in Europe.
-(我们还观察了 SpaceX 和埃森哲的股票、中国的便宜资金和人工智能投资，以及欧洲的战争与和平谈判。)
-
-[Andrew] That is a lot of learning for our friends today!
-(今天对我们的朋友们来说是收获满满的学习！)
-
-[Aria] Yes! Remember, you can listen to this talk again to get the words in your mind.
-(是的！记住，您可以再次收听这段对话，把这些单词记在脑海中。)
-
-[Andrew] And look at the key vocabulary we gave you at the start.
-(并看看我们一开始给您的核心词汇。)
-
-[Aria] Using these simple words in your daily life will help you speak English much better.
-(在日常生活中使用这些简单的词汇将帮助您把英语说得更好。)
-
-[Andrew] Thank you for being with us today. We hope to see you again tomorrow!
-(感谢您今天与我们在一起。我们希望明天再次见到您！)
-
-[Aria] Yes, thank you, friends! Have a beautiful day and keep learning!
-(是的，谢谢大家，朋友们！祝您度过美好的一天，并保持学习！)
-
-[Andrew] Goodbye for now!
-(再见！)
-
-[Aria] Goodbye!
-(再见！)
+[Andrew] Yes, keep listening and practicing every day. Thank you for being with us, and we will see you tomorrow. Goodbye!
+(是的，每天保持听和练习。感谢您与我们在一起，我们明天再见。再见！)

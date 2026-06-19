@@ -1,335 +1,99 @@
-[Aria] Good morning, dear friends! Welcome to our daily news talk.
+[Aria] Good morning. We give you a warm greeting to our news talk. Today is a beautiful day to have a discussion about the news of the earth. We will look at new changes in the systems we use every day. We will also talk about the money business and some serious fights between nations. My name is Aria, and I am happy to be here with you.
 
-[Andrew] Yes, welcome! It is great to be here with you on this beautiful day.
+[Andrew] And my name is Andrew. It is great to join you again. We have a very long list of news today. We will make every story clear and simple. We will use only simple words so that everyone who is learning English can have a good understanding of what is going on. Let us start with our first story about the science of machines.
 
-[Aria] Today we have many interesting stories from all over the earth.
+[Aria] Yes, Andrew. Our first story is about Google and Fitbit. Google has made a new change to its health system, Google Health 5.02. This system is for people who use Fitbit. Fitbit is a small machine that you put on your arm. It keeps a record of your sleep and your steps. For a long time, people who use this machine were angry because some good things were taken away. Now, Google is bringing them back.
 
-[Andrew] We will talk about new machines, big money, and the fight for peace.
+[Andrew] That is right, Aria. One important thing is the short sleep. Sometimes, in the middle of the day, you feel tired. You want to have a short sleep for thirty minutes. The old system did not keep a good record of this short sleep. But now, the new system will record your short sleep automatically. This is very good for people who want to keep their body healthy.
 
-[Aria] We will make all the news simple and clear for your English learning.
+[Aria] Yes, Andrew. Another thing is the hourly activity. The machine will make a soft noise or shake on your arm to tell you to get up and walk. If you sit for a long time, it is bad for your blood and your heart. The system wants you to make at least two hundred and fifty steps every hour. This new change makes it easy to see if you are doing this.
 
-[Andrew] That is right. We will use only simple words so you can get the meaning easily.
+[Andrew] I think this is a very wise change by Google. Many people love Fitbit because it is simple. When Google took these things away, many people made a loud protest. They said they would stop using the machine. So, Google had to make this adjustment to keep its customers happy. It shows that when many people speak with one voice, big companies will give attention to them.
 
-[Aria] Let us start with our first story from the world of science and machines.
+[Aria] That is a very good point, Andrew. Now, let us talk about another big change from Google. This is about Android, which is the main system for many pocket machines. Google is making a new rule for the people who make systems for Android. They call it developer verification. It means the makers must prove who they are.
 
-[Andrew] This is about Photoshop and Premiere. These are two very big systems for making pictures and moving pictures.
+[Andrew] This is a very serious change, Aria. It will start in September. Google wants to make sure that every system you put on your pocket machine is safe. Sometimes, people put systems on their machines from outside the main Google store. This is called sideloading. It can be dangerous because bad people can make systems that steal your money or look at your private writings.
 
-[Aria] Yes, the company Adobe has put a new thinking machine helper into these systems.
+[Aria] Yes, and Google is making a new service called Verifier. This service will put itself on your machine automatically. If you try to put a system on your machine from outside, the Verifier will check it. If it is not safe, it will stop you. Or it will only let you use it for twenty-four hours. This is a big crackdown on sideloading.
 
-[Andrew] This helper is a form of AI. It is designed to make hard work very simple.
+[Andrew] Some people are not happy about this. They say that their pocket machine belongs to them, so they should be free to put any system they want on it. They feel Google is taking away their control. But Google says safety is the most important thing. If a bad system damages many machines, people will say Android is bad. So, Google is making these tight rules to protect its name and its users.
 
-[Aria] In the past, if you wanted to change a picture in Photoshop, you had to do much work with your hands.
+[Aria] I see. It is a balance between freedom and safety. Let us move to a new personal machine for play. Asus has released a very strong fold machine across the earth. It is a gaming laptop, but we can call it a strong play machine. It has a very special front glass called a Mini LED display. This glass is extremely bright. It has one thousand and six hundred units of light, which we call nits.
 
-[Andrew] You had to make study of the system for many months or even years.
+[Andrew] That is incredibly bright, Aria! Most normal machines only have three hundred or four hundred units of light. With one thousand and six hundred units, you can see the picture clearly even if you are sitting under the bright sun in a garden. It also has a very strong picture engine, a GPU, with one hundred and seventy-five units of power. This means the pictures in your plays will move very smoothly.
 
-[Aria] But now, with this new helper, you can just use your voice or write simple words.
+[Aria] But this machine is not cheap, Andrew. In fact, it costs as much as three new personal machines from Apple! That is a very large amount of money. Who would buy such a dear machine?
 
-[Andrew] For example, you can say, make this sky blue, or take this tree out of the picture.
+[Andrew] Well, some people are very serious about their plays. They want the best experience possible. They also use these strong machines for work, like making moving pictures or designing buildings. For them, the high price is a good exchange for the great power of the machine. Asus is also opening orders in India for other new machines, like the Zephyrus and TUF. They want to be the chief company for play machines.
 
-[Aria] And the machine will do it in a second! This is a very big change.
+[Aria] That is very interesting. Now, our next story is about a very old play machine. Do you remember the Game Boy, Andrew? It was a small play machine made by Nintendo many years ago. In 1998, they made a camera for it. It was a very simple camera that made small, black and gray pictures.
 
-[Andrew] It is the same for Premiere, which is used for making moving pictures.
+[Andrew] Oh, I remember that very well! The pictures were very rough, but it was a great amusement at that time. Now, a company called Epilog has made a new system for pocket machines called Flashback. This system lets you turn your pocket machine into a Game Boy Camera! You do not need the old machine or the old camera.
 
-[Aria] The helper can cut the film, make the sound clean, and put different parts together.
+[Aria] That is so interesting! Why would anyone want to make their beautiful, clear photos look rough and black and gray?
 
-[Andrew] This will help persons who make moving pictures for their work. They will save much time.
+[Andrew] It is because of memory and art, Aria. Sometimes, people get tired of everything being perfect. They like the simple look of the past. It has a special beauty. This new system is free, and it lets you share these old-style pictures with your friends on the net. It is a fun way to look at the past through our new pocket machines.
 
-[Aria] But some persons have fear about this. They think that if machines can do this work, companies will not need to pay men and women to do it.
+[Aria] I like that idea. It is good to have a connection with the past. Now, let us turn to the money business. There is a man named Warsh who might become the chief of the Federal Reserve. The Federal Reserve is the chief bank of the US. It has a lot of power over the money of the earth. Warsh has some very different ideas about how this bank should work.
 
-[Andrew] That is a serious thought. It is a question of how we will live with these new machines in the future.
+[Andrew] Yes, Aria. Warsh says that the chief bank should let the markets guide its decisions, not the other way around. Right now, the bank makes decisions about the interest rate, and then the markets react. Warsh thinks the bank should look at what the markets are saying first. He wants a simpler, smaller bank that does not try to control everything.
 
-[Aria] Still, Adobe says this is to help persons, not to take their place. It is a tool to make new things more easily.
+[Aria] This is a very important discussion because the interest rate affects everyone. If the interest rate is high, it is hard for people to buy houses or start businesses because they have to pay more money back. If the interest rate is low, it is easy to get money, but prices might go up too fast. The Federal Reserve recently decided to keep the interest rate steady, but they said they might raise it in the future if necessary.
 
-[Andrew] Let us hope that is true. Now, let us move to our second story about another big machine company, Google.
+[Andrew] The stock markets in the US had a good reaction to this news. The S&P 500 and the Nasdaq went up, led by companies that make computer chips. But across the earth, the markets were mixed. Investors are waiting to see what will happen next with the money business and other big events.
 
-[Aria] Google has a new system for its phones, named Android 17.
+[Aria] One of those big events is the peace talks between the US and Iran. There was hope for a peace agreement, but the talks in Switzerland have been postponed. This means they will happen at a later time.
 
-[Andrew] But some owners of Pixel phones had a bad experience with this new system.
+[Andrew] This delay has made investors across the earth very worried. When there is hope for peace, people feel safe and stock markets go up. But when talks are stopped, people fear that war will get worse. This is why the stock markets were mixed today. The price of oil was also very quiet because people are waiting to see if the peace deal is still possible.
 
-[Aria] Yes, there was a small error, which we call a bug, in the system.
+[Aria] It is a very complex condition. We will talk more about why these talks were stopped in our conflict section. But first, let us look at another story about the US and its rules on new machines.
 
-[Andrew] This error made their widgets go away. A widget is a small picture or tool on the front page of the phone.
+[Andrew] Yes, this is about the US export ban on Anthropic's AI models. Anthropic is a company that makes very clever machine systems, like Claude. The government says these systems are too powerful and could be dangerous if other nations get them.
 
-[Aria] For example, it can be a clock, or a box that shows the weather.
+[Aria] This decision by the Trump administration and a man named Lutnick is causing a lot of trouble with friendly nations. For example, a big telecom company in Korea had put a lot of money into Anthropic. They wanted to use these thinking machines to make their own systems better. Now, because of this rule, they cannot get the designs they paid for.
 
-[Aria] Many persons woke up and saw that their front page was empty!
+[Andrew] This makes our friends very angry. They feel the US is using its power to keep all the best new science for itself. They say this will damage the agreements and friendships between our countries. But the US government says it must protect its national safety first. They fear that if these clever systems fall into the wrong hands, they could be used to make weapons or attack our computer systems.
 
-[Andrew] That must be very strange and make persons angry.
+[Aria] It is a very difficult balance. If the US stops its friends from using these systems, those friends might start to make their own systems or work with other countries. In the end, it might make the US less powerful, not more.
 
-[Aria] Yes, and some persons on Reddit also said they had trouble with their Wi-Fi connection.
+[Andrew] That is a very wise thought, Aria. Now, let us talk about some good news for young people in the US who have debt from school. The government has made a change to help them pay their student loans. If they agree to let the system take money from their bank automatically every month, they will get a bigger discount on their interest rate.
 
-[Andrew] They could not get on the net to do their work or talk to friends.
+[Aria] This is a very helpful change, Aria. Going to school in the US is very dear, and many young people start their working lives with a mountain of debt. Even a small cut in the interest rate can save them thousands of dollars over many years. It also helps the government because they are sure to get the payment every month without having to ask for it.
 
-[Aria] Google says they have knowledge of this error now. They are working hard to make a fix.
+[Andrew] Yes, and the Department of Education has also lowered interest rates for two years for these borrowers. But people need to act quickly because some rules will change after July 1. For example, parents who took out debt for their children, called Parent PLUS loans, need to check their choices before that day to make sure they do not lose their chance for debt forgiveness.
 
-[Andrew] This shows us that even the biggest companies with the best experts can make simple errors.
+[Aria] It is always wise to read the details of these agreements. Money rules can be very dry and hard to understand, but taking a little time to look at them can make a big difference in your life.
 
-[Aria] Yes, making a new system for millions of phones is very complex. There will always be some trouble at the start.
+[Andrew] I agree. Now, let us look at a story from China. A domestic two-wheel engine carriage, which we call a motorcycle, has made a new record. It went at a speed of more than three hundred and fifteen kilometers in one hour!
 
-[Andrew] If you have a Pixel phone, you may want to wait before you get the new Android 17 system.
+[Aria] That is incredibly fast, Andrew! To go that fast on two wheels requires a very strong engine and a very safe design. If anything goes wrong at that speed, the result would be deadly. This record shows that Chinese industry is now able to make very high-quality engines and machines that can compete with the best in the world.
 
-[Aria] That is a wise suggestion, Andrew. Now, let us talk about a very big play for machines that many young persons love.
+[Andrew] Yes, it is a big step for Chinese makers. In the past, people thought of Chinese products as cheap but not very advanced. But now, they are producing machines that are at the top of science and power. This motorcycle is a great example of that growth.
 
-[Andrew] You are talking about Grand Theft Auto VI, or GTA VI!
+[Aria] It is amazing to see how fast things are changing. Now, let us move to our world and conflict section. The fighting between the Israeli military and Hezbollah in southern Lebanon has become very violent. This is the main reason why the peace talks between the US and Iran were postponed.
 
-[Aria] Yes! The company Rockstar Games has made clear that persons can give payment early for this play starting on June 25.
+[Andrew] Yes, the condition in Lebanon is very bad. There have been many deadly attacks. Because of this, Vance, who is the co-chief of the US under Trump, canceled his trip to Switzerland where the talks were supposed to take place. He felt it was not the right time to negotiate when the fighting was so intense.
 
-[Andrew] This is what we call a pre-order. It means you pay now, and you get the play as soon as it is ready.
+[Aria] A man named Aoun, who is a leader in Lebanon, said that the Israeli attacks are harming the efforts to make a peace agreement. It seems that every time the two sides get close to an agreement, new violence breaks out and ruins the hope for peace. It is a very sad cycle that has been going on for a long time.
 
-[Aria] They also let the public see the front picture of the play.
+[Andrew] It is indeed sad, Aria. The people who suffer the most are the simple men, women, and children who live in those areas. They have to flee their homes and live in fear of the next attack. We can only hope that the leaders will find a way to stop the fighting and come back to the table for discussion.
 
-[Andrew] This front picture has many details. It shows a man and a woman in a warm place with cars and water.
+[Aria] Yes, peace is what everyone needs. Our next story is about the war between Ukraine and Russia. Ukraine has made its largest attack ever on Moscow, the chief city of Russia. They used many flying attack machines to strike a large oil building in the city.
 
-[Aria] Persons on the net are looking at this picture very closely to make discoveries about the story.
+[Andrew] This was a very big event, Aria. The attack caused massive explosions that shook the city. It even shattered the feeling of safety that people in Moscow had. For a long time, the war was far away from them, but now they can see and feel the effects of it in their own streets.
 
-[Andrew] This play has been in development for many years. It has a very big price to make.
+[Aria] Yes, and there were reports of black rain falling on the city after the attack. This black rain was caused by the oil and dust from the burning building mixing with the clouds. It made the residents very worried about their health and the safety of their water.
 
-[Aria] But it will also make a huge amount of money. Millions of persons will get it.
+[Andrew] There is also a great fear of a fuel shortage in Moscow now. If the oil buildings are damaged, there will not be enough oil for heating houses in the winter or for driving carriages. This shows that Ukraine is able to strike deep inside Russia and cause real trouble for the Russian government. It is a major change in the war.
 
-[Andrew] It is one of the most important events in the business of plays this year.
+[Aria] It is a very serious development. Our last story today is a very strange one. A town chief in the US has been accused of faking her own kidnapping. She said that bad men took her away by force and demanded money.
 
-[Aria] Yes, and it shows how big the play business has become. It is now bigger than the business of moving pictures!
+[Andrew] But the police did some observation and discovered that she made up the whole story! Why would a town chief do such a foolish thing?
 
-[Andrew] That is true. Now, let us stay with plays but talk about another company, Sony, and their relation with Bungie.
+[Aria] Well, the police say she did it to cover up a scheme to steal money from the town. She had taken a large amount of public money for her own use, and she knew the government was going to check the books. So, she thought that if she was taken away by force, people would not ask questions about the missing money.
 
-[Aria] There were some stories on the net saying that Sony ended the play Destiny 2 to get revenge on Bungie.
+[Andrew] That is a very bad and foolish plan! Now, she is in prison and faces serious punishment for her crimes. It is a great shame for her family and the town that trusted her. It shows that crime does not pay, and the truth will always come out in the end.
 
-[Andrew] But experts say this is not true at all. It is a false story.
+[Aria] That is very true, Andrew. The truth always finds a way. Well, that is all for our news today. We hope you enjoyed our discussion and learned some new English words. Remember, learning a language takes time and regular work, but you can do it!
 
-[Aria] Yes, Bungie had a very hard time before Sony got them. They were very close to shutting down their business.
-
-[Andrew] Sony gave them much money to keep them living.
-
-[Aria] But Bungie still has trouble. They have to send many workers away now because their new plays are not doing well.
-
-[Andrew] This is a sad thing for the workers who lose their jobs.
-
-[Aria] But Destiny 2 is actually doing very well right now. It has more persons playing it than in the past two years.
-
-[Andrew] So Sony is not trying to destroy Bungie. They are trying to save their investment.
-
-[Aria] Yes, in business, decisions are made for money, not for revenge.
-
-[Andrew] That is a very important lesson for us to keep in mind.
-
-[Aria] Now, let us turn our eyes to the big money business and the government.
-
-[Andrew] We have news about Kevin Warsh, who is the new chief of the Fed.
-
-[Aria] The Fed is the big government place that controls the money in the United States.
-
-[Andrew] Kevin Warsh has a very different idea about how to do this work.
-
-[Aria] Yes, he says he wants the markets to guide the Fed, not the other way around.
-
-[Andrew] In the past, the Fed would make a decision about interest rates, and then the markets would change.
-
-[Aria] But Kevin Warsh thinks that the markets have more knowledge than a small group of persons in the government.
-
-[Andrew] The markets have millions of persons making choices every second.
-
-[Aria] So, he wants to look at the prices in the market to decide what the Fed should do.
-
-[Andrew] This is a very big change. It means the government will have less control, and the market will have more power.
-
-[Aria] Some persons are very happy about this. They think it will make the money system more natural and free.
-
-[Andrew] But other persons have fear. They think that if the market makes an error, the whole system could fall down.
-
-[Aria] Yes, the market can sometimes be wild and angry, like a storm.
-
-[Andrew] We will have to watch Kevin Warsh very closely to see how his design works in the real world.
-
-[Aria] Now, let us talk about another government story from the United States.
-
-[Andrew] The White House is having talks with Anthropic, a company that makes thinking machines.
-
-[Aria] They are trying to set safety rules for these machines.
-
-[Andrew] The government has fear that if these machines become too strong, they could do damage to the nation.
-
-[Aria] For example, bad persons could use them to make weapons or break into government systems.
-
-[Andrew] So, the White House wants to have some control over how these machines are made.
-
-[Aria] But some workers at Anthropic say that the government is being too hard on them.
-
-[Andrew] They say that if there are too many rules, they will not be able to make new discoveries.
-
-[Aria] And then other nations, like China, will get ahead of them.
-
-[Andrew] This is a very hard balance to keep. How do you keep the public safe while letting science move forward?
-
-[Aria] It is a question that every nation is trying to answer right now.
-
-[Andrew] Yes, and it leads us to our next story about SpaceX, the company of Elon Musk.
-
-[Aria] SpaceX makes ships to go to the stars. They let the public buy parts of the company for the first time.
-
-[Andrew] This is what we call an IPO. At first, there was a great rush of excitement.
-
-[Aria] Everyone wanted to get a part of SpaceX. The price went up very high.
-
-[Andrew] But now, that excitement is losing steam. The price of the stock is falling.
-
-[Aria] Persons who bought the stock in the first two days are now losing money.
-
-[Andrew] This is a common thing that happens after a big company goes public.
-
-[Aria] Yes, the hype, or the wild feeling, makes the price too high at the start.
-
-[Andrew] Then, after some days, the price comes down to its true value.
-
-[Aria] If you want to buy stock in SpaceX, it might be wise to wait till the water is quiet.
-
-[Andrew] I agree. Do not run into a burning fire just because everyone else is doing it.
-
-[Aria] Now, let us look at another company whose stock is falling, Accenture.
-
-[Andrew] Accenture is a very big company that gives advice and help to other businesses.
-
-[Aria] Their stock price has fallen to the lowest level since the year 2017.
-
-[Andrew] There are two main reasons for this big fall.
-
-[Aria] First, there is a war in Iran, which makes trade and business very hard in that part of the earth.
-
-[Andrew] Second, there is a growing threat from thinking machines.
-
-[Aria] Yes, if companies can use AI to do their work, they will not need to pay Accenture to give them advice.
-
-[Andrew] This is a big shock for the whole business of giving advice.
-
-[Aria] It shows us that no company is safe from the changes made by new science.
-
-[Andrew] You must change with the times, or you will be left behind.
-
-[Aria] That is very true. Now, let us turn our eyes to China and see what is happening there.
-
-[Andrew] We have two very big stories from China today.
-
-[Aria] The first is about why Wall Street banks and other foreign companies are rushing to get money from China.
-
-[Andrew] This is because money in China is very cheap right now.
-
-[Aria] Yes, the price of borrowing money, which we call the interest rate, is very low in China.
-
-[Andrew] In other countries, like the United States and Europe, the government has made the price of borrowing money very high to stop prices from rising.
-
-[Aria] So, these foreign companies borrow money in China by making what we call Panda bonds.
-
-[Andrew] They get the cheap money in China, and then they can use it for their business.
-
-[Aria] This shows that China's money system is becoming more open and important for the whole earth.
-
-[Andrew] It is a smart move for these companies to save money on their debts.
-
-[Aria] Yes, and China is also putting a huge amount of money into its own thinking machines.
-
-[Andrew] Our second story says that China is investing 295 billion dollars in domestic AI.
-
-[Aria] They are doing this together with their big phone and wire companies, which we call telecom operators.
-
-[Andrew] This is a massive amount of money. It shows how serious China is about this new science.
-
-[Aria] They want to build big houses of machines that can think, so their factories, schools, and hospitals can work better.
-
-[Andrew] This will make their whole nation stronger and more ready for the future.
-
-[Aria] It is a big competition between China and the United States to see who will lead in AI.
-
-[Andrew] Yes, and this competition will shape the history of the next fifty years.
-
-[Aria] Now, let us move to our last section, which is about the war and talks of peace in Europe.
-
-[Andrew] We have some very serious news from Russia and Ukraine.
-
-[Aria] Ukraine has made a very big attack on Moscow, the capital of Russia, using many flying machines with no men.
-
-[Andrew] These are what we call drones. This may be the largest drone strike on Moscow yet.
-
-[Aria] They hit a big oil place, which we call a refinery, in Moscow.
-
-[Andrew] This hit made a very big fire, and black rain fell from the sky over the town.
-
-[Aria] This is a very important event because it brings the war directly to the eyes of the persons living in the capital of Russia.
-
-[Andrew] In the past, many persons in Moscow felt safe and far from the fight.
-
-[Aria] But now, they can see the smoke and feel the shock of the blasts.
-
-[Andrew] It shows that Ukraine has the power to hit deep inside Russia.
-
-[Aria] Yes, and we have another story about how Ukraine does this.
-
-[Andrew] It is about the elite Ukrainian drone units. These are groups of very skilled persons who fly these small machines.
-
-[Aria] They are like the aces, or the best pilots, of the past.
-
-[Andrew] They target Russian fuel trucks and transport lines.
-
-[Aria] By doing this, they stop the Russian army from getting the food, fuel, and weapons they need to fight.
-
-[Andrew] This is a new way of fighting a war. It uses cheap machines and smart ideas to defeat a much bigger army.
-
-[Aria] Yes, and it is changing how military experts all over the earth think about war.
-
-[Andrew] But while the fight goes on, there are also talks about peace.
-
-[Aria] Our next story is about Macron, the leader of France, and his meeting with Trump.
-
-[Andrew] Macron had a meeting with Trump at a beautiful old palace named Versailles.
-
-[Aria] Macron is trying to bring Trump closer to the views of Europe.
-
-[Andrew] Trump has often said he wants to end the war in Ukraine quickly, and some persons fear he will stop helping Ukraine.
-
-[Aria] So, Macron used this beautiful dinner and history to make a good connection with Trump.
-
-[Andrew] It seems to have had some effect. Trump signed a deal about Iran while he was there.
-
-[Aria] This is what we call Versailles diplomacy. It is using beautiful places and respect to get agreement.
-
-[Andrew] And this leads to our last story about the G7.
-
-[Aria] The G7 is a group of seven rich nations. They made a statement saying that there is now a small window for diplomacy in Ukraine.
-
-[Andrew] This means they see a chance to start peace talks to end the war.
-
-[Aria] With Trump coming back to power, there is a change in the air.
-
-[Andrew] The G7 leaders want to work together to make sure that any peace deal is fair to Ukraine.
-
-[Aria] They want to make sure that Russia does not just take the land by force and get away with it.
-
-[Andrew] It is a very delicate time. A small step in the wrong direction could make the war much worse.
-
-[Aria] But a good step could bring peace to millions of persons who are suffering.
-
-[Andrew] Let us all hope and pray for peace on earth.
-
-[Aria] Yes, that is the most important thing.
-
-[Andrew] Well, we have covered many big stories today, Aria.
-
-[Aria] Yes, we talked about Photoshop and its new helper, Google's phone error, and the big play GTA VI.
-
-[Andrew] We also talked about Sony and Bungie, Kevin Warsh at the Fed, and the White House rules for AI.
-
-[Aria] And we looked at SpaceX and Accenture stock, China's cheap money and AI investment, and the war and peace talks in Europe.
-
-[Andrew] That is a lot of learning for our friends today!
-
-[Aria] Yes! Remember, you can listen to this talk again to get the words in your mind.
-
-[Andrew] And look at the key vocabulary we gave you at the start.
-
-[Aria] Using these simple words in your daily life will help you speak English much better.
-
-[Andrew] Thank you for being with us today. We hope to see you again tomorrow!
-
-[Aria] Yes, thank you, friends! Have a beautiful day and keep learning!
-
-[Andrew] Goodbye for now!
-
-[Aria] Goodbye!
+[Andrew] Yes, keep listening and practicing every day. Thank you for being with us, and we will see you tomorrow. Goodbye!
