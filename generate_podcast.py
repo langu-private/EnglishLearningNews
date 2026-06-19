@@ -136,10 +136,13 @@ def create_audio(text, output_mp3, api_key):
     import re
     import os
     import subprocess
+    import json
     
     # Split the script by [Aria] or [Andrew] tags
     blocks = re.split(r'\[(Aria|Andrew)\]', text)
     temp_files = []
+    shadowing_data = []
+    current_time_offset = 0.0
     
     try:
         for i in range(1, len(blocks), 2):
@@ -152,9 +155,11 @@ def create_audio(text, output_mp3, api_key):
             voice = "en-US-AriaNeural" if speaker == "Aria" else "en-US-AndrewNeural"
             
             tmp_mp3 = tempfile.mktemp(suffix=".mp3")
+            tmp_vtt = tempfile.mktemp(suffix=".vtt")
             temp_files.append(tmp_mp3)
+            temp_files.append(tmp_vtt)
             
-            cmd = ["edge-tts", "--voice", voice, "--text", speech, "--write-media", tmp_mp3]
+            cmd = ["edge-tts", "--voice", voice, "--text", speech, "--write-media", tmp_mp3, "--write-subtitles", tmp_vtt]
             
             # Robust retry loop for edge-tts
             max_tts_retries = 3
@@ -169,12 +174,48 @@ def create_audio(text, output_mp3, api_key):
                         time.sleep(3)
                     else:
                         raise e
+                        
+            # Parse VTT for shadowing
+            if os.path.exists(tmp_vtt):
+                with open(tmp_vtt, 'r', encoding='utf-8') as f:
+                    vtt_content = f.read().split('\n\n')
+                for block in vtt_content:
+                    lines = block.strip().split('\n')
+                    if len(lines) >= 3 and '-->' in lines[1]:
+                        times = lines[1].split(' --> ')
+                        sentence_text = " ".join(lines[2:])
+                        def parse_time(t_str):
+                            t_str = t_str.replace(',', '.')
+                            h, m, s = t_str.split(':')
+                            return int(h)*3600 + int(m)*60 + float(s)
+                        try:
+                            start_t = parse_time(times[0]) + current_time_offset
+                            end_t = parse_time(times[1]) + current_time_offset
+                            shadowing_data.append({
+                                'speaker': speaker,
+                                'start': round(start_t, 3),
+                                'end': round(end_t, 3),
+                                'text': sentence_text
+                            })
+                        except Exception as e:
+                            print("Error parsing VTT line:", e)
+                            
+            # Get duration of tmp_mp3 to update current_time_offset
+            try:
+                res = subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', tmp_mp3])
+                duration = float(res.decode('utf-8').strip())
+                current_time_offset += duration
+            except Exception as e:
+                print("Error getting duration:", e)
+                if shadowing_data and shadowing_data[-1]['speaker'] == speaker:
+                    current_time_offset = shadowing_data[-1]['end']
             
         if temp_files:
             list_file = tempfile.mktemp(suffix=".txt")
             with open(list_file, 'w') as lf:
                 for f in temp_files:
-                    lf.write(f"file '{f}'\n")
+                    if f.endswith('.mp3'):
+                        lf.write(f"file '{f}'\n")
             
             # Use ffmpeg to properly concatenate MP3s so headers aren't broken on iOS
             subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-c", "copy", output_mp3], check=True, capture_output=True)
@@ -183,6 +224,8 @@ def create_audio(text, output_mp3, api_key):
             print("No valid speaker tags found! Falling back to single voice...")
             cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", text, "--write-media", output_mp3]
             subprocess.run(cmd, check=True)
+            
+        return shadowing_data
             
     finally:
         for f in temp_files:
@@ -238,7 +281,22 @@ def main():
         
     print("Creating podcast audio...")
     mp3_path = os.path.join(edition_dir, f"{edition}_Podcast.mp3")
-    create_audio(audio_script_text, mp3_path, args.api_key)
+    shadowing_data = create_audio(audio_script_text, mp3_path, args.api_key)
+    
+    if shadowing_data:
+        print("Appending single-sentence shadowing to Learning Document...")
+        shadowing_html = "\n\n## 🎧 单句跟读 (Sentence Shadowing)\n\n"
+        audio_id = f"audio-{date_str}_{edition}"
+        for seg in shadowing_data:
+            speaker = seg['speaker']
+            start = seg['start']
+            end = seg['end']
+            # Escape quotes for html attributes
+            text = seg['text'].replace("'", "&apos;").replace('"', "&quot;")
+            shadowing_html += f"<p><strong>{speaker}:</strong> {seg['text']} <button onclick=\"playShadowing('{audio_id}', {start}, {end})\" style=\"margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;\">🎵 播放本句</button></p>\n"
+            
+        with open(doc_path, 'a', encoding='utf-8') as f:
+            f.write(shadowing_html)
     
     # Call the RSS generator here
     update_rss_feed(edition, date_str, mp3_path, args.github_url)
@@ -275,6 +333,24 @@ def update_index_html():
         .learning-doc h3 { margin-top: 0; }
         .rss-link { display: inline-block; background: #FEF2F2; color: #DC2626; padding: 0.5rem 1rem; border-radius: 99px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
     </style>
+    <script>
+        function playShadowing(audioId, start, end) {
+            const audio = document.getElementById(audioId);
+            if (!audio) return;
+            audio.currentTime = start;
+            audio.play();
+            
+            const checkTime = () => {
+                if (audio.currentTime >= end) {
+                    audio.pause();
+                    audio.removeEventListener('timeupdate', checkTime);
+                }
+            };
+            // Remove previous listener if exists
+            audio.removeEventListener('timeupdate', checkTime);
+            audio.addEventListener('timeupdate', checkTime);
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -304,7 +380,7 @@ def update_index_html():
             html_content += f'''
         <div class="episode">
             <h2>{title} Podcast</h2>
-            <audio controls preload="none">
+            <audio id="audio-{folder}" controls preload="none">
                 <source src="{mp3_url}" type="audio/mpeg">
             </audio>'''
             
