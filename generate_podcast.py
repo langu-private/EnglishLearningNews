@@ -206,7 +206,9 @@ def main():
     
     args = parser.parse_args()
 
-    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    import pytz
+    beijing_tz = pytz.timezone('Asia/Shanghai')
+    date_str = datetime.datetime.now(beijing_tz).strftime("%Y-%m-%d")
     edition = args.edition
     
     news_text = fetch_top_news()
