@@ -1,214 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>虎子老师教英语 - 每日播客与学习文档</title>
-    <style>
-        :root { --primary: #4F46E5; --bg: #F3F4F6; --card: #FFFFFF; --text: #1F2937; }
-        body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; padding: 3rem 2rem; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        header p { opacity: 0.9; margin-top: 1rem; font-size: 1.1rem; }
-        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-        .episode { background: var(--card); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: transform 0.2s; }
-        .episode:hover { transform: translateY(-5px); }
-        .episode h2 { margin-top: 0; color: var(--primary); border-bottom: 2px solid #E5E7EB; padding-bottom: 0.5rem; }
-        audio { width: 100%; margin: 1rem 0; }
-        .learning-doc { background: #F9FAFB; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin-top: 1rem; }
-        .learning-doc h3 { margin-top: 0; }
-        .rss-link { display: inline-block; background: #FEF2F2; color: #DC2626; padding: 0.5rem 1rem; border-radius: 99px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
-    </style>
-    <script>
-        function playShadowing(audioId, start, end) {
-            const audio = document.getElementById(audioId);
-            if (!audio) return;
-            audio.currentTime = start;
-            audio.play();
-            
-            const checkTime = () => {
-                if (audio.currentTime >= end) {
-                    audio.pause();
-                    audio.removeEventListener('timeupdate', checkTime);
-                }
-            };
-            // Remove previous listener if exists
-            audio.removeEventListener('timeupdate', checkTime);
-            audio.addEventListener('timeupdate', checkTime);
-        }
-    </script>
-</head>
-<body>
-    <header>
-        <h1>虎子老师教英语</h1>
-        <p>Daily English Learning Podcast & Study Guides</p>
-        <a href="podcast.xml" class="rss-link">🎙️ Subscribe via RSS / Apple Podcasts</a>
-    </header>
-    <div class="container">
+# ESL Podcast Learning Document: Simple Words, Big Ideas
 
-        <div class="episode">
-            <h2>2026-06-20 Daily Podcast</h2>
-            <audio id="audio-2026-06-20_Daily" controls preload="none">
-                <source src="editions/2026-06-20_Daily/Daily_Podcast.mp3" type="audio/mpeg">
-            </audio>
-            <div class="learning-doc">
-                <h1>ESL Podcast Learning Document: Simple Words, Big Ideas</h1>
-<hr />
-<h2>1. Podcast Summary (播客摘要)</h2>
-<p>本期播客采用极简英语（Basic English）探讨了全球瞩目的三个重大科技与环保议题：
-1. <strong>太空中的“巨眼”（詹姆斯·韦伯空间望远镜）</strong>：介绍了为什么要把望远镜送入没有空气的深空，以及它如何通过黄金镜面捕捉红外线（暖光），带领人类“回溯时间”观测宇宙初期和寻找外星水源。
-2. <strong>亚马逊雨林的生态拯救计划</strong>：讲述了亚马逊雨林作为“地球之肺”面临的脱水与污染危机，以及当地原住民（First People）如何带领年轻人利用草编播种筐和天然沙滤系统，以低成本、可持续的方式恢复生态。
-3. <strong>学校中的智能教学机器（人工智能教育）</strong>：以日本学生Leo为例，探讨了智能机器在个性化教学中的优势，同时也警示了过度使用屏幕对儿童身心健康的危害，强调了“人类教师”在情感关怀和社交引导中不可替代的作用。</p>
-<hr />
-<h2>2. Key Vocabulary (核心词汇)</h2>
-<p>以下是从节目中提取的 8 个核心词汇。掌握这些词汇有助于你更好地理解科技、环保和教育类话题。</p>
-<h3>1. <strong>instrument</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /ˈɪn.strə.mənt/</li>
-<li><strong>Chinese Meaning</strong>: n. 仪器，工具，乐器</li>
-<li><strong>Example</strong>: <ul>
-<li><em>In the past, Galileo made a simple glass instrument to look at the moon.</em> (过去，伽利略制作了一个简单的玻璃仪器来观察月球。)</li>
-<li><em>The scientists sent a giant instrument into deep space.</em> (科学家们向深空发射了一个巨大的仪器。)</li>
-</ul>
-</li>
-</ul>
-<h3>2. <strong>discovery</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /dɪˈskʌv.ər.i/</li>
-<li><strong>Chinese Meaning</strong>: n. 发现</li>
-<li><strong>Example</strong>: <ul>
-<li><em>That was a great discovery that changed how we see our place in the sky.</em> (那是一个伟大的发现，改变了我们对自身在太空中位置的看法。)</li>
-</ul>
-</li>
-</ul>
-<h3>3. <strong>reflect</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /rɪˈflekt/</li>
-<li><strong>Chinese Meaning</strong>: v. 反射（光、热、声等），反映</li>
-<li><strong>Example</strong>: <ul>
-<li><em>Gold is a very good metal for reflecting a special kind of light.</em> (黄金是一种非常适合反射特殊光线的金属。)</li>
-</ul>
-</li>
-</ul>
-<h3>4. <strong>condition</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /kənˈdɪʃ.ən/</li>
-<li><strong>Chinese Meaning</strong>: n. 条件，状况，环境</li>
-<li><strong>Example</strong>: <ul>
-<li><em>If a far land has water, it might have the right conditions for being alive.</em> (如果遥远的土地上有水，它可能就具备生命生存的合适条件。)</li>
-</ul>
-</li>
-</ul>
-<h3>5. <strong>damage</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /ˈdæm.ɪdʒ/</li>
-<li><strong>Chinese Meaning</strong>: n. 损害，破坏；v. 损害</li>
-<li><strong>Example</strong>: <ul>
-<li><em>Cutting down too many trees has caused great damage to the land.</em> (砍伐太多树木对土地造成了巨大的破坏。)</li>
-</ul>
-</li>
-</ul>
-<h3>6. <strong>fertile</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /ˈfɜː.taɪl/</li>
-<li><strong>Chinese Meaning</strong>: adj. 肥沃的，富饶的</li>
-<li><strong>Example</strong>: <ul>
-<li><em>They put the seeds in the baskets with fertile earth and drop them into the ground.</em> (他们把种子和肥沃的泥土一起放进筐里，然后丢进地里。)</li>
-</ul>
-</li>
-</ul>
-<h3>7. <strong>error</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /ˈer.ər/</li>
-<li><strong>Chinese Meaning</strong>: n. 错误，差错</li>
-<li><strong>Example</strong>: <ul>
-<li><em>If the student makes an error, the machine does not get angry.</em> (如果学生犯了错误，机器不会生气。)</li>
-</ul>
-</li>
-</ul>
-<h3>8. <strong>adjustment</strong></h3>
-<ul>
-<li><strong>Phonetic</strong>: /əˈdʒʌst.mənt/</li>
-<li><strong>Chinese Meaning</strong>: n. 调整，调节</li>
-<li><strong>Example</strong>: <ul>
-<li><em>Teachers have to make adjustments all the time when using new technology.</em> (在使用新技术时，教师必须时刻做出调整。)</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>3. Useful Expressions (实用表达)</h2>
-<h3>1. <strong><code>make</code> + Noun (名词) + Adjective (形容词)</strong></h3>
-<ul>
-<li><strong>Explanation</strong>: 这是一个非常实用的句型，表示“使……变得……”，用来代替复杂的动词。</li>
-<li><strong>Examples in Podcast</strong>:<ul>
-<li><em>make the river clean</em> (使河流变干净 = 净化河流 purify the river)</li>
-<li><em>make the air cold</em> (使空气变冷 = 冷却空气 cool the air)</li>
-<li><em>make the young mind creative</em> (让年轻的心灵富有创造力)</li>
-</ul>
-</li>
-</ul>
-<h3>2. <strong><code>will be able to</code> + Verb (动词原形)</strong></h3>
-<ul>
-<li><strong>Explanation</strong>: 表示“将来能够……”。因为情态动词 <code>can</code> 没有将来时态（不能说 <em>will can</em>），所以必须用 <code>will be able to</code> 来表达未来的能力。</li>
-<li><strong>Examples in Podcast</strong>:<ul>
-<li><em>We will be able to see the oldest stars.</em> (我们将能够看到最古老的恒星。)</li>
-<li><em>The young persons will be able to get a better education.</em> (年轻人将能够获得更好的教育。)</li>
-</ul>
-</li>
-</ul>
-<h3>3. <strong>look back in time</strong></h3>
-<ul>
-<li><strong>Explanation</strong>: 字面意思是“向时间后方看”，意为“回溯时间”或“回顾过去”。</li>
-<li><strong>Examples in Podcast</strong>:<ul>
-<li><em>When we see their light, we are seeing them as they were in the past. We are looking back in time.</em> (当我们看到它们的光芒时，我们看到的是它们过去的样子。我们正在回溯时间。)</li>
-</ul>
-</li>
-</ul>
-<h3>4. <strong>live in harmony with...</strong></h3>
-<ul>
-<li><strong>Explanation</strong>: 与……和谐共处。常用于描述人与自然、人与人之间的和谐关系。</li>
-<li><strong>Examples in Podcast</strong>:<ul>
-<li><em>These people have lived in harmony with the land of many trees for a very long time.</em> (这些人长期以来一直与这片拥有众多树木的土地[雨林]和谐共处。)</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>4. Comprehension Check (理解力自测)</h2>
-<p>请根据听到的/读到的播客内容，回答以下 3 个简单问题：</p>
-<ol>
-<li><strong>Why is the giant instrument (telescope) placed in deep space instead of on Earth?</strong></li>
-<li><strong>Who is doing the real work of planting trees and cleaning the Amazon river?</strong></li>
-<li><strong>What is the rule in Leo's school regarding the use of smart machines?</strong></li>
-</ol>
-<hr />
-<h3><em>Answers (答案在下方)</em></h3>
-<ol>
-<li><em>Because there is no air and no clouds in deep space. On Earth, the air makes the starlight shake and look bent, but in space, the light goes straight, allowing the instrument to take very clear pictures.</em> (因为深空没有空气和云。在地球上，空气会让星光抖动和弯曲，但在太空中，光线是直射的，这使得仪器能拍到非常清晰的照片。)</li>
-<li><em>The young persons from the cities and the first people of the land (indigenous people).</em> (来自城市的年轻人和土地的原住民。)</li>
-<li><em>They use the machines for only one hour in the morning and one hour in the afternoon to protect their eyes and ensure they have time for physical play and social activities.</em> (他们只在上午使用一小时、下午使用一小时机器，以保护眼睛，并确保有时间进行体育游戏和社交活动。)</li>
-</ol>
-<hr />
-<h2>5. How to Use this Document (使用指南)</h2>
-<p>为了最大化你的学习效果，建议按照以下步骤使用本学习文档：</p>
-<ol>
-<li><strong>第一步：盲听（Active Listening）</strong></li>
-<li>不看文本，直接听播客音频 1-2 遍。尝试抓住大意，听出三个故事分别关于什么（太空、河流、学校）。</li>
-<li><strong>第二步：词汇与表达预习（Vocabulary Preview）</strong></li>
-<li>阅读本篇文档的 <strong>Key Vocabulary</strong> 和 <strong>Useful Expressions</strong>。大声朗读例句，体会 <code>make + noun + adj</code> 等句型的用法。</li>
-<li><strong>第三步：精听与跟读（Shadowing &amp; Reading）</strong></li>
-<li>再次播放音频，对照播客文本（Transcript）进行阅读。</li>
-<li>遇到本篇文档中列出的核心词汇时，注意主持人的发音和连读。</li>
-<li>尝试模仿主持人的语调，大声跟读（Shadowing）1-2 遍，锻炼口腔肌肉。</li>
-<li><strong>第四步：自我检测（Self-Assessment）</strong></li>
-<li>尝试不看答案，口头或书面回答 <strong>Comprehension Check</strong> 中的 3 个问题。</li>
-<li><strong>第五步：学以致用（Output Practice）</strong></li>
-<li>尝试用今天学到的简单结构，自己造两个句子。例如：<ul>
-<li><em>Using English every day will </em><em>make your English better</em><em>.</em> (每天使用英语会让你的英语变得更好。)</li>
-<li><em>With hard work, you </em><em>will be able to speak</em><em> like a native.</em> (通过努力，你将能够像母语者一样流利表达。)</li>
-</ul>
-</li>
-</ol>
-<h2>🎧 单句跟读 (Sentence Shadowing)</h2>
+---
+
+## 1. Podcast Summary (播客摘要)
+
+本期播客采用极简英语（Basic English）探讨了全球瞩目的三个重大科技与环保议题：
+1. **太空中的“巨眼”（詹姆斯·韦伯空间望远镜）**：介绍了为什么要把望远镜送入没有空气的深空，以及它如何通过黄金镜面捕捉红外线（暖光），带领人类“回溯时间”观测宇宙初期和寻找外星水源。
+2. **亚马逊雨林的生态拯救计划**：讲述了亚马逊雨林作为“地球之肺”面临的脱水与污染危机，以及当地原住民（First People）如何带领年轻人利用草编播种筐和天然沙滤系统，以低成本、可持续的方式恢复生态。
+3. **学校中的智能教学机器（人工智能教育）**：以日本学生Leo为例，探讨了智能机器在个性化教学中的优势，同时也警示了过度使用屏幕对儿童身心健康的危害，强调了“人类教师”在情感关怀和社交引导中不可替代的作用。
+
+---
+
+## 2. Key Vocabulary (核心词汇)
+
+以下是从节目中提取的 8 个核心词汇。掌握这些词汇有助于你更好地理解科技、环保和教育类话题。
+
+### 1. **instrument** 
+*   **Phonetic**: /ˈɪn.strə.mənt/
+*   **Chinese Meaning**: n. 仪器，工具，乐器
+*   **Example**: 
+    *   *In the past, Galileo made a simple glass instrument to look at the moon.* (过去，伽利略制作了一个简单的玻璃仪器来观察月球。)
+    *   *The scientists sent a giant instrument into deep space.* (科学家们向深空发射了一个巨大的仪器。)
+
+### 2. **discovery** 
+*   **Phonetic**: /dɪˈskʌv.ər.i/
+*   **Chinese Meaning**: n. 发现
+*   **Example**: 
+    *   *That was a great discovery that changed how we see our place in the sky.* (那是一个伟大的发现，改变了我们对自身在太空中位置的看法。)
+
+### 3. **reflect** 
+*   **Phonetic**: /rɪˈflekt/
+*   **Chinese Meaning**: v. 反射（光、热、声等），反映
+*   **Example**: 
+    *   *Gold is a very good metal for reflecting a special kind of light.* (黄金是一种非常适合反射特殊光线的金属。)
+
+### 4. **condition** 
+*   **Phonetic**: /kənˈdɪʃ.ən/
+*   **Chinese Meaning**: n. 条件，状况，环境
+*   **Example**: 
+    *   *If a far land has water, it might have the right conditions for being alive.* (如果遥远的土地上有水，它可能就具备生命生存的合适条件。)
+
+### 5. **damage** 
+*   **Phonetic**: /ˈdæm.ɪdʒ/
+*   **Chinese Meaning**: n. 损害，破坏；v. 损害
+*   **Example**: 
+    *   *Cutting down too many trees has caused great damage to the land.* (砍伐太多树木对土地造成了巨大的破坏。)
+
+### 6. **fertile** 
+*   **Phonetic**: /ˈfɜː.taɪl/
+*   **Chinese Meaning**: adj. 肥沃的，富饶的
+*   **Example**: 
+    *   *They put the seeds in the baskets with fertile earth and drop them into the ground.* (他们把种子和肥沃的泥土一起放进筐里，然后丢进地里。)
+
+### 7. **error** 
+*   **Phonetic**: /ˈer.ər/
+*   **Chinese Meaning**: n. 错误，差错
+*   **Example**: 
+    *   *If the student makes an error, the machine does not get angry.* (如果学生犯了错误，机器不会生气。)
+
+### 8. **adjustment** 
+*   **Phonetic**: /əˈdʒʌst.mənt/
+*   **Chinese Meaning**: n. 调整，调节
+*   **Example**: 
+    *   *Teachers have to make adjustments all the time when using new technology.* (在使用新技术时，教师必须时刻做出调整。)
+
+---
+
+## 3. Useful Expressions (实用表达)
+
+### 1. **`make` + Noun (名词) + Adjective (形容词)**
+*   **Explanation**: 这是一个非常实用的句型，表示“使……变得……”，用来代替复杂的动词。
+*   **Examples in Podcast**:
+    *   *make the river clean* (使河流变干净 = 净化河流 purify the river)
+    *   *make the air cold* (使空气变冷 = 冷却空气 cool the air)
+    *   *make the young mind creative* (让年轻的心灵富有创造力)
+
+### 2. **`will be able to` + Verb (动词原形)**
+*   **Explanation**: 表示“将来能够……”。因为情态动词 `can` 没有将来时态（不能说 *will can*），所以必须用 `will be able to` 来表达未来的能力。
+*   **Examples in Podcast**:
+    *   *We will be able to see the oldest stars.* (我们将能够看到最古老的恒星。)
+    *   *The young persons will be able to get a better education.* (年轻人将能够获得更好的教育。)
+
+### 3. **look back in time**
+*   **Explanation**: 字面意思是“向时间后方看”，意为“回溯时间”或“回顾过去”。
+*   **Examples in Podcast**:
+    *   *When we see their light, we are seeing them as they were in the past. We are looking back in time.* (当我们看到它们的光芒时，我们看到的是它们过去的样子。我们正在回溯时间。)
+
+### 4. **live in harmony with...**
+*   **Explanation**: 与……和谐共处。常用于描述人与自然、人与人之间的和谐关系。
+*   **Examples in Podcast**:
+    *   *These people have lived in harmony with the land of many trees for a very long time.* (这些人长期以来一直与这片拥有众多树木的土地[雨林]和谐共处。)
+
+---
+
+## 4. Comprehension Check (理解力自测)
+
+请根据听到的/读到的播客内容，回答以下 3 个简单问题：
+
+1. **Why is the giant instrument (telescope) placed in deep space instead of on Earth?**
+2. **Who is doing the real work of planting trees and cleaning the Amazon river?**
+3. **What is the rule in Leo's school regarding the use of smart machines?**
+
+---
+
+### *Answers (答案在下方)*
+
+1. *Because there is no air and no clouds in deep space. On Earth, the air makes the starlight shake and look bent, but in space, the light goes straight, allowing the instrument to take very clear pictures.* (因为深空没有空气和云。在地球上，空气会让星光抖动和弯曲，但在太空中，光线是直射的，这使得仪器能拍到非常清晰的照片。)
+2. *The young persons from the cities and the first people of the land (indigenous people).* (来自城市的年轻人和土地的原住民。)
+3. *They use the machines for only one hour in the morning and one hour in the afternoon to protect their eyes and ensure they have time for physical play and social activities.* (他们只在上午使用一小时、下午使用一小时机器，以保护眼睛，并确保有时间进行体育游戏和社交活动。)
+
+---
+
+## 5. How to Use this Document (使用指南)
+
+为了最大化你的学习效果，建议按照以下步骤使用本学习文档：
+
+1. **第一步：盲听（Active Listening）**
+   * 不看文本，直接听播客音频 1-2 遍。尝试抓住大意，听出三个故事分别关于什么（太空、河流、学校）。
+2. **第二步：词汇与表达预习（Vocabulary Preview）**
+   * 阅读本篇文档的 **Key Vocabulary** 和 **Useful Expressions**。大声朗读例句，体会 `make + noun + adj` 等句型的用法。
+3. **第三步：精听与跟读（Shadowing & Reading）**
+   * 再次播放音频，对照播客文本（Transcript）进行阅读。
+   * 遇到本篇文档中列出的核心词汇时，注意主持人的发音和连读。
+   * 尝试模仿主持人的语调，大声跟读（Shadowing）1-2 遍，锻炼口腔肌肉。
+4. **第四步：自我检测（Self-Assessment）**
+   * 尝试不看答案，口头或书面回答 **Comprehension Check** 中的 3 个问题。
+5. **第五步：学以致用（Output Practice）**
+   * 尝试用今天学到的简单结构，自己造两个句子。例如：
+     * *Using English every day will **make your English better**.* (每天使用英语会让你的英语变得更好。)
+     * *With hard work, you **will be able to speak** like a native.* (通过努力，你将能够像母语者一样流利表达。)
+
+## 🎧 单句跟读 (Sentence Shadowing)
+
 <p><strong>Aria:</strong> Good morning, Andrew! <button onclick="playShadowing('audio-2026-06-20_Daily', 0.1, 2.325)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
 <p><strong>Andrew:</strong> Good morning, Aria! <button onclick="playShadowing('audio-2026-06-20_Daily', 2.378, 3.703)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
 <p><strong>Andrew:</strong> It is a beautiful day to have a discussion about the news. <button onclick="playShadowing('audio-2026-06-20_Daily', 3.703, 6.853)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
@@ -578,499 +501,3 @@
 <p><strong>Andrew:</strong> Goodbye, everyone! <button onclick="playShadowing('audio-2026-06-20_Daily', 1239.89, 1241.027)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
 <p><strong>Aria:</strong> Goodbye! <button onclick="playShadowing('audio-2026-06-20_Daily', 1241.188, 1242.688)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
 <p><strong>Aria:</strong> Have a wonderful day! <button onclick="playShadowing('audio-2026-06-20_Daily', 1242.638, 1244.775)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-            </div>
-        </div>
-        <div class="episode">
-            <h2>2026-06-19 Daily Podcast</h2>
-            <audio id="audio-2026-06-19_Daily" controls preload="none">
-                <source src="editions/2026-06-19_Daily/Daily_Podcast.mp3" type="audio/mpeg">
-            </audio>
-            <div class="learning-doc">
-                <h1>ESL English Learning Document: Daily News Talk</h1>
-<p>欢迎使用本期播客学习文档！本期节目用简单易懂的英语（Simple English）为您带来全球最新科技、财经、国际局势及趣味新闻。通过本篇文档，您将轻松掌握核心词汇、地道表达，并加深对听力内容的理解。</p>
-<hr />
-<h2>1. Podcast Summary (播客摘要)</h2>
-<p>本期播客涵盖了科技、财经、国际政治和奇闻轶事等多方面的新闻：
-1. <strong>科技动态</strong>：谷歌更新了 Fitbit 系统（恢复了午睡和每小时活动提醒），并对安卓系统引入更严格的“开发者验证”和“Verifier”服务，以严厉打击“侧载（sideloading）”行为；华硕推出高亮度、高配置但价格昂贵的电竞笔记本；一款名为 Flashback 的新应用能让手机拍出复古的 Game Boy 相机风格照片。
-2. <strong>财经与政策</strong>：美联储潜在新掌门人 Warsh 提出“市场导向”的货币政策理念；美国政府为学生贷款提供自动扣款利率优惠。
-3. <strong>国际局势</strong>：美伊和平谈判因黎以冲突加剧而推迟；美国限制 Anthropic AI 模型出口引发韩国等盟友不满；乌克兰对莫斯科石油设施发起史上最大规模空袭，导致当地降下“黑雨”。
-4. <strong>社会奇闻</strong>：中国国产摩托车刷新速度纪录（超315公里/小时）；美国一镇长自导自演绑架案以掩盖贪污公款的丑闻。</p>
-<hr />
-<h2>2. Key Vocabulary (核心词汇)</h2>
-<p>以下是节目中出现的 8 个核心词汇，掌握它们将大幅提升您的听力与阅读水平：</p>
-<h3>1. <strong>Automatically</strong> /ˌɔːtəˈmætɪkli/</h3>
-<ul>
-<li><strong>中文释义</strong>：自动地</li>
-<li><strong>例句</strong>：The new system will record your short sleep <strong>automatically</strong>.<ul>
-<li><em>新系统会自动记录你的短暂睡眠。</em></li>
-</ul>
-</li>
-</ul>
-<h3>2. <strong>Adjustment</strong> /əˈdʒʌstmənt/</h3>
-<ul>
-<li><strong>中文释义</strong>：调整，调节</li>
-<li><strong>例句</strong>：Google had to make this <strong>adjustment</strong> to keep its customers happy.<ul>
-<li><em>谷歌不得不做出这一调整以取悦客户。</em></li>
-</ul>
-</li>
-</ul>
-<h3>3. <strong>Sideloading</strong> /ˈsaɪdˌloʊdɪŋ/</h3>
-<ul>
-<li><strong>中文释义</strong>：侧载（指不通过官方应用商店，直接安装第三方软件的行为）</li>
-<li><strong>例句</strong>：Google is making a big crackdown on <strong>sideloading</strong> to protect users.<ul>
-<li><em>谷歌正在大力打击侧载行为以保护用户。</em></li>
-</ul>
-</li>
-</ul>
-<h3>4. <strong>Postpone</strong> /poʊˈspoʊn/</h3>
-<ul>
-<li><strong>中文释义</strong>：推迟，延期</li>
-<li><strong>例句</strong>：The peace talks in Switzerland have been <strong>postponed</strong> to a later time.<ul>
-<li><em>在瑞士举行的和平谈判已被推迟。</em></li>
-</ul>
-</li>
-</ul>
-<h3>5. <strong>Borrower</strong> /ˈbɑːroʊər/</h3>
-<ul>
-<li><strong>中文释义</strong>：借款人</li>
-<li><strong>例句</strong>：The Department of Education has lowered interest rates for these <strong>borrowers</strong>.<ul>
-<li><em>教育部已经降低了这些借款人的利率。</em></li>
-</ul>
-</li>
-</ul>
-<h3>6. <strong>Domestic</strong> /dəˈmestɪk/</h3>
-<ul>
-<li><strong>中文释义</strong>：国内的，本国的；家庭的</li>
-<li><strong>例句</strong>：A <strong>domestic</strong> two-wheel engine carriage has made a new speed record.<ul>
-<li><em>一辆国产双轮摩托车创造了新的速度纪录。</em></li>
-</ul>
-</li>
-</ul>
-<h3>7. <strong>Shatter</strong> /ˈʃætər/</h3>
-<ul>
-<li><strong>中文释义</strong>：粉碎，震碎</li>
-<li><strong>例句</strong>：The massive explosions <strong>shattered</strong> the feeling of safety in the city.<ul>
-<li><em>巨大的爆炸声震碎了这座城市的安全感。</em></li>
-</ul>
-</li>
-</ul>
-<h3>8. <strong>Kidnapping</strong> /ˈkɪdnæpɪŋ/</h3>
-<ul>
-<li><strong>中文释义</strong>：绑架</li>
-<li><strong>例句</strong>：A town chief has been accused of faking her own <strong>kidnapping</strong>.<ul>
-<li><em>一名镇长被指控自导自演了自己的绑架案。</em></li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>3. Useful Expressions (常用表达)</h2>
-<h3>1. <strong>Speak with one voice</strong> (异口同声；齐心协力)</h3>
-<ul>
-<li><strong>解释</strong>：形容许多人表达相同的意见或为了共同的目标共同发声。</li>
-<li><strong>例句</strong>：When many people <strong>speak with one voice</strong>, big companies will give attention to them.<ul>
-<li><em>当许多人异口同声地抗议时，大公司就会予以关注。</em></li>
-</ul>
-</li>
-</ul>
-<h3>2. <strong>A balance between A and B</strong> (在A和B之间取得平衡)</h3>
-<ul>
-<li><strong>解释</strong>：在两个相互冲突的事物中找到折中点。</li>
-<li><strong>例句</strong>：It is a <strong>balance between</strong> freedom and safety.<ul>
-<li><em>这是在自由与安全之间寻找平衡。</em></li>
-</ul>
-</li>
-</ul>
-<h3>3. <strong>Fall into the wrong hands</strong> (落入企图不轨的人手中)</h3>
-<ul>
-<li><strong>解释</strong>：指武器、技术或机密信息被敌人或坏人获取。</li>
-<li><strong>例句</strong>：They fear that if these clever systems <strong>fall into the wrong hands</strong>, they could be used to make weapons.<ul>
-<li><em>他们担心如果这些智能系统落入坏人之手，可能会被用来制造武器。</em></li>
-</ul>
-</li>
-</ul>
-<h3>4. <strong>Crime does not pay</strong> (多行不义必自毙；犯罪没有好下场)</h3>
-<ul>
-<li><strong>解释</strong>：一句英语谚语，意为犯罪最终不会带来好处，必定会受到惩罚。</li>
-<li><strong>例句</strong>：Her arrest shows that <strong>crime does not pay</strong>, and the truth will always come out.<ul>
-<li><em>她的被捕表明犯罪没有好下场，真相总会大白。</em></li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>4. Comprehension Check (理解力自测)</h2>
-<p>请根据听力内容回答以下三个简单问题：</p>
-<ol>
-<li><strong>Why did Google decide to bring back the "short sleep" and "hourly activity" features on Fitbit?</strong></li>
-<li><strong>What is the main concern of US friendly nations (like South Korea) regarding the AI export ban?</strong></li>
-<li><strong>What caused the "black rain" in Moscow after Ukraine's attack?</strong></li>
-</ol>
-<hr />
-<h3>答案及解析 (Answers)</h3>
-<ol>
-<li><strong>Answer</strong>: Because users made a loud protest and threatened to stop using the machine when Google took those features away.<ul>
-<li><em>解析：因为当谷歌取消这些功能时，用户发起了强烈抗议，并威胁要停止使用该设备。</em></li>
-</ul>
-</li>
-<li><strong>Answer</strong>: They feel the US is keeping the best science for itself, and they cannot get the AI designs they already paid for.<ul>
-<li><em>解析：他们觉得美国把最好的科技留给自己，导致他们无法获得已经付过款的 AI 设计。</em></li>
-</ul>
-</li>
-<li><strong>Answer</strong>: It was caused by the oil and dust from the burning oil facility mixing with the clouds.<ul>
-<li><em>解析：这是由于燃烧的石油设施产生的油污和粉尘与云层混合后造成的。</em></li>
-</ul>
-</li>
-</ol>
-<hr />
-<h2>5. How to Use this Document (学习指南)</h2>
-<p>为了最大化您的学习效果，建议按照以下步骤使用本材料：</p>
-<ol>
-<li><strong>第一步：盲听（Active Listening）</strong><ul>
-<li>不看任何文字，完整听一遍播客。尝试抓住大意，并留意你听到的生词。</li>
-</ul>
-</li>
-<li><strong>第二步：词汇与表达预习（Vocabulary Review）</strong><ul>
-<li>仔细阅读本文档的 <strong>Key Vocabulary</strong> 和 <strong>Useful Expressions</strong>，掌握发音、释义和例句。</li>
-</ul>
-</li>
-<li><strong>第三步：跟读与精听（Shadowing &amp; Intensive Listening）</strong><ul>
-<li>对照播客文本（Transcript）再听一遍。在遇到不熟悉的单词或长句时暂停，模仿播客中 Aria 和 Andrew 的发音与语调进行跟读。</li>
-</ul>
-</li>
-<li><strong>第四步：自我检测（Comprehension Check）</strong><ul>
-<li>合上文本，尝试用自己的话回答 <strong>Comprehension Check</strong> 中的问题，最后对照答案。</li>
-</ul>
-</li>
-<li><strong>第五步：日常复习（Spaced Repetition）</strong><ul>
-<li>在 24 小时后再次快速浏览核心词汇，尝试用这些词汇自己造句，加深记忆。</li>
-</ul>
-</li>
-</ol>
-<h2>🎧 单句跟读 (Sentence Shadowing)</h2>
-<p><strong>Aria:</strong> Good morning. <button onclick="playShadowing('audio-2026-06-19_Daily', 0.1, 1.675)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> We give you a warm greeting to our news talk. <button onclick="playShadowing('audio-2026-06-19_Daily', 1.625, 4.85)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Today is a beautiful day to have a discussion about the news of the earth. <button onclick="playShadowing('audio-2026-06-19_Daily', 4.85, 9.212)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> We will look at new changes in the systems we use every day. <button onclick="playShadowing('audio-2026-06-19_Daily', 9.212, 13.3)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> We will also talk about the money business and some serious fights between nations. <button onclick="playShadowing('audio-2026-06-19_Daily', 13.3, 18.562)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> My name is Aria, and I am happy to be here with you. <button onclick="playShadowing('audio-2026-06-19_Daily', 18.562, 22.387)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> And my name is Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 22.49, 23.752)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is great to join you again. <button onclick="playShadowing('audio-2026-06-19_Daily', 23.752, 25.515)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> We have a very long list of news today. <button onclick="playShadowing('audio-2026-06-19_Daily', 25.515, 27.777)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> We will make every story clear and simple. <button onclick="playShadowing('audio-2026-06-19_Daily', 27.777, 30.602)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> We will use only simple words so that everyone who is learning English can have a good understanding of what is going on. <button onclick="playShadowing('audio-2026-06-19_Daily', 30.602, 37.19)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Let us start with our first story about the science of machines. <button onclick="playShadowing('audio-2026-06-19_Daily', 37.19, 40.665)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Yes, Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 40.828, 42.903)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Our first story is about Google and Fitbit. <button onclick="playShadowing('audio-2026-06-19_Daily', 42.853, 46.165)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Google has made a new change to its health system, Google Health 5.02. <button onclick="playShadowing('audio-2026-06-19_Daily', 46.165, 51.84)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This system is for people who use Fitbit. <button onclick="playShadowing('audio-2026-06-19_Daily', 51.84, 55.015)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Fitbit is a small machine that you put on your arm. <button onclick="playShadowing('audio-2026-06-19_Daily', 55.015, 58.403)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It keeps a record of your sleep and your steps. <button onclick="playShadowing('audio-2026-06-19_Daily', 58.403, 61.715)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> For a long time, people who use this machine were angry because some good things were taken away. <button onclick="playShadowing('audio-2026-06-19_Daily', 61.715, 67.853)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, Google is bringing them back. <button onclick="playShadowing('audio-2026-06-19_Daily', 67.853, 70.778)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> That is right, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 70.898, 72.335)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> One important thing is the short sleep. <button onclick="playShadowing('audio-2026-06-19_Daily', 72.335, 74.635)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Sometimes, in the middle of the day, you feel tired. <button onclick="playShadowing('audio-2026-06-19_Daily', 74.635, 77.91)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> You want to have a short sleep for thirty minutes. <button onclick="playShadowing('audio-2026-06-19_Daily', 77.91, 80.373)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The old system did not keep a good record of this short sleep. <button onclick="playShadowing('audio-2026-06-19_Daily', 80.373, 83.86)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But now, the new system will record your short sleep automatically. <button onclick="playShadowing('audio-2026-06-19_Daily', 83.86, 87.935)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This is very good for people who want to keep their body healthy. <button onclick="playShadowing('audio-2026-06-19_Daily', 87.935, 91.035)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Yes, Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 91.204, 93.279)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Another thing is the hourly activity. <button onclick="playShadowing('audio-2026-06-19_Daily', 93.229, 96.229)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The machine will make a soft noise or shake on your arm to tell you to get up and walk. <button onclick="playShadowing('audio-2026-06-19_Daily', 96.229, 101.404)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If you sit for a long time, it is bad for your blood and your heart. <button onclick="playShadowing('audio-2026-06-19_Daily', 101.404, 105.866)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The system wants you to make at least two hundred and fifty steps every hour. <button onclick="playShadowing('audio-2026-06-19_Daily', 105.866, 110.541)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This new change makes it easy to see if you are doing this. <button onclick="playShadowing('audio-2026-06-19_Daily', 110.541, 114.379)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> I think this is a very wise change by Google. <button onclick="playShadowing('audio-2026-06-19_Daily', 114.482, 117.132)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Many people love Fitbit because it is simple. <button onclick="playShadowing('audio-2026-06-19_Daily', 117.132, 119.694)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> When Google took these things away, many people made a loud protest. <button onclick="playShadowing('audio-2026-06-19_Daily', 119.694, 123.844)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They said they would stop using the machine. <button onclick="playShadowing('audio-2026-06-19_Daily', 123.844, 125.894)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> So, Google had to make this adjustment to keep its customers happy. <button onclick="playShadowing('audio-2026-06-19_Daily', 125.894, 129.857)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It shows that when many people speak with one voice, big companies will give attention to them. <button onclick="playShadowing('audio-2026-06-19_Daily', 129.857, 135.219)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is a very good point, Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 135.388, 138.338)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, let us talk about another big change from Google. <button onclick="playShadowing('audio-2026-06-19_Daily', 138.288, 142.238)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This is about Android, which is the main system for many pocket machines. <button onclick="playShadowing('audio-2026-06-19_Daily', 142.238, 147.113)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Google is making a new rule for the people who make systems for Android. <button onclick="playShadowing('audio-2026-06-19_Daily', 147.113, 151.7)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> They call it developer verification. <button onclick="playShadowing('audio-2026-06-19_Daily', 151.7, 154.538)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It means the makers must prove who they are. <button onclick="playShadowing('audio-2026-06-19_Daily', 154.538, 157.775)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This is a very serious change, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 157.874, 160.486)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It will start in September. <button onclick="playShadowing('audio-2026-06-19_Daily', 160.486, 162.024)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Google wants to make sure that every system you put on your pocket machine is safe. <button onclick="playShadowing('audio-2026-06-19_Daily', 162.024, 166.411)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Sometimes, people put systems on their machines from outside the main Google store. <button onclick="playShadowing('audio-2026-06-19_Daily', 166.411, 171.199)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This is called sideloading. <button onclick="playShadowing('audio-2026-06-19_Daily', 171.199, 172.674)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It can be dangerous because bad people can make systems that steal your money or look at your private writings. <button onclick="playShadowing('audio-2026-06-19_Daily', 172.674, 178.474)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Yes, and Google is making a new service called Verifier. <button onclick="playShadowing('audio-2026-06-19_Daily', 178.636, 182.986)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This service will put itself on your machine automatically. <button onclick="playShadowing('audio-2026-06-19_Daily', 182.936, 186.823)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If you try to put a system on your machine from outside, the Verifier will check it. <button onclick="playShadowing('audio-2026-06-19_Daily', 186.823, 192.211)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If it is not safe, it will stop you. <button onclick="playShadowing('audio-2026-06-19_Daily', 192.211, 195.223)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Or it will only let you use it for twenty-four hours. <button onclick="playShadowing('audio-2026-06-19_Daily', 195.223, 198.798)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This is a big crackdown on sideloading. <button onclick="playShadowing('audio-2026-06-19_Daily', 198.798, 201.886)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Some people are not happy about this. <button onclick="playShadowing('audio-2026-06-19_Daily', 201.986, 203.911)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They say that their pocket machine belongs to them, so they should be free to put any system they want on it. <button onclick="playShadowing('audio-2026-06-19_Daily', 203.911, 209.511)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They feel Google is taking away their control. <button onclick="playShadowing('audio-2026-06-19_Daily', 209.511, 211.998)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But Google says safety is the most important thing. <button onclick="playShadowing('audio-2026-06-19_Daily', 211.998, 215.073)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> If a bad system damages many machines, people will say Android is bad. <button onclick="playShadowing('audio-2026-06-19_Daily', 215.073, 219.648)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> So, Google is making these tight rules to protect its name and its users. <button onclick="playShadowing('audio-2026-06-19_Daily', 219.648, 224.398)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> I see. <button onclick="playShadowing('audio-2026-06-19_Daily', 224.548, 226.11)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a balance between freedom and safety. <button onclick="playShadowing('audio-2026-06-19_Daily', 226.06, 229.248)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Let us move to a new personal machine for play. <button onclick="playShadowing('audio-2026-06-19_Daily', 229.248, 232.673)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Asus has released a very strong fold machine across the earth. <button onclick="playShadowing('audio-2026-06-19_Daily', 232.673, 237.01)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a gaming laptop, but we can call it a strong play machine. <button onclick="playShadowing('audio-2026-06-19_Daily', 237.01, 241.448)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It has a very special front glass called a Mini LED display. <button onclick="playShadowing('audio-2026-06-19_Daily', 241.448, 245.835)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This glass is extremely bright. <button onclick="playShadowing('audio-2026-06-19_Daily', 245.835, 248.56)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It has one thousand and six hundred units of light, which we call nits. <button onclick="playShadowing('audio-2026-06-19_Daily', 248.56, 253.223)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> That is incredibly bright, Aria! <button onclick="playShadowing('audio-2026-06-19_Daily', 253.322, 255.497)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Most normal machines only have three hundred or four hundred units of light. <button onclick="playShadowing('audio-2026-06-19_Daily', 255.497, 259.959)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> With one thousand and six hundred units, you can see the picture clearly even if you are sitting under the bright sun in a garden. <button onclick="playShadowing('audio-2026-06-19_Daily', 259.959, 266.922)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It also has a very strong picture engine, a GPU, with one hundred and seventy-five units of power. <button onclick="playShadowing('audio-2026-06-19_Daily', 266.922, 273.459)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This means the pictures in your plays will move very smoothly. <button onclick="playShadowing('audio-2026-06-19_Daily', 273.459, 276.784)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> But this machine is not cheap, Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 276.94, 279.965)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> In fact, it costs as much as three new personal machines from Apple! <button onclick="playShadowing('audio-2026-06-19_Daily', 279.915, 284.752)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is a very large amount of money. <button onclick="playShadowing('audio-2026-06-19_Daily', 284.752, 287.59)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Who would buy such a dear machine? <button onclick="playShadowing('audio-2026-06-19_Daily', 287.59, 290.015)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Well, some people are very serious about their plays. <button onclick="playShadowing('audio-2026-06-19_Daily', 290.114, 293.164)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They want the best experience possible. <button onclick="playShadowing('audio-2026-06-19_Daily', 293.164, 295.376)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They also use these strong machines for work, like making moving pictures or designing buildings. <button onclick="playShadowing('audio-2026-06-19_Daily', 295.376, 301.251)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> For them, the high price is a good exchange for the great power of the machine. <button onclick="playShadowing('audio-2026-06-19_Daily', 301.251, 305.514)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Asus is also opening orders in India for other new machines, like the Zephyrus and TUF. <button onclick="playShadowing('audio-2026-06-19_Daily', 305.514, 311.376)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They want to be the chief company for play machines. <button onclick="playShadowing('audio-2026-06-19_Daily', 311.376, 313.976)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is very interesting. <button onclick="playShadowing('audio-2026-06-19_Daily', 314.14, 316.527)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, our next story is about a very old play machine. <button onclick="playShadowing('audio-2026-06-19_Daily', 316.477, 320.602)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Do you remember the Game Boy, Andrew? <button onclick="playShadowing('audio-2026-06-19_Daily', 320.602, 323.49)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It was a small play machine made by Nintendo many years ago. <button onclick="playShadowing('audio-2026-06-19_Daily', 323.49, 327.715)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> In 1998, they made a camera for it. <button onclick="playShadowing('audio-2026-06-19_Daily', 327.715, 331.427)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It was a very simple camera that made small, black and gray pictures. <button onclick="playShadowing('audio-2026-06-19_Daily', 331.427, 336.327)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Oh, I remember that very well! <button onclick="playShadowing('audio-2026-06-19_Daily', 336.434, 338.634)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The pictures were very rough, but it was a great amusement at that time. <button onclick="playShadowing('audio-2026-06-19_Daily', 338.634, 342.646)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Now, a company called Epilog has made a new system for pocket machines called Flashback. <button onclick="playShadowing('audio-2026-06-19_Daily', 342.646, 347.984)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This system lets you turn your pocket machine into a Game Boy Camera! <button onclick="playShadowing('audio-2026-06-19_Daily', 347.984, 352.146)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> You do not need the old machine or the old camera. <button onclick="playShadowing('audio-2026-06-19_Daily', 352.146, 354.996)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is so interesting! <button onclick="playShadowing('audio-2026-06-19_Daily', 355.156, 357.456)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Why would anyone want to make their beautiful, clear photos look rough and black and gray? <button onclick="playShadowing('audio-2026-06-19_Daily', 357.406, 362.693)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is because of memory and art, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 362.81, 365.685)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Sometimes, people get tired of everything being perfect. <button onclick="playShadowing('audio-2026-06-19_Daily', 365.685, 369.272)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They like the simple look of the past. <button onclick="playShadowing('audio-2026-06-19_Daily', 369.272, 371.335)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It has a special beauty. <button onclick="playShadowing('audio-2026-06-19_Daily', 371.335, 372.797)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This new system is free, and it lets you share these old-style pictures with your friends on the net. <button onclick="playShadowing('audio-2026-06-19_Daily', 372.797, 378.335)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is a fun way to look at the past through our new pocket machines. <button onclick="playShadowing('audio-2026-06-19_Daily', 378.335, 381.86)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> I like that idea. <button onclick="playShadowing('audio-2026-06-19_Daily', 382.012, 384.037)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is good to have a connection with the past. <button onclick="playShadowing('audio-2026-06-19_Daily', 383.987, 387.049)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, let us turn to the money business. <button onclick="playShadowing('audio-2026-06-19_Daily', 387.049, 390.149)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> There is a man named Warsh who might become the chief of the Federal Reserve. <button onclick="playShadowing('audio-2026-06-19_Daily', 390.149, 394.712)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The Federal Reserve is the chief bank of the US. <button onclick="playShadowing('audio-2026-06-19_Daily', 394.712, 398.324)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It has a lot of power over the money of the earth. <button onclick="playShadowing('audio-2026-06-19_Daily', 398.324, 401.762)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Warsh has some very different ideas about how this bank should work. <button onclick="playShadowing('audio-2026-06-19_Daily', 401.762, 406.049)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 406.154, 407.254)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Warsh says that the chief bank should let the markets guide its decisions, not the other way around. <button onclick="playShadowing('audio-2026-06-19_Daily', 407.254, 412.754)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Right now, the bank makes decisions about the interest rate, and then the markets react. <button onclick="playShadowing('audio-2026-06-19_Daily', 412.754, 417.816)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Warsh thinks the bank should look at what the markets are saying first. <button onclick="playShadowing('audio-2026-06-19_Daily', 417.816, 421.229)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> He wants a simpler, smaller bank that does not try to control everything. <button onclick="playShadowing('audio-2026-06-19_Daily', 421.229, 425.266)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This is a very important discussion because the interest rate affects everyone. <button onclick="playShadowing('audio-2026-06-19_Daily', 425.428, 430.265)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If the interest rate is high, it is hard for people to buy houses or start businesses because they have to pay more money back. <button onclick="playShadowing('audio-2026-06-19_Daily', 430.215, 437.703)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If the interest rate is low, it is easy to get money, but prices might go up too fast. <button onclick="playShadowing('audio-2026-06-19_Daily', 437.703, 443.553)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The Federal Reserve recently decided to keep the interest rate steady, but they said they might raise it in the future if necessary. <button onclick="playShadowing('audio-2026-06-19_Daily', 443.553, 451.178)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The stock markets in the US had a good reaction to this news. <button onclick="playShadowing('audio-2026-06-19_Daily', 451.298, 454.71)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The S&P 500 and the Nasdaq went up, led by companies that make computer chips. <button onclick="playShadowing('audio-2026-06-19_Daily', 454.71, 460.098)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But across the earth, the markets were mixed. <button onclick="playShadowing('audio-2026-06-19_Daily', 460.098, 462.81)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Investors are waiting to see what will happen next with the money business and other big events. <button onclick="playShadowing('audio-2026-06-19_Daily', 462.81, 467.798)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> One of those big events is the peace talks between the US and Iran. <button onclick="playShadowing('audio-2026-06-19_Daily', 467.956, 472.518)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> There was hope for a peace agreement, but the talks in Switzerland have been postponed. <button onclick="playShadowing('audio-2026-06-19_Daily', 472.468, 477.693)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This means they will happen at a later time. <button onclick="playShadowing('audio-2026-06-19_Daily', 477.693, 480.818)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This delay has made investors across the earth very worried. <button onclick="playShadowing('audio-2026-06-19_Daily', 480.938, 484.2)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> When there is hope for peace, people feel safe and stock markets go up. <button onclick="playShadowing('audio-2026-06-19_Daily', 484.2, 488.488)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But when talks are stopped, people fear that war will get worse. <button onclick="playShadowing('audio-2026-06-19_Daily', 488.488, 492.163)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This is why the stock markets were mixed today. <button onclick="playShadowing('audio-2026-06-19_Daily', 492.163, 494.513)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The price of oil was also very quiet because people are waiting to see if the peace deal is still possible. <button onclick="playShadowing('audio-2026-06-19_Daily', 494.513, 500.45)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a very complex condition. <button onclick="playShadowing('audio-2026-06-19_Daily', 500.62, 503.282)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> We will talk more about why these talks were stopped in our conflict section. <button onclick="playShadowing('audio-2026-06-19_Daily', 503.232, 507.982)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> But first, let us look at another story about the US and its rules on new machines. <button onclick="playShadowing('audio-2026-06-19_Daily', 507.982, 513.57)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, this is about the US export ban on Anthropic's AI models. <button onclick="playShadowing('audio-2026-06-19_Daily', 513.674, 518.086)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Anthropic is a company that makes very clever machine systems, like Claude. <button onclick="playShadowing('audio-2026-06-19_Daily', 518.086, 522.786)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The government says these systems are too powerful and could be dangerous if other nations get them. <button onclick="playShadowing('audio-2026-06-19_Daily', 522.786, 527.999)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This decision by the Trump administration and a man named Lutnick is causing a lot of trouble with friendly nations. <button onclick="playShadowing('audio-2026-06-19_Daily', 528.148, 535.01)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> For example, a big telecom company in Korea had put a lot of money into Anthropic. <button onclick="playShadowing('audio-2026-06-19_Daily', 534.96, 541.01)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> They wanted to use these thinking machines to make their own systems better. <button onclick="playShadowing('audio-2026-06-19_Daily', 541.01, 545.61)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, because of this rule, they cannot get the designs they paid for. <button onclick="playShadowing('audio-2026-06-19_Daily', 545.61, 550.26)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This makes our friends very angry. <button onclick="playShadowing('audio-2026-06-19_Daily', 550.37, 552.282)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They feel the US is using its power to keep all the best new science for itself. <button onclick="playShadowing('audio-2026-06-19_Daily', 552.282, 557.495)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They say this will damage the agreements and friendships between our countries. <button onclick="playShadowing('audio-2026-06-19_Daily', 557.495, 561.607)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But the US government says it must protect its national safety first. <button onclick="playShadowing('audio-2026-06-19_Daily', 561.607, 565.72)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They fear that if these clever systems fall into the wrong hands, they could be used to make weapons or attack our computer systems. <button onclick="playShadowing('audio-2026-06-19_Daily', 565.72, 573.27)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a very difficult balance. <button onclick="playShadowing('audio-2026-06-19_Daily', 573.436, 576.073)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If the US stops its friends from using these systems, those friends might start to make their own systems or work with other countries. <button onclick="playShadowing('audio-2026-06-19_Daily', 576.023, 584.073)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> In the end, it might make the US less powerful, not more. <button onclick="playShadowing('audio-2026-06-19_Daily', 584.073, 588.373)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> That is a very wise thought, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 588.482, 590.882)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Now, let us talk about some good news for young people in the US who have debt from school. <button onclick="playShadowing('audio-2026-06-19_Daily', 590.882, 595.169)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The government has made a change to help them pay their student loans. <button onclick="playShadowing('audio-2026-06-19_Daily', 595.169, 598.719)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> If they agree to let the system take money from their bank automatically every month, they will get a bigger discount on their interest rate. <button onclick="playShadowing('audio-2026-06-19_Daily', 598.719, 605.844)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This is a very helpful change, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 606.004, 609.141)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Going to school in the US is very dear, and many young people start their working lives with a mountain of debt. <button onclick="playShadowing('audio-2026-06-19_Daily', 609.091, 615.866)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Even a small cut in the interest rate can save them thousands of dollars over many years. <button onclick="playShadowing('audio-2026-06-19_Daily', 615.866, 621.354)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It also helps the government because they are sure to get the payment every month without having to ask for it. <button onclick="playShadowing('audio-2026-06-19_Daily', 621.354, 627.604)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, and the Department of Education has also lowered interest rates for two years for these borrowers. <button onclick="playShadowing('audio-2026-06-19_Daily', 627.722, 633.634)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But people need to act quickly because some rules will change after July 1. <button onclick="playShadowing('audio-2026-06-19_Daily', 633.634, 638.059)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> For example, parents who took out debt for their children, called Parent PLUS loans, need to check their choices before that day to make sure they do not lose their chance for debt forgiveness. <button onclick="playShadowing('audio-2026-06-19_Daily', 638.059, 648.547)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is always wise to read the details of these agreements. <button onclick="playShadowing('audio-2026-06-19_Daily', 648.7, 652.675)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Money rules can be very dry and hard to understand, but taking a little time to look at them can make a big difference in your life. <button onclick="playShadowing('audio-2026-06-19_Daily', 652.625, 660.3)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> I agree. <button onclick="playShadowing('audio-2026-06-19_Daily', 660.41, 661.197)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Now, let us look at a story from China. <button onclick="playShadowing('audio-2026-06-19_Daily', 661.197, 663.685)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> A domestic two-wheel engine carriage, which we call a motorcycle, has made a new record. <button onclick="playShadowing('audio-2026-06-19_Daily', 663.685, 668.985)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It went at a speed of more than three hundred and fifteen kilometers in one hour! <button onclick="playShadowing('audio-2026-06-19_Daily', 668.985, 673.56)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is incredibly fast, Andrew! <button onclick="playShadowing('audio-2026-06-19_Daily', 673.708, 676.783)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> To go that fast on two wheels requires a very strong engine and a very safe design. <button onclick="playShadowing('audio-2026-06-19_Daily', 676.733, 682.508)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> If anything goes wrong at that speed, the result would be deadly. <button onclick="playShadowing('audio-2026-06-19_Daily', 682.508, 686.77)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This record shows that Chinese industry is now able to make very high-quality engines and machines that can compete with the best in the world. <button onclick="playShadowing('audio-2026-06-19_Daily', 686.77, 695.083)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, it is a big step for Chinese makers. <button onclick="playShadowing('audio-2026-06-19_Daily', 695.186, 697.998)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> In the past, people thought of Chinese products as cheap but not very advanced. <button onclick="playShadowing('audio-2026-06-19_Daily', 697.998, 702.761)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But now, they are producing machines that are at the top of science and power. <button onclick="playShadowing('audio-2026-06-19_Daily', 702.761, 706.948)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This motorcycle is a great example of that growth. <button onclick="playShadowing('audio-2026-06-19_Daily', 706.948, 709.936)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is amazing to see how fast things are changing. <button onclick="playShadowing('audio-2026-06-19_Daily', 710.092, 713.642)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Now, let us move to our world and conflict section. <button onclick="playShadowing('audio-2026-06-19_Daily', 713.592, 717.617)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The fighting between the Israeli military and Hezbollah in southern Lebanon has become very violent. <button onclick="playShadowing('audio-2026-06-19_Daily', 717.617, 723.867)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This is the main reason why the peace talks between the US and Iran were postponed. <button onclick="playShadowing('audio-2026-06-19_Daily', 723.867, 729.192)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, the condition in Lebanon is very bad. <button onclick="playShadowing('audio-2026-06-19_Daily', 729.29, 732.165)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> There have been many deadly attacks. <button onclick="playShadowing('audio-2026-06-19_Daily', 732.165, 734.14)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Because of this, Vance, who is the co-chief of the US under Trump, canceled his trip to Switzerland where the talks were supposed to take place. <button onclick="playShadowing('audio-2026-06-19_Daily', 734.14, 742.59)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> He felt it was not the right time to negotiate when the fighting was so intense. <button onclick="playShadowing('audio-2026-06-19_Daily', 742.59, 746.877)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> A man named Aoun, who is a leader in Lebanon, said that the Israeli attacks are harming the efforts to make a peace agreement. <button onclick="playShadowing('audio-2026-06-19_Daily', 747.028, 754.665)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It seems that every time the two sides get close to an agreement, new violence breaks out and ruins the hope for peace. <button onclick="playShadowing('audio-2026-06-19_Daily', 754.615, 761.99)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a very sad cycle that has been going on for a long time. <button onclick="playShadowing('audio-2026-06-19_Daily', 761.99, 766.215)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is indeed sad, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 766.322, 768.372)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The people who suffer the most are the simple men, women, and children who live in those areas. <button onclick="playShadowing('audio-2026-06-19_Daily', 768.372, 773.697)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> They have to flee their homes and live in fear of the next attack. <button onclick="playShadowing('audio-2026-06-19_Daily', 773.697, 777.359)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> We can only hope that the leaders will find a way to stop the fighting and come back to the table for discussion. <button onclick="playShadowing('audio-2026-06-19_Daily', 777.359, 782.972)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Yes, peace is what everyone needs. <button onclick="playShadowing('audio-2026-06-19_Daily', 783.124, 786.161)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Our next story is about the war between Ukraine and Russia. <button onclick="playShadowing('audio-2026-06-19_Daily', 786.111, 790.124)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Ukraine has made its largest attack ever on Moscow, the chief city of Russia. <button onclick="playShadowing('audio-2026-06-19_Daily', 790.124, 795.574)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> They used many flying attack machines to strike a large oil building in the city. <button onclick="playShadowing('audio-2026-06-19_Daily', 795.574, 800.586)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This was a very big event, Aria. <button onclick="playShadowing('audio-2026-06-19_Daily', 800.69, 802.877)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> The attack caused massive explosions that shook the city. <button onclick="playShadowing('audio-2026-06-19_Daily', 802.877, 806.302)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It even shattered the feeling of safety that people in Moscow had. <button onclick="playShadowing('audio-2026-06-19_Daily', 806.302, 809.94)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> For a long time, the war was far away from them, but now they can see and feel the effects of it in their own streets. <button onclick="playShadowing('audio-2026-06-19_Daily', 809.94, 816.865)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Yes, and there were reports of black rain falling on the city after the attack. <button onclick="playShadowing('audio-2026-06-19_Daily', 817.036, 822.061)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> This black rain was caused by the oil and dust from the burning building mixing with the clouds. <button onclick="playShadowing('audio-2026-06-19_Daily', 822.011, 827.711)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It made the residents very worried about their health and the safety of their water. <button onclick="playShadowing('audio-2026-06-19_Daily', 827.711, 832.386)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> There is also a great fear of a fuel shortage in Moscow now. <button onclick="playShadowing('audio-2026-06-19_Daily', 832.49, 836.015)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> If the oil buildings are damaged, there will not be enough oil for heating houses in the winter or for driving carriages. <button onclick="playShadowing('audio-2026-06-19_Daily', 836.015, 842.452)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> This shows that Ukraine is able to strike deep inside Russia and cause real trouble for the Russian government. <button onclick="playShadowing('audio-2026-06-19_Daily', 842.452, 848.902)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is a major change in the war. <button onclick="playShadowing('audio-2026-06-19_Daily', 848.902, 850.79)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> It is a very serious development. <button onclick="playShadowing('audio-2026-06-19_Daily', 850.948, 853.748)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Our last story today is a very strange one. <button onclick="playShadowing('audio-2026-06-19_Daily', 853.698, 857.135)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> A town chief in the US has been accused of faking her own kidnapping. <button onclick="playShadowing('audio-2026-06-19_Daily', 857.135, 861.773)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> She said that bad men took her away by force and demanded money. <button onclick="playShadowing('audio-2026-06-19_Daily', 861.773, 866.26)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> But the police did some observation and discovered that she made up the whole story! <button onclick="playShadowing('audio-2026-06-19_Daily', 866.378, 870.978)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Why would a town chief do such a foolish thing? <button onclick="playShadowing('audio-2026-06-19_Daily', 870.978, 873.728)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Well, the police say she did it to cover up a scheme to steal money from the town. <button onclick="playShadowing('audio-2026-06-19_Daily', 873.892, 878.967)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> She had taken a large amount of public money for her own use, and she knew the government was going to check the books. <button onclick="playShadowing('audio-2026-06-19_Daily', 878.917, 885.779)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> So, she thought that if she was taken away by force, people would not ask questions about the missing money. <button onclick="playShadowing('audio-2026-06-19_Daily', 885.779, 892.404)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> That is a very bad and foolish plan! <button onclick="playShadowing('audio-2026-06-19_Daily', 892.514, 895.189)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Now, she is in prison and faces serious punishment for her crimes. <button onclick="playShadowing('audio-2026-06-19_Daily', 895.189, 899.576)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It is a great shame for her family and the town that trusted her. <button onclick="playShadowing('audio-2026-06-19_Daily', 899.576, 903.414)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> It shows that crime does not pay, and the truth will always come out in the end. <button onclick="playShadowing('audio-2026-06-19_Daily', 903.414, 908.164)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> That is very true, Andrew. <button onclick="playShadowing('audio-2026-06-19_Daily', 908.332, 911.007)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> The truth always finds a way. <button onclick="playShadowing('audio-2026-06-19_Daily', 910.957, 913.582)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Well, that is all for our news today. <button onclick="playShadowing('audio-2026-06-19_Daily', 913.582, 916.507)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> We hope you enjoyed our discussion and learned some new English words. <button onclick="playShadowing('audio-2026-06-19_Daily', 916.507, 920.744)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Aria:</strong> Remember, learning a language takes time and regular work, but you can do it! <button onclick="playShadowing('audio-2026-06-19_Daily', 920.744, 925.919)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Yes, keep listening and practicing every day. <button onclick="playShadowing('audio-2026-06-19_Daily', 926.018, 929.08)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Thank you for being with us, and we will see you tomorrow. <button onclick="playShadowing('audio-2026-06-19_Daily', 929.08, 932.105)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-<p><strong>Andrew:</strong> Goodbye! <button onclick="playShadowing('audio-2026-06-19_Daily', 932.105, 932.868)" style="margin-left: 10px; cursor: pointer; padding: 2px 6px; border-radius: 4px; border: 1px solid #ccc; background: #fff;">🎵 播放本句</button></p>
-            </div>
-        </div>
-        <div class="episode">
-            <h2>2026-06-18 Daily Podcast</h2>
-            <audio id="audio-2026-06-18_Daily" controls preload="none">
-                <source src="editions/2026-06-18_Daily/Daily_Podcast.mp3" type="audio/mpeg">
-            </audio>
-            <div class="learning-doc">
-                <p>Learning document could not be generated due to an error.</p>
-            </div>
-        </div>
-        <div class="episode">
-            <h2>2026-06-17 Daily Podcast</h2>
-            <audio id="audio-2026-06-17_Daily" controls preload="none">
-                <source src="editions/2026-06-17_Daily/Daily_Podcast.mp3" type="audio/mpeg">
-            </audio>
-            <div class="learning-doc">
-                <p>Learning document could not be generated due to an error.</p>
-            </div>
-        </div>
-        <div class="episode">
-            <h2>2026-06-16 Morning Podcast</h2>
-            <audio id="audio-2026-06-16_Morning" controls preload="none">
-                <source src="editions/2026-06-16_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-15 Morning Podcast</h2>
-            <audio id="audio-2026-06-15_Morning" controls preload="none">
-                <source src="editions/2026-06-15_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-15 Evening Podcast</h2>
-            <audio id="audio-2026-06-15_Evening" controls preload="none">
-                <source src="editions/2026-06-15_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-14 Morning Podcast</h2>
-            <audio id="audio-2026-06-14_Morning" controls preload="none">
-                <source src="editions/2026-06-14_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-14 Evening Podcast</h2>
-            <audio id="audio-2026-06-14_Evening" controls preload="none">
-                <source src="editions/2026-06-14_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-13 Morning Podcast</h2>
-            <audio id="audio-2026-06-13_Morning" controls preload="none">
-                <source src="editions/2026-06-13_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-13 Evening Podcast</h2>
-            <audio id="audio-2026-06-13_Evening" controls preload="none">
-                <source src="editions/2026-06-13_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-12 Morning Podcast</h2>
-            <audio id="audio-2026-06-12_Morning" controls preload="none">
-                <source src="editions/2026-06-12_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-12 Evening Podcast</h2>
-            <audio id="audio-2026-06-12_Evening" controls preload="none">
-                <source src="editions/2026-06-12_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-11 Morning Podcast</h2>
-            <audio id="audio-2026-06-11_Morning" controls preload="none">
-                <source src="editions/2026-06-11_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-11 Evening Podcast</h2>
-            <audio id="audio-2026-06-11_Evening" controls preload="none">
-                <source src="editions/2026-06-11_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-10 Morning Podcast</h2>
-            <audio id="audio-2026-06-10_Morning" controls preload="none">
-                <source src="editions/2026-06-10_Morning/Morning_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-        <div class="episode">
-            <h2>2026-06-10 Evening Podcast</h2>
-            <audio id="audio-2026-06-10_Evening" controls preload="none">
-                <source src="editions/2026-06-10_Evening/Evening_Podcast.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-    </div>
-</body>
-</html>
