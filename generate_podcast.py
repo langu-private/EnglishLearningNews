@@ -51,7 +51,7 @@ def generate_newsletter(news_text, edition_type, api_key, model="gpt-4o", base_u
     print("Generating newsletter via LLM...")
     
     # Initialize OpenAI client with the provided base_url and API key, adding a timeout
-    client = OpenAI(api_key=api_key, base_url=base_url, timeout=180.0)
+    client = OpenAI(api_key=api_key, base_url=base_url, timeout=600.0)
     
     prompt = f"""You are an expert English teacher for ESL learners.
 I will provide you with today's news items.
@@ -106,7 +106,7 @@ Include the following in order:
 
 def generate_learning_document(script_text, api_key, model="gemini-3.5-flash", base_url=None):
     print("Generating learning document...")
-    client = OpenAI(api_key=api_key, base_url=base_url, timeout=180.0)
+    client = OpenAI(api_key=api_key, base_url=base_url, timeout=600.0)
     prompt = f"""You are an expert English teacher. I am providing you with the transcript of a daily news podcast meant for ESL learners.
 Please create a comprehensive and engaging 'Learning Document' in Markdown format for this podcast.
 Include the following:
