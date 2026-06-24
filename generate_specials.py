@@ -95,15 +95,17 @@ def process_file(input_file, title, output_name):
             
             tmp_mp3 = tempfile.mktemp(suffix=".mp3")
             tmp_vtt = tempfile.mktemp(suffix=".vtt")
-            temp_files.append(tmp_mp3)
-            temp_files.append(tmp_vtt)
+            tmp_wav = tempfile.mktemp(suffix=".wav")
+            temp_files.extend([tmp_mp3, tmp_vtt, tmp_wav])
             
             cmd = ["edge-tts", "--voice", voice, "--text", block['text'], "--write-media", tmp_mp3, "--write-subtitles", tmp_vtt]
             max_retries = 3
             for attempt in range(max_retries):
                 try:
                     subprocess.run(cmd, check=True, capture_output=True)
-                    time.sleep(0.5)
+                    # Convert to WAV to get exact duration without MP3 padding drift
+                    subprocess.run(["ffmpeg", "-y", "-i", tmp_mp3, tmp_wav], check=True, capture_output=True)
+                    time.sleep(0.1)
                     break
                 except subprocess.CalledProcessError as e:
                     print(f"Error: {e}")
@@ -114,7 +116,7 @@ def process_file(input_file, title, output_name):
             block['segments'] = segs
             
             try:
-                duration = get_mp3_duration(tmp_mp3)
+                duration = get_mp3_duration(tmp_wav)
                 current_time_offset += duration
             except:
                 if segs:
@@ -125,9 +127,10 @@ def process_file(input_file, title, output_name):
         list_file = tempfile.mktemp(suffix=".txt")
         with open(list_file, 'w') as lf:
             for f in temp_files:
-                if f.endswith('.mp3'):
+                if f.endswith('.wav'):
                     lf.write(f"file '{f}'\n")
-        subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-c", "copy", mp3_output], check=True, capture_output=True)
+        # Re-encode to MP3 with proper CBR/VBR headers for perfect browser seeking
+        subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-b:a", "128k", mp3_output], check=True, capture_output=True)
     
     for f in temp_files:
         if os.path.exists(f):
@@ -185,7 +188,12 @@ def process_file(input_file, title, output_name):
 """
     for block in structured_content:
         if block['type'] == 'header':
-            html += f"            <div class='header-line'>{block['text']}</div>\n"
+            text = block['text']
+            if text.startswith('---') and text.endswith('---'):
+                text = text.replace('---', '=====')
+            elif text.startswith('='):
+                text = "============================================================"
+            html += f"            <div class='header-line'>{text}</div>\n"
         elif block['type'] == 'speech':
             speaker = block['speaker']
             segments = block.get('segments', [])
