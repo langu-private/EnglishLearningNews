@@ -357,6 +357,10 @@ def update_index_html():
         <h1>虎子老师教英语</h1>
         <p>Daily English Learning Podcast & Study Guides</p>
         <a href="podcast.xml" class="rss-link">🎙️ Subscribe via RSS / Apple Podcasts</a>
+        <div style="margin-top: 1rem;">
+            <a href="special_life.html" style="display: inline-block; background: #E0E7FF; color: #4F46E5; padding: 0.5rem 1rem; border-radius: 99px; text-decoration: none; font-weight: bold; margin: 0.5rem;">🌟 Basic English 850: Daily Life 跟读合集</a>
+            <a href="special_travel.html" style="display: inline-block; background: #E0E7FF; color: #4F46E5; padding: 0.5rem 1rem; border-radius: 99px; text-decoration: none; font-weight: bold; margin: 0.5rem;">✈️ Travel English 1000 跟读合集</a>
+        </div>
     </header>
     <div class="container">
 """
