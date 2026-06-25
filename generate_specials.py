@@ -189,10 +189,10 @@ def process_file(input_file, title, output_name):
     for block in structured_content:
         if block['type'] == 'header':
             text = block['text']
+            if text.startswith('='):
+                continue
             if text.startswith('---') and text.endswith('---'):
                 text = text.replace('---', '=====')
-            elif text.startswith('='):
-                text = "============================================================"
             html += f"            <div class='header-line'>{text}</div>\n"
         elif block['type'] == 'speech':
             speaker = block['speaker']
