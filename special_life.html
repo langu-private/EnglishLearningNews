@@ -13,7 +13,8 @@
         .card { background: var(--card); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
         .nav-link { display: inline-block; color: white; margin-top: 1rem; text-decoration: underline; }
         .header-line { font-weight: bold; color: #4B5563; margin-top: 2rem; padding-bottom: 0.5rem; border-bottom: 2px solid #E5E7EB; }
-        .speech-line { margin: 1rem 0; padding: 1rem; background: #F9FAFB; border-radius: 8px; border-left: 4px solid var(--primary); }
+        .speech-line { margin: 1rem 0; padding: 1rem; background: #F9FAFB; border-radius: 8px; border-left: 4px solid var(--primary); transition: all 0.2s; }
+        .speech-line.highlight { background-color: #E0E7FF; transform: scale(1.02); box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2); border-left: 6px solid var(--primary); }
         .play-btn { margin-left: 10px; cursor: pointer; padding: 4px 10px; border-radius: 6px; border: 1px solid #D1D5DB; background: #FFFFFF; font-size: 0.9rem; transition: background 0.2s; }
         .play-btn:hover { background: #F3F4F6; }
         audio { width: 100%; position: sticky; top: 0; z-index: 100; background: white; padding: 10px 0; }
@@ -34,6 +35,41 @@
             audio.removeEventListener('timeupdate', checkTime);
             audio.addEventListener('timeupdate', checkTime);
         }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const audio = document.getElementById('main-audio');
+            if (!audio) return;
+            
+            const lines = document.querySelectorAll('.speech-line');
+            const segments = [];
+            lines.forEach(line => {
+                const btn = line.querySelector('.play-btn');
+                if (btn) {
+                    const match = btn.getAttribute('onclick').match(/playShadowing\(([\d.]+),\s*([\d.]+)\)/);
+                    if (match) {
+                        segments.push({
+                            element: line,
+                            start: parseFloat(match[1]),
+                            end: parseFloat(match[2])
+                        });
+                    }
+                }
+            });
+
+            audio.addEventListener('timeupdate', () => {
+                const t = audio.currentTime;
+                segments.forEach(seg => {
+                    if (t >= seg.start && t < seg.end) {
+                        if (!seg.element.classList.contains('highlight')) {
+                            seg.element.classList.add('highlight');
+                            seg.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    } else {
+                        seg.element.classList.remove('highlight');
+                    }
+                });
+            });
+        });
     </script>
 </head>
 <body>
