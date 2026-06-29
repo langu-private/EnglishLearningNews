@@ -85,23 +85,19 @@ def sentence_to_kk_linked(sentence):
     final_str = final_str.replace(' ‿ ', '‿').replace('‿ ', '‿').replace(' ‿', '‿')
     return final_str
 
-def process_html_add_ipa(html_file):
+def update_html_ipa(html_file):
     if not os.path.exists(html_file):
         return
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # We want to find:
-    # <strong>Speaker:</strong> English text <button ...>...</button><br><span style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>Chinese text</span>
-    # and if it already has an IPA span, replace it.
+    # We want to match the entire line and extract the English text, and replace the IPA span.
+    # Pattern to match a line that already has an IPA span
+    pattern = re.compile(r"^(.*<div class='speech-line'><strong>[^<]+:</strong>\s*)(.+?)(\s*<button class='play-btn'[^>]*>.*?</button><br>)<span style='font-size: 0\.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ .+? /</span>(<span style='font-size: 0\.85em; color: #6B7280; display: block; margin-top: 4px;'>.+?</span></div>.*)$", re.MULTILINE)
     
-    # regex matching no IPA span
-    pattern1 = re.compile(r"^(.*<div class='speech-line'><strong>[^<]+:</strong>\s*)(.+?)(\s*<button class='play-btn'[^>]*>.*?</button><br>)(<span style='font-size: 0\.85em; color: #6B7280; display: block; margin-top: 4px;'>.+?</span></div>.*)$", re.MULTILINE)
-    
-    # regex matching existing IPA span
-    pattern2 = re.compile(r"^(.*<div class='speech-line'><strong>[^<]+:</strong>\s*)(.+?)(\s*<button class='play-btn'[^>]*>.*?</button><br>)<span style='font-size: 0\.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ .+? /</span>(<span style='font-size: 0\.85em; color: #6B7280; display: block; margin-top: 4px;'>.+?</span></div>.*)$", re.MULTILINE)
-    
+    count = 0
     def replacer(match):
+        nonlocal count
         prefix = match.group(1)
         en_text = match.group(2)
         mid_suffix = match.group(3)
@@ -110,15 +106,15 @@ def process_html_add_ipa(html_file):
         clean_text = en_text.replace("&apos;", "'").replace("&quot;", '"').strip()
         linked_kk = sentence_to_kk_linked(clean_text)
         
-        ipa_span = f"<span style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {linked_kk} /</span>"
-        return f"{prefix}{en_text}{mid_suffix}{ipa_span}{zh_span}"
+        new_ipa_span = f"<span style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {linked_kk} /</span>"
+        count += 1
+        return f"{prefix}{en_text}{mid_suffix}{new_ipa_span}{zh_span}"
     
-    content = pattern2.sub(replacer, content)
-    content = pattern1.sub(replacer, content)
+    new_content = pattern.sub(replacer, content)
     
     with open(html_file, 'w', encoding='utf-8') as f:
-        f.write(content)
-    print(f"Updated/Injected IPA into {html_file}")
+        f.write(new_content)
+    print(f"Updated {count} IPAs in {html_file}")
 
-process_html_add_ipa('special_life.html')
-process_html_add_ipa('special_travel.html')
+update_html_ipa('special_life.html')
+update_html_ipa('special_travel.html')
