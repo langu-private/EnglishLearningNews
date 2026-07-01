@@ -88,8 +88,8 @@
             const audio = card.querySelector('.main-audio');
             if (!audio) return;
             
-            // Start 0.3s earlier, end 0.5s earlier
-            const adjustedStart = Math.max(0, start - 0.3);
+            // Start 0.2s earlier, end 0.5s earlier
+            const adjustedStart = Math.max(0, start - 0.2);
             const adjustedEnd = end - 0.5;
             
             audio.currentTime = adjustedStart;
