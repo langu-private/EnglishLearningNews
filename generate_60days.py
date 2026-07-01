@@ -281,9 +281,9 @@ def process_60days(input_file, output_html):
             const audio = card.querySelector('.main-audio');
             if (!audio) return;
             
-            // Start 0.2s later, end exactly at the given end time
-            const adjustedStart = start + 0.2;
-            const adjustedEnd = end;
+            // Start 0.3s earlier, end 0.5s earlier
+            const adjustedStart = Math.max(0, start - 0.3);
+            const adjustedEnd = end - 0.5;
             
             audio.currentTime = adjustedStart;
             audio.play();
