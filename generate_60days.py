@@ -281,11 +281,15 @@ def process_60days(input_file, output_html):
             const audio = card.querySelector('.main-audio');
             if (!audio) return;
             
-            audio.currentTime = start;
+            // Apply 0.5s offset backwards to prevent cutoff
+            const adjustedStart = Math.max(0, start - 0.5);
+            const adjustedEnd = end + 0.2;
+            
+            audio.currentTime = adjustedStart;
             audio.play();
             
             const checkTime = () => {{
-                if (audio.currentTime >= end) {{
+                if (audio.currentTime >= adjustedEnd) {{
                     audio.pause();
                     audio.removeEventListener('timeupdate', checkTime);
                 }}
