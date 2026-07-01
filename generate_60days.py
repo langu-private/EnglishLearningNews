@@ -215,29 +215,68 @@ def process_60days(input_file, output_html):
     print(f"Parsed {len(sections)} sections.")
     
     # Generate Audio and HTML
-    html_out = """<!DOCTYPE html>
+    
+    # Pre-build TOC
+    toc_html = """
+    <div id="mobile-menu-btn" onclick="document.getElementById('toc-sidebar').classList.toggle('open')">☰ 课程目录</div>
+    <div id="toc-sidebar">
+        <div class="toc-header">
+            <h3>📖 目录</h3>
+            <button class="close-btn" onclick="document.getElementById('toc-sidebar').classList.remove('open')">✕</button>
+        </div>
+        <ul class="toc-list">
+"""
+    for sec in sections:
+        short_title = sec['title'].split(' | ')[0]
+        if "Vocab" in short_title:
+            short_title = "↳ " + short_title.split('· ')[-1][:15] + "..."
+        toc_html += f"            <li><a href='#{sec['id']}' onclick=\"document.getElementById('toc-sidebar').classList.remove('open')\">{short_title}</a></li>\n"
+    toc_html += """        </ul>
+    </div>
+"""
+
+    html_out = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic English 850: 60 Days - 连读伴学</title>
     <style>
-        :root { --primary: #4F46E5; --bg: #F3F4F6; --card: #FFFFFF; --text: #1F2937; }
-        body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; padding: 3rem 2rem; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-        .card { background: var(--card); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        .nav-link { display: inline-block; color: white; margin-top: 1rem; text-decoration: underline; }
-        .header-line { font-weight: bold; color: #4B5563; margin-top: 1rem; padding-bottom: 0.5rem; text-align: center; font-size: 1.2rem; border-bottom: 2px solid #E5E7EB; margin-bottom: 1rem; }
-        .speech-line { margin: 1rem 0; padding: 1rem; background: #F9FAFB; border-radius: 8px; border-left: 4px solid var(--primary); transition: all 0.2s; }
-        .speech-line.highlight { background-color: #E0E7FF; transform: scale(1.02); box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2); border-left: 6px solid var(--primary); }
-        .play-btn { margin-left: 10px; cursor: pointer; padding: 4px 10px; border-radius: 6px; border: 1px solid #D1D5DB; background: #FFFFFF; font-size: 0.9rem; transition: background 0.2s; }
-        .play-btn:hover { background: #F3F4F6; }
-        .main-audio { width: 100%; position: sticky; top: 0; z-index: 100; background: white; padding: 10px 0; border-radius: 8px; margin-bottom: 1rem; }
+        :root {{ --primary: #4F46E5; --bg: #F3F4F6; --card: #FFFFFF; --text: #1F2937; }}
+        body {{ font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; display: flex; flex-direction: row; }}
+        header {{ background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; padding: 3rem 2rem; text-align: center; }}
+        header h1 {{ margin: 0; font-size: 2.5rem; }}
+        .container {{ max-width: 800px; margin: 2rem auto; padding: 0 1rem; }}
+        .card {{ background: var(--card); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); scroll-margin-top: 20px; }}
+        .nav-link {{ display: inline-block; color: white; margin-top: 1rem; text-decoration: underline; }}
+        .header-line {{ font-weight: bold; color: #4B5563; margin-top: 1rem; padding-bottom: 0.5rem; text-align: center; font-size: 1.2rem; border-bottom: 2px solid #E5E7EB; margin-bottom: 1rem; }}
+        .speech-line {{ margin: 1rem 0; padding: 1rem; background: #F9FAFB; border-radius: 8px; border-left: 4px solid var(--primary); transition: all 0.2s; }}
+        .speech-line.highlight {{ background-color: #E0E7FF; transform: scale(1.02); box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2); border-left: 6px solid var(--primary); }}
+        .play-btn {{ margin-left: 10px; cursor: pointer; padding: 4px 10px; border-radius: 6px; border: 1px solid #D1D5DB; background: #FFFFFF; font-size: 0.9rem; transition: background 0.2s; }}
+        .play-btn:hover {{ background: #F3F4F6; }}
+        .main-audio {{ width: 100%; position: sticky; top: 0; z-index: 100; background: white; padding: 10px 0; border-radius: 8px; margin-bottom: 1rem; }}
+        
+        #toc-sidebar {{ width: 260px; min-width: 260px; background: #ffffff; height: 100vh; position: sticky; top: 0; overflow-y: auto; box-shadow: 2px 0 8px rgba(0,0,0,0.05); z-index: 1000; transition: transform 0.3s ease; display: flex; flex-direction: column; border-right: 1px solid #E5E7EB; }}
+        .toc-header {{ padding: 1.2rem; background: var(--bg); color: var(--text); display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #E5E7EB; }}
+        .toc-header h3 {{ margin: 0; font-size: 1.2rem; }}
+        .close-btn {{ background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; display: none; }}
+        .toc-list {{ list-style: none; padding: 0; margin: 0; }}
+        .toc-list li {{ border-bottom: 1px solid #F9FAFB; }}
+        .toc-list a {{ display: block; padding: 0.8rem 1.2rem; color: #4B5563; text-decoration: none; font-size: 0.95rem; transition: background 0.2s; }}
+        .toc-list a:hover {{ background: #F3F4F6; color: var(--primary); }}
+        #mobile-menu-btn {{ position: fixed; bottom: 20px; left: 20px; background: var(--primary); color: white; padding: 12px 20px; border-radius: 99px; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4); cursor: pointer; z-index: 999; display: none; font-weight: bold; }}
+        .main-content {{ flex: 1; width: calc(100% - 260px); }}
+        @media (max-width: 900px) {{
+            #toc-sidebar {{ position: fixed; transform: translateX(-100%); box-shadow: 2px 0 20px rgba(0,0,0,0.2); }}
+            #toc-sidebar.open {{ transform: translateX(0); }}
+            .close-btn {{ display: block; }}
+            .main-content {{ width: 100%; margin-left: 0; }}
+            #mobile-menu-btn {{ display: block; }}
+            body {{ display: block; }}
+        }}
     </style>
     <script>
-        function playShadowing(btn, start, end) {
+        function playShadowing(btn, start, end) {{
             const card = btn.closest('.card');
             const audio = card.querySelector('.main-audio');
             if (!audio) return;
@@ -245,61 +284,63 @@ def process_60days(input_file, output_html):
             audio.currentTime = start;
             audio.play();
             
-            const checkTime = () => {
-                if (audio.currentTime >= end) {
+            const checkTime = () => {{
+                if (audio.currentTime >= end) {{
                     audio.pause();
                     audio.removeEventListener('timeupdate', checkTime);
-                }
-            };
+                }}
+            }};
             audio.removeEventListener('timeupdate', checkTime);
             audio.addEventListener('timeupdate', checkTime);
-        }
+        }}
 
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", () => {{
             const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
+            cards.forEach(card => {{
                 const audio = card.querySelector('.main-audio');
                 if (!audio) return;
                 
                 const lines = card.querySelectorAll('.speech-line');
                 const segments = [];
-                lines.forEach(line => {
+                lines.forEach(line => {{
                     const btn = line.querySelector('.play-btn');
-                    if (btn) {
+                    if (btn) {{
                         const match = btn.getAttribute('onclick').match(/playShadowing\\(this,\\s*([\\d.]+),\\s*([\\d.]+)\\)/);
-                        if (match) {
-                            segments.push({
+                        if (match) {{
+                            segments.push({{
                                 element: line,
                                 start: parseFloat(match[1]),
                                 end: parseFloat(match[2])
-                            });
-                        }
-                    }
-                });
+                            }});
+                        }}
+                    }}
+                }});
 
-                audio.addEventListener('timeupdate', () => {
+                audio.addEventListener('timeupdate', () => {{
                     const t = audio.currentTime;
-                    segments.forEach(seg => {
-                        if (t >= seg.start && t < seg.end) {
-                            if (!seg.element.classList.contains('highlight')) {
+                    segments.forEach(seg => {{
+                        if (t >= seg.start && t < seg.end) {{
+                            if (!seg.element.classList.contains('highlight')) {{
                                 seg.element.classList.add('highlight');
-                                seg.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                            }
-                        } else {
+                                seg.element.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+                            }}
+                        }} else {{
                             seg.element.classList.remove('highlight');
-                        }
-                    });
-                });
-            });
-        });
+                        }}
+                    }});
+                }});
+            }});
+        }});
     </script>
 </head>
 <body>
-    <header>
-        <h1>Basic English 850: 60 Days</h1>
-        <a href="index.html" class="nav-link">← 返回主页 (Back to Home)</a>
-    </header>
-    <div class="container">
+{toc_html}
+    <div class='main-content'>
+        <header>
+            <h1>Basic English 850: 60 Days</h1>
+            <a href="index.html" class="nav-link">← 返回主页 (Back to Home)</a>
+        </header>
+        <div class="container">
 """
     
     # Create dir for audio

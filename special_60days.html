@@ -18,6 +18,69 @@
         .play-btn { margin-left: 10px; cursor: pointer; padding: 4px 10px; border-radius: 6px; border: 1px solid #D1D5DB; background: #FFFFFF; font-size: 0.9rem; transition: background 0.2s; }
         .play-btn:hover { background: #F3F4F6; }
         .main-audio { width: 100%; position: sticky; top: 0; z-index: 100; background: white; padding: 10px 0; border-radius: 8px; margin-bottom: 1rem; }
+
+        /* TOC Styles */
+        body { display: flex; flex-direction: row; }
+        #toc-sidebar {
+            width: 260px;
+            min-width: 260px;
+            background: #ffffff;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            overflow-y: auto;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #E5E7EB;
+        }
+        .toc-header {
+            padding: 1.2rem;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #E5E7EB;
+        }
+        .toc-header h3 { margin: 0; font-size: 1.2rem; }
+        .close-btn {
+            background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; display: none;
+        }
+        .toc-list {
+            list-style: none; padding: 0; margin: 0;
+        }
+        .toc-list li {
+            border-bottom: 1px solid #F9FAFB;
+        }
+        .toc-list a {
+            display: block; padding: 0.8rem 1.2rem; color: #4B5563; text-decoration: none; font-size: 0.95rem; transition: background 0.2s;
+        }
+        .toc-list a:hover {
+            background: #F3F4F6; color: var(--primary);
+        }
+        #mobile-menu-btn {
+            position: fixed; bottom: 20px; left: 20px; background: var(--primary); color: white; padding: 12px 20px; border-radius: 99px; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4); cursor: pointer; z-index: 999; display: none; font-weight: bold;
+        }
+        .main-content {
+            flex: 1; width: calc(100% - 260px);
+        }
+
+        /* Mobile adaptation */
+        @media (max-width: 900px) {
+            #toc-sidebar { 
+                position: fixed; 
+                transform: translateX(-100%); 
+                box-shadow: 2px 0 20px rgba(0,0,0,0.2); 
+            }
+            #toc-sidebar.open { transform: translateX(0); }
+            .close-btn { display: block; }
+            .main-content { width: 100%; margin-left: 0; }
+            #mobile-menu-btn { display: block; }
+            body { display: block; }
+        }
     </style>
     <script>
         function playShadowing(btn, start, end) {
@@ -78,6 +141,138 @@
     </script>
 </head>
 <body>
+
+    <div id="mobile-menu-btn" onclick="document.getElementById('toc-sidebar').classList.toggle('open')">☰ 课程目录</div>
+    <div id="toc-sidebar">
+        <div class="toc-header">
+            <h3>📖 目录</h3>
+            <button class="close-btn" onclick="document.getElementById('toc-sidebar').classList.remove('open')">✕</button>
+        </div>
+        <ul class="toc-list">
+            <li><a href='#day01_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 01 · Meeting Someone New</a></li>
+            <li><a href='#day01_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Meeting people ...</a></li>
+            <li><a href='#day02_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 02 · Talking About Yourself</a></li>
+            <li><a href='#day02_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Yourself — inne...</a></li>
+            <li><a href='#day03_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 03 · Family Talk</a></li>
+            <li><a href='#day03_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Family — people...</a></li>
+            <li><a href='#day04_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 04 · Daily Routine</a></li>
+            <li><a href='#day04_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Daily wash-up 每...</a></li>
+            <li><a href='#day05_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 05 · Weather Chat</a></li>
+            <li><a href='#day05_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Weather & sky 天...</a></li>
+            <li><a href='#day06_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 06 · Making Plans</a></li>
+            <li><a href='#day06_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Plans & choices...</a></li>
+            <li><a href='#day07_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 07 · Week 1 · Review Talk</a></li>
+            <li><a href='#day07_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Week 1 review —...</a></li>
+            <li><a href='#day08_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 08 · At the Coffee Shop</a></li>
+            <li><a href='#day08_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Coffee shop — c...</a></li>
+            <li><a href='#day09_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 09 · Breakfast at Home</a></li>
+            <li><a href='#day09_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Breakfast tools...</a></li>
+            <li><a href='#day10_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 10 · Ordering at a Restaurant</a></li>
+            <li><a href='#day10_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Restaurant — fo...</a></li>
+            <li><a href='#day11_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 11 · Talking About Food You Like</a></li>
+            <li><a href='#day11_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Likes & diet 喜好...</a></li>
+            <li><a href='#day12_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 12 · Take-Away Food</a></li>
+            <li><a href='#day12_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Take-away — whe...</a></li>
+            <li><a href='#day13_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 13 · Dinner with Friends</a></li>
+            <li><a href='#day13_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Dinner party de...</a></li>
+            <li><a href='#day14_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 14 · Week 2 · Review</a></li>
+            <li><a href='#day14_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — taste ...</a></li>
+            <li><a href='#day15_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 15 · Asking for Directions</a></li>
+            <li><a href='#day15_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Direction words...</a></li>
+            <li><a href='#day16_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 16 · Taking a Taxi</a></li>
+            <li><a href='#day16_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Taxi & car part...</a></li>
+            <li><a href='#day17_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 17 · On the Bus</a></li>
+            <li><a href='#day17_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Bus & road thin...</a></li>
+            <li><a href='#day18_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 18 · At the Train Station</a></li>
+            <li><a href='#day18_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Train & journey...</a></li>
+            <li><a href='#day19_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 19 · At the Airport</a></li>
+            <li><a href='#day19_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Airport & fligh...</a></li>
+            <li><a href='#day20_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 20 · Checking into a Hotel</a></li>
+            <li><a href='#day20_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Hotel room 酒店房间...</a></li>
+            <li><a href='#day21_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 21 · Week 3 · Review</a></li>
+            <li><a href='#day21_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — trip w...</a></li>
+            <li><a href='#day22_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 22 · Buying Clothes</a></li>
+            <li><a href='#day22_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Clothes 服装...</a></li>
+            <li><a href='#day23_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 23 · At the Supermarket</a></li>
+            <li><a href='#day23_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Materials 布料·材质...</a></li>
+            <li><a href='#day24_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 24 · At the Checkout</a></li>
+            <li><a href='#day24_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Money & checkou...</a></li>
+            <li><a href='#day25_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 25 · Returning an Item</a></li>
+            <li><a href='#day25_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Returns & repai...</a></li>
+            <li><a href='#day26_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 26 · Bargaining at a Market</a></li>
+            <li><a href='#day26_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Market — bargai...</a></li>
+            <li><a href='#day27_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 27 · Online Shopping Trouble</a></li>
+            <li><a href='#day27_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Online problems...</a></li>
+            <li><a href='#day28_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 28 · Week 4 · Review</a></li>
+            <li><a href='#day28_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — buying...</a></li>
+            <li><a href='#day29_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 29 · First Day at Work</a></li>
+            <li><a href='#day29_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Office things 办...</a></li>
+            <li><a href='#day30_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 30 · In a Meeting</a></li>
+            <li><a href='#day30_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Meeting talk 开会...</a></li>
+            <li><a href='#day31_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 31 · Asking a Colleague for Help</a></li>
+            <li><a href='#day31_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Helping out 求助细...</a></li>
+            <li><a href='#day32_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 32 · Deadlines and Tasks</a></li>
+            <li><a href='#day32_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Deadlines 期限...</a></li>
+            <li><a href='#day33_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 33 · Emailing a Client</a></li>
+            <li><a href='#day33_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Emails & words ...</a></li>
+            <li><a href='#day34_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 34 · Small Talk at Work</a></li>
+            <li><a href='#day34_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Small talk topi...</a></li>
+            <li><a href='#day35_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 35 · Week 5 · Review</a></li>
+            <li><a href='#day35_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — workpl...</a></li>
+            <li><a href='#day36_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 36 · At the Doctor's</a></li>
+            <li><a href='#day36_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ At the doctor 看...</a></li>
+            <li><a href='#day37_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 37 · Feeling Sick</a></li>
+            <li><a href='#day37_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Feeling ill 生病...</a></li>
+            <li><a href='#day38_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 38 · At the Pharmacy</a></li>
+            <li><a href='#day38_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Pharmacy 药店...</a></li>
+            <li><a href='#day39_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 39 · At the Bank</a></li>
+            <li><a href='#day39_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Bank & money 银行...</a></li>
+            <li><a href='#day40_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 40 · The Delivery is Late</a></li>
+            <li><a href='#day40_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Delivery troubl...</a></li>
+            <li><a href='#day41_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 41 · Looking at a Flat</a></li>
+            <li><a href='#day41_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Looking at a fl...</a></li>
+            <li><a href='#day42_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 42 · Week 6 · Review</a></li>
+            <li><a href='#day42_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — home 生...</a></li>
+            <li><a href='#day43_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 43 · Hobbies</a></li>
+            <li><a href='#day43_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Hobbies — readi...</a></li>
+            <li><a href='#day44_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 44 · Sports</a></li>
+            <li><a href='#day44_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Sports — action...</a></li>
+            <li><a href='#day45_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 45 · Films</a></li>
+            <li><a href='#day45_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Cinema 影院...</a></li>
+            <li><a href='#day46_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 46 · Music</a></li>
+            <li><a href='#day46_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Music close-up ...</a></li>
+            <li><a href='#day47_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 47 · Weekend Plans</a></li>
+            <li><a href='#day47_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Weekend market ...</a></li>
+            <li><a href='#day48_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 48 · Birthday Party</a></li>
+            <li><a href='#day48_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Birthday warmth...</a></li>
+            <li><a href='#day49_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 49 · Week 7 · Review</a></li>
+            <li><a href='#day49_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — social...</a></li>
+            <li><a href='#day50_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 50 · Giving an Opinion</a></li>
+            <li><a href='#day50_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Opinions — stro...</a></li>
+            <li><a href='#day51_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 51 · Agreeing and Disagreeing</a></li>
+            <li><a href='#day51_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Agree / disagre...</a></li>
+            <li><a href='#day52_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 52 · Saying Sorry</a></li>
+            <li><a href='#day52_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Saying sorry 道歉...</a></li>
+            <li><a href='#day53_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 53 · Complaining Politely</a></li>
+            <li><a href='#day53_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Complaint words...</a></li>
+            <li><a href='#day54_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 54 · Giving Compliments</a></li>
+            <li><a href='#day54_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Praise words 赞美...</a></li>
+            <li><a href='#day55_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 55 · Saying Goodbye</a></li>
+            <li><a href='#day55_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Saying goodbye ...</a></li>
+            <li><a href='#day56_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 56 · Week 8 · Review</a></li>
+            <li><a href='#day56_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Review — feelin...</a></li>
+            <li><a href='#day57_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 57 · A Long Chat Over Dinner</a></li>
+            <li><a href='#day57_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Dinner deep-tal...</a></li>
+            <li><a href='#day58_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 58 · Talking About the Future</a></li>
+            <li><a href='#day58_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Future dreams 未...</a></li>
+            <li><a href='#day59_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 59 · Speaking Test Day</a></li>
+            <li><a href='#day59_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Test day words ...</a></li>
+            <li><a href='#day60_dialogue' onclick="document.getElementById('toc-sidebar').classList.remove('open')">Day 60 · Graduation</a></li>
+            <li><a href='#day60_vocab' onclick="document.getElementById('toc-sidebar').classList.remove('open')">↳ Graduation — fi...</a></li>
+        </ul>
+    </div>
+
+    <div class='main-content'>
     <header>
         <h1>Basic English 850: 60 Days</h1>
         <a href="index.html" class="nav-link">← 返回主页 (Back to Home)</a>
@@ -2636,6 +2831,7 @@
             <div class='speech-line'><strong>Aria:</strong> A small vessel is at the harbor. <button class='play-btn' onclick="playShadowing(this, 827.86, 830.422)">🎵 播放本句</button><br><span style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ ə ˈsmɔl ˈvɛsəl‿ˈɪz‿ˈæt ðə ˈhɑrbɚ. /</span><span style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>一艘小船停泊在港口。</span></div>
             <div class='speech-line'><strong>Aria:</strong> The floor wax makes it slippery. <button class='play-btn' onclick="playShadowing(this, 830.524, 833.274)">🎵 播放本句</button><br><span style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ ðə ˈflɔr ˈwæks ˈmeks‿ˈɪt ˈslɪpɚi. /</span><span style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>地板蜡使地板变得很滑。</span></div>
         </div>
+    </div>
     </div>
 </body>
 </html>
