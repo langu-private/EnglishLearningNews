@@ -274,8 +274,45 @@ def process_60days(input_file, output_html):
             #mobile-menu-btn {{ display: block; }}
             body {{ display: block; }}
         }}
+        body.hide-en .en-text, body.hide-en .ipa-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
+        body.hide-en .en-text:hover, body.hide-en .ipa-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
+        body.hide-zh .zh-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
+        body.hide-zh .zh-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
     </style>
     <script>
+        let enHidden = false;
+        let zhHidden = false;
+        
+        function toggleEn() {{
+            enHidden = !enHidden;
+            if (enHidden) {{
+                document.body.classList.add('hide-en');
+                document.getElementById('btn-toggle-en').innerText = '🙈 显示英文与音标';
+                document.getElementById('btn-toggle-en').style.background = '#4F46E5';
+                document.getElementById('btn-toggle-en').style.color = 'white';
+            }} else {{
+                document.body.classList.remove('hide-en');
+                document.getElementById('btn-toggle-en').innerText = '👀 隐藏英文与音标';
+                document.getElementById('btn-toggle-en').style.background = 'white';
+                document.getElementById('btn-toggle-en').style.color = '#4F46E5';
+            }}
+        }}
+        
+        function toggleZh() {{
+            zhHidden = !zhHidden;
+            if (zhHidden) {{
+                document.body.classList.add('hide-zh');
+                document.getElementById('btn-toggle-zh').innerText = '🙈 显示中文翻译';
+                document.getElementById('btn-toggle-zh').style.background = '#10B981';
+                document.getElementById('btn-toggle-zh').style.color = 'white';
+            }} else {{
+                document.body.classList.remove('hide-zh');
+                document.getElementById('btn-toggle-zh').innerText = '👀 隐藏中文翻译';
+                document.getElementById('btn-toggle-zh').style.background = 'white';
+                document.getElementById('btn-toggle-zh').style.color = '#10B981';
+            }}
+        }}
+
         function playShadowing(btn, start, end) {{
             const card = btn.closest('.card');
             const audio = card.querySelector('.main-audio');
@@ -344,6 +381,10 @@ def process_60days(input_file, output_html):
             <h1>Basic English 850: 60 Days</h1>
             <a href="index.html" class="nav-link">← 返回主页 (Back to Home)</a>
         </header>
+        <div class="control-panel" style="text-align: center; margin-top: 1rem; position: sticky; top: 0; z-index: 101; background: var(--bg); padding: 10px; border-bottom: 1px solid #E5E7EB; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <button id="btn-toggle-en" onclick="toggleEn()" style="padding: 8px 16px; margin: 5px 10px; border-radius: 8px; border: 2px solid #4F46E5; background: white; color: #4F46E5; cursor: pointer; font-weight: bold; transition: all 0.2s;">👀 隐藏英文与音标</button>
+            <button id="btn-toggle-zh" onclick="toggleZh()" style="padding: 8px 16px; margin: 5px 10px; border-radius: 8px; border: 2px solid #10B981; background: white; color: #10B981; cursor: pointer; font-weight: bold; transition: all 0.2s;">👀 隐藏中文翻译</button>
+        </div>
         <div class="container">
 """
     
@@ -412,7 +453,7 @@ def process_60days(input_file, output_html):
             kk_ipa = sentence_to_kk_linked(block['en'])
             speaker_label = f"<strong>{block['speaker']}:</strong> " if not block.get('is_word') else "<strong>Word:</strong> "
             
-            html_out += f"            <div class='speech-line'>{speaker_label}{en_clean} <button class='play-btn' onclick=\"playShadowing(this, {block['start']}, {block['end']})\">🎵 播放本句</button><br><span style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {kk_ipa} /</span><span style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>{block['zh']}</span></div>\n"
+            html_out += f"            <div class='speech-line'>{speaker_label}<span class='en-text'>{en_clean}</span> <button class='play-btn' onclick=\"playShadowing(this, {block['start']}, {block['end']})\">🎵 播放本句</button><br><span class='ipa-text' style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {kk_ipa} /</span><span class='zh-text' style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>{block['zh']}</span></div>\n"
             
         # Concat all wavs for this section
         if temp_files:
