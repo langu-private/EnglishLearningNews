@@ -83,8 +83,9 @@ def add_toggles(filepath):
             } else {
                 document.body.classList.remove('hide-zh');
                 document.getElementById('btn-toggle-zh').innerText = '👀 隐藏中文翻译';
-                document.getElementById('btn-toggle-zh').style.background = 'white';
                 document.getElementById('btn-toggle-zh').style.color = '#10B981';
+            }
+        }
     """
     
     # We replace the previous js block with the new one by matching the DOMContentLoaded
