@@ -282,12 +282,9 @@ def process_60days(input_file, output_html):
         body.hide-zh .show-zh-btn {{ display: inline-block; }}
         
         body.hide-en .speech-line:not(.force-show-en) .en-text, 
-        body.hide-en .speech-line:not(.force-show-en) .ipa-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
-        body.hide-en .speech-line:not(.force-show-en) .en-text:hover, 
-        body.hide-en .speech-line:not(.force-show-en) .ipa-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text {{ display: none; }}
         
-        body.hide-zh .speech-line:not(.force-show-zh) .zh-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
-        body.hide-zh .speech-line:not(.force-show-zh) .zh-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text {{ display: none; }}
     </style>
     <script>
         let enHidden = false;
