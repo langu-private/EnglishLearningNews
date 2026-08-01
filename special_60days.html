@@ -82,10 +82,20 @@
             body { display: block; }
         }
     
-        body.hide-en .en-text, body.hide-en .ipa-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
-        body.hide-en .en-text:hover, body.hide-en .ipa-text:hover { filter: none; opacity: 1; cursor: pointer; }
-        body.hide-zh .zh-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
-        body.hide-zh .zh-text:hover { filter: none; opacity: 1; cursor: pointer; }
+        .line-toggles { margin-top: 6px; display: none; text-align: right; }
+        body.hide-en .line-toggles, body.hide-zh .line-toggles { display: block; }
+        .show-en-btn, .show-zh-btn { display: none; cursor: pointer; padding: 3px 10px; font-size: 0.8rem; border-radius: 4px; border: 1px solid #D1D5DB; background: #F9FAFB; margin-left: 8px; color: #4B5563; transition: background 0.2s; }
+        .show-en-btn:hover, .show-zh-btn:hover { background: #E5E7EB; }
+        body.hide-en .show-en-btn { display: inline-block; }
+        body.hide-zh .show-zh-btn { display: inline-block; }
+        
+        body.hide-en .speech-line:not(.force-show-en) .en-text, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
+        body.hide-en .speech-line:not(.force-show-en) .en-text:hover, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text:hover { filter: none; opacity: 1; cursor: pointer; }
+        
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text:hover { filter: none; opacity: 1; cursor: pointer; }
     
     </style>
     <script>
@@ -115,6 +125,18 @@
         let enHidden = false;
         let zhHidden = false;
         
+        function toggleLineEn(btn) {
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-en');
+            btn.innerText = line.classList.contains('force-show-en') ? '隐藏英文' : '显示英文';
+        }
+        
+        function toggleLineZh(btn) {
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-zh');
+            btn.innerText = line.classList.contains('force-show-zh') ? '隐藏中文' : '显示中文';
+        }
+        
         function toggleEn() {
             enHidden = !enHidden;
             if (enHidden) {
@@ -142,8 +164,6 @@
                 document.getElementById('btn-toggle-zh').innerText = '👀 隐藏中文翻译';
                 document.getElementById('btn-toggle-zh').style.background = 'white';
                 document.getElementById('btn-toggle-zh').style.color = '#10B981';
-            }
-        }
     
         document.addEventListener("DOMContentLoaded", () => {
             const cards = document.querySelectorAll('.card');

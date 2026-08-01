@@ -274,14 +274,36 @@ def process_60days(input_file, output_html):
             #mobile-menu-btn {{ display: block; }}
             body {{ display: block; }}
         }}
-        body.hide-en .en-text, body.hide-en .ipa-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
-        body.hide-en .en-text:hover, body.hide-en .ipa-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
-        body.hide-zh .zh-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
-        body.hide-zh .zh-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
+        .line-toggles {{ margin-top: 6px; display: none; text-align: right; }}
+        body.hide-en .line-toggles, body.hide-zh .line-toggles {{ display: block; }}
+        .show-en-btn, .show-zh-btn {{ display: none; cursor: pointer; padding: 3px 10px; font-size: 0.8rem; border-radius: 4px; border: 1px solid #D1D5DB; background: #F9FAFB; margin-left: 8px; color: #4B5563; transition: background 0.2s; }}
+        .show-en-btn:hover, .show-zh-btn:hover {{ background: #E5E7EB; }}
+        body.hide-en .show-en-btn {{ display: inline-block; }}
+        body.hide-zh .show-zh-btn {{ display: inline-block; }}
+        
+        body.hide-en .speech-line:not(.force-show-en) .en-text, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
+        body.hide-en .speech-line:not(.force-show-en) .en-text:hover, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
+        
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text {{ filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }}
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text:hover {{ filter: none; opacity: 1; cursor: pointer; }}
     </style>
     <script>
         let enHidden = false;
         let zhHidden = false;
+        
+        function toggleLineEn(btn) {{
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-en');
+            btn.innerText = line.classList.contains('force-show-en') ? '隐藏英文' : '显示英文';
+        }}
+        
+        function toggleLineZh(btn) {{
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-zh');
+            btn.innerText = line.classList.contains('force-show-zh') ? '隐藏中文' : '显示中文';
+        }}
         
         function toggleEn() {{
             enHidden = !enHidden;
@@ -453,7 +475,7 @@ def process_60days(input_file, output_html):
             kk_ipa = sentence_to_kk_linked(block['en'])
             speaker_label = f"<strong>{block['speaker']}:</strong> " if not block.get('is_word') else "<strong>Word:</strong> "
             
-            html_out += f"            <div class='speech-line'>{speaker_label}<span class='en-text'>{en_clean}</span> <button class='play-btn' onclick=\"playShadowing(this, {block['start']}, {block['end']})\">🎵 播放本句</button><br><span class='ipa-text' style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {kk_ipa} /</span><span class='zh-text' style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>{block['zh']}</span></div>\n"
+            html_out += f"            <div class='speech-line'>{speaker_label}<span class='en-text'>{en_clean}</span> <button class='play-btn' onclick=\"playShadowing(this, {block['start']}, {block['end']})\">🎵 播放本句</button><br><span class='ipa-text' style='font-size: 0.8em; color: #10B981; display: block; margin-top: 2px; font-family: monospace;'>/ {kk_ipa} /</span><span class='zh-text' style='font-size: 0.85em; color: #6B7280; display: block; margin-top: 4px;'>{block['zh']}</span><div class='line-toggles'><button class='show-en-btn' onclick='toggleLineEn(this)'>显示英文</button><button class='show-zh-btn' onclick='toggleLineZh(this)'>显示中文</button></div></div>\n"
             
         # Concat all wavs for this section
         if temp_files:

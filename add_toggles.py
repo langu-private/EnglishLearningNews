@@ -7,9 +7,8 @@ def add_toggles(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    if "toggleEn()" in content:
-        print("Toggles already added.")
-        return
+    # if "toggleEn()" in content:
+    #     print("Toggles already added. Re-running to update...")
 
     # Patch the speech lines to add classes
     def replacer(match):
@@ -28,7 +27,7 @@ def add_toggles(filepath):
         # Wrap en_text in a span
         en_wrapped = f"<span class='en-text'>{en_text}</span>"
         
-        return f"<div class='speech-line'><strong>{speaker}</strong> {en_wrapped} <button class='play-btn'{btn_content}</button><br><span {ipa_style}>{ipa_text}</span><span {zh_style}>{zh_text}</span></div>"
+        return f"<div class='speech-line'><strong>{speaker}</strong> {en_wrapped} <button class='play-btn'{btn_content}</button><br><span {ipa_style}>{ipa_text}</span><span {zh_style}>{zh_text}</span><div class='line-toggles'><button class='show-en-btn' onclick='toggleLineEn(this)'>显示英文</button><button class='show-zh-btn' onclick='toggleLineZh(this)'>显示中文</button></div></div>"
 
     pattern = re.compile(r"<div class='speech-line'><strong>([^<]+)</strong> (.*?) <button class='play-btn'(.*?)</button><br><span style='(.*?)'>(.*?)</span><span style='(.*?)'>(.*?)</span></div>")
     content = pattern.sub(replacer, content)
@@ -40,11 +39,24 @@ def add_toggles(filepath):
         </div>
     """
     
-    content = content.replace('<div class="container">', toggle_buttons_html + '\n        <div class="container">')
+    if '<div class="control-panel"' not in content:
+        content = content.replace('<div class="container">', toggle_buttons_html + '\n        <div class="container">')
 
     js_addition = """
         let enHidden = false;
         let zhHidden = false;
+        
+        function toggleLineEn(btn) {
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-en');
+            btn.innerText = line.classList.contains('force-show-en') ? '隐藏英文' : '显示英文';
+        }
+        
+        function toggleLineZh(btn) {
+            const line = btn.closest('.speech-line');
+            line.classList.toggle('force-show-zh');
+            btn.innerText = line.classList.contains('force-show-zh') ? '隐藏中文' : '显示中文';
+        }
         
         function toggleEn() {
             enHidden = !enHidden;
@@ -73,19 +85,40 @@ def add_toggles(filepath):
                 document.getElementById('btn-toggle-zh').innerText = '👀 隐藏中文翻译';
                 document.getElementById('btn-toggle-zh').style.background = 'white';
                 document.getElementById('btn-toggle-zh').style.color = '#10B981';
-            }
-        }
     """
-    content = content.replace("document.addEventListener(\"DOMContentLoaded\"", js_addition + "\n        document.addEventListener(\"DOMContentLoaded\"")
+    
+    # We replace the previous js block with the new one by matching the DOMContentLoaded
+    # Wait, if toggles were previously added, it skips. But if we want to overwrite the old JS:
+    # Actually, we should just replace the old script if we are re-running.
+    # It's better to just write the JS into the file.
+    if "let enHidden = false;" not in content:
+        content = content.replace("document.addEventListener(\"DOMContentLoaded\"", js_addition + "\n        document.addEventListener(\"DOMContentLoaded\"")
+    else:
+        # replace the old let enHidden = false; ... function toggleZh() { ... } with the new one
+        # regex replace old JS to new JS
+        content = re.sub(r"let enHidden = false;.*?function toggleZh\(\) \{.*?\n        \}", js_addition.strip(), content, flags=re.DOTALL)
 
     css_addition = """
-        body.hide-en .en-text, body.hide-en .ipa-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
-        body.hide-en .en-text:hover, body.hide-en .ipa-text:hover { filter: none; opacity: 1; cursor: pointer; }
-        body.hide-zh .zh-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
-        body.hide-zh .zh-text:hover { filter: none; opacity: 1; cursor: pointer; }
+        .line-toggles { margin-top: 6px; display: none; text-align: right; }
+        body.hide-en .line-toggles, body.hide-zh .line-toggles { display: block; }
+        .show-en-btn, .show-zh-btn { display: none; cursor: pointer; padding: 3px 10px; font-size: 0.8rem; border-radius: 4px; border: 1px solid #D1D5DB; background: #F9FAFB; margin-left: 8px; color: #4B5563; transition: background 0.2s; }
+        .show-en-btn:hover, .show-zh-btn:hover { background: #E5E7EB; }
+        body.hide-en .show-en-btn { display: inline-block; }
+        body.hide-zh .show-zh-btn { display: inline-block; }
+        
+        body.hide-en .speech-line:not(.force-show-en) .en-text, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
+        body.hide-en .speech-line:not(.force-show-en) .en-text:hover, 
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text:hover { filter: none; opacity: 1; cursor: pointer; }
+        
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text { filter: blur(6px); opacity: 0.3; transition: all 0.3s; user-select: none; }
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text:hover { filter: none; opacity: 1; cursor: pointer; }
     """
-    content = content.replace("</style>", css_addition + "\n    </style>")
-
+    
+    if ".line-toggles" not in content:
+        # We need to replace the old hide-en and hide-zh CSS
+        content = re.sub(r"body\.hide-en \.en-text.*?cursor: pointer; \}", css_addition.strip(), content, flags=re.DOTALL)
+    
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
     print(f"Injected toggles into {filepath}")
