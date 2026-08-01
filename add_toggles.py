@@ -10,27 +10,10 @@ def add_toggles(filepath):
     # if "toggleEn()" in content:
     #     print("Toggles already added. Re-running to update...")
 
-    # Patch the speech lines to add classes
-    def replacer(match):
-        speaker = match.group(1)
-        en_text = match.group(2)
-        btn_content = match.group(3)
-        ipa_style = match.group(4)
-        ipa_text = match.group(5)
-        zh_style = match.group(6)
-        zh_text = match.group(7)
-        
-        # Add classes to the spans
-        ipa_style = "class='ipa-text' style='" + ipa_style + "'"
-        zh_style = "class='zh-text' style='" + zh_style + "'"
-        
-        # Wrap en_text in a span
-        en_wrapped = f"<span class='en-text'>{en_text}</span>"
-        
-        return f"<div class='speech-line'><strong>{speaker}</strong> {en_wrapped} <button class='play-btn'{btn_content}</button><br><span {ipa_style}>{ipa_text}</span><span {zh_style}>{zh_text}</span><div class='line-toggles'><button class='show-en-btn' onclick='toggleLineEn(this)'>显示英文</button><button class='show-zh-btn' onclick='toggleLineZh(this)'>显示中文</button></div></div>"
-
-    pattern = re.compile(r"<div class='speech-line'><strong>([^<]+)</strong> (.*?) <button class='play-btn'(.*?)</button><br><span style='(.*?)'>(.*?)</span><span style='(.*?)'>(.*?)</span></div>")
-    content = pattern.sub(replacer, content)
+    # Classes en-text, ipa-text, zh-text were already added previously.
+    # We just need to inject the line toggles.
+    if "<div class='line-toggles'>" not in content:
+        content = content.replace("</span></div>", "</span><div class='line-toggles'><button class='show-en-btn' onclick='toggleLineEn(this)'>显示英文</button><button class='show-zh-btn' onclick='toggleLineZh(this)'>显示中文</button></div></div>")
 
     toggle_buttons_html = """
         <div class="control-panel" style="text-align: center; margin-top: 1rem; position: sticky; top: 0; z-index: 101; background: var(--bg); padding: 10px; border-bottom: 1px solid #E5E7EB; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
@@ -108,9 +91,9 @@ def add_toggles(filepath):
         body.hide-zh .show-zh-btn { display: inline-block; }
         
         body.hide-en .speech-line:not(.force-show-en) .en-text, 
-        body.hide-en .speech-line:not(.force-show-en) .ipa-text { display: none; }
+        body.hide-en .speech-line:not(.force-show-en) .ipa-text { display: none !important; }
         
-        body.hide-zh .speech-line:not(.force-show-zh) .zh-text { display: none; }
+        body.hide-zh .speech-line:not(.force-show-zh) .zh-text { display: none !important; }
     """
     
     if ".line-toggles" not in content:
